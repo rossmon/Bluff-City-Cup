@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E261B3E2CBCADDF0089C24F /* golfgains.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E261B3D2CBCADDF0089C24F /* golfgains.png */; };
+		910572341C7E7FC100D4D80D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */; };
+		910B14F528776FA300ECD353 /* MatchScorecardCellNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */; };
+		910B14F7287779E000ECD353 /* MatchScorecardViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */; };
+		91136C1B1CCEFD90009F8DA3 /* CommishDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91136C1A1CCEFD90009F8DA3 /* CommishDetailViewController.swift */; };
+		91236D9A1E1B22040032A1AA /* note.png in Resources */ = {isa = PBXBuildFile; fileRef = 91236D991E1B22040032A1AA /* note.png */; };
+		91236D9C1E1B35690032A1AA /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = 91236D9B1E1B35690032A1AA /* error.png */; };
+		9132CB921C755E5F009B56A0 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132CB911C755E5F009B56A0 /* Match.swift */; };
+		9132CB941C755E6A009B56A0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132CB931C755E6A009B56A0 /* Player.swift */; };
+		9132CB961C764062009B56A0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132CB951C764062009B56A0 /* User.swift */; };
+		914077561DE546CF0058F54E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914077551DE546CF0058F54E /* Model.swift */; };
+		914CB9BE1F2E5634007BD398 /* bcc_new_800.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9BD1F2E5634007BD398 /* bcc_new_800.png */; };
+		914CB9C61F2E5D18007BD398 /* bcc_new_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9C51F2E5D18007BD398 /* bcc_new_180.png */; };
+		914CB9D01F2E5E69007BD398 /* bcc_new_29.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9C71F2E5E69007BD398 /* bcc_new_29.png */; };
+		914CB9D11F2E5E69007BD398 /* bcc_new_40.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9C81F2E5E69007BD398 /* bcc_new_40.png */; };
+		914CB9D21F2E5E69007BD398 /* bcc_new_58.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9C91F2E5E69007BD398 /* bcc_new_58.png */; };
+		914CB9D31F2E5E69007BD398 /* bcc_new_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9CA1F2E5E69007BD398 /* bcc_new_76.png */; };
+		914CB9D41F2E5E69007BD398 /* bcc_new_80.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9CB1F2E5E69007BD398 /* bcc_new_80.png */; };
+		914CB9D51F2E5E69007BD398 /* bcc_new_87.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9CC1F2E5E69007BD398 /* bcc_new_87.png */; };
+		914CB9D61F2E5E69007BD398 /* bcc_new_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9CD1F2E5E69007BD398 /* bcc_new_120.png */; };
+		914CB9D71F2E5E69007BD398 /* bcc_new_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9CE1F2E5E69007BD398 /* bcc_new_152.png */; };
+		914CB9D81F2E5E69007BD398 /* bcc_new_167.png in Resources */ = {isa = PBXBuildFile; fileRef = 914CB9CF1F2E5E69007BD398 /* bcc_new_167.png */; };
+		9150BC661C6EA5270009B384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150BC651C6EA5270009B384 /* AppDelegate.swift */; };
+		9150BC681C6EA5270009B384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150BC671C6EA5270009B384 /* ViewController.swift */; };
+		9150BC6B1C6EA5270009B384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9150BC691C6EA5270009B384 /* Main.storyboard */; };
+		9150BC701C6EA5270009B384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9150BC6F1C6EA5270009B384 /* Assets.xcassets */; };
+		9150BC731C6EA5270009B384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9150BC711C6EA5270009B384 /* LaunchScreen.storyboard */; };
+		9150BC7E1C6EA5270009B384 /* Bluff_City_CupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150BC7D1C6EA5270009B384 /* Bluff_City_CupTests.swift */; };
+		9150BC891C6EA5270009B384 /* Bluff_City_CupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150BC881C6EA5270009B384 /* Bluff_City_CupUITests.swift */; };
+		9150BCAC1C6F7A6C0009B384 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150BCAB1C6F7A6C0009B384 /* ContainerViewController.swift */; };
+		9150BCAE1C6F97EE0009B384 /* TopPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9150BCAD1C6F97EE0009B384 /* TopPanelViewController.swift */; };
+		9158777E2125293700C56185 /* john_irvine.png in Resources */ = {isa = PBXBuildFile; fileRef = 9158777D2125293600C56185 /* john_irvine.png */; };
+		9167BA5D28737B8E00117FCC /* MatchTableViewCell18.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167BA5C28737B8E00117FCC /* MatchTableViewCell18.swift */; };
+		9167BA5F28737F9A00117FCC /* MatchTableViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9167BA5E28737F9A00117FCC /* MatchTableViewControllerNew.swift */; };
+		916A6E122085465C00D4B788 /* bluffcitycup_v4.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E112085465C00D4B788 /* bluffcitycup_v4.png */; };
+		916A6E15208549D300D4B788 /* bcc_icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E13208549CE00D4B788 /* bcc_icon1024.png */; };
+		916A6E192085647100D4B788 /* bcc_icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E172085646D00D4B788 /* bcc_icon76.png */; };
+		916A6E1A2085647100D4B788 /* bcc_icon152.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E182085647000D4B788 /* bcc_icon152.png */; };
+		916A6E1D2085652C00D4B788 /* bcc_icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E1B2085652600D4B788 /* bcc_icon60.png */; };
+		916A6E1E2085652C00D4B788 /* bcc_icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E1C2085652B00D4B788 /* bcc_icon40.png */; };
+		916A6E27208566D800D4B788 /* bcc_icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E20208566C000D4B788 /* bcc_icon58.png */; };
+		916A6E28208566D800D4B788 /* bcc_icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E21208566C300D4B788 /* bcc_icon120.png */; };
+		916A6E29208566D800D4B788 /* bcc_icon20.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E22208566C700D4B788 /* bcc_icon20.png */; };
+		916A6E2A208566D800D4B788 /* bcc_icon87.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E23208566CB00D4B788 /* bcc_icon87.png */; };
+		916A6E2B208566D800D4B788 /* bcc_icon180.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E24208566D000D4B788 /* bcc_icon180.png */; };
+		916A6E2C208566D800D4B788 /* bcc_icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E25208566D300D4B788 /* bcc_icon29.png */; };
+		916A6E2D208566D800D4B788 /* bcc_icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = 916A6E26208566D700D4B788 /* bcc_icon80.png */; };
+		9188907F1C93CED700E7CDBD /* CommishSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188907E1C93CED700E7CDBD /* CommishSettingsViewController.swift */; };
+		918890811C93D4C100E7CDBD /* CommishSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918890801C93D4C100E7CDBD /* CommishSettingsCell.swift */; };
+		9188C25B1C73A3E900C7B458 /* MatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9188C25A1C73A3E900C7B458 /* MatchTableViewController.swift */; };
+		918C05431C9253E200B31425 /* Gray_forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 918C05421C9253E200B31425 /* Gray_forward.png */; };
+		918E8EE41C74131B0042144C /* IndividualMatchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E8EE31C74131B0042144C /* IndividualMatchTableViewController.swift */; };
+		918E8EE61C7413C10042144C /* IndividualMatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918E8EE51C7413C10042144C /* IndividualMatchTableViewCell.swift */; };
+		9198A6D71C72A1710035662B /* Angle Down-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6D11C72A1710035662B /* Angle Down-50.png */; };
+		9198A6D81C72A1710035662B /* Angle Up-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6D21C72A1710035662B /* Angle Up-50.png */; };
+		9198A6D91C72A1710035662B /* Back-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6D31C72A1710035662B /* Back-30.png */; };
+		9198A6DA1C72A1710035662B /* Forward-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6D41C72A1710035662B /* Forward-50.png */; };
+		9198A6DB1C72A1710035662B /* Menu-30.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6D51C72A1710035662B /* Menu-30.png */; };
+		9198A6DE1C72AD8B0035662B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9198A6DD1C72AD8B0035662B /* MapKit.framework */; };
+		9198A6E21C72C02C0035662B /* location-icon-iphone-location-arrow-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6E11C72C02C0035662B /* location-icon-iphone-location-arrow-128.png */; };
+		9198A6E41C72C1DF0035662B /* locations 128.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6E31C72C1DF0035662B /* locations 128.png */; };
+		9198A6E61C72C3790035662B /* Hole Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6E51C72C3790035662B /* Hole Image.png */; };
+		9198A6E81C72CE380035662B /* Menu-30 White.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6E71C72CE380035662B /* Menu-30 White.png */; };
+		9198A6EA1C72D0350035662B /* Scoreboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 9198A6E91C72D0350035662B /* Scoreboard.png */; };
+		9198A6EC1C73805A0035662B /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9198A6EB1C73805A0035662B /* MatchTableViewCell.swift */; };
+		919A79831E4785A600831317 /* black_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 919A79811E4785A600831317 /* black_circle.png */; };
+		919A79841E4785A600831317 /* white_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 919A79821E4785A600831317 /* white_circle.png */; };
+		91A625422123C82700007DE2 /* icons8-user-male-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 91A625412123C82600007DE2 /* icons8-user-male-50.png */; };
+		91A8AF261E4157120019B495 /* MatchScorecardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A8AF251E4157120019B495 /* MatchScorecardViewController.swift */; };
+		91A8AF281E4171C00019B495 /* MatchScorecardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A8AF271E4171C00019B495 /* MatchScorecardCell.swift */; };
+		91AFB3352875270500EE1075 /* MatchTableViewCell9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AFB3342875270500EE1075 /* MatchTableViewCell9.swift */; };
+		91C063551E39832D002AF02F /* AddCourseMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C063541E39832D002AF02F /* AddCourseMapView.swift */; };
+		91C063571E3987DE002AF02F /* AddCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C063561E3987DE002AF02F /* AddCourseCell.swift */; };
+		91CFD5802125EADC00EFDDA3 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 91CFD57F2125EADC00EFDDA3 /* user.png */; };
+		91E25C2D1F341C5700D53982 /* MaxHandicapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E25C2C1F341C5700D53982 /* MaxHandicapCell.swift */; };
+		91E25C2F1F37A6D500D53982 /* CommishPasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E25C2E1F37A6D500D53982 /* CommishPasswordCell.swift */; };
+		91E25C331F37B33000D53982 /* ScorecardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E25C321F37B33000D53982 /* ScorecardCell.swift */; };
+		91E4404C1D0E07E200318475 /* PlayerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E4404B1D0E07E200318475 /* PlayerViewCell.swift */; };
+		91E5F2761DF4D27B005C532B /* MatchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F2751DF4D27B005C532B /* MatchViewCell.swift */; };
+		91E5F2781DF4F1D1005C532B /* DrinkCartOnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F2771DF4F1D1005C532B /* DrinkCartOnCell.swift */; };
+		91E5F27A1DF4F1DE005C532B /* DrinkCartNumberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F2791DF4F1DE005C532B /* DrinkCartNumberCell.swift */; };
+		91E5F27D1DF4F330005C532B /* MatchLengthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F27C1DF4F330005C532B /* MatchLengthCell.swift */; };
+		91E5F27F1DF4FB80005C532B /* NumberOfRoundsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F27E1DF4FB80005C532B /* NumberOfRoundsCell.swift */; };
+		91E5F2851DF798E6005C532B /* AddPlayerOrMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F2841DF798E6005C532B /* AddPlayerOrMatchView.swift */; };
+		91E5F2871DF90651005C532B /* RoundCourseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F2861DF90651005C532B /* RoundCourseCell.swift */; };
+		91E5F2891DFAEE20005C532B /* DeleteMatchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E5F2881DFAEE20005C532B /* DeleteMatchesCell.swift */; };
+		91EE03531C7EAB8100F344B3 /* Hole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE03521C7EAB8100F344B3 /* Hole.swift */; };
+		91EE03551C7EABB700F344B3 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE03541C7EABB700F344B3 /* Course.swift */; };
+		91EE03571C7FFFD000F344B3 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE03561C7FFFD000F344B3 /* target.png */; };
+		91EE03591C80004000F344B3 /* target_50.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE03581C80004000F344B3 /* target_50.png */; };
+		91EE035B1C8000AD00F344B3 /* crosshair.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE035A1C8000AD00F344B3 /* crosshair.png */; };
+		91EE035D1C8000FA00F344B3 /* crosshair_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE035C1C8000FA00F344B3 /* crosshair_64.png */; };
+		91EE035F1C80FE1A00F344B3 /* crosshair_32.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE035E1C80FE1A00F344B3 /* crosshair_32.png */; };
+		91EE03611C853CB300F344B3 /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE03601C853CB300F344B3 /* Tournament.swift */; };
+		91EE03631C87C88800F344B3 /* NextHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE03621C87C88800F344B3 /* NextHole.png */; };
+		91EE03651C87C9BE00F344B3 /* PreviousHole.png in Resources */ = {isa = PBXBuildFile; fileRef = 91EE03641C87C9BE00F344B3 /* PreviousHole.png */; };
+		91F84D73212262B100307D65 /* logo-tm.svg in Resources */ = {isa = PBXBuildFile; fileRef = 91F84D72212262B100307D65 /* logo-tm.svg */; };
+		91F84D752122648D00307D65 /* irontribe.png in Resources */ = {isa = PBXBuildFile; fileRef = 91F84D742122648C00307D65 /* irontribe.png */; };
+		91FAAB291C7122F6000A0B43 /* ScoreEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FAAB281C7122F6000A0B43 /* ScoreEntryViewController.swift */; };
+		91FAAB2B1C712306000A0B43 /* ScoreboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FAAB2A1C712306000A0B43 /* ScoreboardViewController.swift */; };
+		91FAAB2D1C712315000A0B43 /* DrinkCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FAAB2C1C712315000A0B43 /* DrinkCartViewController.swift */; };
+		91FAAB2F1C712321000A0B43 /* HoleMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FAAB2E1C712321000A0B43 /* HoleMapViewController.swift */; };
+		91FAAB311C71233C000A0B43 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FAAB301C71233C000A0B43 /* SettingsViewController.swift */; };
+		91FC6E3C20843E920026D455 /* BCC App Icon 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 91FC6E3B20843E920026D455 /* BCC App Icon 1024.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9150BC7A1C6EA5270009B384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9150BC5A1C6EA5270009B384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9150BC611C6EA5270009B384;
+			remoteInfo = "Bluff City Cup";
+		};
+		9150BC851C6EA5270009B384 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9150BC5A1C6EA5270009B384 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9150BC611C6EA5270009B384;
+			remoteInfo = "Bluff City Cup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E261B3D2CBCADDF0089C24F /* golfgains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golfgains.png; sourceTree = "<group>"; };
+		910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScorecardCellNew.swift; sourceTree = "<group>"; };
+		910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScorecardViewControllerNew.swift; sourceTree = "<group>"; };
+		91136C1A1CCEFD90009F8DA3 /* CommishDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommishDetailViewController.swift; sourceTree = "<group>"; };
+		91236D991E1B22040032A1AA /* note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note.png; path = ../note.png; sourceTree = "<group>"; };
+		91236D9B1E1B35690032A1AA /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		9132CB911C755E5F009B56A0 /* Match.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		9132CB931C755E6A009B56A0 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9132CB951C764062009B56A0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		914077551DE546CF0058F54E /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		914077581DE549000058F54E /* Bluff City Cup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bluff City Cup.entitlements"; sourceTree = "<group>"; };
+		914CB9BD1F2E5634007BD398 /* bcc_new_800.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_800.png; path = "../BCC icons/bcc_new_800.png"; sourceTree = "<group>"; };
+		914CB9C51F2E5D18007BD398 /* bcc_new_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_new_180.png; sourceTree = "<group>"; };
+		914CB9C71F2E5E69007BD398 /* bcc_new_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_29.png; path = "../BCC icons/bcc_new_29.png"; sourceTree = "<group>"; };
+		914CB9C81F2E5E69007BD398 /* bcc_new_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_40.png; path = "../BCC icons/bcc_new_40.png"; sourceTree = "<group>"; };
+		914CB9C91F2E5E69007BD398 /* bcc_new_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_58.png; path = "../BCC icons/bcc_new_58.png"; sourceTree = "<group>"; };
+		914CB9CA1F2E5E69007BD398 /* bcc_new_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_76.png; path = "../BCC icons/bcc_new_76.png"; sourceTree = "<group>"; };
+		914CB9CB1F2E5E69007BD398 /* bcc_new_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_80.png; path = "../BCC icons/bcc_new_80.png"; sourceTree = "<group>"; };
+		914CB9CC1F2E5E69007BD398 /* bcc_new_87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_87.png; path = "../BCC icons/bcc_new_87.png"; sourceTree = "<group>"; };
+		914CB9CD1F2E5E69007BD398 /* bcc_new_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_120.png; path = "../BCC icons/bcc_new_120.png"; sourceTree = "<group>"; };
+		914CB9CE1F2E5E69007BD398 /* bcc_new_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_152.png; path = "../BCC icons/bcc_new_152.png"; sourceTree = "<group>"; };
+		914CB9CF1F2E5E69007BD398 /* bcc_new_167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_new_167.png; path = "../BCC icons/bcc_new_167.png"; sourceTree = "<group>"; };
+		9150BC621C6EA5270009B384 /* Bluff City Cup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluff City Cup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9150BC651C6EA5270009B384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9150BC671C6EA5270009B384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9150BC6A1C6EA5270009B384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9150BC6F1C6EA5270009B384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9150BC721C6EA5270009B384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9150BC741C6EA5270009B384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9150BC791C6EA5270009B384 /* Bluff City CupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluff City CupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9150BC7D1C6EA5270009B384 /* Bluff_City_CupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluff_City_CupTests.swift; sourceTree = "<group>"; };
+		9150BC7F1C6EA5270009B384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9150BC841C6EA5270009B384 /* Bluff City CupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluff City CupUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9150BC881C6EA5270009B384 /* Bluff_City_CupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluff_City_CupUITests.swift; sourceTree = "<group>"; };
+		9150BC8A1C6EA5270009B384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9150BCAB1C6F7A6C0009B384 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		9150BCAD1C6F97EE0009B384 /* TopPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopPanelViewController.swift; sourceTree = "<group>"; };
+		9158777D2125293600C56185 /* john_irvine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = john_irvine.png; sourceTree = "<group>"; };
+		9167BA5C28737B8E00117FCC /* MatchTableViewCell18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell18.swift; sourceTree = "<group>"; };
+		9167BA5E28737F9A00117FCC /* MatchTableViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewControllerNew.swift; sourceTree = "<group>"; };
+		916A6E112085465C00D4B788 /* bluffcitycup_v4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluffcitycup_v4.png; sourceTree = "<group>"; };
+		916A6E13208549CE00D4B788 /* bcc_icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon1024.png; sourceTree = "<group>"; };
+		916A6E172085646D00D4B788 /* bcc_icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon76.png; sourceTree = "<group>"; };
+		916A6E182085647000D4B788 /* bcc_icon152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon152.png; sourceTree = "<group>"; };
+		916A6E1B2085652600D4B788 /* bcc_icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon60.png; sourceTree = "<group>"; };
+		916A6E1C2085652B00D4B788 /* bcc_icon40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon40.png; sourceTree = "<group>"; };
+		916A6E1F208565A300D4B788 /* bcc_icon167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bcc_icon167.png; path = "../Bluff City Cup.xcodeproj/bcc_icon167.png"; sourceTree = "<group>"; };
+		916A6E20208566C000D4B788 /* bcc_icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon58.png; sourceTree = "<group>"; };
+		916A6E21208566C300D4B788 /* bcc_icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon120.png; sourceTree = "<group>"; };
+		916A6E22208566C700D4B788 /* bcc_icon20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon20.png; sourceTree = "<group>"; };
+		916A6E23208566CB00D4B788 /* bcc_icon87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon87.png; sourceTree = "<group>"; };
+		916A6E24208566D000D4B788 /* bcc_icon180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon180.png; sourceTree = "<group>"; };
+		916A6E25208566D300D4B788 /* bcc_icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon29.png; sourceTree = "<group>"; };
+		916A6E26208566D700D4B788 /* bcc_icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bcc_icon80.png; sourceTree = "<group>"; };
+		9188907E1C93CED700E7CDBD /* CommishSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommishSettingsViewController.swift; sourceTree = "<group>"; };
+		918890801C93D4C100E7CDBD /* CommishSettingsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommishSettingsCell.swift; path = ../CommishSettingsCell.swift; sourceTree = "<group>"; };
+		9188C25A1C73A3E900C7B458 /* MatchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTableViewController.swift; sourceTree = "<group>"; };
+		918C05421C9253E200B31425 /* Gray_forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gray_forward.png; sourceTree = "<group>"; };
+		918E8EE31C74131B0042144C /* IndividualMatchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualMatchTableViewController.swift; sourceTree = "<group>"; };
+		918E8EE51C7413C10042144C /* IndividualMatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualMatchTableViewCell.swift; sourceTree = "<group>"; };
+		9198A6D11C72A1710035662B /* Angle Down-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angle Down-50.png"; sourceTree = "<group>"; };
+		9198A6D21C72A1710035662B /* Angle Up-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Angle Up-50.png"; sourceTree = "<group>"; };
+		9198A6D31C72A1710035662B /* Back-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-30.png"; sourceTree = "<group>"; };
+		9198A6D41C72A1710035662B /* Forward-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forward-50.png"; sourceTree = "<group>"; };
+		9198A6D51C72A1710035662B /* Menu-30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-30.png"; sourceTree = "<group>"; };
+		9198A6DD1C72AD8B0035662B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9198A6E11C72C02C0035662B /* location-icon-iphone-location-arrow-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location-icon-iphone-location-arrow-128.png"; sourceTree = "<group>"; };
+		9198A6E31C72C1DF0035662B /* locations 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "locations 128.png"; sourceTree = "<group>"; };
+		9198A6E51C72C3790035662B /* Hole Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hole Image.png"; sourceTree = "<group>"; };
+		9198A6E71C72CE380035662B /* Menu-30 White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-30 White.png"; sourceTree = "<group>"; };
+		9198A6E91C72D0350035662B /* Scoreboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scoreboard.png; sourceTree = "<group>"; };
+		9198A6EB1C73805A0035662B /* MatchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
+		919A79811E4785A600831317 /* black_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_circle.png; sourceTree = "<group>"; };
+		919A79821E4785A600831317 /* white_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_circle.png; sourceTree = "<group>"; };
+		91A625412123C82600007DE2 /* icons8-user-male-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-user-male-50.png"; sourceTree = "<group>"; };
+		91A8AF251E4157120019B495 /* MatchScorecardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MatchScorecardViewController.swift; path = ../MatchScorecardViewController.swift; sourceTree = "<group>"; };
+		91A8AF271E4171C00019B495 /* MatchScorecardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchScorecardCell.swift; sourceTree = "<group>"; };
+		91AFB3342875270500EE1075 /* MatchTableViewCell9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell9.swift; sourceTree = "<group>"; };
+		91C063541E39832D002AF02F /* AddCourseMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCourseMapView.swift; sourceTree = "<group>"; };
+		91C063561E3987DE002AF02F /* AddCourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCourseCell.swift; sourceTree = "<group>"; };
+		91CFD57F2125EADC00EFDDA3 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		91E25C2C1F341C5700D53982 /* MaxHandicapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxHandicapCell.swift; sourceTree = "<group>"; };
+		91E25C2E1F37A6D500D53982 /* CommishPasswordCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommishPasswordCell.swift; sourceTree = "<group>"; };
+		91E25C321F37B33000D53982 /* ScorecardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScorecardCell.swift; sourceTree = "<group>"; };
+		91E4404B1D0E07E200318475 /* PlayerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewCell.swift; sourceTree = "<group>"; };
+		91E5F2751DF4D27B005C532B /* MatchViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchViewCell.swift; sourceTree = "<group>"; };
+		91E5F2771DF4F1D1005C532B /* DrinkCartOnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkCartOnCell.swift; sourceTree = "<group>"; };
+		91E5F2791DF4F1DE005C532B /* DrinkCartNumberCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkCartNumberCell.swift; sourceTree = "<group>"; };
+		91E5F27C1DF4F330005C532B /* MatchLengthCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchLengthCell.swift; sourceTree = "<group>"; };
+		91E5F27E1DF4FB80005C532B /* NumberOfRoundsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberOfRoundsCell.swift; sourceTree = "<group>"; };
+		91E5F2841DF798E6005C532B /* AddPlayerOrMatchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerOrMatchView.swift; sourceTree = "<group>"; };
+		91E5F2861DF90651005C532B /* RoundCourseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCourseCell.swift; sourceTree = "<group>"; };
+		91E5F2881DFAEE20005C532B /* DeleteMatchesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteMatchesCell.swift; sourceTree = "<group>"; };
+		91EE03521C7EAB8100F344B3 /* Hole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hole.swift; sourceTree = "<group>"; };
+		91EE03541C7EABB700F344B3 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		91EE03561C7FFFD000F344B3 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		91EE03581C80004000F344B3 /* target_50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target_50.png; sourceTree = "<group>"; };
+		91EE035A1C8000AD00F344B3 /* crosshair.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair.png; sourceTree = "<group>"; };
+		91EE035C1C8000FA00F344B3 /* crosshair_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair_64.png; sourceTree = "<group>"; };
+		91EE035E1C80FE1A00F344B3 /* crosshair_32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crosshair_32.png; sourceTree = "<group>"; };
+		91EE03601C853CB300F344B3 /* Tournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		91EE03621C87C88800F344B3 /* NextHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NextHole.png; sourceTree = "<group>"; };
+		91EE03641C87C9BE00F344B3 /* PreviousHole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PreviousHole.png; sourceTree = "<group>"; };
+		91F84D72212262B100307D65 /* logo-tm.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "logo-tm.svg"; sourceTree = "<group>"; };
+		91F84D742122648C00307D65 /* irontribe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = irontribe.png; sourceTree = "<group>"; };
+		91FAAB281C7122F6000A0B43 /* ScoreEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreEntryViewController.swift; sourceTree = "<group>"; };
+		91FAAB2A1C712306000A0B43 /* ScoreboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreboardViewController.swift; sourceTree = "<group>"; };
+		91FAAB2C1C712315000A0B43 /* DrinkCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrinkCartViewController.swift; sourceTree = "<group>"; };
+		91FAAB2E1C712321000A0B43 /* HoleMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleMapViewController.swift; sourceTree = "<group>"; };
+		91FAAB301C71233C000A0B43 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		91FC6E3B20843E920026D455 /* BCC App Icon 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BCC App Icon 1024.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9150BC5F1C6EA5270009B384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9198A6DE1C72AD8B0035662B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9150BC761C6EA5270009B384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9150BC811C6EA5270009B384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		914077571DE546E60058F54E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91EE03601C853CB300F344B3 /* Tournament.swift */,
+				914077551DE546CF0058F54E /* Model.swift */,
+				9132CB911C755E5F009B56A0 /* Match.swift */,
+				9132CB931C755E6A009B56A0 /* Player.swift */,
+				91EE03521C7EAB8100F344B3 /* Hole.swift */,
+				91EE03541C7EABB700F344B3 /* Course.swift */,
+				9132CB951C764062009B56A0 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		914077591DE549020058F54E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9150BC591C6EA5270009B384 = {
+			isa = PBXGroup;
+			children = (
+				9198A6DD1C72AD8B0035662B /* MapKit.framework */,
+				9150BC641C6EA5270009B384 /* Bluff City Cup */,
+				9150BC7C1C6EA5270009B384 /* Bluff City CupTests */,
+				9150BC871C6EA5270009B384 /* Bluff City CupUITests */,
+				9150BC631C6EA5270009B384 /* Products */,
+				914077591DE549020058F54E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9150BC631C6EA5270009B384 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9150BC621C6EA5270009B384 /* Bluff City Cup.app */,
+				9150BC791C6EA5270009B384 /* Bluff City CupTests.xctest */,
+				9150BC841C6EA5270009B384 /* Bluff City CupUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9150BC641C6EA5270009B384 /* Bluff City Cup */ = {
+			isa = PBXGroup;
+			children = (
+				914077581DE549000058F54E /* Bluff City Cup.entitlements */,
+				9150BC691C6EA5270009B384 /* Main.storyboard */,
+				91E25C321F37B33000D53982 /* ScorecardCell.swift */,
+				91A8AF271E4171C00019B495 /* MatchScorecardCell.swift */,
+				910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */,
+				910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */,
+				91A8AF251E4157120019B495 /* MatchScorecardViewController.swift */,
+				914077571DE546E60058F54E /* Model */,
+				9150BC651C6EA5270009B384 /* AppDelegate.swift */,
+				9150BCAB1C6F7A6C0009B384 /* ContainerViewController.swift */,
+				9188C25A1C73A3E900C7B458 /* MatchTableViewController.swift */,
+				9198A6EB1C73805A0035662B /* MatchTableViewCell.swift */,
+				9167BA5E28737F9A00117FCC /* MatchTableViewControllerNew.swift */,
+				9167BA5C28737B8E00117FCC /* MatchTableViewCell18.swift */,
+				91AFB3342875270500EE1075 /* MatchTableViewCell9.swift */,
+				9150BC671C6EA5270009B384 /* ViewController.swift */,
+				91C063541E39832D002AF02F /* AddCourseMapView.swift */,
+				91C063561E3987DE002AF02F /* AddCourseCell.swift */,
+				91FAAB2E1C712321000A0B43 /* HoleMapViewController.swift */,
+				9150BCAD1C6F97EE0009B384 /* TopPanelViewController.swift */,
+				910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */,
+				918E8EE51C7413C10042144C /* IndividualMatchTableViewCell.swift */,
+				918E8EE31C74131B0042144C /* IndividualMatchTableViewController.swift */,
+				91FAAB2A1C712306000A0B43 /* ScoreboardViewController.swift */,
+				91FAAB281C7122F6000A0B43 /* ScoreEntryViewController.swift */,
+				91FAAB301C71233C000A0B43 /* SettingsViewController.swift */,
+				91FAAB2C1C712315000A0B43 /* DrinkCartViewController.swift */,
+				9188907E1C93CED700E7CDBD /* CommishSettingsViewController.swift */,
+				91136C1A1CCEFD90009F8DA3 /* CommishDetailViewController.swift */,
+				91E5F2841DF798E6005C532B /* AddPlayerOrMatchView.swift */,
+				91E5F27B1DF4F1EC005C532B /* Commish Cells */,
+				9150BC6F1C6EA5270009B384 /* Assets.xcassets */,
+				9150BC711C6EA5270009B384 /* LaunchScreen.storyboard */,
+				9150BC741C6EA5270009B384 /* Info.plist */,
+				9150BCAA1C6EA68A0009B384 /* Supporting Files */,
+			);
+			path = "Bluff City Cup";
+			sourceTree = "<group>";
+		};
+		9150BC7C1C6EA5270009B384 /* Bluff City CupTests */ = {
+			isa = PBXGroup;
+			children = (
+				9150BC7D1C6EA5270009B384 /* Bluff_City_CupTests.swift */,
+				9150BC7F1C6EA5270009B384 /* Info.plist */,
+			);
+			path = "Bluff City CupTests";
+			sourceTree = "<group>";
+		};
+		9150BC871C6EA5270009B384 /* Bluff City CupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9150BC881C6EA5270009B384 /* Bluff_City_CupUITests.swift */,
+				9150BC8A1C6EA5270009B384 /* Info.plist */,
+			);
+			path = "Bluff City CupUITests";
+			sourceTree = "<group>";
+		};
+		9150BCAA1C6EA68A0009B384 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E261B3D2CBCADDF0089C24F /* golfgains.png */,
+				91CFD57F2125EADC00EFDDA3 /* user.png */,
+				916A6E22208566C700D4B788 /* bcc_icon20.png */,
+				916A6E25208566D300D4B788 /* bcc_icon29.png */,
+				91A625412123C82600007DE2 /* icons8-user-male-50.png */,
+				916A6E20208566C000D4B788 /* bcc_icon58.png */,
+				916A6E26208566D700D4B788 /* bcc_icon80.png */,
+				916A6E23208566CB00D4B788 /* bcc_icon87.png */,
+				916A6E21208566C300D4B788 /* bcc_icon120.png */,
+				9158777D2125293600C56185 /* john_irvine.png */,
+				916A6E24208566D000D4B788 /* bcc_icon180.png */,
+				916A6E1F208565A300D4B788 /* bcc_icon167.png */,
+				916A6E1C2085652B00D4B788 /* bcc_icon40.png */,
+				916A6E1B2085652600D4B788 /* bcc_icon60.png */,
+				916A6E172085646D00D4B788 /* bcc_icon76.png */,
+				916A6E182085647000D4B788 /* bcc_icon152.png */,
+				916A6E13208549CE00D4B788 /* bcc_icon1024.png */,
+				916A6E112085465C00D4B788 /* bluffcitycup_v4.png */,
+				91FC6E3B20843E920026D455 /* BCC App Icon 1024.png */,
+				919A79811E4785A600831317 /* black_circle.png */,
+				919A79821E4785A600831317 /* white_circle.png */,
+				91236D9B1E1B35690032A1AA /* error.png */,
+				91236D991E1B22040032A1AA /* note.png */,
+				9198A6E51C72C3790035662B /* Hole Image.png */,
+				91F84D742122648C00307D65 /* irontribe.png */,
+				91EE03641C87C9BE00F344B3 /* PreviousHole.png */,
+				918C05421C9253E200B31425 /* Gray_forward.png */,
+				91EE03621C87C88800F344B3 /* NextHole.png */,
+				91F84D72212262B100307D65 /* logo-tm.svg */,
+				91EE035E1C80FE1A00F344B3 /* crosshair_32.png */,
+				91EE035C1C8000FA00F344B3 /* crosshair_64.png */,
+				914CB9BD1F2E5634007BD398 /* bcc_new_800.png */,
+				9198A6E31C72C1DF0035662B /* locations 128.png */,
+				9198A6E91C72D0350035662B /* Scoreboard.png */,
+				91EE035A1C8000AD00F344B3 /* crosshair.png */,
+				91EE03581C80004000F344B3 /* target_50.png */,
+				91EE03561C7FFFD000F344B3 /* target.png */,
+				9198A6E71C72CE380035662B /* Menu-30 White.png */,
+				9198A6E11C72C02C0035662B /* location-icon-iphone-location-arrow-128.png */,
+				9198A6D11C72A1710035662B /* Angle Down-50.png */,
+				9198A6D21C72A1710035662B /* Angle Up-50.png */,
+				9198A6D31C72A1710035662B /* Back-30.png */,
+				9198A6D41C72A1710035662B /* Forward-50.png */,
+				9198A6D51C72A1710035662B /* Menu-30.png */,
+				914CB9C71F2E5E69007BD398 /* bcc_new_29.png */,
+				914CB9C81F2E5E69007BD398 /* bcc_new_40.png */,
+				914CB9C91F2E5E69007BD398 /* bcc_new_58.png */,
+				914CB9CA1F2E5E69007BD398 /* bcc_new_76.png */,
+				914CB9CB1F2E5E69007BD398 /* bcc_new_80.png */,
+				914CB9CC1F2E5E69007BD398 /* bcc_new_87.png */,
+				914CB9CD1F2E5E69007BD398 /* bcc_new_120.png */,
+				914CB9CE1F2E5E69007BD398 /* bcc_new_152.png */,
+				914CB9CF1F2E5E69007BD398 /* bcc_new_167.png */,
+				914CB9C51F2E5D18007BD398 /* bcc_new_180.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91E5F27B1DF4F1EC005C532B /* Commish Cells */ = {
+			isa = PBXGroup;
+			children = (
+				91E25C2E1F37A6D500D53982 /* CommishPasswordCell.swift */,
+				91E5F2861DF90651005C532B /* RoundCourseCell.swift */,
+				91E5F2881DFAEE20005C532B /* DeleteMatchesCell.swift */,
+				91E5F27E1DF4FB80005C532B /* NumberOfRoundsCell.swift */,
+				918890801C93D4C100E7CDBD /* CommishSettingsCell.swift */,
+				91E5F27C1DF4F330005C532B /* MatchLengthCell.swift */,
+				91E5F2771DF4F1D1005C532B /* DrinkCartOnCell.swift */,
+				91E5F2791DF4F1DE005C532B /* DrinkCartNumberCell.swift */,
+				91E25C2C1F341C5700D53982 /* MaxHandicapCell.swift */,
+				91E5F2751DF4D27B005C532B /* MatchViewCell.swift */,
+				91E4404B1D0E07E200318475 /* PlayerViewCell.swift */,
+			);
+			name = "Commish Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9150BC611C6EA5270009B384 /* Bluff City Cup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9150BC8D1C6EA5270009B384 /* Build configuration list for PBXNativeTarget "Bluff City Cup" */;
+			buildPhases = (
+				9150BC5E1C6EA5270009B384 /* Sources */,
+				9150BC5F1C6EA5270009B384 /* Frameworks */,
+				9150BC601C6EA5270009B384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluff City Cup";
+			productName = "Bluff City Cup";
+			productReference = 9150BC621C6EA5270009B384 /* Bluff City Cup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9150BC781C6EA5270009B384 /* Bluff City CupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9150BC901C6EA5270009B384 /* Build configuration list for PBXNativeTarget "Bluff City CupTests" */;
+			buildPhases = (
+				9150BC751C6EA5270009B384 /* Sources */,
+				9150BC761C6EA5270009B384 /* Frameworks */,
+				9150BC771C6EA5270009B384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9150BC7B1C6EA5270009B384 /* PBXTargetDependency */,
+			);
+			name = "Bluff City CupTests";
+			productName = "Bluff City CupTests";
+			productReference = 9150BC791C6EA5270009B384 /* Bluff City CupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9150BC831C6EA5270009B384 /* Bluff City CupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9150BC931C6EA5270009B384 /* Build configuration list for PBXNativeTarget "Bluff City CupUITests" */;
+			buildPhases = (
+				9150BC801C6EA5270009B384 /* Sources */,
+				9150BC811C6EA5270009B384 /* Frameworks */,
+				9150BC821C6EA5270009B384 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9150BC861C6EA5270009B384 /* PBXTargetDependency */,
+			);
+			name = "Bluff City CupUITests";
+			productName = "Bluff City CupUITests";
+			productReference = 9150BC841C6EA5270009B384 /* Bluff City CupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9150BC5A1C6EA5270009B384 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = "Jumpstop Creations";
+				TargetAttributes = {
+					9150BC611C6EA5270009B384 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4Y9BVM7DRL;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					9150BC781C6EA5270009B384 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 9150BC611C6EA5270009B384;
+					};
+					9150BC831C6EA5270009B384 = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 1010;
+						TestTargetID = 9150BC611C6EA5270009B384;
+					};
+				};
+			};
+			buildConfigurationList = 9150BC5D1C6EA5270009B384 /* Build configuration list for PBXProject "Bluff City Cup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9150BC591C6EA5270009B384;
+			productRefGroup = 9150BC631C6EA5270009B384 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9150BC611C6EA5270009B384 /* Bluff City Cup */,
+				9150BC781C6EA5270009B384 /* Bluff City CupTests */,
+				9150BC831C6EA5270009B384 /* Bluff City CupUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9150BC601C6EA5270009B384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				916A6E192085647100D4B788 /* bcc_icon76.png in Resources */,
+				9150BC731C6EA5270009B384 /* LaunchScreen.storyboard in Resources */,
+				9150BC701C6EA5270009B384 /* Assets.xcassets in Resources */,
+				9198A6E21C72C02C0035662B /* location-icon-iphone-location-arrow-128.png in Resources */,
+				916A6E1E2085652C00D4B788 /* bcc_icon40.png in Resources */,
+				9198A6D71C72A1710035662B /* Angle Down-50.png in Resources */,
+				919A79841E4785A600831317 /* white_circle.png in Resources */,
+				914CB9D21F2E5E69007BD398 /* bcc_new_58.png in Resources */,
+				91F84D73212262B100307D65 /* logo-tm.svg in Resources */,
+				9198A6EA1C72D0350035662B /* Scoreboard.png in Resources */,
+				0E261B3E2CBCADDF0089C24F /* golfgains.png in Resources */,
+				91EE035D1C8000FA00F344B3 /* crosshair_64.png in Resources */,
+				914CB9D61F2E5E69007BD398 /* bcc_new_120.png in Resources */,
+				914CB9D11F2E5E69007BD398 /* bcc_new_40.png in Resources */,
+				916A6E2A208566D800D4B788 /* bcc_icon87.png in Resources */,
+				9150BC6B1C6EA5270009B384 /* Main.storyboard in Resources */,
+				916A6E29208566D800D4B788 /* bcc_icon20.png in Resources */,
+				916A6E2D208566D800D4B788 /* bcc_icon80.png in Resources */,
+				91EE03651C87C9BE00F344B3 /* PreviousHole.png in Resources */,
+				91EE03571C7FFFD000F344B3 /* target.png in Resources */,
+				914CB9D01F2E5E69007BD398 /* bcc_new_29.png in Resources */,
+				916A6E2C208566D800D4B788 /* bcc_icon29.png in Resources */,
+				914CB9D71F2E5E69007BD398 /* bcc_new_152.png in Resources */,
+				91EE03591C80004000F344B3 /* target_50.png in Resources */,
+				9198A6E41C72C1DF0035662B /* locations 128.png in Resources */,
+				919A79831E4785A600831317 /* black_circle.png in Resources */,
+				91A625422123C82700007DE2 /* icons8-user-male-50.png in Resources */,
+				914CB9BE1F2E5634007BD398 /* bcc_new_800.png in Resources */,
+				916A6E1D2085652C00D4B788 /* bcc_icon60.png in Resources */,
+				91FC6E3C20843E920026D455 /* BCC App Icon 1024.png in Resources */,
+				9198A6E61C72C3790035662B /* Hole Image.png in Resources */,
+				914CB9D51F2E5E69007BD398 /* bcc_new_87.png in Resources */,
+				916A6E2B208566D800D4B788 /* bcc_icon180.png in Resources */,
+				9198A6D81C72A1710035662B /* Angle Up-50.png in Resources */,
+				914CB9D41F2E5E69007BD398 /* bcc_new_80.png in Resources */,
+				9198A6DA1C72A1710035662B /* Forward-50.png in Resources */,
+				916A6E122085465C00D4B788 /* bluffcitycup_v4.png in Resources */,
+				91CFD5802125EADC00EFDDA3 /* user.png in Resources */,
+				9198A6D91C72A1710035662B /* Back-30.png in Resources */,
+				916A6E28208566D800D4B788 /* bcc_icon120.png in Resources */,
+				918C05431C9253E200B31425 /* Gray_forward.png in Resources */,
+				914CB9D31F2E5E69007BD398 /* bcc_new_76.png in Resources */,
+				914CB9C61F2E5D18007BD398 /* bcc_new_180.png in Resources */,
+				91EE035B1C8000AD00F344B3 /* crosshair.png in Resources */,
+				916A6E27208566D800D4B788 /* bcc_icon58.png in Resources */,
+				91EE03631C87C88800F344B3 /* NextHole.png in Resources */,
+				914CB9D81F2E5E69007BD398 /* bcc_new_167.png in Resources */,
+				91236D9A1E1B22040032A1AA /* note.png in Resources */,
+				916A6E1A2085647100D4B788 /* bcc_icon152.png in Resources */,
+				91F84D752122648D00307D65 /* irontribe.png in Resources */,
+				9198A6E81C72CE380035662B /* Menu-30 White.png in Resources */,
+				9158777E2125293700C56185 /* john_irvine.png in Resources */,
+				91236D9C1E1B35690032A1AA /* error.png in Resources */,
+				91EE035F1C80FE1A00F344B3 /* crosshair_32.png in Resources */,
+				916A6E15208549D300D4B788 /* bcc_icon1024.png in Resources */,
+				9198A6DB1C72A1710035662B /* Menu-30.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9150BC771C6EA5270009B384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9150BC821C6EA5270009B384 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9150BC5E1C6EA5270009B384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91E4404C1D0E07E200318475 /* PlayerViewCell.swift in Sources */,
+				918E8EE41C74131B0042144C /* IndividualMatchTableViewController.swift in Sources */,
+				91FAAB291C7122F6000A0B43 /* ScoreEntryViewController.swift in Sources */,
+				91E5F2871DF90651005C532B /* RoundCourseCell.swift in Sources */,
+				91E5F2781DF4F1D1005C532B /* DrinkCartOnCell.swift in Sources */,
+				9132CB921C755E5F009B56A0 /* Match.swift in Sources */,
+				91FAAB2D1C712315000A0B43 /* DrinkCartViewController.swift in Sources */,
+				91FAAB2B1C712306000A0B43 /* ScoreboardViewController.swift in Sources */,
+				91A8AF261E4157120019B495 /* MatchScorecardViewController.swift in Sources */,
+				91E5F2891DFAEE20005C532B /* DeleteMatchesCell.swift in Sources */,
+				910B14F7287779E000ECD353 /* MatchScorecardViewControllerNew.swift in Sources */,
+				91FAAB311C71233C000A0B43 /* SettingsViewController.swift in Sources */,
+				9188907F1C93CED700E7CDBD /* CommishSettingsViewController.swift in Sources */,
+				9150BC681C6EA5270009B384 /* ViewController.swift in Sources */,
+				9188C25B1C73A3E900C7B458 /* MatchTableViewController.swift in Sources */,
+				91E25C2F1F37A6D500D53982 /* CommishPasswordCell.swift in Sources */,
+				91E25C2D1F341C5700D53982 /* MaxHandicapCell.swift in Sources */,
+				91136C1B1CCEFD90009F8DA3 /* CommishDetailViewController.swift in Sources */,
+				91E5F2761DF4D27B005C532B /* MatchViewCell.swift in Sources */,
+				91E5F27F1DF4FB80005C532B /* NumberOfRoundsCell.swift in Sources */,
+				9198A6EC1C73805A0035662B /* MatchTableViewCell.swift in Sources */,
+				918E8EE61C7413C10042144C /* IndividualMatchTableViewCell.swift in Sources */,
+				910572341C7E7FC100D4D80D /* MenuTableViewCell.swift in Sources */,
+				91A8AF281E4171C00019B495 /* MatchScorecardCell.swift in Sources */,
+				910B14F528776FA300ECD353 /* MatchScorecardCellNew.swift in Sources */,
+				91C063551E39832D002AF02F /* AddCourseMapView.swift in Sources */,
+				9150BCAC1C6F7A6C0009B384 /* ContainerViewController.swift in Sources */,
+				918890811C93D4C100E7CDBD /* CommishSettingsCell.swift in Sources */,
+				91FAAB2F1C712321000A0B43 /* HoleMapViewController.swift in Sources */,
+				91EE03551C7EABB700F344B3 /* Course.swift in Sources */,
+				91EE03611C853CB300F344B3 /* Tournament.swift in Sources */,
+				91AFB3352875270500EE1075 /* MatchTableViewCell9.swift in Sources */,
+				9132CB961C764062009B56A0 /* User.swift in Sources */,
+				91E5F2851DF798E6005C532B /* AddPlayerOrMatchView.swift in Sources */,
+				91C063571E3987DE002AF02F /* AddCourseCell.swift in Sources */,
+				9167BA5F28737F9A00117FCC /* MatchTableViewControllerNew.swift in Sources */,
+				9150BCAE1C6F97EE0009B384 /* TopPanelViewController.swift in Sources */,
+				9167BA5D28737B8E00117FCC /* MatchTableViewCell18.swift in Sources */,
+				91E5F27D1DF4F330005C532B /* MatchLengthCell.swift in Sources */,
+				914077561DE546CF0058F54E /* Model.swift in Sources */,
+				91E25C331F37B33000D53982 /* ScorecardCell.swift in Sources */,
+				91EE03531C7EAB8100F344B3 /* Hole.swift in Sources */,
+				9132CB941C755E6A009B56A0 /* Player.swift in Sources */,
+				9150BC661C6EA5270009B384 /* AppDelegate.swift in Sources */,
+				91E5F27A1DF4F1DE005C532B /* DrinkCartNumberCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9150BC751C6EA5270009B384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9150BC7E1C6EA5270009B384 /* Bluff_City_CupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9150BC801C6EA5270009B384 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9150BC891C6EA5270009B384 /* Bluff_City_CupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9150BC7B1C6EA5270009B384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9150BC611C6EA5270009B384 /* Bluff City Cup */;
+			targetProxy = 9150BC7A1C6EA5270009B384 /* PBXContainerItemProxy */;
+		};
+		9150BC861C6EA5270009B384 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9150BC611C6EA5270009B384 /* Bluff City Cup */;
+			targetProxy = 9150BC851C6EA5270009B384 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9150BC691C6EA5270009B384 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9150BC6A1C6EA5270009B384 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9150BC711C6EA5270009B384 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9150BC721C6EA5270009B384 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9150BC8B1C6EA5270009B384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9150BC8C1C6EA5270009B384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9150BC8E1C6EA5270009B384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bluff City Cup/Bluff City Cup.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y9BVM7DRL;
+				INFOPLIST_FILE = "Bluff City Cup/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jumpstop.Bluff-City-Cup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9150BC8F1C6EA5270009B384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Bluff City Cup/Bluff City Cup.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Y9BVM7DRL;
+				INFOPLIST_FILE = "Bluff City Cup/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jumpstop.Bluff-City-Cup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9150BC911C6EA5270009B384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bluff City CupTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jumpstop.Bluff-City-CupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluff City Cup.app/Bluff City Cup";
+			};
+			name = Debug;
+		};
+		9150BC921C6EA5270009B384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Bluff City CupTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jumpstop.Bluff-City-CupTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bluff City Cup.app/Bluff City Cup";
+			};
+			name = Release;
+		};
+		9150BC941C6EA5270009B384 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bluff City CupUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jumpstop.Bluff-City-CupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Bluff City Cup";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9150BC951C6EA5270009B384 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bluff City CupUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jumpstop.Bluff-City-CupUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = "Bluff City Cup";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9150BC5D1C6EA5270009B384 /* Build configuration list for PBXProject "Bluff City Cup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9150BC8B1C6EA5270009B384 /* Debug */,
+				9150BC8C1C6EA5270009B384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9150BC8D1C6EA5270009B384 /* Build configuration list for PBXNativeTarget "Bluff City Cup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9150BC8E1C6EA5270009B384 /* Debug */,
+				9150BC8F1C6EA5270009B384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9150BC901C6EA5270009B384 /* Build configuration list for PBXNativeTarget "Bluff City CupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9150BC911C6EA5270009B384 /* Debug */,
+				9150BC921C6EA5270009B384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9150BC931C6EA5270009B384 /* Build configuration list for PBXNativeTarget "Bluff City CupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9150BC941C6EA5270009B384 /* Debug */,
+				9150BC951C6EA5270009B384 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9150BC5A1C6EA5270009B384 /* Project object */;
+}

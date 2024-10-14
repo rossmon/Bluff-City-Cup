@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XQb-rK-DYu"/>
+                        <viewControllerLayoutGuide type="bottom" id="5qK-fZ-QgS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluffcitycup_v4.png" translatesAutoresizingMaskIntoConstraints="NO" id="cgp-Rf-vgQ">
+                                <rect key="frame" x="102" y="55" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="golfgains.png" translatesAutoresizingMaskIntoConstraints="NO" id="3oB-Tr-UZE">
+                                <rect key="frame" x="162.5" y="597" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="4hT-no-JTG"/>
+                                    <constraint firstAttribute="height" constant="50" id="vgu-Si-ltF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Presented by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATC-gP-ky7">
+                                <rect key="frame" x="153" y="573.5" width="69.5" height="13.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.16078431369999999" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ATC-gP-ky7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Jcg-Ce-ZfV"/>
+                            <constraint firstItem="3oB-Tr-UZE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V2F-7s-UCC"/>
+                            <constraint firstItem="3oB-Tr-UZE" firstAttribute="top" secondItem="ATC-gP-ky7" secondAttribute="bottom" constant="10" id="fql-e4-sRi"/>
+                            <constraint firstItem="5qK-fZ-QgS" firstAttribute="top" secondItem="3oB-Tr-UZE" secondAttribute="bottom" constant="20" id="zIx-f1-GNB"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.10144927536232" y="278.90625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bluffcitycup_v4.png" width="1024" height="1024"/>
+        <image name="golfgains.png" width="1194" height="1184"/>
+    </resources>
+</document>
