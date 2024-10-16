@@ -40,10 +40,10 @@ class MatchLengthCell: UITableViewCell {
         }
         else {
             if segment.selectedSegmentIndex == 0 {
-                tournament.setMatchLength(9)
+                //tournament.setMatchLength(9)
             }
             else if segment.selectedSegmentIndex == 1 {
-                tournament.setMatchLength(18)
+                //tournament.setMatchLength(18)
             }
             
             Model.sharedInstance.updateTournament(tournament) {() in }

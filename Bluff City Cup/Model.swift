@@ -828,7 +828,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Save player data
-        let urlPath: String = "http://montyratings.com/bluffcitycup/update_tournament.php?tournament=" + tournamentNameURL + "&owner=" + ownerURL + "&commissioner=" + ownerURL + "&matchlength=\(tournament.getMatchLength())&numberofmatches=\(tournament.getNumberOfMatches())&drinkcartavailable=\(drinkcart)&drinkcartnumber=" + drinkcartnumber + "&currentround=\(tournament.getCurrentRound())&maxhandicap=\(tournament.getMaxHandicap())&commishpassword=" + tournament.getCommissionerPassword()
+        let urlPath: String = "http://montyratings.com/bluffcitycup/update_tournament.php?tournament=" + tournamentNameURL + "&owner=" + ownerURL + "&commissioner=" + ownerURL + "&numberofmatches=\(tournament.getNumberOfMatches())&drinkcartavailable=\(drinkcart)&drinkcartnumber=" + drinkcartnumber + "&currentround=\(tournament.getCurrentRound())&maxhandicap=\(tournament.getMaxHandicap())&commishpassword=" + tournament.getCommissionerPassword()
         
         print(urlPath)
         
@@ -913,9 +913,11 @@ class Model: NSObject, URLSessionDataDelegate {
         let player2team = match.redTeamPlayerOne().getTeam().replacingOccurrences(of: " ", with: "!spa")
         let format = match.getFormat().replacingOccurrences(of: " ", with: "!spa")
         let scorekeeper = match.getScorekeeperName().replacingOccurrences(of: " ", with: "!spa")
-        let scorestring = match.getMatchScore(matchLength: self.tournament.getMatchLength()).scoreString.replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
-        let score = match.getMatchScore(matchLength: self.tournament.getMatchLength())
+        let scorestring = match.getMatchScore(matchLength: match.getMatchLength()).scoreString.replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
+        let score = match.getMatchScore(matchLength: match.getMatchLength())
         let tees = match.getTees().replacingOccurrences(of: " ", with: "!spa")
+        let matchLength = match.getMatchLength()
+        let points = match.getPoints()
         
         var completed = 0
         if score.finished { completed = 1 }
@@ -929,7 +931,7 @@ class Model: NSObject, URLSessionDataDelegate {
         // Change the point value of matches?
         
         // Save hole data
-        var urlPath = "http://montyratings.com/bluffcitycup/update_matches.php?tournament=" + tournamentNameURL + "&round=\(match.getRound())&matchgroup=\(match.getGroup())&match=\(match.getMatchNumber())&course=" + courseNameURL + "&slope=\(match.getCourseSlope())&format=" + format + "&scorekeeper=" + scorekeeper + "&points=1&numofplayers=\(match.getPlayers().count)&startinghole=\(match.getStartingHole())&currenthole=\(match.getCurrentHole())&currentscore=\(score.score)&scorestring=" + scorestring + "&winningteam=" + score.teamUp + "&completed=\(completed)&player1=" + player1 + "&player1team=" + player1team + "&player2=" + player2 + "&player2team=" + player2team + "&tees=" + tees
+        var urlPath = "http://montyratings.com/bluffcitycup/update_matches.php?tournament=" + tournamentNameURL + "&round=\(match.getRound())&matchgroup=\(match.getGroup())&match=\(match.getMatchNumber())&course=" + courseNameURL + "&slope=\(match.getCourseSlope())&format=" + format + "&scorekeeper=" + scorekeeper + "&points=1&numofplayers=\(match.getPlayers().count)&startinghole=\(match.getStartingHole())&currenthole=\(match.getCurrentHole())&currentscore=\(score.score)&scorestring=" + scorestring + "&matchlength=\(matchLength)&points=\(points)&winningteam=" + score.teamUp + "&completed=\(completed)&player1=" + player1 + "&player1team=" + player1team + "&player2=" + player2 + "&player2team=" + player2team + "&tees=" + tees
         
         if match.doubles() {
             let player3 = match.blueTeamPlayerTwo()!.getName().replacingOccurrences(of: " ", with: "!spa")
@@ -943,6 +945,7 @@ class Model: NSObject, URLSessionDataDelegate {
         
         
         let url = NSURL(string: urlPath)!
+        print(urlPath)
         
         let matchTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
             print("Saving Match")
@@ -1416,7 +1419,7 @@ class Model: NSObject, URLSessionDataDelegate {
         {
             //let owner = (jsonElement["owner"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
             //let commissioner = (jsonElement["commissioner"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
-            let matchLength = Int((jsonElement["matchlength"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
+            //let matchLength = Int((jsonElement["matchlength"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
             let numberofmatches = Int((jsonElement["numberofmatches"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
             
             var drinkcartavail = false
@@ -1433,7 +1436,7 @@ class Model: NSObject, URLSessionDataDelegate {
             let maxHandicap = Int((jsonElement["maxhandicap"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
             let commishPassword = (jsonElement["commishpassword"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
             
-            tournament = Tournament(matches: matches, name: trimmedTourneyName, numOfRounds: numberofmatches, currentRound: currentround, matchLength: matchLength, drinkCartAvailable: drinkcartavail, playersInit: players, roundCourses: rounds, maxhandicap: maxHandicap, commishPassword: commishPassword)
+            tournament = Tournament(matches: matches, name: trimmedTourneyName, numOfRounds: numberofmatches, currentRound: currentround, drinkCartAvailable: drinkcartavail, playersInit: players, roundCourses: rounds, maxhandicap: maxHandicap, commishPassword: commishPassword)
             
             if let drinkcartnumber = jsonElement["drinkcartnumber"] as? String {
                 let cartNumber = drinkcartnumber.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
@@ -1607,6 +1610,12 @@ class Model: NSObject, URLSessionDataDelegate {
                     let score = Int((jsonElement["currentscore"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
                     let scoreString = (jsonElement["scorestring"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
                     
+                    let matchLength = (jsonElement["matchlength"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+                    
+                    let points = (jsonElement["points"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+
+
+                    
                     
                     //let trimmedName = name.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
                     let trimmedRound = round.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
@@ -1656,7 +1665,7 @@ class Model: NSObject, URLSessionDataDelegate {
                     if completed == 1 { matchCompleted = true }
                     else { matchCompleted = false }
                     
-                    let newMatch = Match(format: trimmedFormat, players: matchPlayers, scorekeeper: trimmedScorekeeper,score: score, scoreString: scoreString,teamWinning: teamwinning, hole: currentHole,course: trimmedCourse, tees: tees, round:Int(trimmedRound)!, group: Int(trimmedGroup)!, startingHole: startingHole,matchNumber: Int(trimmedMatch)!,matchFinished: matchCompleted)
+                    let newMatch = Match(format: trimmedFormat, players: matchPlayers, scorekeeper: trimmedScorekeeper,score: score, scoreString: scoreString,teamWinning: teamwinning, hole: currentHole,course: trimmedCourse, tees: tees, round:Int(trimmedRound)!, group: Int(trimmedGroup)!, startingHole: startingHole,matchNumber: Int(trimmedMatch)!,matchFinished: matchCompleted,matchLength: Int(matchLength)!,points: Double(points)!)
                     
                     //newMatch.refreshHoleWinners()
                     

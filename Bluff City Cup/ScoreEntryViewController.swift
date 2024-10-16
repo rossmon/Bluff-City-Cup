@@ -145,7 +145,7 @@ class ScoreEntryViewController: UIViewController {
     
         //Match is over, display last hole
     
-        if self.match.getCurrentHole() > 18 || (self.match.getCurrentHole() == 10 && self.tournament.getMatchLength() == 9 && self.match.getStartingHole() == 1) {
+        if self.match.getCurrentHole() > 18 || (self.match.getCurrentHole() == 10 && self.match.getMatchLength() == 9 && self.match.getStartingHole() == 1) {
             self.holeNumber.text = String(self.match.getCurrentHole() - 1)
             
             self.holeYards.text = String(self.tournament.getCourseWithName(name: self.match.getCourseName()).getHole(self.match.getCurrentHole() - 1).getLength())
@@ -208,6 +208,7 @@ class ScoreEntryViewController: UIViewController {
         
         let doubles = tournament.getCurrentMatch(user.getPlayer()!)?.doubles()
         let currentMatch = tournament.getCurrentMatch(user.getPlayer()!)
+        
         if doubles == true {
             if blueTeamScore.text! != "" && redTeamScore.text! != "" {
                 
@@ -216,7 +217,7 @@ class ScoreEntryViewController: UIViewController {
                 let redScore = Int(redTeamScore.text!)
                 
                 //Check if on last hole
-                if tournament.getMatchLength() == 9 && viewingHoleNumber == 9 /*currentMatch!.onHole().getNumber() == 9*/ {
+                if currentMatch!.getMatchLength() == 9 && viewingHoleNumber == 9 /*currentMatch!.onHole().getNumber() == 9*/ {
                     let endMatchAlert = UIAlertController(title: "Stop!", message: "Are you sure you want to end the match?", preferredStyle: UIAlertController.Style.alert)
                     
                     endMatchAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: { (action: UIAlertAction!) in
@@ -224,11 +225,11 @@ class ScoreEntryViewController: UIViewController {
                         
                         if currentMatch?.getCurrentHole() == 9 {
                             if blueScore < redScore {
-                                currentMatch?.blueTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                                currentMatch?.blueTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                                 currentMatch?.setHoleWinner(hole: 9, winner: "Blue")
                             }
                             else if redScore < blueScore {
-                                currentMatch?.redTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                                currentMatch?.redTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                                 currentMatch?.setHoleWinner(hole: 9, winner: "Red")
                             }
                             else {
@@ -238,8 +239,8 @@ class ScoreEntryViewController: UIViewController {
                         }
                         
                         
-                        currentMatch?.updateCurrentScore(matchLength: self.tournament.getMatchLength())
-                        currentMatch?.updateMatch(matchLength: self.tournament.getMatchLength()) {
+                        currentMatch?.updateCurrentScore(matchLength: currentMatch!.getMatchLength())
+                        currentMatch?.updateMatch(matchLength: currentMatch!.getMatchLength()) {
                             User.sharedInstance.updateRole(tournamentName: self.tournament.getName()) {}
                         }
                         currentMatch?.updateHoleResults(holeNumber: self.viewingHoleNumber, round: currentMatch!.getRound())
@@ -271,11 +272,11 @@ class ScoreEntryViewController: UIViewController {
                         //TODO: Does this logic need to change?
                         if currentMatch?.getCurrentHole() == 19 {
                             if blueScore < redScore {
-                                currentMatch?.blueTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                                currentMatch?.blueTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                                 currentMatch?.setHoleWinner(hole: 18, winner: "Blue")
                             }
                             else if redScore < blueScore {
-                               currentMatch?.redTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                                currentMatch?.redTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                                 currentMatch?.setHoleWinner(hole: 18, winner: "Red")
                             }
                             else {
@@ -284,11 +285,11 @@ class ScoreEntryViewController: UIViewController {
                             }
                         }
                         if blueScore < redScore {
-                            currentMatch?.blueTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                            currentMatch?.blueTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                             currentMatch?.setHoleWinner(hole: 18, winner: "Blue")
                         }
                         else if redScore < blueScore {
-                            currentMatch?.redTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                            currentMatch?.redTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                             currentMatch?.setHoleWinner(hole: 18, winner: "Red")
                         }
                         else {
@@ -298,8 +299,8 @@ class ScoreEntryViewController: UIViewController {
                         
                         
                         
-                        currentMatch?.updateCurrentScore(matchLength: self.tournament.getMatchLength())
-                        currentMatch?.updateMatch(matchLength: self.tournament.getMatchLength()) {
+                        currentMatch?.updateCurrentScore(matchLength: currentMatch!.getMatchLength())
+                        currentMatch?.updateMatch(matchLength: currentMatch!.getMatchLength()) {
                             User.sharedInstance.updateRole(tournamentName: self.tournament.getName()) {}
                         }
                         currentMatch?.updateHoleResults(holeNumber: 18, round: currentMatch!.getRound())
@@ -323,10 +324,10 @@ class ScoreEntryViewController: UIViewController {
                 else {
                     if currentMatch?.getCurrentHole() == viewingHoleNumber {
                         if blueScore < redScore {
-                            currentMatch?.blueTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                            currentMatch?.blueTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                         }
                         else if redScore < blueScore {
-                            currentMatch?.redTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                            currentMatch?.redTeamWinsHole(matchLength: currentMatch!.getMatchLength())
                         }
                         else {
                             currentMatch?.splitHole()
@@ -355,8 +356,8 @@ class ScoreEntryViewController: UIViewController {
                     
                     matchTable.updateCellStrokes(viewingHoleNumber)
                     
-                    currentMatch?.updateCurrentScore(matchLength: self.tournament.getMatchLength())
-                    currentMatch?.updateMatch(matchLength: self.tournament.getMatchLength()) {}
+                    currentMatch?.updateCurrentScore(matchLength: currentMatch!.getMatchLength())
+                    currentMatch?.updateMatch(matchLength: currentMatch!.getMatchLength()) {}
                     currentMatch?.updateHoleResults(holeNumber: viewingHoleNumber-1, round: currentMatch!.getRound())
                 }
                 
@@ -377,7 +378,7 @@ class ScoreEntryViewController: UIViewController {
             //HANDLE SINGLES MATCH CHECK FOR SCORES
             
             if matchTable.allMatchScoresEntered() {
-                if tournament.getMatchLength() == 9 && viewingHoleNumber == 9 {
+                if currentMatch!.getMatchLength() == 9 && viewingHoleNumber == 9 {
                     //HANDLE THE END OF 9 HOLE MATCH
                     let endMatchAlert = UIAlertController(title: "Stop!", message: "Are you sure you want to end the match?", preferredStyle: UIAlertController.Style.alert)
                     
@@ -390,8 +391,8 @@ class ScoreEntryViewController: UIViewController {
                         
                         //UPDATE MATCH HERE
                         for singleMatch in singlesMatches {
-                            singleMatch.updateCurrentScore(matchLength: self.tournament.getMatchLength())
-                            singleMatch.updateMatch(matchLength: self.tournament.getMatchLength()) {}
+                            singleMatch.updateCurrentScore(matchLength: singleMatch.getMatchLength())
+                            singleMatch.updateMatch(matchLength: singleMatch.getMatchLength()) {}
                             singleMatch.updateHoleResults(holeNumber: self.viewingHoleNumber, round: currentMatch!.getRound())
                         }
                         
@@ -427,8 +428,8 @@ class ScoreEntryViewController: UIViewController {
                         let singlesMatches = self.tournament.getSinglesGroupMatches(self.user.player!, round: self.tournament.getPlayerLastRound(self.user.player!))
                         //UPDATE MATCH HERE
                         for singleMatch in singlesMatches {
-                            singleMatch.updateCurrentScore(matchLength: self.tournament.getMatchLength())
-                            singleMatch.updateMatch(matchLength: self.tournament.getMatchLength()) {}
+                            singleMatch.updateCurrentScore(matchLength: singleMatch.getMatchLength())
+                            singleMatch.updateMatch(matchLength: singleMatch.getMatchLength()) {}
                             singleMatch.updateHoleResults(holeNumber: self.viewingHoleNumber, round: currentMatch!.getRound())
                         }
                         
@@ -467,8 +468,8 @@ class ScoreEntryViewController: UIViewController {
                     let singlesMatches = self.tournament.getSinglesGroupMatches(user.player!, round: self.tournament.getPlayerLastRound(user.player!))
                     //UPDATE MATCH HERE
                     for singleMatch in singlesMatches {
-                        singleMatch.updateCurrentScore(matchLength: self.tournament.getMatchLength())
-                        singleMatch.updateMatch(matchLength: self.tournament.getMatchLength()) {}
+                        singleMatch.updateCurrentScore(matchLength: singleMatch.getMatchLength())
+                        singleMatch.updateMatch(matchLength: singleMatch.getMatchLength()) {}
                         singleMatch.updateHoleResults(holeNumber: viewingHoleNumber-1, round: currentMatch!.getRound())
                     }
 
@@ -548,11 +549,11 @@ class ScoreEntryViewController: UIViewController {
         if tournament.getCurrentMatch(user.getPlayer()!)?.currentScore() != 19 {
             if tournament.getCurrentMatch(user.getPlayer()!)?.getCurrentHole() == viewingHoleNumber {
                 if match1BlueHandicapScore < match1RedHandicapScore {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].blueTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].blueTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
                     tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].setHoleWinner(hole: viewingHoleNumber, winner: "Blue")
                 }
                 else if match1RedHandicapScore < match1BlueHandicapScore {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].redTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].redTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
                     tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].setHoleWinner(hole: viewingHoleNumber, winner: "Red")
                 }
                 else {
@@ -561,11 +562,11 @@ class ScoreEntryViewController: UIViewController {
                 }
                 
                 if match2BlueHandicapScore < match2RedHandicapScore {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
                     tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Blue")
                 }
                 else if match2RedHandicapScore < match2BlueHandicapScore {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].redTeamWinsHole(matchLength: self.tournament.getMatchLength())
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].redTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
                     tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Red")
                 }
                 else {
@@ -634,7 +635,7 @@ class ScoreEntryViewController: UIViewController {
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         }
-        else if self.holeNumber.text == "10" && tournament.getMatchLength() == 9 {
+        else if self.holeNumber.text == "10" && tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength() == 9 {
             let alert = UIAlertController(title: "Sorry!", message: "You are on the 10th hole in a 9 hole match.", preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil))
             self.present(alert, animated: true, completion: nil)

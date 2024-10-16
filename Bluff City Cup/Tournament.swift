@@ -15,7 +15,7 @@ class Tournament {
     fileprivate var name: String
     fileprivate var numOfRounds: Int
     fileprivate var currentRound: Int
-    fileprivate var matchLength: Int
+    //fileprivate var matchLength: Int
     fileprivate var drinkCartAvailable: Bool
     fileprivate var drinkCartNumber: String?
     fileprivate var players: [Player]
@@ -31,7 +31,7 @@ class Tournament {
         self.name = String()
         self.numOfRounds = Int()
         self.currentRound = Int()
-        self.matchLength = Int()
+        //self.matchLength = Int()
         self.drinkCartAvailable = false
         self.players = [Player]()
         self.courses = [Course]()
@@ -41,12 +41,12 @@ class Tournament {
         self.owner = String()
     }
     
-    init(matches: [Match], name: String, numOfRounds: Int, currentRound: Int, matchLength: Int, drinkCartAvailable: Bool, playersInit: [Player], roundCourses: [(round: Int, course: String)], maxhandicap: Int, commishPassword: String) {
+    init(matches: [Match], name: String, numOfRounds: Int, currentRound: Int, /*matchLength: Int,*/ drinkCartAvailable: Bool, playersInit: [Player], roundCourses: [(round: Int, course: String)], maxhandicap: Int, commishPassword: String) {
         self.matches = matches
         self.name = name
         self.numOfRounds = numOfRounds
         self.currentRound = currentRound
-        self.matchLength = matchLength
+        //self.matchLength = matchLength
         self.drinkCartAvailable = drinkCartAvailable
         self.players = playersInit
         self.courses = [Course]()
@@ -61,7 +61,7 @@ class Tournament {
         self.name = name
         self.numOfRounds = 4
         self.currentRound = 1
-        self.matchLength = 9
+        //self.matchLength = 9
         self.drinkCartAvailable = false
         self.drinkCartNumber = "9999999999"
         self.players = [Player]()
@@ -84,9 +84,10 @@ class Tournament {
         return matches.count
     }
     
-    func setMatchLength(_ length: Int) {
+    /*func setMatchLength(_ length: Int) {
         self.matchLength = length
-    }
+    }*/
+    
     func setNumberOfRounds(_ rounds: Int) {
         self.numOfRounds = rounds
     }
@@ -247,7 +248,7 @@ class Tournament {
     
     func deleteMatch(_ match: Match) -> Bool {
         
-        if (self.getMatchLength() == 9 && (match.getCurrentHole() != 1 && match.getCurrentHole() != 10)) || (self.getMatchLength() == 18 && match.getCurrentHole() > 1){
+        if (match.getMatchLength() == 9 && (match.getCurrentHole() != 1 && match.getCurrentHole() != 10)) || (match.getMatchLength() == 18 && match.getCurrentHole() > 1){
             return false
         }
         
@@ -272,9 +273,10 @@ class Tournament {
         return currentRound
     }
     
-    func getMatchLength() -> Int {
+    /*func getMatchLength() -> Int {
         return matchLength
-    }
+    }*/
+    
     func appendPlayer(player: Player) {
         players.append(player)
     }
@@ -491,14 +493,14 @@ class Tournament {
         for m in getMatches() //getRoundMatches(currentRound)
         {
             if m.winningTeam() == "Blue" {
-                blueScore += 1
+                blueScore += m.getPoints()
             }
             else if m.winningTeam() == "Red" {
-                redScore += 1
+                redScore += m.getPoints()
             }
             else {
-                blueScore = blueScore + 0.5
-                redScore = redScore + 0.5
+                blueScore = blueScore + (m.getPoints() / 2.0)
+                redScore = redScore + (m.getPoints() / 2.0)
             }
         }
         
@@ -515,14 +517,14 @@ class Tournament {
             
             if match.isCompleted() {
                 if match.winningTeam() == "Blue" {
-                    blueScore = blueScore + 1
+                    blueScore = blueScore + match.getPoints()
                 }
                 else if match.winningTeam() == "Red" {
-                    redScore = redScore + 1
+                    redScore = redScore + match.getPoints()
                 }
                 else if match.winningTeam() == "AS" {
-                    blueScore = blueScore + 0.5
-                    redScore = redScore + 0.5
+                    blueScore = blueScore + (match.getPoints() / 2.0)
+                    redScore = redScore + (match.getPoints() / 2.0)
                 }
             }
         }
@@ -796,9 +798,9 @@ class Tournament {
             let userMatches = getPlayerMatches(userPlayer!)
             
             for eachMatch in userMatches {
-                if eachMatch.getCurrentHole() == 1 || (eachMatch.getCurrentHole() == 10 && self.matchLength == 9) { }
+                if eachMatch.getCurrentHole() == 1 || (eachMatch.getCurrentHole() == 10 && eachMatch.getMatchLength() == 9) { }
                 else {
-                    if self.matchLength == 9 && (eachMatch.getCurrentHole() >= 10) {
+                    if eachMatch.getMatchLength() == 9 && (eachMatch.getCurrentHole() >= 10) {
                         if eachMatch.getCurrentHole() != 10 {
                             for i in 10...(eachMatch.getCurrentHole()-1) {
                                 

@@ -123,7 +123,7 @@ class IndividualMatchTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! IndividualMatchTableViewCell
         
         var matchHole = match.getCurrentHole()
-        if matchHole > 18 || matchHole == 10 && tournament.getMatchLength() == 9 {
+        if matchHole > 18 || matchHole == 10 && match.getMatchLength() == 9 {
             matchHole = matchHole - 1
         }
         

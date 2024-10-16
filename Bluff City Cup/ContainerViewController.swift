@@ -96,7 +96,6 @@ class ContainerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         //UIApplication.shared.statusBarStyle = .lightContent
         
         currentView = .container
@@ -108,7 +107,7 @@ class ContainerViewController: UIViewController {
         
         self.view.backgroundColor = UIColorFromRGB(0x0F296B)
         
-        actInd.style = UIActivityIndicatorView.Style.whiteLarge
+        actInd.style = UIActivityIndicatorView.Style.large
         actInd.center = CGPoint(x: self.view.frame.size.width / 2, y: self.view.frame.size.height / 2)
         self.view.addSubview(actInd)
         actInd.startAnimating()
@@ -593,8 +592,8 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
                 scoreEntryViewController.user = self.user
                 scoreEntryViewController.match = self.model.getTournament().getCurrentMatch(self.user.getPlayer()!)
                 scoreEntryViewController.tournament = self.model.getTournament()
-                if (scoreEntryViewController.match.getStartingHole() == 1 && tournament.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
-                    scoreEntryViewController.viewingHoleNumber = tournament.getMatchLength()
+                if (scoreEntryViewController.match.getStartingHole() == 1 && scoreEntryViewController.match.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
+                    scoreEntryViewController.viewingHoleNumber = scoreEntryViewController.match.getMatchLength()
                 }
                 else if scoreEntryViewController.match.getCurrentHole() > 18 {
                     scoreEntryViewController.viewingHoleNumber = 18
@@ -1100,8 +1099,8 @@ extension ContainerViewController: ScoreEntryViewControllerDelegate {
                 scoreEntryViewController.user = self.user
                 scoreEntryViewController.match = self.model.getTournament().getCurrentMatch(self.user.getPlayer()!)
                 scoreEntryViewController.tournament = self.model.getTournament()
-                if (scoreEntryViewController.match.getStartingHole() == 1 && tournament.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
-                    scoreEntryViewController.viewingHoleNumber = tournament.getMatchLength()
+                if (scoreEntryViewController.match.getStartingHole() == 1 && scoreEntryViewController.match.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
+                    scoreEntryViewController.viewingHoleNumber = scoreEntryViewController.match.getMatchLength()
                 }
                 else if scoreEntryViewController.match.getCurrentHole() > 18 {
                     scoreEntryViewController.viewingHoleNumber = 18
@@ -1695,8 +1694,8 @@ extension ContainerViewController: DrinkCartViewControllerDelegate {
                 scoreEntryViewController.user = self.user
                 scoreEntryViewController.match = self.model.getTournament().getCurrentMatch(self.user.getPlayer()!)
                 scoreEntryViewController.tournament = self.model.getTournament()
-                if (scoreEntryViewController.match.getStartingHole() == 1 && tournament.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
-                    scoreEntryViewController.viewingHoleNumber = tournament.getMatchLength()
+                if (scoreEntryViewController.match.getStartingHole() == 1 && scoreEntryViewController.match.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
+                    scoreEntryViewController.viewingHoleNumber = scoreEntryViewController.match.getMatchLength()
                 }
                 else if scoreEntryViewController.match.getCurrentHole() > 18 {
                     scoreEntryViewController.viewingHoleNumber = 18
@@ -2178,8 +2177,8 @@ extension ContainerViewController: HoleMapViewControllerDelegate {
                 scoreEntryViewController.user = self.user
                 scoreEntryViewController.match = self.model.getTournament().getCurrentMatch(self.user.getPlayer()!)
                 scoreEntryViewController.tournament = self.model.getTournament()
-                if (scoreEntryViewController.match.getStartingHole() == 1 && tournament.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
-                    scoreEntryViewController.viewingHoleNumber = tournament.getMatchLength()
+                if (scoreEntryViewController.match.getStartingHole() == 1 && scoreEntryViewController.match.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
+                    scoreEntryViewController.viewingHoleNumber = scoreEntryViewController.match.getMatchLength()
                 }
                 else if scoreEntryViewController.match.getCurrentHole() > 18 {
                     scoreEntryViewController.viewingHoleNumber = 18
@@ -2673,8 +2672,8 @@ extension ContainerViewController: SettingsViewControllerDelegate {
                 scoreEntryViewController.user = self.user
                 scoreEntryViewController.match = self.model.getTournament().getCurrentMatch(self.user.getPlayer()!)
                 scoreEntryViewController.tournament = self.model.getTournament()
-                if (scoreEntryViewController.match.getStartingHole() == 1 && tournament.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
-                    scoreEntryViewController.viewingHoleNumber = tournament.getMatchLength()
+                if (scoreEntryViewController.match.getStartingHole() == 1 && scoreEntryViewController.match.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
+                    scoreEntryViewController.viewingHoleNumber = scoreEntryViewController.match.getMatchLength()
                 }
                 else if scoreEntryViewController.match.getCurrentHole() > 18 {
                     scoreEntryViewController.viewingHoleNumber = 18
@@ -3156,8 +3155,8 @@ extension ContainerViewController: CommishSettingsViewControllerDelegate {
                 scoreEntryViewController.user = self.user
                 scoreEntryViewController.match = self.model.getTournament().getCurrentMatch(self.user.getPlayer()!)
                 scoreEntryViewController.tournament = self.model.getTournament()
-                if (scoreEntryViewController.match.getStartingHole() == 1 && tournament.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
-                    scoreEntryViewController.viewingHoleNumber = tournament.getMatchLength()
+                if (scoreEntryViewController.match.getStartingHole() == 1 && scoreEntryViewController.match.getMatchLength() < scoreEntryViewController.match.getCurrentHole()) {
+                    scoreEntryViewController.viewingHoleNumber = scoreEntryViewController.match.getMatchLength()
                 }
                 else if scoreEntryViewController.match.getCurrentHole() > 18 {
                     scoreEntryViewController.viewingHoleNumber = 18

@@ -156,14 +156,15 @@ class MatchScorecardViewController: UIViewController, UITableViewDelegate, UITab
         if match.getCurrentHole() > 9 {
             front9 = false
         }
-        if match.getCurrentHole() == 10 && Model.sharedInstance.getTournament().getMatchLength() == 9 && match.getStartingHole() == 1 {
+        //Model.sharedInstance.getTournament().getMatchLength()
+        if match.getCurrentHole() == 10 && match.getMatchLength() == 9 && match.getStartingHole() == 1 {
             front9 = true
         }
         
         if front9 { sideShowing = .front9 }
         else { sideShowing = .back9 }
         
-        if Model.sharedInstance.getTournament().getMatchLength() == 9 {
+        if match.getMatchLength() == 9 {
             front9back9View.isHidden = true
             
             print(teamHeaderView.frame.size)

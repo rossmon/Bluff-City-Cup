@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R6g-mB-BEz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R6g-mB-BEz">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -899,7 +899,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InP-qQ-rhD">
-                                <rect key="frame" x="20" y="69" width="30" height="30"/>
+                                <rect key="frame" x="20" y="72" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="odc-Zl-wVS"/>
                                     <constraint firstAttribute="width" constant="30" id="t5J-zr-vr8"/>
@@ -984,21 +984,21 @@
                         <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="commishSettingsCell" id="GTJ-KR-fE0" customClass="CommishSettingsCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="49" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="55.333332061767578" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GTJ-KR-fE0" id="FHW-jh-BJj">
-                                    <rect key="frame" x="0.0" y="0.0" width="361.33333333333331" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="359.66666666666669" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Setting Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEm-nm-PGc">
-                                            <rect key="frame" x="8" y="6" width="182" height="27"/>
+                                            <rect key="frame" x="8" y="6" width="180" height="27"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" systemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Status" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ixd-5p-sIq">
-                                            <rect key="frame" x="292" y="7" width="65" height="27"/>
+                                            <rect key="frame" x="290" y="7" width="65" height="27"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" red="0.64881234217171713" green="0.64881234217171713" blue="0.64881234217171713" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1013,7 +1013,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="drinkCartOnCell" id="ACN-kr-35g" customClass="DrinkCartOnCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="93" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="99.333332061767578" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ACN-kr-35g" id="Fb0-GT-yo3">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1041,7 +1041,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="drinkCartNumberCell" id="I9e-lY-PkM" customClass="DrinkCartNumberCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="137" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="143.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="I9e-lY-PkM" id="Ndx-ur-abQ">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1071,7 +1071,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="commishPasswordCell" id="tU2-eu-7e5" customClass="CommishPasswordCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="181" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="187.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tU2-eu-7e5" id="oJD-Ej-hbQ">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1102,7 +1102,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="maxHandicapCell" id="PC1-Mc-Hli" customClass="MaxHandicapCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="225" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="231.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PC1-Mc-Hli" id="EC4-h8-8e1">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1132,7 +1132,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="matchLengthCell" id="5DE-zU-nkf" customClass="MatchLengthCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="269" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="275.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5DE-zU-nkf" id="4T6-nU-GrA">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1164,7 +1164,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="numberOfRoundsCell" id="deP-8Q-N7s" customClass="NumberOfRoundsCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="313" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="319.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="deP-8Q-N7s" id="chP-LI-Xwl">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1198,14 +1198,14 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="addCourseCell" id="JJi-ZN-xDb" customClass="AddCourseCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="357" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="363.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JJi-ZN-xDb" id="kyq-NQ-3uf">
-                                    <rect key="frame" x="0.0" y="0.0" width="361.33333333333331" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="359.66666666666669" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Setting Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z9y-AG-7hX">
-                                            <rect key="frame" x="8" y="8" width="178" height="25"/>
+                                            <rect key="frame" x="8" y="8" width="176" height="25"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -1220,7 +1220,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="deleteMatchesCell" id="3jV-fH-Ge8" customClass="DeleteMatchesCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="401" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="407.33333206176758" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3jV-fH-Ge8" id="uy6-8n-CI6">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1495,10 +1495,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="PlayerCell" id="fRd-ul-URp" customClass="PlayerViewCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fRd-ul-URp" id="2kQ-KF-bUC">
-                                    <rect key="frame" x="0.0" y="0.0" width="361.33333333333331" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="359.66666666666669" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ANW-Nn-XMa">
@@ -1509,14 +1509,14 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="mCp-GL-eUv">
-                                            <rect key="frame" x="287" y="19" width="74" height="25"/>
+                                            <rect key="frame" x="285" y="19" width="74" height="25"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Handicap:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gGE-WN-Nqn">
-                                            <rect key="frame" x="213" y="19" width="65" height="25"/>
+                                            <rect key="frame" x="211" y="19" width="65" height="25"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1531,21 +1531,21 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="MatchCell" id="WyZ-t8-XGW" customClass="MatchViewCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="88.666666030883789" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="94" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WyZ-t8-XGW" id="hOZ-Yo-Bci">
-                                    <rect key="frame" x="0.0" y="0.0" width="361.33333333333331" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="359.66666666666669" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Round: , Match: , Group: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="9No-CE-8px">
-                                            <rect key="frame" x="16" y="9" width="147" height="24"/>
+                                            <rect key="frame" x="16" y="9" width="146" height="24"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" systemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player Names" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ze2-33-HZT">
-                                            <rect key="frame" x="171" y="13" width="181" height="17"/>
+                                            <rect key="frame" x="170" y="13" width="180" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                             <color key="textColor" systemColor="darkTextColor"/>
@@ -1560,7 +1560,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RoundCourseCell" id="Upq-N6-zUH" customClass="RoundCourseCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="132.66666603088379" width="390" height="44"/>
+                                <rect key="frame" x="0.0" y="138" width="390" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Upq-N6-zUH" id="jWY-yq-Bpn">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
@@ -1624,42 +1624,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dPH-7v-vzp">
-                                <rect key="frame" x="16" y="99" width="110" height="21"/>
+                                <rect key="frame" x="16" y="183" width="110" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Round Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x39-g8-Cby">
-                                <rect key="frame" x="16" y="99" width="128" height="21"/>
+                                <rect key="frame" x="16" y="183" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Match Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h6b-NP-dIv">
-                                <rect key="frame" x="16" y="136" width="128" height="21"/>
+                                <rect key="frame" x="16" y="220" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player Handicap:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bem-MO-nEP">
-                                <rect key="frame" x="16" y="133" width="119" height="28"/>
+                                <rect key="frame" x="16" y="217" width="119" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player Team:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzy-aT-her">
-                                <rect key="frame" x="16" y="170" width="89" height="28"/>
+                                <rect key="frame" x="16" y="254" width="89" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2Mu-fp-xKS">
-                                <rect key="frame" x="253" y="170" width="121" height="29"/>
+                                <rect key="frame" x="253" y="254" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Blue"/>
@@ -1667,13 +1667,13 @@
                                 </segments>
                             </segmentedControl>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="And-Ri-8XW">
-                                <rect key="frame" x="308" y="131" width="66" height="30"/>
+                                <rect key="frame" x="308" y="215" width="66" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dgi-rj-4DB">
-                                <rect key="frame" x="231" y="90" width="143" height="30"/>
+                                <rect key="frame" x="231" y="179" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1683,74 +1683,74 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             </pickerView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="za7-Wd-VrV" userLabel="RoundField">
-                                <rect key="frame" x="334" y="90" width="40" height="30"/>
+                                <rect key="frame" x="334" y="179" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CfW-aM-zpc" userLabel="MatchField">
-                                <rect key="frame" x="334" y="131" width="40" height="30"/>
+                                <rect key="frame" x="334" y="215" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Group Number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRm-qJ-VQm">
-                                <rect key="frame" x="16" y="174" width="128" height="21"/>
+                                <rect key="frame" x="16" y="258" width="128" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Starting Hole:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qhH-Cg-VdH">
-                                <rect key="frame" x="16" y="211" width="128" height="28"/>
+                                <rect key="frame" x="16" y="295" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u9c-jJ-UaT" userLabel="GroupField">
-                                <rect key="frame" x="334" y="169" width="40" height="30"/>
+                                <rect key="frame" x="334" y="253" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Match Format:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXw-Ej-WFh">
-                                <rect key="frame" x="16" y="248" width="128" height="28"/>
+                                <rect key="frame" x="16" y="332" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Match Course: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBJ-NM-eCk">
-                                <rect key="frame" x="16" y="283" width="128" height="28"/>
+                                <rect key="frame" x="16" y="367" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue Player 1:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUc-Ml-SpQ">
-                                <rect key="frame" x="16" y="357" width="128" height="28"/>
+                                <rect key="frame" x="16" y="441" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Player 1:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1M-dK-R0h">
-                                <rect key="frame" x="16" y="393" width="128" height="28"/>
+                                <rect key="frame" x="16" y="477" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue Player 2:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gg-ye-qol">
-                                <rect key="frame" x="16" y="429" width="128" height="28"/>
+                                <rect key="frame" x="16" y="513" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fQN-0J-8Jf" userLabel="FormatField">
-                                <rect key="frame" x="231" y="247" width="143" height="30"/>
+                                <rect key="frame" x="231" y="331" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1759,7 +1759,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S7C-Xt-w12" userLabel="BP1Field">
-                                <rect key="frame" x="231" y="356" width="143" height="30"/>
+                                <rect key="frame" x="231" y="440" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1768,7 +1768,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="maf-G1-LL6" userLabel="RP1Field">
-                                <rect key="frame" x="231" y="392" width="143" height="30"/>
+                                <rect key="frame" x="231" y="476" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1777,7 +1777,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XEY-HJ-ZgL" userLabel="BP2Field">
-                                <rect key="frame" x="231" y="428" width="143" height="30"/>
+                                <rect key="frame" x="231" y="512" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1786,7 +1786,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="70s-wc-GZ3" userLabel="RP2Field">
-                                <rect key="frame" x="231" y="464" width="143" height="30"/>
+                                <rect key="frame" x="231" y="548" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1795,7 +1795,7 @@
                                 </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fcs-XH-bjI" userLabel="RP2Field">
-                                <rect key="frame" x="231" y="502" width="143" height="30"/>
+                                <rect key="frame" x="231" y="586" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1805,14 +1805,14 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red Player 2:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x2P-rl-kgS">
-                                <rect key="frame" x="16" y="465" width="128" height="28"/>
+                                <rect key="frame" x="16" y="549" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jDF-zA-Cgd" userLabel="FormatField">
-                                <rect key="frame" x="231" y="282" width="143" height="30"/>
+                                <rect key="frame" x="231" y="366" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1821,21 +1821,21 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Course Tees: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebh-fI-rgG">
-                                <rect key="frame" x="16" y="320" width="128" height="28"/>
+                                <rect key="frame" x="16" y="404" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scorekeeper:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcS-dp-0dw">
-                                <rect key="frame" x="16" y="503" width="128" height="28"/>
+                                <rect key="frame" x="16" y="587" width="128" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="I77-JZ-aih">
-                                <rect key="frame" x="253" y="211" width="121" height="29"/>
+                                <rect key="frame" x="253" y="295" width="121" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="1"/>
@@ -1843,7 +1843,7 @@
                                 </segments>
                             </segmentedControl>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WAr-rG-UNt" userLabel="FormatField">
-                                <rect key="frame" x="231" y="320" width="143" height="30"/>
+                                <rect key="frame" x="231" y="404" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -1851,6 +1851,34 @@
                                     <action selector="courseTeesTouched:" destination="GfP-qD-WHn" eventType="touchDown" id="EhP-g3-wsD"/>
                                 </connections>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Match Length:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RZ3-Se-44F">
+                                <rect key="frame" x="16" y="102" width="128" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Yrr-Ml-MSk">
+                                <rect key="frame" x="253" y="101" width="121" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="9"/>
+                                    <segment title="18"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1.0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LZU-69-19G" userLabel="FormatField">
+                                <rect key="frame" x="231" y="140" width="143" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Match Points:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXp-Ok-GT2">
+                                <rect key="frame" x="16" y="143" width="128" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gx7-5B-hUz"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1876,6 +1904,8 @@
                         <outlet property="matchCourseLabel" destination="SBJ-NM-eCk" id="Lvs-aj-lOK"/>
                         <outlet property="matchField" destination="CfW-aM-zpc" id="yww-SG-79S"/>
                         <outlet property="matchFormatLabel" destination="iXw-Ej-WFh" id="UKK-rU-3To"/>
+                        <outlet property="matchLengthField" destination="Yrr-Ml-MSk" id="RVP-ew-C02"/>
+                        <outlet property="matchLengthLabel" destination="RZ3-Se-44F" id="M88-tQ-w77"/>
                         <outlet property="matchNumberLabel" destination="h6b-NP-dIv" id="Zr5-nc-sQl"/>
                         <outlet property="navBar" destination="Kg3-5e-Ds2" id="2ak-NX-uBI"/>
                         <outlet property="pickerView" destination="vru-t2-8iK" id="Vrx-Nh-D41"/>
@@ -1884,6 +1914,8 @@
                         <outlet property="playerNameField" destination="dgi-rj-4DB" id="UP3-W7-51S"/>
                         <outlet property="playerNameLabel" destination="dPH-7v-vzp" id="XVx-ky-OqP"/>
                         <outlet property="playerTeamLabel" destination="Pzy-aT-her" id="nDu-DY-Zvb"/>
+                        <outlet property="pointsField" destination="LZU-69-19G" id="N8H-8l-39g"/>
+                        <outlet property="pointsLabel" destination="NXp-Ok-GT2" id="ViS-3p-SzP"/>
                         <outlet property="redPlayer1Field" destination="maf-G1-LL6" id="nlH-8Z-fnl"/>
                         <outlet property="redPlayer1Label" destination="t1M-dK-R0h" id="Bod-tn-dbu"/>
                         <outlet property="redPlayer2Field" destination="70s-wc-GZ3" id="wJu-kC-kOw"/>
@@ -1900,7 +1932,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fvh-Os-aTP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2577.536231884058" y="1259.9330357142856"/>
+            <point key="canvasLocation" x="2576.9230769230767" y="1259.7156398104264"/>
         </scene>
         <!--Container View Controller-->
         <scene sceneID="0BF-pf-oZH">
@@ -1929,7 +1961,7 @@
                         <color key="sectionIndexBackgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuTableViewCell" id="cE6-cI-xUJ" customClass="MenuTableViewCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="50"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cE6-cI-xUJ" id="88n-VG-zlw">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
@@ -1972,7 +2004,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2R-Gg-CLn">
-                                <rect key="frame" x="20" y="64" width="30" height="21"/>
+                                <rect key="frame" x="20" y="67" width="30" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="lwN-tY-8Q2"/>
                                     <constraint firstAttribute="height" constant="21" id="qak-TV-NEQ"/>
@@ -2026,7 +2058,7 @@
                         <color key="sectionIndexBackgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MatchTableViewCell" rowHeight="80" id="aE2-tQ-oEp" customClass="MatchTableViewCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="80"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aE2-tQ-oEp" id="nyt-m4-gfu">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="80"/>
@@ -2159,7 +2191,7 @@
                         <color key="sectionIndexBackgroundColor" systemColor="systemGray6Color"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchTableViewCell18" rowHeight="120" id="fO2-JK-jU5" customClass="MatchTableViewCell18" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="390" height="120"/>
+                                <rect key="frame" x="0.0" y="50" width="390" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fO2-JK-jU5" id="Anx-Kb-pHZ" userLabel="allContainerView">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="120"/>
@@ -2517,6 +2549,9 @@
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="n8t-x2-rAc" userLabel="hole11">
                                                                     <rect key="frame" x="209" y="3.6666666666666714" width="17.666666666666657" height="17.666666666666668"/>
                                                                     <color key="backgroundColor" red="0.05853082985" green="0.16030085090000001" blue="0.41862645749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="n8t-x2-rAc" secondAttribute="height" id="0de-LI-h0n"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -2524,6 +2559,9 @@
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Lll-sk-q2K" userLabel="hole12">
                                                                     <rect key="frame" x="229.66666666666666" y="3.6666666666666714" width="17.666666666666657" height="17.666666666666668"/>
                                                                     <color key="backgroundColor" red="0.05853082985" green="0.16030085090000001" blue="0.41862645749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="Lll-sk-q2K" secondAttribute="height" id="7PG-GW-eof"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -2561,6 +2599,9 @@
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="16" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TLY-k5-YFQ" userLabel="hole16">
                                                                     <rect key="frame" x="312.66666666666669" y="3.6666666666666714" width="17.666666666666686" height="17.666666666666668"/>
                                                                     <color key="backgroundColor" red="0.05853082985" green="0.16030085090000001" blue="0.41862645749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="TLY-k5-YFQ" secondAttribute="height" multiplier="1:1" id="m8c-Jc-GUv"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -2568,6 +2609,9 @@
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="17" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CwB-qy-XbF" userLabel="hole17">
                                                                     <rect key="frame" x="333.33333333333331" y="3.6666666666666714" width="17.666666666666686" height="17.666666666666668"/>
                                                                     <color key="backgroundColor" red="0.05853082985" green="0.16030085090000001" blue="0.41862645749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" secondItem="CwB-qy-XbF" secondAttribute="height" multiplier="1:1" id="uXj-hN-Kbu"/>
+                                                                    </constraints>
                                                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -2587,7 +2631,6 @@
                                                             <constraints>
                                                                 <constraint firstItem="Lll-sk-q2K" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="0Ou-Nl-U73"/>
                                                                 <constraint firstItem="RBO-58-DK4" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="0WU-mc-c1C"/>
-                                                                <constraint firstItem="n8t-x2-rAc" firstAttribute="width" secondItem="n8t-x2-rAc" secondAttribute="height" id="0de-LI-h0n"/>
                                                                 <constraint firstItem="Hwd-n3-oJM" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="0n2-nT-3BS"/>
                                                                 <constraint firstItem="OJC-Al-jo4" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="1jh-zP-UZd"/>
                                                                 <constraint firstItem="Hwd-n3-oJM" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="3pu-UO-ciu"/>
@@ -2597,7 +2640,6 @@
                                                                 <constraint firstItem="doX-2a-kVj" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="6qK-ib-nyl"/>
                                                                 <constraint firstItem="o7b-NH-vIn" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="76N-3i-WlQ"/>
                                                                 <constraint firstItem="77f-ez-1LG" firstAttribute="leading" secondItem="85y-hk-jav" secondAttribute="trailing" constant="3" id="7Lg-GU-rHB"/>
-                                                                <constraint firstItem="Lll-sk-q2K" firstAttribute="width" secondItem="Lll-sk-q2K" secondAttribute="height" id="7PG-GW-eof"/>
                                                                 <constraint firstItem="FSF-7q-uv8" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="7al-mM-jXG"/>
                                                                 <constraint firstItem="RBO-58-DK4" firstAttribute="leading" secondItem="aoC-xT-lwc" secondAttribute="trailing" constant="3" id="7fc-KX-TGe"/>
                                                                 <constraint firstItem="n8t-x2-rAc" firstAttribute="leading" secondItem="xBW-Fo-yRY" secondAttribute="trailing" constant="3" id="8Ic-k3-NBf"/>
@@ -2631,14 +2673,12 @@
                                                                 <constraint firstItem="xBW-Fo-yRY" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="il8-Sx-r18"/>
                                                                 <constraint firstItem="IKn-yi-jEf" firstAttribute="leading" secondItem="4lB-7K-1kL" secondAttribute="leading" constant="2" id="kRv-Qe-Qb5"/>
                                                                 <constraint firstItem="n8t-x2-rAc" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="kvs-xH-ySK"/>
-                                                                <constraint firstItem="TLY-k5-YFQ" firstAttribute="width" secondItem="TLY-k5-YFQ" secondAttribute="height" multiplier="1:1" id="m8c-Jc-GUv"/>
                                                                 <constraint firstItem="OJC-Al-jo4" firstAttribute="leading" secondItem="doX-2a-kVj" secondAttribute="trailing" constant="3" id="mca-12-hCe"/>
                                                                 <constraint firstItem="aoC-xT-lwc" firstAttribute="leading" secondItem="gZj-2G-u0b" secondAttribute="trailing" constant="3" id="n5x-8E-dWb"/>
                                                                 <constraint firstItem="7Js-CD-jBh" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="qXe-4T-X7q"/>
                                                                 <constraint firstItem="TLY-k5-YFQ" firstAttribute="leading" secondItem="77f-ez-1LG" secondAttribute="trailing" constant="3" id="sF2-jn-pqn"/>
                                                                 <constraint firstItem="IKn-yi-jEf" firstAttribute="width" secondItem="4lB-7K-1kL" secondAttribute="width" multiplier="0.0470914" id="tzt-O0-lVQ"/>
                                                                 <constraint firstItem="FSF-7q-uv8" firstAttribute="leading" secondItem="IKn-yi-jEf" secondAttribute="trailing" constant="3" id="uIZ-eT-Kk9"/>
-                                                                <constraint firstItem="CwB-qy-XbF" firstAttribute="width" secondItem="CwB-qy-XbF" secondAttribute="height" multiplier="1:1" id="uXj-hN-Kbu"/>
                                                                 <constraint firstItem="TLY-k5-YFQ" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="wMC-Ma-Jqp"/>
                                                                 <constraint firstItem="aoC-xT-lwc" firstAttribute="centerY" secondItem="4lB-7K-1kL" secondAttribute="centerY" id="wbq-BH-rDT"/>
                                                                 <constraint firstItem="o7b-NH-vIn" firstAttribute="leading" secondItem="CwB-qy-XbF" secondAttribute="trailing" constant="3" id="xyX-Dk-6hm"/>
@@ -2726,7 +2766,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MatchTableViewCell9" rowHeight="120" id="2Tq-IN-hLe" customClass="MatchTableViewCell9" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="164.66666603088379" width="390" height="120"/>
+                                <rect key="frame" x="0.0" y="170" width="390" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2Tq-IN-hLe" id="glU-o8-4no" userLabel="allContainerView">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="120"/>
@@ -3199,7 +3239,7 @@
                         <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
                             <tableViewCell opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="IndividualMatchTableViewCell" rowHeight="80" id="V6E-NK-0w0" customClass="IndividualMatchTableViewCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44.666666030883789" width="350" height="80"/>
+                                <rect key="frame" x="0.0" y="50" width="350" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V6E-NK-0w0" id="qcl-dB-oKR">
                                     <rect key="frame" x="0.0" y="0.0" width="350" height="80"/>
@@ -3288,7 +3328,7 @@
                 <navigationController storyboardIdentifier="startNavigation" automaticallyAdjustsScrollViewInsets="NO" id="IeD-u0-404" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7wx-6Q-vR7">
-                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -3475,12 +3515,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" rowHeight="25" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lRT-Fn-KoE">
-                                <rect key="frame" x="16" y="338" width="343" height="319"/>
+                                <rect key="frame" x="16" y="338" width="343" height="285"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="sectionIndexBackgroundColor" systemColor="systemGroupedBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MatchScorecardCell" id="oEt-AW-Ngj" customClass="MatchScorecardCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="45" width="343" height="25"/>
+                                        <rect key="frame" x="0.0" y="50" width="343" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oEt-AW-Ngj" id="mUr-PK-cMJ">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="25"/>
@@ -3580,7 +3620,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ScorecardCell" id="ASC-RU-6zL" customClass="ScorecardCell" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="70" width="343" height="25"/>
+                                        <rect key="frame" x="0.0" y="75" width="343" height="25"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ASC-RU-6zL" id="Khw-lE-KVJ">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="25"/>
@@ -3853,12 +3893,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="30" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GYq-EB-OwW">
-                                <rect key="frame" x="10" y="293" width="355" height="364"/>
+                                <rect key="frame" x="10" y="293" width="355" height="330"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MatchScorecardCellNew" rowHeight="30" id="L76-lX-1rn" customClass="MatchScorecardCellNew" customModule="Bluff_City_Cup" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="45" width="355" height="30"/>
+                                        <rect key="frame" x="0.0" y="50" width="355" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="L76-lX-1rn" id="sVz-D9-QF5">
                                             <rect key="frame" x="0.0" y="0.0" width="355" height="30"/>
@@ -4009,7 +4049,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SpacerCell" rowHeight="10" id="Xm8-pj-flB">
-                                        <rect key="frame" x="0.0" y="75" width="355" height="10"/>
+                                        <rect key="frame" x="0.0" y="80" width="355" height="10"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xm8-pj-flB" id="D1Q-FP-EIK">
                                             <rect key="frame" x="0.0" y="0.0" width="355" height="10"/>
@@ -4102,19 +4142,19 @@
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGroupedBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tableCellGroupedBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

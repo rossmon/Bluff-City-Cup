@@ -23,6 +23,35 @@ protocol AddPlayerOrMatchViewDelegate {
     func reload()
 }
 
+extension String {
+    func isValidDouble(maxDecimalPlaces: Int) -> Bool {
+        // Use NumberFormatter to check if we can turn the string into a number
+        // and to get the locale specific decimal separator.
+        let formatter = NumberFormatter()
+        formatter.allowsFloats = true // Default is true, be explicit anyways
+        let decimalSeparator = formatter.decimalSeparator ?? "."  // Gets the locale specific decimal separator. If for some reason there is none we assume "." is used as separator.
+
+        // Check if we can create a valid number. (The formatter creates a NSNumber, but
+        // every NSNumber is a valid double, so we're good!)
+        if formatter.number(from: self) != nil {
+          // Split our string at the decimal separator
+          let split = self.components(separatedBy: decimalSeparator)
+
+          // Depending on whether there was a decimalSeparator we may have one
+          // or two parts now. If it is two then the second part is the one after
+          // the separator, aka the digits we care about.
+          // If there was no separator then the user hasn't entered a decimal
+          // number yet and we treat the string as empty, succeeding the check
+          let digits = split.count == 2 ? split.last ?? "" : ""
+
+          // Finally check if we're <= the allowed digits
+          return digits.count <= maxDecimalPlaces    // TODO: Swift 4.0 replace with digits.count, YAY!
+        }
+
+        return false // couldn't turn string into a valid number
+      }
+}
+
 
 class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldDelegate,UIPickerViewDataSource {
     
@@ -65,6 +94,11 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
     @IBOutlet weak var bluePlayer2Field: UITextField!
     @IBOutlet weak var redPlayer2Field: UITextField!
     
+    @IBOutlet weak var pointsLabel: UILabel!
+    @IBOutlet weak var matchLengthLabel: UILabel!
+    @IBOutlet weak var pointsField: UITextField!
+    @IBOutlet weak var matchLengthField: UISegmentedControl!
+
     
     @IBOutlet weak var navBar: UINavigationItem!
     var player: Player!
@@ -95,6 +129,8 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
         self.courseField.delegate = self
         self.teesField.delegate = self
         
+        self.pointsField.delegate = self
+        
         self.pickerView.delegate = self
         self.pickerView.isHidden = true
         self.pickerElements = [""]
@@ -118,6 +154,9 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
             self.courseField.isHidden = true
             self.teesField.isHidden = true
             self.scorekeeperField.isHidden = true
+            
+            self.pointsField.isHidden = true
+            self.matchLengthField.isHidden = true
             
             
             self.bluePlayer1Label.isHidden = true
@@ -178,6 +217,15 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
             self.courseField.text = String(match.getCourseName())
             self.teesField.text = String(match.getTees())
             self.scorekeeperField.text = match.getScorekeeperName()
+            
+            if match.getMatchLength() == 18 {
+                self.matchLengthField.selectedSegmentIndex = 1
+            }
+            else {
+                self.matchLengthField.selectedSegmentIndex = 0
+            }
+            
+            self.pointsField.text = String(match.getPoints())
 
         }
         
@@ -238,7 +286,11 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
         }
         else if editType == "Match" {
             var matchPlayers = [Player]()
-            if self.roundField.text != "" && self.matchField.text != "" && self.groupField.text != "" && self.formatSelector.text != "" && self.courseField.text != "" && self.teesField.text != "" && self.scorekeeperField.text != "" {
+            if self.roundField.text != "" && self.matchField.text != "" && self.groupField.text != "" && self.formatSelector.text != "" && self.courseField.text != "" && self.teesField.text != "" && self.scorekeeperField.text != "" && self.pointsField.text != "" && self.pointsField.text!.isValidDouble(maxDecimalPlaces: 1) &&
+                !(self.matchLengthField.selectedSegmentIndex == 1 && self.startingHoleSegment.selectedSegmentIndex == 1)
+            {
+                
+                
                 if self.formatSelector.text == "Singles" {
                     if self.bluePlayer1Field.text != "" && self.redPlayer1Field.text != "" {
                         if tournament.playerAlreadyInMatchInRound(playerName: self.bluePlayer1Field.text!, round: Int(self.roundField.text!)!) || tournament.playerAlreadyInMatchInRound(playerName: self.redPlayer1Field.text!, round: Int(self.roundField.text!)!) {
@@ -250,7 +302,7 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
                             
                             let startingHole = Int(self.startingHoleSegment.titleForSegment(at: self.startingHoleSegment.selectedSegmentIndex)!)!
                             
-                            let addedMatch = Match(format: self.formatSelector.text!, players: matchPlayers, scorekeeper: self.scorekeeperField.text!, score: 0,teamWinning: "AS", hole: startingHole, course: self.courseField.text!, tees: self.teesField.text!,round: Int(self.roundField.text!)!, group: Int(self.groupField.text!)!, startingHole: startingHole, matchNumber: Int(self.matchField.text!)!)
+                            let addedMatch = Match(format: self.formatSelector.text!, players: matchPlayers, scorekeeper: self.scorekeeperField.text!, score: 0,teamWinning: "AS", hole: startingHole, course: self.courseField.text!, tees: self.teesField.text!,round: Int(self.roundField.text!)!, group: Int(self.groupField.text!)!, startingHole: startingHole, matchNumber: Int(self.matchField.text!)!,matchLength: self.matchLengthField.selectedSegmentIndex == 0 ? 9 : 18, points: Double(self.pointsField.text!) ?? 0.0)
                             
                             addedMatch.setScorekeeperName(self.scorekeeperField.text!)
                             
@@ -281,7 +333,7 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
                             
                             let startingHole = Int(self.startingHoleSegment.titleForSegment(at: self.startingHoleSegment.selectedSegmentIndex)!)!
                             
-                            let addedMatch = Match(format: self.formatSelector.text!, players: matchPlayers, score: 0, teamWinning: "AS", hole: startingHole, course: self.courseField.text!, tees: self.teesField.text!, round: Int(self.roundField.text!)!, group: Int(self.groupField.text!)!, startingHole: startingHole, matchNumber: Int(self.matchField.text!)!)
+                            let addedMatch = Match(format: self.formatSelector.text!, players: matchPlayers, score: 0, teamWinning: "AS", hole: startingHole, course: self.courseField.text!, tees: self.teesField.text!, round: Int(self.roundField.text!)!, group: Int(self.groupField.text!)!, startingHole: startingHole, matchNumber: Int(self.matchField.text!)!,matchLength: self.matchLengthField.selectedSegmentIndex == 0 ? 9 : 18, points: Double(self.pointsField.text!) ?? 0.0)
                                 
                             addedMatch.setScorekeeperName(self.scorekeeperField.text!)
                                 
@@ -329,12 +381,15 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
         }
         else if editType == "EditMatch" {
             
-            if (self.tournament.getMatchLength() == 9 && (self.match.getCurrentHole() != 1 && self.match.getCurrentHole() != 10)) || (self.tournament.getMatchLength() == 18 && self.match.getCurrentHole() > 1) {
+            if (self.match.getMatchLength() == 9 && (self.match.getCurrentHole() > 1 && self.match.getStartingHole() == 1)) || (self.match.getMatchLength() == 9 && (self.match.getCurrentHole() > 10 && self.match.getStartingHole() > 10)) || (self.match.getMatchLength() == 18 && self.match.getCurrentHole() > 1) {
 
                 matchInProgressError()
             }
             else {
-                if self.roundField.text == "" || self.matchField.text == "" || self.groupField.text == "" || self.formatSelector.text == "" || self.courseField.text == "" || self.teesField.text == "" || self.scorekeeperField.text == "" || self.bluePlayer1Field.text == "" || self.redPlayer1Field.text == "" {
+              
+                if (self.roundField.text == "" || self.matchField.text == "" || self.groupField.text == "" || self.formatSelector.text == "" || self.courseField.text == "" || self.teesField.text == "" || self.scorekeeperField.text == "" || self.bluePlayer1Field.text == "" || self.redPlayer1Field.text == "" || self.pointsField.text == "" || !self.pointsField.text!.isValidDouble(maxDecimalPlaces: 1)) ||
+                    (self.matchLengthField.selectedSegmentIndex == 1 && self.startingHoleSegment.selectedSegmentIndex == 1)
+                {
                     matchAddError()
                 }
                 else {
@@ -361,6 +416,8 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
                         editMatch.setScorekeeperName(self.scorekeeperField.text!)
                         editMatch.setStartingHole(Int(self.startingHoleSegment.titleForSegment(at: self.startingHoleSegment.selectedSegmentIndex)!)!)
                         
+                        editMatch.setPoints(Double(self.pointsField.text!)!)
+                        editMatch.setMatchLength(self.matchLengthField.selectedSegmentIndex == 0 ? 9 : 18)
                         
                         Model.sharedInstance.updateMatch(editMatch) {() in
                             DispatchQueue.main.async {
@@ -399,8 +456,7 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
             self.pickerView.isHidden = false
             self.pickerElements = tournament.getTeesForCourse(course)
             self.pickerView.reloadAllComponents()
-        }
-        else {
+        }        else {
             noRoundCourseError()
         }
     }
@@ -617,6 +673,7 @@ class AddPlayerOrMatchView: UIViewController, UIPickerViewDelegate, UITextFieldD
         present(alert, animated: true, completion: nil)
     }
     
+
     
 }
 

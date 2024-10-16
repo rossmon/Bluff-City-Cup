@@ -26,6 +26,8 @@ class Match : NSObject {
     fileprivate var matchNumber: Int
     fileprivate var holeWinners: [(hole: Int, winner: String)]
     fileprivate var matchFinished: Bool
+    fileprivate var matchLength: Int
+    fileprivate var points: Double
     //fileprivate var ckMatch: CKRecord?
     
     override init() {
@@ -44,10 +46,12 @@ class Match : NSObject {
         matchNumber = Int()
         holeWinners = [(Int,String)]()
         matchFinished = false
+        matchLength = Int()
+        points = Double()
 
     }
     
-    init(format: String, players: [Player], scorekeeper: String, score: Int, scoreString: String?, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int, matchFinished: Bool) {
+    init(format: String, players: [Player], scorekeeper: String, score: Int, scoreString: String?, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int, matchFinished: Bool, matchLength: Int, points: Double) {
         self.format = format
         self.players = players
         self.score = score
@@ -70,9 +74,11 @@ class Match : NSObject {
         }
         self.matchFinished = matchFinished
         self.scorekeeper = scorekeeper
+        self.matchLength = matchLength
+        self.points = points
     }
     
-    init(format: String, players: [Player], score: Int, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int) {
+    init(format: String, players: [Player], score: Int, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int, matchLength: Int, points: Double) {
         self.format = format
         self.players = players
         self.score = score
@@ -92,10 +98,12 @@ class Match : NSObject {
         }
         matchFinished = false
         self.scorekeeper = ""
+        self.matchLength = matchLength
+        self.points = points
         
     }
     
-    init(format: String, players: [Player], scorekeeper: String, score: Int, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int) {
+    init(format: String, players: [Player], scorekeeper: String, score: Int, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int, matchLength: Int, points: Double) {
         self.format = format
         self.players = players
         self.score = score
@@ -115,6 +123,8 @@ class Match : NSObject {
         }
         matchFinished = false
         self.scorekeeper = scorekeeper
+        self.matchLength = matchLength
+        self.points = points
         
     }
     
@@ -347,6 +357,15 @@ class Match : NSObject {
         return round
     }
     
+    func getMatchLength() -> Int {
+        return matchLength
+    }
+    
+    func getPoints() -> Double {
+        return points
+    }
+    
+    
     func getMatchNumber() -> Int {
         return matchNumber
     }
@@ -400,6 +419,12 @@ class Match : NSObject {
     }
     func setGroupNumber(_ groupNumber: Int) {
         self.group = groupNumber
+    }
+    func setMatchLength(_ matchLength: Int) {
+        self.matchLength = matchLength
+    }
+    func setPoints(_ points: Double) {
+        self.points = points
     }
     func finishMatch() {
         clearPlayerHoleResults()
@@ -1246,7 +1271,7 @@ class Match : NSObject {
     }
     
     func getEndingHole() -> Int {
-        let matchLength = Model.sharedInstance.tournament.getMatchLength()
+        let matchLength = self.getMatchLength()
         var bluePointDiff = 0
         var endingHole = 0
         if startingHole == 1 && matchLength == 9 { endingHole = 9 }

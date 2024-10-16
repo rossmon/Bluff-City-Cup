@@ -48,7 +48,7 @@ class CommishSettingsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         if section == 0 {
-            return 4
+            return 3
         }
         else if section == 1 {
             return 2
@@ -73,31 +73,32 @@ class CommishSettingsViewController: UITableViewController {
         let cell = UITableViewCell()
         
         if (indexPath as NSIndexPath).section == 0 {
-            if (indexPath as NSIndexPath).row == 0 {
+            /*if (indexPath as NSIndexPath).row == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "matchLengthCell", for: indexPath) as! MatchLengthCell
                 cell.settingLabel.text = "Match Length"
-                if tournament.getMatchLength() == 9 {
+                //tournament.getMatchLength()
+                /*if .getMatchLength() == 9 {
                     cell.matchLengthSelector.selectedSegmentIndex = 0
                 }
                 else {
                     cell.matchLengthSelector.selectedSegmentIndex = 1
-                }
+                }*/
                 
                 cell.tournament = self.tournament
             }
-            else if (indexPath as NSIndexPath).row == 1 {
+            else*/ if (indexPath as NSIndexPath).row == 0 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "numberOfRoundsCell", for: indexPath) as! NumberOfRoundsCell
                 cell.settingLabel.text = "Number of Rounds"
                 cell.numberOfRoundsSelector.selectedSegmentIndex = tournament.getNumberOfRounds() - 1
                 cell.tournament = self.tournament
             }
-            else if (indexPath as NSIndexPath).row == 2 {
+            else if (indexPath as NSIndexPath).row == 1 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "maxHandicapCell", for: indexPath) as! MaxHandicapCell
                 cell.settingLabel.text = "Max Handicap"
                 cell.tournament = self.tournament
                 cell.maxHandicapField.text = String(self.tournament.getMaxHandicap())
             }
-            else if (indexPath as NSIndexPath).row == 3 {
+            else if (indexPath as NSIndexPath).row == 2 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "commishPasswordCell", for: indexPath) as! CommishPasswordCell
                 cell.settingLabel.text = "Commissioner Password"
                 cell.tournament = self.tournament

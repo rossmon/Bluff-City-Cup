@@ -107,7 +107,11 @@ class MatchTableViewControllerNew: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Table view cells are reused and should be dequeued using a cell identifier.
-        if Model.sharedInstance.getTournament().getMatchLength() == 18 {
+        
+        let matchObject = Model.sharedInstance.getTournament().getMatchesSortedForTable()[(indexPath as NSIndexPath).row]
+        
+
+        if matchObject.getMatchLength() == 18 {
             
             let cellIdentifier = "MatchTableViewCell18"
             let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell18
@@ -115,7 +119,7 @@ class MatchTableViewControllerNew: UITableViewController {
             cell.cleanupForReuse()
             
             
-            let matchObject = Model.sharedInstance.getTournament().getMatchesSortedForTable()[(indexPath as NSIndexPath).row]
+            
             cell.roundMatchLabel.text = "Round " + String(matchObject.getRound()) + ", Match " + String(matchObject.getMatchNumber())
             
                 if matchObject.doubles() {
@@ -187,7 +191,7 @@ class MatchTableViewControllerNew: UITableViewController {
 
                 }
             
-            let matchStatus = matchObject.getMatchScoreSeparated(matchLength: Model.sharedInstance.tournament.getMatchLength())
+            let matchStatus = matchObject.getMatchScoreSeparated(matchLength: matchObject.getMatchLength())
             
             if matchStatus.scoreString != "AS" && matchStatus.scoreString != "Halved" {
                 cell.tiedLabel.isHidden = true
@@ -237,7 +241,7 @@ class MatchTableViewControllerNew: UITableViewController {
             if endingHole == 0 { maxHole = 30 }
             else { maxHole = endingHole }
             
-            if Model.sharedInstance.getTournament().getMatchLength() == 18 {
+            if matchObject.getMatchLength() == 18 {
                 for hole in 1...min(max(matchObject.getCurrentHole()-1,1),maxHole) {
                     if matchObject.holeWinner(hole) == "Blue" {
                         cell.setHoleBackgroundColor(hole, color: UIColorFromRGB(0x0F296B))
@@ -376,7 +380,7 @@ class MatchTableViewControllerNew: UITableViewController {
 
                 }
             
-            let matchStatus = matchObject.getMatchScoreSeparated(matchLength: Model.sharedInstance.tournament.getMatchLength())
+            let matchStatus = matchObject.getMatchScoreSeparated(matchLength: matchObject.getMatchLength())
             
             if matchStatus.scoreString != "AS" && matchStatus.scoreString != "Halved" {
                 cell.tiedLabel.isHidden = true
@@ -454,7 +458,7 @@ class MatchTableViewControllerNew: UITableViewController {
             }*/
             
             
-            for hole in matchObject.getStartingHole()...min((matchObject.getCurrentHole()-1),maxHole) {
+            for hole in matchObject.getStartingHole()...min(max(matchObject.getCurrentHole()-1,1),maxHole) {
                 if matchObject.holeWinner(hole) == "Blue" {
                     cell.setHoleBackgroundColor(hole, color: UIColorFromRGB(0x0F296B))
                     cell.setHoleTextColor(hole, color: UIColor.white)

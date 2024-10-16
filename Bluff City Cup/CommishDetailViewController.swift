@@ -141,7 +141,7 @@ class CommishDetailViewController: UITableViewController {
             if match.getFormat() == "Singles" {
                 cell.playersName.text = "\(match.blueTeamPlayerOne().getLastName()) vs. \(match.redTeamPlayerOne().getLastName())"
             }
-            else if (match.getFormat() == "Best Ball" || match.getFormat() == "Alternate Shot" || match.getFormat() == "Two Man Scramble") {
+            else if (match.getFormat() == "Best Ball" || match.getFormat() == "Alternate Shot" || match.getFormat() == "Two Man Scramble" || match.getFormat() == "Shamble") {
                 cell.playersName.text = "\(match.blueTeamPlayerOne().getLastName())/\(match.blueTeamPlayerTwo()!.getLastName()) vs. \(match.redTeamPlayerOne().getLastName())/\(match.redTeamPlayerTwo()!.getLastName())"
             }
             

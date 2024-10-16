@@ -57,8 +57,7 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIUserInterfaceStyle</key>
-	<string>&lt;key&gt;UIUserInterfaceStyle&lt;/key&gt;
-&lt;string&gt;Light&lt;/string&gt;</string>
+	<string>Light</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 </dict>

@@ -161,7 +161,7 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
         if match.getCurrentHole() > 9 {
             front9 = false
         }
-        if match.getCurrentHole() == 10 && Model.sharedInstance.getTournament().getMatchLength() == 9 && match.getStartingHole() == 1 {
+        if match.getCurrentHole() == 10 && match.getMatchLength() == 9 && match.getStartingHole() == 1 {
             front9 = true
         }
         
@@ -247,7 +247,9 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        let matchLength = Model.sharedInstance.tournament.getMatchLength()
+        //let matchLength = Model.sharedInstance.tournament.getMatchLength()
+        let matchLength = match.getMatchLength()
+
         
         if match.doubles() && matchLength == 9 {
             if match.getFormat() == "Best Ball" || match.getFormat() == "Shamble" { return 7 }
@@ -272,8 +274,10 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
         var scoreSelected = true
         if scorecardView == .handicapStrokes { scoreSelected = false }
         
-        let matchLength = Model.sharedInstance.tournament.getMatchLength()
+        //let matchLength = Model.sharedInstance.tournament.getMatchLength()
+        let matchLength = match.getMatchLength()
 
+        
             let cellIdentifier = "MatchScorecardCellNew"
             let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchScorecardCellNew
             
