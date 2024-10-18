@@ -254,6 +254,8 @@ class ScoreEntryViewController: UIViewController {
                         
                         self.delegate?.changeViewScoreEntry("Scoreboard")
                         
+                        self.sendMatchNotification(currentMatch!)
+                        
                     }))
                     
                     endMatchAlert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { (action: UIAlertAction!) in
@@ -312,6 +314,8 @@ class ScoreEntryViewController: UIViewController {
                         self.delegate?.updateTournament(self.tournament)
                         
                         self.delegate?.changeViewScoreEntry("Scoreboard")
+                        
+                        self.sendMatchNotification(currentMatch!)
                     }))
                     
                     endMatchAlert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { (action: UIAlertAction!) in
@@ -406,6 +410,8 @@ class ScoreEntryViewController: UIViewController {
                         
                         self.delegate?.changeViewScoreEntry("Scoreboard")
                         
+                        self.sendMatchNotification(currentMatch!)
+                        
  
                     }))
  
@@ -442,6 +448,8 @@ class ScoreEntryViewController: UIViewController {
                         self.delegate?.updateTournament(self.tournament)
                         
                         self.delegate?.changeViewScoreEntry("Scoreboard")
+                        
+                        self.sendMatchNotification(currentMatch!)
                     }))
                     
                     endMatchAlert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: { (action: UIAlertAction!) in
@@ -627,6 +635,35 @@ class ScoreEntryViewController: UIViewController {
         }
         
         return handicapScore
+    }
+    
+    func sendMatchNotification(_ match: Match) {
+        
+        var winnerNames = ""
+        var loserNames = ""
+    
+        
+        if match.singles() {
+            if match.getMatchScore(matchLength: match.getMatchLength()).teamUp == "Blue" {
+                winnerNames = match.blueTeamPlayerOne().getName()
+                loserNames = match.redTeamPlayerOne().getName()
+            }
+            else if match.getMatchScore(matchLength: match.getMatchLength()).teamUp == "Red" {
+                winnerNames = match.redTeamPlayerOne().getName()
+                loserNames = match.blueTeamPlayerOne().getName()
+            }
+        }
+        else {
+            if match.getMatchScore(matchLength: match.getMatchLength()).teamUp == "Blue" {
+                winnerNames = match.blueTeamPlayerOne().getLastName() + "/" + match.blueTeamPlayerTwo()!.getLastName()
+                loserNames = match.redTeamPlayerOne().getLastName() + "/" + match.redTeamPlayerTwo()!.getLastName()
+            }
+            else if match.getMatchScore(matchLength: match.getMatchLength()).teamUp == "Red" {
+                winnerNames = match.redTeamPlayerOne().getLastName() + "/" + match.redTeamPlayerTwo()!.getLastName()
+                loserNames = match.blueTeamPlayerOne().getLastName() + "/" + match.blueTeamPlayerTwo()!.getLastName()            }
+        }
+        
+        Model.sharedInstance.sendMatchNotification(winningTeam: match.winningTeam(),winnerNames: winnerNames, loserNames: loserNames, scoreString: match.getMatchScore(matchLength: match.getMatchLength()).scoreString, round: match.getRound(), match: match.getMatchNumber())
     }
     
     @IBAction func previousHoleTapped(_ sender: AnyObject) {

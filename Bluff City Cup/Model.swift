@@ -975,6 +975,7 @@ class Model: NSObject, URLSessionDataDelegate {
     }
     
     
+    
     func addCourse(holes: [(number: Int, handicap: Int, length: Int, par: Int, location: CLLocation)], courseName: String, tees: String, slope: Int) {
         print("Adding course")
         
@@ -1050,6 +1051,136 @@ class Model: NSObject, URLSessionDataDelegate {
         
         courseAddTask.resume()
         
+    }
+    
+    func pushDeviceToken(_ deviceToken: String, userName: String) {
+        var session: URLSession!
+        let configuration = URLSessionConfiguration.default
+        session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
+
+        
+        let urlPath: String = "http://montyratings.com/bluffcitycup/add_token.php?token=" + deviceToken + "&username=" + userName.replacingOccurrences(of: " ", with: "!spa")
+        let url = NSURL(string: urlPath)!
+        
+        print(urlPath)
+        
+        
+        let tokenAddTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
+            print("Saving token")
+            
+            guard error == nil else {
+                print("error saving token")
+                return
+            }
+            // make sure we got data
+            if data != nil  {
+                print("Success saving token")
+            }
+            else {
+                print("Error: did not save toke data")
+                
+            }
+            return
+        })
+        
+        tokenAddTask.resume()
+    }
+    
+    func sendMatchNotification(winningTeam: String, winnerNames: String, loserNames: String, scoreString: String, round: Int, match: Int) {
+        
+        var titleMessage = "Round: " + String(round) + ", Match: " + String(match)
+        var notificationMessage = ""
+        
+        if winningTeam == "AS" {
+            notificationMessage = winnerNames + " tied " + loserNames + "."
+        }
+        else {
+            notificationMessage = winnerNames + " def. " + loserNames + " " + scoreString + "."
+        }
+        
+        notificationMessage = notificationMessage.replacingOccurrences(of: "&", with: "!amp")
+        
+        
+        // Define the URL for the API endpoint
+           guard let url = URL(string: "http://montyratings.com:5000/send-notification") else {
+               print("Invalid URL")
+               return
+           }
+           
+           // Create the request
+           var request = URLRequest(url: url)
+           request.httpMethod = "POST"
+           request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+           
+           // Create the JSON payload
+           let json: [String: Any] = ["title": titleMessage, "message": notificationMessage]
+           let jsonData = try? JSONSerialization.data(withJSONObject: json)
+           request.httpBody = jsonData
+           
+           // Create a URLSession data task
+           let task = URLSession.shared.dataTask(with: request) { data, response, error in
+               // Handle errors
+               if let error = error {
+                   print("Error sending notification: \(error)")
+                   return
+               }
+               
+               // Check for a valid response
+               if let httpResponse = response as? HTTPURLResponse {
+                   switch httpResponse.statusCode {
+                   case 200:
+                       print("Notification sent successfully!")
+                   case 400:
+                       print("Error: Title and message are required.")
+                   case 404:
+                       print("Error: No tokens found.")
+                   default:
+                       print("Error: Received HTTP \(httpResponse.statusCode)")
+                   }
+               }
+               
+               // Optional: Handle the response data if needed
+               if let data = data, let responseString = String(data: data, encoding: .utf8) {
+                   print("Response data: \(responseString)")
+               }
+           }
+           
+           // Start the task
+           task.resume()
+        
+        /*
+        let urlPath: String = "http://montyratings.com:3000/?title=" + titleMessage + "&message=" + notificationMessage
+        let url = NSURL(string: urlPath)!
+        
+        print(urlPath)
+        
+        var session: URLSession!
+        let configuration = URLSessionConfiguration.default
+        session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
+        
+        let notificationTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
+            print("Sending notification")
+            
+            guard error == nil else {
+                print("error sending notification")
+                return
+            }
+            // make sure we got data
+            if data != nil  {
+                print("Success sending notification")
+            }
+            else {
+                print("Error: did not send notfication")
+                
+            }
+            return
+        })
+        
+        notificationTask.resume()*/
+        
+        
+        
+        //Send server notification message to send to devices.
     }
     
     func getURLData(_ tournamentName: String, _ completion: @escaping () -> () ) {
