@@ -28,6 +28,7 @@ class Match : NSObject {
     fileprivate var matchFinished: Bool
     fileprivate var matchLength: Int
     fileprivate var points: Double
+    fileprivate var matchProbabilities: [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]
     //fileprivate var ckMatch: CKRecord?
     
     override init() {
@@ -48,7 +49,8 @@ class Match : NSObject {
         matchFinished = false
         matchLength = Int()
         points = Double()
-
+        matchProbabilities = [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
+        
     }
     
     init(format: String, players: [Player], scorekeeper: String, score: Int, scoreString: String?, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int, matchFinished: Bool, matchLength: Int, points: Double) {
@@ -76,6 +78,7 @@ class Match : NSObject {
         self.scorekeeper = scorekeeper
         self.matchLength = matchLength
         self.points = points
+        self.matchProbabilities = [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
     }
     
     init(format: String, players: [Player], score: Int, teamWinning: String, hole: Int, course: String, tees: String, round: Int, group: Int, startingHole: Int, matchNumber: Int, matchLength: Int, points: Double) {
@@ -100,6 +103,7 @@ class Match : NSObject {
         self.scorekeeper = ""
         self.matchLength = matchLength
         self.points = points
+        self.matchProbabilities = [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
         
     }
     
@@ -125,6 +129,7 @@ class Match : NSObject {
         self.scorekeeper = scorekeeper
         self.matchLength = matchLength
         self.points = points
+        self.matchProbabilities = [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
         
     }
     
@@ -136,7 +141,7 @@ class Match : NSObject {
             if winner == "AS" { winner = "Halved" }
             self.holeWinners.append((i,winner))
         }
-
+        
         
     }
     
@@ -292,10 +297,10 @@ class Match : NSObject {
     }
     
     /*
-    func onHole() -> Hole {
-        //return course.getHoles()[currentHole-1]
-        return currentHole
-    }*/
+     func onHole() -> Hole {
+     //return course.getHoles()[currentHole-1]
+     return currentHole
+     }*/
     
     func clearPlayerHoleResults () {
         blueTeamPlayerOne().clearHoleResults()
@@ -342,7 +347,7 @@ class Match : NSObject {
     func getCoursePar() -> Double {
         return Model.sharedInstance.getTournament().getCourseWithName(name: self.course).getPar()
     }
-
+    
     func getTees() -> String {
         return tees
     }
@@ -404,10 +409,18 @@ class Match : NSObject {
         return lowHandicap
     }
     
+    func getMatchProbabilities() -> [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)] {
+        return self.matchProbabilities
+    }
+    
+    func setMatchProbabilities(_ matchProbabilities: [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]) {
+        self.matchProbabilities = matchProbabilities
+    }
+    
     func setPlayers(_ matchPlayers: [Player]) {
         self.players = matchPlayers
     }
-
+    
     func setFormat(_ matchFormat: String) {
         self.format = matchFormat
     }
@@ -474,7 +487,7 @@ class Match : NSObject {
         }
         currentHole += 1
     }
-
+    
     
     func singles() -> Bool {return players.count == 2}
     
@@ -608,7 +621,7 @@ class Match : NSObject {
                     return ("\(Int(abs(blueScore)))","UP", true, Int(abs(blueScore)), teamUP)
                 }
             }
-            else { 
+            else {
                 var done = false
                 //EDIT THIS TO REFLECT CORRECT MATCH SCORE - 11/29/16
                 for hole in (startingHole)...(currentHole) {
@@ -1224,7 +1237,7 @@ class Match : NSObject {
         self.teamUp = matchStatus.teamUp
         self.score = matchStatus.score
     }
-
+    
     func isCompleted() -> Bool {
         return matchFinished
     }
@@ -1318,13 +1331,13 @@ class Match : NSObject {
         let courseSlope = getCourseSlope()
         let courseRating = getCourseRating()
         let coursePar = getCoursePar()
-
+        
         
         let blueHandicap = blueTeamPlayerOne().getHandicapWithSlope(courseSlope, rating: courseRating, par: coursePar)
         let redHandicap = redTeamPlayerOne().getHandicapWithSlope(courseSlope, rating: courseRating, par: coursePar)
         
         return (blueHandicap,redHandicap )
-
+        
     }
     
     func getShambleHandicaps() -> (blueTeamHandicap: Int, redTeamHandicap: Int) {
@@ -1334,13 +1347,13 @@ class Match : NSObject {
         let courseSlope = getCourseSlope()
         let courseRating = getCourseRating()
         let coursePar = getCoursePar()
-
+        
         
         let blueHandicap = blueTeamPlayerOne().shambleHandicap(courseSlope, rating: courseRating, par: coursePar)
         let redHandicap = redTeamPlayerOne().shambleHandicap(courseSlope, rating: courseRating, par: coursePar)
         
         return (blueHandicap,redHandicap )
-
+        
     }
     
     func getTeamHandicap() -> (blueTeamHandicap: Int, redTeamHandicap: Int) {
@@ -1383,8 +1396,178 @@ class Match : NSObject {
         
         return (blueTeamHandicap: blueTeamHandicap, redTeamHandicap: redTeamHandicap)
     }
+    
+    
+    func getScoreBeforeHole(holeNumber: Int) -> (blueScore: Int, redScore: Int) {
+        var blueScore = 0
+        var redScore = 0
+        
+        if (holeNumber == 1 || (holeNumber == 10 && self.startingHole == 10)) { return (0,0) }
+        // Loop through each hole up to (but not including) the given hole
+        
+        
+        for hole in self.startingHole..<holeNumber {
+            let holeWinner = self.holeWinner(hole)
+            
+            if holeWinner == "Blue" {
+                blueScore += 1
+            } else if holeWinner == "Red" {
+                redScore += 1
+            }
+        }
+        
+        // Return the net score for each team
+        return (blueScore: blueScore, redScore: redScore)
+    }
+ 
+    func getScoreDiffs(upToHole: Int) -> [Int] {
+        var scoreDiffs: [Int] = []
+        
+        if upToHole < self.startingHole { return scoreDiffs }
+        
+        for holeNumber in self.startingHole...upToHole {
+            let (blueScore, redScore) = self.getScoreBeforeHole(holeNumber: holeNumber)
+            scoreDiffs.append((blueScore - redScore))
+        }
+        
+        return scoreDiffs
+    }
+    
+    func getMatchCompletionDetails() -> (matchFinished: Bool, matchWinner: String, blueScore: Int, redScore: Int, lastHoleCompleted: Int, scoreDiffs: [Int]) {
+        
+        var blueScore = 0
+        var redScore = 0
+        var remainingHoles = 18
+        var teamWinning = "Tie"
+        
+        if self.currentHole == self.startingHole {
+            return (false, teamWinning, blueScore, redScore, 0, [])
+        }
+        
+        for hole in self.startingHole...(self.startingHole + self.matchLength - 1) {
+            //This is the hole that has been completed
+            
+            if self.matchLength == 9 && self.startingHole == 10 {
+                remainingHoles = 18 - hole
+            }
+            else {
+                remainingHoles = self.matchLength - hole
+            }
+            
+            let holeWinner = self.holeWinner(hole)
+            
+            if holeWinner == "Blue" {
+                blueScore += 1
+            } else if holeWinner == "Red" {
+                redScore += 1
+            }
+            
+            if blueScore > redScore { teamWinning = "Blue" }
+            else if blueScore < redScore { teamWinning = "Red" }
+            else { teamWinning = "Tie" }
+            
+            //Values after hole completed
+            if abs(blueScore - redScore) > remainingHoles || (hole == self.matchLength && self.startingHole != 10) || (hole == 19 && self.startingHole == 10) {
+                //Match is over
+                return (true,teamWinning,blueScore,redScore,hole,self.getScoreDiffs(upToHole: hole + 1))
+            }
+            else if hole == (self.currentHole - 1) {
+                return (false,teamWinning,blueScore,redScore,hole,self.getScoreDiffs(upToHole: hole + 1))
+            }
+        }
+        
+        return (false,"Error",0,0,0,[])
+        
+    }
+/*
+    func getMatchStatus() -> (matchOver: Bool, teamWinning: String, blueScore: Int, redScore: Int, currentHole: Int, matchLength: Int) {
+        var blueScore = 0
+        var redScore = 0
+        
+        for hole in 1..<self.getCurrentHole() {
+            let holeWinner = self.holeWinner(hole)
+            
+            if holeWinner == "Blue" {
+                blueScore += 1
+            } else if holeWinner == "Red" {
+                redScore += 1
+            }
+        }
+        
+        var matchOver = false
+        if self.currentHole > matchLength || abs(blueScore - redScore) > (self.matchLength - self.currentHole + 1) {
+            matchOver = true
+        }
+        
+        var teamWinning = "Tied"
+        if blueScore > redScore {
+            teamWinning = "Blue"
+            
+        }
+        else if redScore > blueScore {
+            teamWinning = "Red"
+        }
+        
+        return(matchOver,teamWinning,blueScore,redScore,self.currentHole,self.matchLength)
+    }*/
+    
 
     
+    func getMatchProbabilitiesCompleted() -> [(hole: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)] {
+        
+        
+        var holeProbabilities = [(hole: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
+        
+        let (finished,teamWinning,currentBlueScore,currentRedScore,lastHoleCompleted,scoreDiffs) = self.getMatchCompletionDetails()
+        
+        
+        var blueScore = 0
+        var redScore = 0
+        
+        for hole in startingHole...self.getCurrentHole() {
+            
+            if hole == startingHole {
+                for holeProb in self.matchProbabilities {
+                    if holeProb.hole == hole && holeProb.scoreDifference == 0 {
+                        holeProbabilities.append((holeProb.hole,holeProb.blueWinProbability,holeProb.redWinProbability,holeProb.tieProbability))
+                    }
+                }
+            }
+            else {
+                if (finished && hole <= (lastHoleCompleted + 1) || !finished) && !(hole > self.matchLength) {
+                    let holeWinner = self.holeWinner(hole-1)
+                    
+                    if holeWinner == "Blue" {
+                        blueScore += 1
+                    } else if holeWinner == "Red" {
+                        redScore += 1
+                    }
+                    
+                    for holeProb in self.matchProbabilities {
+                        if holeProb.hole == hole && holeProb.scoreDifference == (blueScore - redScore) {
+                            if finished && hole == lastHoleCompleted {
+                                if teamWinning == "Blue" {
+                                    holeProbabilities.append((hole,1.0,0.0,0.0))
+                                }
+                                else if teamWinning == "Red" {
+                                    holeProbabilities.append((hole,0.0,1.0,0.0))
+                                }
+                                else {
+                                    holeProbabilities.append((hole,0.0,0.0,1.0))
+                                }
+                            }
+                            else {
+                                holeProbabilities.append((holeProb.hole,holeProb.blueWinProbability,holeProb.redWinProbability,holeProb.tieProbability))
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        return holeProbabilities
+    }
+
 }
 
 func ==(left: Match, right: Match) -> Bool {
@@ -1396,3 +1579,5 @@ func ==(left: Match, right: Match) -> Bool {
     
     return false
 }
+
+

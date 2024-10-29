@@ -1088,7 +1088,7 @@ class Model: NSObject, URLSessionDataDelegate {
     
     func sendMatchNotification(winningTeam: String, winnerNames: String, loserNames: String, scoreString: String, round: Int, match: Int) {
         
-        var titleMessage = "Round: " + String(round) + ", Match: " + String(match)
+        let titleMessage = "Round: " + String(round) + ", Match: " + String(match)
         var notificationMessage = ""
         
         if winningTeam == "AS" {
@@ -1486,6 +1486,45 @@ class Model: NSObject, URLSessionDataDelegate {
         
     }
     
+    func fetchMatchProbabilitiesJSON(tournamentName: String, round: Int, match: Int, _ completion: @escaping (_ probabilityRecords: [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]?, _ error: Error?) -> () ) {
+        
+        var probabilityRecords = [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
+        
+        let tournamentNameURL = tournamentName.replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
+        
+        var session: URLSession!
+        let configuration = URLSessionConfiguration.default
+        
+        session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
+        
+        //Fatch match data
+        let urlPath: String = "http://montyratings.com/bluffcitycup/match_probabilities.php?tournament=" + tournamentNameURL + "&round=" + String(round) + "&match=" + String(match)
+        let url = NSURL(string: urlPath)!
+        
+        let probTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
+            print("GETTING MATCH PROBABILITIES")
+            
+            guard error == nil else {
+                print("error getting match probabilities")
+                print(error!)
+                completion(probabilityRecords,error)
+                return
+            }
+            // make sure we got data
+            guard data != nil else {
+                print("Error: did not receive match probability data")
+                completion(probabilityRecords,error)
+                return
+            }
+            
+            probabilityRecords = self.parseJSONMatchProbabilities(data: data!)
+            completion(probabilityRecords,error)
+        })
+        
+        probTask.resume()
+        
+    }
+    
     
     func parseJSONplayers(data: Data) -> [Player] {
         var players = [Player]()
@@ -1529,6 +1568,8 @@ class Model: NSObject, URLSessionDataDelegate {
         
         return players
     }
+    
+
     
     func parseJSONtournament(data: Data, players: [Player],matches: [Match], rounds: [(round: Int, course: String)], courses: [Course]) -> Tournament {
         var tournament = Tournament()
@@ -1941,6 +1982,46 @@ class Model: NSObject, URLSessionDataDelegate {
         }
         
         return courses
+    }
+    
+    func parseJSONMatchProbabilities(data: Data) -> [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)] {
+        var matchProbabilities = [(hole: Int, scoreDifference: Int, blueWinProbability: Double, redWinProbability: Double, tieProbability: Double)]()
+        
+        var jsonResult: NSArray = NSArray()
+        
+        do{
+            jsonResult = try JSONSerialization.jsonObject(with: data as Data, options:JSONSerialization.ReadingOptions.allowFragments) as! NSArray
+            
+            
+        } catch let error as NSError {
+            print(error)
+            
+        }
+        
+        
+        var jsonElement: NSDictionary = NSDictionary()
+        var total = 0
+        if jsonResult.count > 0 { total = jsonResult.count - 1 }
+        
+        if jsonResult.count > 0 {
+            for i in 0 ... (total)
+            {
+                jsonElement = jsonResult[i] as! NSDictionary
+                
+                //the following insures none of the JsonElement values are nil through optional binding
+                if let hole = Int((jsonElement["hole_number"] as? String)!)
+                {
+                    let blueWinProbability = Double((jsonElement["blue_win_probability"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
+                    let redWinProbability = Double((jsonElement["red_win_probability"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
+                    let tieProbability = Double((jsonElement["tie_probability"] as! String).trimmingCharacters(in: CharacterSet.whitespacesAndNewlines))!
+                    let scoreDifference = Int((jsonElement["score_difference"] as! String))!
+                    
+                                              matchProbabilities.append((hole: hole, scoreDifference: scoreDifference,blueWinProbability: blueWinProbability, redWinProbability:redWinProbability, tieProbability: tieProbability))
+                }
+            }
+        }
+        
+        return matchProbabilities
     }
 }
 

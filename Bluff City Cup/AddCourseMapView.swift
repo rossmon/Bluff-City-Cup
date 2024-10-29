@@ -267,7 +267,7 @@ class AddCourseMapView: UIViewController, CLLocationManagerDelegate, MKMapViewDe
     
     func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
-        let view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: restorationIdentifier)
+        let view = MKMarkerAnnotationView(annotation: annotation, reuseIdentifier: restorationIdentifier)
         view.canShowCallout = true
         view.rightCalloutAccessoryView = UIButton(type: .detailDisclosure)
 

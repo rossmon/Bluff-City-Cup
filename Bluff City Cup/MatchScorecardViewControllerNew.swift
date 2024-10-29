@@ -169,6 +169,52 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
         else { sideShowing = .back9 }
         
         
+        
+        
+        //TESTING FOR PERFORMANCE OF MATCH PREDICTION
+        /*
+        var currentDateTime = Date()
+
+        let formatter = DateFormatter()
+        formatter.timeStyle = .medium
+        formatter.dateStyle = .none
+
+        var timeString = formatter.string(from: currentDateTime)
+        print("Current time: \(timeString)")
+        
+        
+        print("Round: \(match.getRound())")
+        print("Match: \(match.getMatchNumber())")
+        
+        var currentHole = Hole()
+        
+        if match.isCompleted() {
+            currentHole = Model.sharedInstance.getTournament().getCourseWithName(name: match.getCourseName()).getHole(match.getCurrentHole()-1)
+        }
+        else {
+            currentHole = Model.sharedInstance.getTournament().getCourseWithName(name: match.getCourseName()).getHole(match.getCurrentHole())
+        }
+        
+        var blueTeamHandicap: Int = 0
+        var redTeamHandicap: Int = 0
+        
+        if match.singles() {
+            blueTeamHandicap = match.getSinglesHandicaps().blueTeamHandicap
+            redTeamHandicap = match.getSinglesHandicaps().redTeamHandicap
+        }
+        else {
+            blueTeamHandicap = match.getTeamHandicap().blueTeamHandicap
+            redTeamHandicap = match.getTeamHandicap().redTeamHandicap
+        }
+        
+        print(match.getMatchOutcomeProbabilitiesPerHole(currentHole: currentHole,  blueTeamHandicap: blueTeamHandicap, redTeamHandicap: redTeamHandicap, matchLength: match.getMatchLength()))
+        
+        
+        currentDateTime = Date()
+        timeString = formatter.string(from: currentDateTime)
+        print("Current time: \(timeString)")
+         */
+         
         /*var tableFrame = self.scorecardTable.frame
         tableFrame.size.height = tableHeight
         self.scorecardTable.frame = tableFrame

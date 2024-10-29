@@ -9,6 +9,7 @@
 
 import UIKit
 
+
 protocol MatchTableViewNewControllerDelegate {
     func updateScoreboard(_ newTournament: Tournament)
     func showScorecard(_ match: Match)
@@ -19,6 +20,9 @@ class MatchTableViewControllerNew: UITableViewController {
     var tournament: Tournament! = Tournament()
     var delegate: MatchTableViewNewControllerDelegate?
     var matchScorecardViewController: MatchScorecardViewController!
+    
+    // This set will track which rows have the prediction view expanded
+    var expandedIndexPaths: Set<IndexPath> = []
     
     @IBOutlet var matchTableView: UITableView!
     
@@ -92,16 +96,17 @@ class MatchTableViewControllerNew: UITableViewController {
         return 1
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+
+        return UITableView.automaticDimension
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tournament.getMatches().count
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let matchObject = self.tournament.getMatchesSortedForTable()[(indexPath).row]
-        print(matchObject.blueTeamPlayerOne().getName())
-
         
-        delegate?.showScorecard(matchObject)
         
     }
     
@@ -110,11 +115,61 @@ class MatchTableViewControllerNew: UITableViewController {
         
         let matchObject = Model.sharedInstance.getTournament().getMatchesSortedForTable()[(indexPath as NSIndexPath).row]
         
+        
+        /*
+        var (blueScore, redScore) = matchObject.getScoreBeforeHole(holeNumber: matchObject.getCurrentHole())
+        
+        
+        print("Round: \(matchObject.getRound())")
+        print("Match: \(matchObject.getMatchNumber())")
+        
+        var currentHole = Hole()
+        
+        if matchObject.isCompleted() {
+            currentHole = Model.sharedInstance.getTournament().getCourseWithName(name: matchObject.getCourseName()).getHole(matchObject.getCurrentHole()-1)
+        }
+        else {
+            currentHole = Model.sharedInstance.getTournament().getCourseWithName(name: matchObject.getCourseName()).getHole(matchObject.getCurrentHole())
+        }
+        
+        var blueTeamHandicap: Int = 0
+        var redTeamHandicap: Int = 0
+        
+        if matchObject.singles() {
+            blueTeamHandicap = matchObject.getSinglesHandicaps().blueTeamHandicap
+            redTeamHandicap = matchObject.getSinglesHandicaps().redTeamHandicap
+        }
+        else {
+            blueTeamHandicap = matchObject.getTeamHandicap().blueTeamHandicap
+            redTeamHandicap = matchObject.getTeamHandicap().redTeamHandicap
+        }
+        
+        print(matchObject.getMatchOutcomeProbabilitiesPerHole(currentHole: currentHole,  blueTeamHandicap: blueTeamHandicap, redTeamHandicap: redTeamHandicap, matchLength: matchObject.getMatchLength()))
+         
+         */
 
         if matchObject.getMatchLength() == 18 {
             
             let cellIdentifier = "MatchTableViewCell18"
             let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell18
+            cell.delegate = self
+            
+            cell.match = matchObject
+            
+            let isExpanded = expandedIndexPaths.contains(indexPath)
+            cell.setPredictionViewVisibility(isExpanded)
+                
+            // Configure cell with data, such as cell.match = matches[indexPath.row]
+                
+            cell.togglePredictionViewCallback = { [weak self] in
+                guard let self = self else { return }
+                if self.expandedIndexPaths.contains(indexPath) {
+                    self.expandedIndexPaths.remove(indexPath)
+                } else {
+                    self.expandedIndexPaths.insert(indexPath)
+                }
+                tableView.reloadRows(at: [indexPath], with: .automatic)
+            }
             
             cell.cleanupForReuse()
             
@@ -304,6 +359,24 @@ class MatchTableViewControllerNew: UITableViewController {
         else {
             let cellIdentifier = "MatchTableViewCell9"
             let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! MatchTableViewCell9
+            
+            cell.delegate = self
+            cell.match = matchObject
+            
+            let isExpanded = expandedIndexPaths.contains(indexPath)
+            cell.setPredictionViewVisibility(isExpanded)
+                
+            // Configure cell with data, such as cell.match = matches[indexPath.row]
+                
+            cell.togglePredictionViewCallback = { [weak self] in
+                guard let self = self else { return }
+                if self.expandedIndexPaths.contains(indexPath) {
+                    self.expandedIndexPaths.remove(indexPath)
+                } else {
+                    self.expandedIndexPaths.insert(indexPath)
+                }
+                tableView.reloadRows(at: [indexPath], with: .automatic)
+            }
             
             cell.cleanupForReuse()
             
@@ -548,176 +621,228 @@ class MatchTableViewControllerNew: UITableViewController {
     }
     
     func matchCellAllSquared(_ cell: MatchTableViewCell18) {
-        cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        
-        cell.setBlueTriangle(color: UIColor.white)
-        cell.setRedTriangle(color: UIColor.white)
-        
-        //Color blue names white
-        cell.blueSingleFirstName.textColor = UIColor.black
-        cell.blueSingleLastName.textColor = UIColor.black
-        cell.blueDoubleFirstName1.textColor = UIColor.black
-        cell.blueDoubleLastName1.textColor = UIColor.black
-        cell.blueDoubleFirstName2.textColor = UIColor.black
-        cell.blueDoubleLastName2.textColor = UIColor.black
-        
-        //Color red team names blue
-        cell.redSingleFirstName.textColor = UIColor.black
-        cell.redSingleLastName.textColor = UIColor.black
-        cell.redDoubleFirstName1.textColor = UIColor.black
-        cell.redDoubleLastName1.textColor = UIColor.black
-        cell.redDoubleFirstName2.textColor = UIColor.black
-        cell.redDoubleLastName2.textColor = UIColor.black
-        
-        //Score color
-        cell.numLabel.textColor = UIColor.black
-        cell.scoreLabel.textColor = UIColor.black
-        cell.tiedLabel.textColor = UIColor.black
+        DispatchQueue.main.async {
+            cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            
+            cell.setBlueTriangle(color: UIColor.white)
+            cell.setRedTriangle(color: UIColor.white)
+            
+            //Color blue names white
+            cell.blueSingleFirstName.textColor = UIColor.black
+            cell.blueSingleLastName.textColor = UIColor.black
+            cell.blueDoubleFirstName1.textColor = UIColor.black
+            cell.blueDoubleLastName1.textColor = UIColor.black
+            cell.blueDoubleFirstName2.textColor = UIColor.black
+            cell.blueDoubleLastName2.textColor = UIColor.black
+            
+            //Color red team names blue
+            cell.redSingleFirstName.textColor = UIColor.black
+            cell.redSingleLastName.textColor = UIColor.black
+            cell.redDoubleFirstName1.textColor = UIColor.black
+            cell.redDoubleLastName1.textColor = UIColor.black
+            cell.redDoubleFirstName2.textColor = UIColor.black
+            cell.redDoubleLastName2.textColor = UIColor.black
+            
+            //Score color
+            cell.numLabel.textColor = UIColor.black
+            cell.scoreLabel.textColor = UIColor.black
+            cell.tiedLabel.textColor = UIColor.black
+        }
     }
     func matchCellBlueUp(_ cell: MatchTableViewCell18) {
-        cell.blueTeamNames.layer.backgroundColor = UIColorFromRGB(0x0F296B).cgColor
-        cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
+        DispatchQueue.main.async {
+            cell.blueTeamNames.layer.backgroundColor = self.UIColorFromRGB(0x0F296B).cgColor
+            cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            
+            cell.setBlueTriangle(color: self.UIColorFromRGB(0x0F296B))
+            cell.setRedTriangle(color: UIColor.white)
+            
+            //Color blue names white
+            cell.blueSingleFirstName.textColor = UIColor.white
+            cell.blueSingleLastName.textColor = UIColor.white
+            cell.blueDoubleFirstName1.textColor = UIColor.white
+            cell.blueDoubleLastName1.textColor = UIColor.white
+            cell.blueDoubleFirstName2.textColor = UIColor.white
+            cell.blueDoubleLastName2.textColor = UIColor.white
+            
+            //Color red team names blue
+            cell.redSingleFirstName.textColor = UIColor.black
+            cell.redSingleLastName.textColor = UIColor.black
+            cell.redDoubleFirstName1.textColor = UIColor.black
+            cell.redDoubleLastName1.textColor = UIColor.black
+            cell.redDoubleFirstName2.textColor = UIColor.black
+            cell.redDoubleLastName2.textColor = UIColor.black
+            
+            //Score color
+            cell.numLabel.textColor = self.UIColorFromRGB(0x0F296B)
+            cell.scoreLabel.textColor = self.UIColorFromRGB(0x0F296B)
+            cell.tiedLabel.textColor = self.UIColorFromRGB(0x0F296B)
+        }
         
-        cell.setBlueTriangle(color: UIColorFromRGB(0x0F296B))
-        cell.setRedTriangle(color: UIColor.white)
         
-        //Color blue names white
-        cell.blueSingleFirstName.textColor = UIColor.white
-        cell.blueSingleLastName.textColor = UIColor.white
-        cell.blueDoubleFirstName1.textColor = UIColor.white
-        cell.blueDoubleLastName1.textColor = UIColor.white
-        cell.blueDoubleFirstName2.textColor = UIColor.white
-        cell.blueDoubleLastName2.textColor = UIColor.white
-        
-        //Color red team names blue
-        cell.redSingleFirstName.textColor = UIColor.black
-        cell.redSingleLastName.textColor = UIColor.black
-        cell.redDoubleFirstName1.textColor = UIColor.black
-        cell.redDoubleLastName1.textColor = UIColor.black
-        cell.redDoubleFirstName2.textColor = UIColor.black
-        cell.redDoubleLastName2.textColor = UIColor.black
-        
-        //Score color
-        cell.numLabel.textColor = UIColorFromRGB(0x0F296B)
-        cell.scoreLabel.textColor = UIColorFromRGB(0x0F296B)
-        cell.tiedLabel.textColor = UIColorFromRGB(0x0F296B)
     }
     func matchCellRedUp(_ cell: MatchTableViewCell18) {
-        cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        cell.redTeamNames.layer.backgroundColor = UIColorFromRGB(0xB70A1C).cgColor
-        
-        cell.setBlueTriangle(color: UIColor.white)
-        cell.setRedTriangle(color: UIColorFromRGB(0xB70A1C))
-        
-        //Color blue names white
-        cell.blueSingleFirstName.textColor = UIColor.black
-        cell.blueSingleLastName.textColor = UIColor.black
-        cell.blueDoubleFirstName1.textColor = UIColor.black
-        cell.blueDoubleLastName1.textColor = UIColor.black
-        cell.blueDoubleFirstName2.textColor = UIColor.black
-        cell.blueDoubleLastName2.textColor = UIColor.black
-        
-        //Color red team names blue
-        cell.redSingleFirstName.textColor = UIColor.white
-        cell.redSingleLastName.textColor = UIColor.white
-        cell.redDoubleFirstName1.textColor = UIColor.white
-        cell.redDoubleLastName1.textColor = UIColor.white
-        cell.redDoubleFirstName2.textColor = UIColor.white
-        cell.redDoubleLastName2.textColor = UIColor.white
-        
-        //Score color
-        cell.numLabel.textColor = UIColorFromRGB(0xB70A1C)
-        cell.scoreLabel.textColor = UIColorFromRGB(0xB70A1C)
-        cell.tiedLabel.textColor = UIColorFromRGB(0xB70A1C)
+        DispatchQueue.main.async {
+            cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            cell.redTeamNames.layer.backgroundColor = self.UIColorFromRGB(0xB70A1C).cgColor
+            
+            cell.setBlueTriangle(color: UIColor.white)
+            cell.setRedTriangle(color: self.UIColorFromRGB(0xB70A1C))
+            
+            //Color blue names white
+            cell.blueSingleFirstName.textColor = UIColor.black
+            cell.blueSingleLastName.textColor = UIColor.black
+            cell.blueDoubleFirstName1.textColor = UIColor.black
+            cell.blueDoubleLastName1.textColor = UIColor.black
+            cell.blueDoubleFirstName2.textColor = UIColor.black
+            cell.blueDoubleLastName2.textColor = UIColor.black
+            
+            //Color red team names blue
+            cell.redSingleFirstName.textColor = UIColor.white
+            cell.redSingleLastName.textColor = UIColor.white
+            cell.redDoubleFirstName1.textColor = UIColor.white
+            cell.redDoubleLastName1.textColor = UIColor.white
+            cell.redDoubleFirstName2.textColor = UIColor.white
+            cell.redDoubleLastName2.textColor = UIColor.white
+            
+            //Score color
+            cell.numLabel.textColor = self.UIColorFromRGB(0xB70A1C)
+            cell.scoreLabel.textColor = self.UIColorFromRGB(0xB70A1C)
+            cell.tiedLabel.textColor = self.UIColorFromRGB(0xB70A1C)
+        }
     }
 
     
     func matchCellAllSquared(_ cell: MatchTableViewCell9) {
-        cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        
-        cell.setBlueTriangle(color: UIColor.white)
-        cell.setRedTriangle(color: UIColor.white)
-        
-        //Color blue names white
-        cell.blueSingleFirstName.textColor = UIColor.black
-        cell.blueSingleLastName.textColor = UIColor.black
-        cell.blueDoubleFirstName1.textColor = UIColor.black
-        cell.blueDoubleLastName1.textColor = UIColor.black
-        cell.blueDoubleFirstName2.textColor = UIColor.black
-        cell.blueDoubleLastName2.textColor = UIColor.black
-        
-        //Color red team names blue
-        cell.redSingleFirstName.textColor = UIColor.black
-        cell.redSingleLastName.textColor = UIColor.black
-        cell.redDoubleFirstName1.textColor = UIColor.black
-        cell.redDoubleLastName1.textColor = UIColor.black
-        cell.redDoubleFirstName2.textColor = UIColor.black
-        cell.redDoubleLastName2.textColor = UIColor.black
-        
-        //Score color
-        cell.numLabel.textColor = UIColor.black
-        cell.scoreLabel.textColor = UIColor.black
-        cell.tiedLabel.textColor = UIColor.black
+        DispatchQueue.main.async {
+            cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            
+            cell.setBlueTriangle(color: UIColor.white)
+            cell.setRedTriangle(color: UIColor.white)
+            
+            //Color blue names white
+            cell.blueSingleFirstName.textColor = UIColor.black
+            cell.blueSingleLastName.textColor = UIColor.black
+            cell.blueDoubleFirstName1.textColor = UIColor.black
+            cell.blueDoubleLastName1.textColor = UIColor.black
+            cell.blueDoubleFirstName2.textColor = UIColor.black
+            cell.blueDoubleLastName2.textColor = UIColor.black
+            
+            //Color red team names blue
+            cell.redSingleFirstName.textColor = UIColor.black
+            cell.redSingleLastName.textColor = UIColor.black
+            cell.redDoubleFirstName1.textColor = UIColor.black
+            cell.redDoubleLastName1.textColor = UIColor.black
+            cell.redDoubleFirstName2.textColor = UIColor.black
+            cell.redDoubleLastName2.textColor = UIColor.black
+            
+            //Score color
+            cell.numLabel.textColor = UIColor.black
+            cell.scoreLabel.textColor = UIColor.black
+            cell.tiedLabel.textColor = UIColor.black
+        }
     }
     func matchCellBlueUp(_ cell: MatchTableViewCell9) {
-        cell.blueTeamNames.layer.backgroundColor = UIColorFromRGB(0x0F296B).cgColor
-        cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        
-        cell.setBlueTriangle(color: UIColorFromRGB(0x0F296B))
-        cell.setRedTriangle(color: UIColor.white)
-        
-        //Color blue names white
-        cell.blueSingleFirstName.textColor = UIColor.white
-        cell.blueSingleLastName.textColor = UIColor.white
-        cell.blueDoubleFirstName1.textColor = UIColor.white
-        cell.blueDoubleLastName1.textColor = UIColor.white
-        cell.blueDoubleFirstName2.textColor = UIColor.white
-        cell.blueDoubleLastName2.textColor = UIColor.white
-        
-        //Color red team names blue
-        cell.redSingleFirstName.textColor = UIColor.black
-        cell.redSingleLastName.textColor = UIColor.black
-        cell.redDoubleFirstName1.textColor = UIColor.black
-        cell.redDoubleLastName1.textColor = UIColor.black
-        cell.redDoubleFirstName2.textColor = UIColor.black
-        cell.redDoubleLastName2.textColor = UIColor.black
-        
-        //Score color
-        cell.numLabel.textColor = UIColorFromRGB(0x0F296B)
-        cell.scoreLabel.textColor = UIColorFromRGB(0x0F296B)
-        cell.tiedLabel.textColor = UIColorFromRGB(0x0F296B)
+        DispatchQueue.main.async {
+            cell.blueTeamNames.layer.backgroundColor = self.UIColorFromRGB(0x0F296B).cgColor
+            cell.redTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            
+            cell.setBlueTriangle(color: self.UIColorFromRGB(0x0F296B))
+            cell.setRedTriangle(color: UIColor.white)
+            
+            //Color blue names white
+            cell.blueSingleFirstName.textColor = UIColor.white
+            cell.blueSingleLastName.textColor = UIColor.white
+            cell.blueDoubleFirstName1.textColor = UIColor.white
+            cell.blueDoubleLastName1.textColor = UIColor.white
+            cell.blueDoubleFirstName2.textColor = UIColor.white
+            cell.blueDoubleLastName2.textColor = UIColor.white
+            
+            //Color red team names blue
+            cell.redSingleFirstName.textColor = UIColor.black
+            cell.redSingleLastName.textColor = UIColor.black
+            cell.redDoubleFirstName1.textColor = UIColor.black
+            cell.redDoubleLastName1.textColor = UIColor.black
+            cell.redDoubleFirstName2.textColor = UIColor.black
+            cell.redDoubleLastName2.textColor = UIColor.black
+            
+            //Score color
+            cell.numLabel.textColor = self.UIColorFromRGB(0x0F296B)
+            cell.scoreLabel.textColor = self.UIColorFromRGB(0x0F296B)
+            cell.tiedLabel.textColor = self.UIColorFromRGB(0x0F296B)
+        }
     }
     func matchCellRedUp(_ cell: MatchTableViewCell9) {
-        cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
-        cell.redTeamNames.layer.backgroundColor = UIColorFromRGB(0xB70A1C).cgColor
-        
-        cell.setBlueTriangle(color: UIColor.white)
-        cell.setRedTriangle(color: UIColorFromRGB(0xB70A1C))
-        
-        //Color blue names white
-        cell.blueSingleFirstName.textColor = UIColor.black
-        cell.blueSingleLastName.textColor = UIColor.black
-        cell.blueDoubleFirstName1.textColor = UIColor.black
-        cell.blueDoubleLastName1.textColor = UIColor.black
-        cell.blueDoubleFirstName2.textColor = UIColor.black
-        cell.blueDoubleLastName2.textColor = UIColor.black
-        
-        //Color red team names blue
-        cell.redSingleFirstName.textColor = UIColor.white
-        cell.redSingleLastName.textColor = UIColor.white
-        cell.redDoubleFirstName1.textColor = UIColor.white
-        cell.redDoubleLastName1.textColor = UIColor.white
-        cell.redDoubleFirstName2.textColor = UIColor.white
-        cell.redDoubleLastName2.textColor = UIColor.white
-        
-        //Score color
-        cell.numLabel.textColor = UIColorFromRGB(0xB70A1C)
-        cell.scoreLabel.textColor = UIColorFromRGB(0xB70A1C)
-        cell.tiedLabel.textColor = UIColorFromRGB(0xB70A1C)
+        DispatchQueue.main.async {
+            cell.blueTeamNames.layer.backgroundColor = UIColor.white.cgColor
+            cell.redTeamNames.layer.backgroundColor = self.UIColorFromRGB(0xB70A1C).cgColor
+            
+            cell.setBlueTriangle(color: UIColor.white)
+            cell.setRedTriangle(color: self.UIColorFromRGB(0xB70A1C))
+            
+            //Color blue names white
+            cell.blueSingleFirstName.textColor = UIColor.black
+            cell.blueSingleLastName.textColor = UIColor.black
+            cell.blueDoubleFirstName1.textColor = UIColor.black
+            cell.blueDoubleLastName1.textColor = UIColor.black
+            cell.blueDoubleFirstName2.textColor = UIColor.black
+            cell.blueDoubleLastName2.textColor = UIColor.black
+            
+            //Color red team names blue
+            cell.redSingleFirstName.textColor = UIColor.white
+            cell.redSingleLastName.textColor = UIColor.white
+            cell.redDoubleFirstName1.textColor = UIColor.white
+            cell.redDoubleLastName1.textColor = UIColor.white
+            cell.redDoubleFirstName2.textColor = UIColor.white
+            cell.redDoubleLastName2.textColor = UIColor.white
+            
+            //Score color
+            cell.numLabel.textColor = self.UIColorFromRGB(0xB70A1C)
+            cell.scoreLabel.textColor = self.UIColorFromRGB(0xB70A1C)
+            cell.tiedLabel.textColor = self.UIColorFromRGB(0xB70A1C)
+        }
     }
+    
+    
 
+}
+
+extension MatchTableViewControllerNew: MatchTableViewCellDelegate {
+    
+    func didTapBannerView(in cell: MatchTableViewCell18) {
+        // Handle the tap specifically for the prediction view here
+        if let indexPath = tableView.indexPath(for: cell) {
+            // Use indexPath to identify the cell
+            print("Tapped on prediction view in cell at \(indexPath)")
+            let matchObject = self.tournament.getMatchesSortedForTable()[(indexPath).row]
+            print(matchObject.blueTeamPlayerOne().getName())
+            
+            
+            
+            
+            delegate?.showScorecard(matchObject)
+        }
+    }
+}
+
+extension MatchTableViewControllerNew: MatchTableViewCell9Delegate {
+    
+    func didTapBannerView(in cell: MatchTableViewCell9) {
+        // Handle the tap specifically for the prediction view here
+        if let indexPath = tableView.indexPath(for: cell) {
+            // Use indexPath to identify the cell
+            print("Tapped on prediction view in cell at \(indexPath)")
+            let matchObject = self.tournament.getMatchesSortedForTable()[(indexPath).row]
+            print(matchObject.blueTeamPlayerOne().getName())
+            
+            
+            
+            
+            delegate?.showScorecard(matchObject)
+        }
+    }
 }
 
 
