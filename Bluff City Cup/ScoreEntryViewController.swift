@@ -511,6 +511,9 @@ class ScoreEntryViewController: UIViewController {
         var match2RedActualScore = Int()
 
         (match1BlueActualScore,match1RedActualScore,match2BlueActualScore,match2RedActualScore) = matchTable.getSinglesMatchScores()
+        
+        var is4playerGroup = true
+        if tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!)).count == 1 { is4playerGroup = false }
 
         
         //Update hole scores for singles matches
@@ -520,11 +523,14 @@ class ScoreEntryViewController: UIViewController {
         tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[0].redTeamPlayerOne().setHoleScore(viewingHoleNumber, score: match1RedActualScore, round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[0].getRound())
         tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[0].redTeamPlayerOne().setHoleResults(round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[0].getRound(), holeNumber: viewingHoleNumber, score: match1RedActualScore)
         
-        tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamPlayerOne().setHoleScore(viewingHoleNumber, score: match2BlueActualScore, round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound())
-        tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamPlayerOne().setHoleResults(round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound(),holeNumber: viewingHoleNumber, score: match2BlueActualScore)
+        if is4playerGroup {
+            tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamPlayerOne().setHoleScore(viewingHoleNumber, score: match2BlueActualScore, round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound())
+            tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamPlayerOne().setHoleResults(round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound(),holeNumber: viewingHoleNumber, score: match2BlueActualScore)
+            
+            tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].redTeamPlayerOne().setHoleScore(viewingHoleNumber, score: match2RedActualScore, round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound())
+            tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].redTeamPlayerOne().setHoleResults(round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound(), holeNumber: viewingHoleNumber, score: match2RedActualScore)
+        }
         
-        tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].redTeamPlayerOne().setHoleScore(viewingHoleNumber, score: match2RedActualScore, round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound())
-        tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].redTeamPlayerOne().setHoleResults(round: tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getRound(), holeNumber: viewingHoleNumber, score: match2RedActualScore)
         
         
         //let holeHandicap = tournament.getCourseWithName(name: tournament.getCurrentMatch(user.getPlayer()!)!.getCourseName()).getHole(tournament.getCurrentMatch(user.getPlayer()!)!.getCurrentHole()).getHandicap()
@@ -538,20 +544,29 @@ class ScoreEntryViewController: UIViewController {
             tournament.getCurrentMatch(user.getPlayer()!)?.onHole().getHandicap()*/
         
         let lowestHandicapM1 = tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[0].getLowestHandicap()
-        let lowestHandicapM2 = tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getLowestHandicap()
         let match1 = tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[0]
-        let match2 = tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1]
         let bP1M1Handicap = match1.blueTeamPlayerOne().getHandicapWithSlope(match1.getCourseSlope(),rating: match1.getCourseRating(), par: match1.getCoursePar())
         let rP1M1Handicap = match1.redTeamPlayerOne().getHandicapWithSlope(match1.getCourseSlope(),rating: match1.getCourseRating(), par: match1.getCoursePar())
-        let bP1M2Handicap = match2.blueTeamPlayerOne().getHandicapWithSlope(match2.getCourseSlope(),rating: match2.getCourseRating(), par: match2.getCoursePar())
-        let rP1M2Handicap = match2.redTeamPlayerOne().getHandicapWithSlope(match2.getCourseSlope(),rating: match2.getCourseRating(), par: match2.getCoursePar())
-        
-        
         let match1BlueHandicapScore = handicapScore(match1BlueActualScore, playerHandicap: bP1M1Handicap - lowestHandicapM1, holeHandicap: holeHandicap)
         let match1RedHandicapScore = handicapScore(match1RedActualScore, playerHandicap: rP1M1Handicap - lowestHandicapM1, holeHandicap: holeHandicap)
-        let match2BlueHandicapScore = handicapScore(match2BlueActualScore, playerHandicap: bP1M2Handicap - lowestHandicapM2, holeHandicap: holeHandicap)
-        let match2RedHandicapScore = handicapScore(match2RedActualScore, playerHandicap: rP1M2Handicap - lowestHandicapM2, holeHandicap: holeHandicap)
+
         
+        var lowestHandicapM2 : Int = 0
+        var match2: Match!
+        var bP1M2Handicap: Int = 0
+        var rP1M2Handicap: Int = 0
+        var match2BlueHandicapScore: Int = 0
+        var match2RedHandicapScore: Int = 0
+        
+        if is4playerGroup {
+            lowestHandicapM2 = tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1].getLowestHandicap()
+            match2 = tournament.getSinglesGroupMatches(user.getPlayer()!,round: tournament.getPlayerLastRound(user.player!))[1]
+            bP1M2Handicap = match2.blueTeamPlayerOne().getHandicapWithSlope(match2.getCourseSlope(),rating: match2.getCourseRating(), par: match2.getCoursePar())
+            rP1M2Handicap = match2.redTeamPlayerOne().getHandicapWithSlope(match2.getCourseSlope(),rating: match2.getCourseRating(), par: match2.getCoursePar())
+            match2BlueHandicapScore = handicapScore(match2BlueActualScore, playerHandicap: bP1M2Handicap - lowestHandicapM2, holeHandicap: holeHandicap)
+            match2RedHandicapScore = handicapScore(match2RedActualScore, playerHandicap: rP1M2Handicap - lowestHandicapM2, holeHandicap: holeHandicap)
+        }
+
         
         //Calculate winners based on handicaps
         if tournament.getCurrentMatch(user.getPlayer()!)?.currentScore() != 19 {
@@ -569,18 +584,21 @@ class ScoreEntryViewController: UIViewController {
                     tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].setHoleWinner(hole: viewingHoleNumber, winner: "Halved")
                 }
                 
-                if match2BlueHandicapScore < match2RedHandicapScore {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Blue")
+                if is4playerGroup {
+                    if match2BlueHandicapScore < match2RedHandicapScore {
+                        tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].blueTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
+                        tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Blue")
+                    }
+                    else if match2RedHandicapScore < match2BlueHandicapScore {
+                        tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].redTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
+                        tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Red")
+                    }
+                    else {
+                        tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].splitHole()
+                        tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Halved")
+                    }
                 }
-                else if match2RedHandicapScore < match2BlueHandicapScore {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].redTeamWinsHole(matchLength: tournament.getCurrentMatch(user.getPlayer()!)!.getMatchLength())
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Red")
-                }
-                else {
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].splitHole()
-                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Halved")
-                }
+                
             }
             
             //UPDATE HOLE SCORE REGARDLESS
@@ -594,15 +612,18 @@ class ScoreEntryViewController: UIViewController {
                 tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[0].setHoleWinner(hole: viewingHoleNumber, winner: "Halved")
             }
             
-            if match2BlueHandicapScore < match2RedHandicapScore {
-                tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Blue")
+            if is4playerGroup {
+                if match2BlueHandicapScore < match2RedHandicapScore {
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Blue")
+                }
+                else if match2RedHandicapScore < match2BlueHandicapScore {
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Red")
+                }
+                else {
+                    tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Halved")
+                }
             }
-            else if match2RedHandicapScore < match2BlueHandicapScore {
-                tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Red")
-            }
-            else {
-                tournament.getSinglesGroupMatches(user.getPlayer()! ,round: tournament.getPlayerLastRound(user.player!))[1].setHoleWinner(hole: viewingHoleNumber, winner: "Halved")
-            }
+            
         }
     }
     

@@ -279,7 +279,7 @@ class MatchTableViewControllerNew: UITableViewController {
             
             
             //Set hole number
-            if matchObject.getCurrentHole() >= endingHole && endingHole != 0 {
+            if matchObject.getCurrentHole() > endingHole && endingHole != 0 {
                 cell.finalLabel.text = "Final"
                 cell.finalLabel.isHidden = false
             }
@@ -483,7 +483,7 @@ class MatchTableViewControllerNew: UITableViewController {
             
             
             //Set hole number
-            if matchObject.getCurrentHole() >= endingHole {
+            if matchObject.getCurrentHole() > endingHole && endingHole != 0 {
                 cell.finalLabel.text = "Final"
                 cell.finalLabel.isHidden = false
             }
@@ -530,21 +530,23 @@ class MatchTableViewControllerNew: UITableViewController {
                 }
             }*/
             
-            
-            for hole in matchObject.getStartingHole()...min(max(matchObject.getCurrentHole()-1,1),maxHole) {
-                if matchObject.holeWinner(hole) == "Blue" {
-                    cell.setHoleBackgroundColor(hole, color: UIColorFromRGB(0x0F296B))
-                    cell.setHoleTextColor(hole, color: UIColor.white)
-                }
-                else if matchObject.holeWinner(hole) == "Red" {
-                    cell.setHoleBackgroundColor(hole, color: UIColorFromRGB(0xB70A1C))
-                    cell.setHoleTextColor(hole, color: UIColor.white)
-                }
-                else {
-                    cell.setHoleBackgroundColor(hole, color: UIColor.darkGray)
-                    cell.setHoleTextColor(hole, color: UIColor.white)
+            if matchObject.getCurrentHole() > matchObject.getStartingHole() {
+                for hole in matchObject.getStartingHole()...min(max(matchObject.getCurrentHole()-1,1),maxHole) {
+                    if matchObject.holeWinner(hole) == "Blue" {
+                        cell.setHoleBackgroundColor(hole, color: UIColorFromRGB(0x0F296B))
+                        cell.setHoleTextColor(hole, color: UIColor.white)
+                    }
+                    else if matchObject.holeWinner(hole) == "Red" {
+                        cell.setHoleBackgroundColor(hole, color: UIColorFromRGB(0xB70A1C))
+                        cell.setHoleTextColor(hole, color: UIColor.white)
+                    }
+                    else {
+                        cell.setHoleBackgroundColor(hole, color: UIColor.darkGray)
+                        cell.setHoleTextColor(hole, color: UIColor.white)
+                    }
                 }
             }
+            
             
             if matchObject.getStartingHole() == 1 {
                 if matchObject.getCurrentHole() < 10 {

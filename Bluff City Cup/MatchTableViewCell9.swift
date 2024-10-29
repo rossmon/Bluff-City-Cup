@@ -186,7 +186,7 @@ class MatchTableViewCell9: UITableViewCell {
                         .foregroundStyle(blueColor)
                         .interpolationMethod(.linear)
                         .symbol(Circle())
-                        .offset(x: 9) // Adjust this value slightly to align
+                        .offset(x: 8) // Adjust this value slightly to align
                     }
                 }
                 
@@ -201,7 +201,7 @@ class MatchTableViewCell9: UITableViewCell {
                         .foregroundStyle(redColor)
                         .interpolationMethod(.linear)
                         .symbol(Circle())
-                        .offset(x: 9)
+                        .offset(x: 8)
                     }
                 }
                 
@@ -216,7 +216,7 @@ class MatchTableViewCell9: UITableViewCell {
                         .foregroundStyle(Color.gray)
                         .interpolationMethod(.linear)
                         .symbol(Circle())
-                        .offset(x: 9)
+                        .offset(x: 8)
                     }
                 }
             }

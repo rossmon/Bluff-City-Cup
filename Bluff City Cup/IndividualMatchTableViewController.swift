@@ -50,7 +50,10 @@ class IndividualMatchTableViewController: UITableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         if match.getFormat() == "Singles" {
-            return 4
+            if tournament.getSinglesGroupMatches(user.getPlayer()!, round: tournament.getPlayerLastRound(user.player!)).count > 1  {
+                return 4
+            }
+            else { return 2 }
         }
         
         else {
@@ -457,21 +460,24 @@ class IndividualMatchTableViewController: UITableViewController {
                     String(matches[0].redTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()))
             }
             
-            if matches[1].blueTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()) == 0 {
-                (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 2)) as! IndividualMatchTableViewCell).playerScore.text = ""
-            }
-            else {
-                (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 2)) as! IndividualMatchTableViewCell).playerScore.text =
-                    String(matches[1].blueTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()))
+            if matches.count > 1 {
+                if matches[1].blueTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()) == 0 {
+                    (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 2)) as! IndividualMatchTableViewCell).playerScore.text = ""
+                }
+                else {
+                    (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 2)) as! IndividualMatchTableViewCell).playerScore.text =
+                        String(matches[1].blueTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()))
+                }
+                
+                if matches[1].redTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()) == 0 {
+                    (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 3)) as! IndividualMatchTableViewCell).playerScore.text = ""
+                }
+                else {
+                    (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 3)) as! IndividualMatchTableViewCell).playerScore.text =
+                        String(matches[1].redTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()))
+                }
             }
             
-            if matches[1].redTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()) == 0 {
-                (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 3)) as! IndividualMatchTableViewCell).playerScore.text = ""
-            }
-            else {
-                (individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 3)) as! IndividualMatchTableViewCell).playerScore.text =
-                    String(matches[1].redTeamPlayerOne().getHoleScore(tournament.getCourseWithName(name: matches[0].getCourseName()).getHole(viewingHoleNumber).getNumber(), round: match.getRound()))
-            }
             
         }
         
@@ -497,8 +503,16 @@ class IndividualMatchTableViewController: UITableViewController {
         
         match1BluePlayer = Int((individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 0)) as! IndividualMatchTableViewCell).playerScore.text!)!
         match1RedPlayer = Int((individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 1)) as! IndividualMatchTableViewCell).playerScore.text!)!
-        match2BluePlayer = Int((individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 2)) as! IndividualMatchTableViewCell).playerScore.text!)!
-        match2RedPlayer = Int((individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 3)) as! IndividualMatchTableViewCell).playerScore.text!)!
+
+        if tournament.getSinglesGroupMatches(user.getPlayer()!, round: tournament.getPlayerLastRound(user.player!)).count > 1 {
+            match2BluePlayer = Int((individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 2)) as! IndividualMatchTableViewCell).playerScore.text!)!
+            match2RedPlayer = Int((individualMatchTableView.cellForRow(at: IndexPath(row: 0, section: 3)) as! IndividualMatchTableViewCell).playerScore.text!)!
+        }
+        else {
+            match2BluePlayer = 0
+            match2RedPlayer = 0
+        }
+        
         
         return (match1BluePlayer,match1RedPlayer,match2BluePlayer,match2RedPlayer)
         

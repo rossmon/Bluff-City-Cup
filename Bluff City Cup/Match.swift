@@ -1290,13 +1290,18 @@ class Match : NSObject {
         if startingHole == 1 && matchLength == 9 { endingHole = 9 }
         else { endingHole = 18 }
         
-        for i in 1...min(endingHole,max(currentHole-1,1)) {
+        var endHole = 0
+        
+        if self.currentHole == self.startingHole { return endHole } 
+        
+        for i in self.startingHole...min(endingHole,max(currentHole-1,1)) {
             if self.holeWinner(i) == "Blue" { bluePointDiff+=1 }
             else if self.holeWinner(i) == "Red" { bluePointDiff-=1 }
-            
+            endHole = i
             if abs(bluePointDiff) > (endingHole - i) { return i }
         }
-        return 0
+        if endHole == self.startingHole + self.matchLength - 1 { return endHole }
+        else { return 0 }
     }
     
     
