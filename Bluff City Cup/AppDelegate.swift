@@ -3,12 +3,13 @@
 //  Bluff City Cup
 //
 //  Created by Ross Montague on 2/12/16.
-//  Copyright © 2016 Jumpstop Creations. All rights reserved.
+//  Copyright 2016 Jumpstop Creations. All rights reserved.
 //
 
 import UIKit
 import CoreData
 import UserNotifications
+import GoogleSignIn
 
 
 @UIApplicationMain
@@ -42,6 +43,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         window!.rootViewController = containerViewController
         window!.makeKeyAndVisible()
         
+        // Configure Google Sign-In
+        GIDSignIn.sharedInstance.configuration = GIDConfiguration(clientID: "1004743086689-3g5o0ol2bkhavbll8o7g2v3khf94h3dg.apps.googleusercontent.com")
+        
         /*
         if let bundleID = Bundle.main.bundleIdentifier {
             UserDefaults.standard.removePersistentDomain(forName: bundleID)
@@ -67,7 +71,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     
     // Handle unsuccessful registration for remote notifications
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print("Failed to register for remote notifications: \\(error.localizedDescription)")
+        print("Failed to register for remote notifications: \(error.localizedDescription)")
+    }
+    
+    func application(_ app: UIApplication,
+                    open url: URL,
+                    options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return GIDSignIn.sharedInstance.handle(url)
     }
     
     func applicationWillResignActive(_ application: UIApplication) {
@@ -176,4 +186,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
     }
     
 }
-

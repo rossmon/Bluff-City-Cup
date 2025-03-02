@@ -1,6 +1,7 @@
 import UIKit
 import AuthenticationServices
 import Security
+import GoogleSignIn
 
 protocol LoginViewControllerDelegate {
     func didCompleteLogin()
@@ -11,9 +12,10 @@ class LoginViewController: UIViewController {
     var delegate: LoginViewControllerDelegate?
     private let user = User.sharedInstance
     
-    private var appleUserIdentifier: String?
+    private var identifier: String?
     private var firstName: String?
     private var lastName: String?
+    private var googleSignInButton: GIDSignInButton!
     
     // MARK: - View Lifecycle
     
@@ -32,6 +34,7 @@ class LoginViewController: UIViewController {
         view.backgroundColor = UIColorFromRGB(0x0F296B)
 
         setupAppleSignInButton()
+        setupGoogleSignInButton()
         setupLogoAndTitle()
     }
     
@@ -55,6 +58,25 @@ class LoginViewController: UIViewController {
         ])
     }
     
+    private func setupGoogleSignInButton() {
+        googleSignInButton = GIDSignInButton()
+        googleSignInButton.style = .wide
+        googleSignInButton.colorScheme = .dark
+        
+        googleSignInButton.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(googleSignInButton)
+        
+        NSLayoutConstraint.activate([
+            googleSignInButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            googleSignInButton.topAnchor.constraint(equalTo: view.centerYAnchor, constant: 60),
+            googleSignInButton.widthAnchor.constraint(equalToConstant: 200),
+            googleSignInButton.heightAnchor.constraint(equalToConstant: 44)
+        ])
+        
+        // Add target
+        googleSignInButton.addTarget(self, action: #selector(handleGoogleSignIn), for: .touchUpInside)
+    }
+    
     // MARK: - Actions
     
     @objc private func handleAppleSignInButtonPress() {
@@ -66,6 +88,36 @@ class LoginViewController: UIViewController {
         authController.delegate = self
         authController.presentationContextProvider = self
         authController.performRequests()
+    }
+    
+    @objc private func handleGoogleSignIn() {
+        GIDSignIn.sharedInstance.signIn(withPresenting: self) { [weak self] result, error in
+            guard let self = self else { return }
+            
+            if let error = error {
+                print("Google sign in failed: \(error.localizedDescription)")
+                return
+            }
+            
+            guard let user = result?.user,
+                  let userId = user.userID,
+                  let profile = user.profile else { return }
+            
+            // Save Google user ID to keychain
+            self.saveToKeychain(userId: userId)
+            
+            // Get user details
+            let fullName = [profile.givenName, profile.familyName].compactMap { $0 }.joined(separator: " ")
+            self.firstName = profile.givenName
+            self.lastName = profile.familyName
+            self.identifier = userId
+            
+            // Show name validation
+            self.promptForNameValidation(defaultName: fullName)
+            
+            // Set email
+            self.user.email = profile.email
+        }
     }
     
     private let keychainService = "com.bluffcitycup.credentials"
@@ -112,8 +164,8 @@ extension LoginViewController: ASAuthorizationControllerDelegate, ASAuthorizatio
                                    didCompleteWithAuthorization authorization: ASAuthorization) {
             if let appleIDCredential = authorization.credential as? ASAuthorizationAppleIDCredential {
                 // Save user ID to keychain
-                appleUserIdentifier = appleIDCredential.user
-                saveToKeychain(userId: appleUserIdentifier!)
+                identifier = appleIDCredential.user
+                saveToKeychain(userId: identifier!)
                 
                 #if targetEnvironment(simulator)
                 // Use hardcoded values for simulator
@@ -154,7 +206,7 @@ extension LoginViewController: ASAuthorizationControllerDelegate, ASAuthorizatio
                 self.user.name = name
                 self.user.firstName = self.firstName
                 self.user.lastName = self.lastName
-                self.user.identifier = self.appleUserIdentifier!
+                self.user.identifier = self.identifier!
                 
                 // Save user name to UserDefaults
                 // Save all user properties to UserDefaults
@@ -162,7 +214,7 @@ extension LoginViewController: ASAuthorizationControllerDelegate, ASAuthorizatio
                 defaults.set(name, forKey: "UserName")
                 defaults.set(self.firstName, forKey: "UserFirstName")
                 defaults.set(self.lastName, forKey: "UserLastName")
-                defaults.set(self.appleUserIdentifier, forKey: "UserIdentifier")
+                defaults.set(self.identifier, forKey: "UserIdentifier")
                             
                 
                 // Set email if available
