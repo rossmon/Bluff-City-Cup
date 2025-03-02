@@ -12,6 +12,9 @@
 		0E4EB8C22D73C29D007B641D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EB8C12D73C29D007B641D /* LoginViewController.swift */; };
 		0E4EB8C52D73E321007B641D /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 0E4EB8C42D73E321007B641D /* GoogleSignIn */; };
 		0E4EB8C72D73E321007B641D /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0E4EB8C62D73E321007B641D /* GoogleSignInSwift */; };
+		0E4EB8C92D73EF78007B641D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EB8C82D73EF78007B641D /* Message.swift */; };
+		0E4EB8CB2D73EFB0007B641D /* MessageBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EB8CA2D73EFB0007B641D /* MessageBoardViewController.swift */; };
+		0E4EB8CD2D73EFB8007B641D /* ComposeMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EB8CC2D73EFB8007B641D /* ComposeMessageViewController.swift */; };
 		910572341C7E7FC100D4D80D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */; };
 		910B14F528776FA300ECD353 /* MatchScorecardCellNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */; };
 		910B14F7287779E000ECD353 /* MatchScorecardViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */; };
@@ -138,6 +141,9 @@
 		0E261B3D2CBCADDF0089C24F /* golfgains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golfgains.png; sourceTree = "<group>"; };
 		0E4EB8BF2D73BFD9007B641D /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		0E4EB8C12D73C29D007B641D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0E4EB8C82D73EF78007B641D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0E4EB8CA2D73EFB0007B641D /* MessageBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBoardViewController.swift; sourceTree = "<group>"; };
+		0E4EB8CC2D73EFB8007B641D /* ComposeMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeMessageViewController.swift; sourceTree = "<group>"; };
 		910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScorecardCellNew.swift; sourceTree = "<group>"; };
 		910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScorecardViewControllerNew.swift; sourceTree = "<group>"; };
@@ -284,6 +290,7 @@
 			children = (
 				91EE03601C853CB300F344B3 /* Tournament.swift */,
 				914077551DE546CF0058F54E /* Model.swift */,
+				0E4EB8C82D73EF78007B641D /* Message.swift */,
 				9132CB911C755E5F009B56A0 /* Match.swift */,
 				9132CB931C755E6A009B56A0 /* Player.swift */,
 				91EE03521C7EAB8100F344B3 /* Hole.swift */,
@@ -329,6 +336,8 @@
 			children = (
 				914077581DE549000058F54E /* Bluff City Cup.entitlements */,
 				9150BC691C6EA5270009B384 /* Main.storyboard */,
+				0E4EB8CA2D73EFB0007B641D /* MessageBoardViewController.swift */,
+				0E4EB8CC2D73EFB8007B641D /* ComposeMessageViewController.swift */,
 				91E25C321F37B33000D53982 /* ScorecardCell.swift */,
 				91A8AF271E4171C00019B495 /* MatchScorecardCell.swift */,
 				910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */,
@@ -703,15 +712,18 @@
 				91E5F2851DF798E6005C532B /* AddPlayerOrMatchView.swift in Sources */,
 				91C063571E3987DE002AF02F /* AddCourseCell.swift in Sources */,
 				9167BA5F28737F9A00117FCC /* MatchTableViewControllerNew.swift in Sources */,
+				0E4EB8CB2D73EFB0007B641D /* MessageBoardViewController.swift in Sources */,
 				9150BCAE1C6F97EE0009B384 /* TopPanelViewController.swift in Sources */,
 				9167BA5D28737B8E00117FCC /* MatchTableViewCell18.swift in Sources */,
 				91E5F27D1DF4F330005C532B /* MatchLengthCell.swift in Sources */,
 				914077561DE546CF0058F54E /* Model.swift in Sources */,
+				0E4EB8CD2D73EFB8007B641D /* ComposeMessageViewController.swift in Sources */,
 				0E4EB8C22D73C29D007B641D /* LoginViewController.swift in Sources */,
 				91E25C331F37B33000D53982 /* ScorecardCell.swift in Sources */,
 				91EE03531C7EAB8100F344B3 /* Hole.swift in Sources */,
 				9132CB941C755E6A009B56A0 /* Player.swift in Sources */,
 				9150BC661C6EA5270009B384 /* AppDelegate.swift in Sources */,
+				0E4EB8C92D73EF78007B641D /* Message.swift in Sources */,
 				91E5F27A1DF4F1DE005C532B /* DrinkCartNumberCell.swift in Sources */,
 				0E4EB8C02D73BFD9007B641D /* AuthenticationService.swift in Sources */,
 			);

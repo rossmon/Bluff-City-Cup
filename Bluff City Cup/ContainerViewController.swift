@@ -29,6 +29,8 @@ enum CurrentView {
     case scorecard
     case container
     case matchScorecard
+    case messageBoard
+
 }
 
 class ContainerViewController: UIViewController, LoginViewControllerDelegate {
@@ -74,6 +76,8 @@ class ContainerViewController: UIViewController, LoginViewControllerDelegate {
     
     var userViewController: ViewController!
     var loginViewController: LoginViewController!
+    var messageBoardViewController: MessageBoardViewController!
+    var messageBoardPanelExpandedOffset: CGFloat = 200
 
     
     var currentState: SlideOutState = .topPanelCollapsed {
@@ -343,6 +347,10 @@ private extension UIStoryboard {
         return mainStoryboard().instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
     }
     
+    class func messageBoardViewController() -> MessageBoardViewController? {
+        return MessageBoardViewController()
+    }
+    
     // Rest of extension remains the same
 }
 
@@ -411,10 +419,10 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
         topPanelController.user = self.user
         if user.getRole() == "Commissioner" {
             if tournament.isDrinkCartAvailable() {
-                topPanelController.menuItems = ["Scoreboard","Score Entry","Scorecard","Hole Map","Drink Cart","Settings","Commish Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Score Entry","Scorecard","Hole Map","Drink Cart","Settings","Commish Settings"]
             }
             else {
-                topPanelController.menuItems = ["Scoreboard","Score Entry","Scorecard","Hole Map","Settings","Commish Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Score Entry","Scorecard","Hole Map","Settings","Commish Settings"]
             }
             
             if !user.isScorekeeper()
@@ -446,19 +454,19 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
         }
         else if user.getRole() == "Spectator" {
             if tournament.isDrinkCartAvailable() {
-                topPanelController.menuItems = ["Scoreboard","Drink Cart","Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Drink Cart","Settings"]
             }
             else {
-                topPanelController.menuItems = ["Scoreboard","Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Settings"]
             }
             
         }
         else if user.getRole() == "Player" {
             if tournament.isDrinkCartAvailable() {
-                topPanelController.menuItems = ["Scoreboard","Scorecard","Hole Map","Drink Cart","Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Scorecard","Hole Map","Drink Cart","Settings"]
             }
             else {
-                topPanelController.menuItems = ["Scoreboard","Scorecard","Hole Map","Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Scorecard","Hole Map","Settings"]
             }
             
             if model.getTournament().getCurrentMatch(user.getPlayer()!) == nil {
@@ -479,10 +487,10 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
         }
         else if user.getRole() == "Scorekeeper" {
             if tournament.isDrinkCartAvailable() {
-                topPanelController.menuItems = ["Scoreboard","Score Entry","Scorecard","Hole Map","Drink Cart","Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Score Entry","Scorecard","Hole Map","Drink Cart","Settings"]
             }
             else {
-                topPanelController.menuItems = ["Scoreboard","Score Entry","Scorecard","Hole Map","Settings"]
+                topPanelController.menuItems = ["Scoreboard","Message Board","Score Entry","Scorecard","Hole Map","Settings"]
             }
             
             if model.getTournament().getCurrentMatch(user.getPlayer()!) == nil {
@@ -884,6 +892,46 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+        else if menu == "Message Board" {
+            if currentView != .messageBoard {
+                messageBoardViewController = UIStoryboard.messageBoardViewController()
+                messageBoardViewController.delegate = self
+                
+                if scoreboardViewController != nil {
+                    self.scoreboardViewController!.view.removeFromSuperview()
+                    self.scoreboardViewController = nil
+                }
+                if scoreEntryViewController != nil {
+                    self.scoreEntryViewController!.view.removeFromSuperview()
+                    self.scoreEntryViewController = nil
+                }
+                if drinkCartViewController != nil {
+                    self.drinkCartViewController!.view.removeFromSuperview()
+                    self.drinkCartViewController = nil
+                }
+                if holeMapViewController != nil {
+                    self.holeMapViewController!.view.removeFromSuperview()
+                    self.holeMapViewController = nil
+                }
+                if settingsViewController != nil {
+                    self.settingsViewController!.view.removeFromSuperview()
+                    self.settingsViewController = nil
+                }
+                if commishSettingsViewController != nil {
+                    self.navCommishController.willMove(toParent: nil)
+                    self.navCommishController.view.removeFromSuperview()
+                    self.navCommishController.removeFromParent()
+                }
+                
+                messageBoardViewController.user = self.user
+                messageBoardViewController.tournament = self.model.getTournament()
+                
+                view.addSubview(messageBoardViewController.view)
+                
+                currentView = .messageBoard
+            }
+        }
+
         
     }
     
@@ -1384,6 +1432,46 @@ extension ContainerViewController: ScoreEntryViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+        else if menu == "Message Board" {
+            if currentView != .messageBoard {
+                messageBoardViewController = UIStoryboard.messageBoardViewController()
+                messageBoardViewController.delegate = self
+                
+                if scoreboardViewController != nil {
+                    self.scoreboardViewController!.view.removeFromSuperview()
+                    self.scoreboardViewController = nil
+                }
+                if scoreEntryViewController != nil {
+                    self.scoreEntryViewController!.view.removeFromSuperview()
+                    self.scoreEntryViewController = nil
+                }
+                if drinkCartViewController != nil {
+                    self.drinkCartViewController!.view.removeFromSuperview()
+                    self.drinkCartViewController = nil
+                }
+                if holeMapViewController != nil {
+                    self.holeMapViewController!.view.removeFromSuperview()
+                    self.holeMapViewController = nil
+                }
+                if settingsViewController != nil {
+                    self.settingsViewController!.view.removeFromSuperview()
+                    self.settingsViewController = nil
+                }
+                if commishSettingsViewController != nil {
+                    self.navCommishController.willMove(toParent: nil)
+                    self.navCommishController.view.removeFromSuperview()
+                    self.navCommishController.removeFromParent()
+                }
+                
+                messageBoardViewController.user = self.user
+                messageBoardViewController.tournament = self.model.getTournament()
+                
+                view.addSubview(messageBoardViewController.view)
+                
+                currentView = .messageBoard
+            }
+        }
+
     }
     
     /*
@@ -1979,6 +2067,46 @@ extension ContainerViewController: DrinkCartViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+        else if menu == "Message Board" {
+            if currentView != .messageBoard {
+                messageBoardViewController = UIStoryboard.messageBoardViewController()
+                messageBoardViewController.delegate = self
+                
+                if scoreboardViewController != nil {
+                    self.scoreboardViewController!.view.removeFromSuperview()
+                    self.scoreboardViewController = nil
+                }
+                if scoreEntryViewController != nil {
+                    self.scoreEntryViewController!.view.removeFromSuperview()
+                    self.scoreEntryViewController = nil
+                }
+                if drinkCartViewController != nil {
+                    self.drinkCartViewController!.view.removeFromSuperview()
+                    self.drinkCartViewController = nil
+                }
+                if holeMapViewController != nil {
+                    self.holeMapViewController!.view.removeFromSuperview()
+                    self.holeMapViewController = nil
+                }
+                if settingsViewController != nil {
+                    self.settingsViewController!.view.removeFromSuperview()
+                    self.settingsViewController = nil
+                }
+                if commishSettingsViewController != nil {
+                    self.navCommishController.willMove(toParent: nil)
+                    self.navCommishController.view.removeFromSuperview()
+                    self.navCommishController.removeFromParent()
+                }
+                
+                messageBoardViewController.user = self.user
+                messageBoardViewController.tournament = self.model.getTournament()
+                
+                view.addSubview(messageBoardViewController.view)
+                
+                currentView = .messageBoard
+            }
+        }
+
     }
 }
 
@@ -2463,6 +2591,46 @@ extension ContainerViewController: HoleMapViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+        else if menu == "Message Board" {
+            if currentView != .messageBoard {
+                messageBoardViewController = UIStoryboard.messageBoardViewController()
+                messageBoardViewController.delegate = self
+                
+                if scoreboardViewController != nil {
+                    self.scoreboardViewController!.view.removeFromSuperview()
+                    self.scoreboardViewController = nil
+                }
+                if scoreEntryViewController != nil {
+                    self.scoreEntryViewController!.view.removeFromSuperview()
+                    self.scoreEntryViewController = nil
+                }
+                if drinkCartViewController != nil {
+                    self.drinkCartViewController!.view.removeFromSuperview()
+                    self.drinkCartViewController = nil
+                }
+                if holeMapViewController != nil {
+                    self.holeMapViewController!.view.removeFromSuperview()
+                    self.holeMapViewController = nil
+                }
+                if settingsViewController != nil {
+                    self.settingsViewController!.view.removeFromSuperview()
+                    self.settingsViewController = nil
+                }
+                if commishSettingsViewController != nil {
+                    self.navCommishController.willMove(toParent: nil)
+                    self.navCommishController.view.removeFromSuperview()
+                    self.navCommishController.removeFromParent()
+                }
+                
+                messageBoardViewController.user = self.user
+                messageBoardViewController.tournament = self.model.getTournament()
+                
+                view.addSubview(messageBoardViewController.view)
+                
+                currentView = .messageBoard
+            }
+        }
+
     }
 }
 
@@ -2958,6 +3126,46 @@ extension ContainerViewController: SettingsViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+        else if menu == "Message Board" {
+            if currentView != .messageBoard {
+                messageBoardViewController = UIStoryboard.messageBoardViewController()
+                messageBoardViewController.delegate = self
+                
+                if scoreboardViewController != nil {
+                    self.scoreboardViewController!.view.removeFromSuperview()
+                    self.scoreboardViewController = nil
+                }
+                if scoreEntryViewController != nil {
+                    self.scoreEntryViewController!.view.removeFromSuperview()
+                    self.scoreEntryViewController = nil
+                }
+                if drinkCartViewController != nil {
+                    self.drinkCartViewController!.view.removeFromSuperview()
+                    self.drinkCartViewController = nil
+                }
+                if holeMapViewController != nil {
+                    self.holeMapViewController!.view.removeFromSuperview()
+                    self.holeMapViewController = nil
+                }
+                if settingsViewController != nil {
+                    self.settingsViewController!.view.removeFromSuperview()
+                    self.settingsViewController = nil
+                }
+                if commishSettingsViewController != nil {
+                    self.navCommishController.willMove(toParent: nil)
+                    self.navCommishController.view.removeFromSuperview()
+                    self.navCommishController.removeFromParent()
+                }
+                
+                messageBoardViewController.user = self.user
+                messageBoardViewController.tournament = self.model.getTournament()
+                
+                view.addSubview(messageBoardViewController.view)
+                
+                currentView = .messageBoard
+            }
+        }
+
     }
 }
 
@@ -3440,6 +3648,129 @@ extension ContainerViewController: CommishSettingsViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+        else if menu == "Message Board" {
+            if currentView != .messageBoard {
+                messageBoardViewController = UIStoryboard.messageBoardViewController()
+                messageBoardViewController.delegate = self
+                
+                if scoreboardViewController != nil {
+                    self.scoreboardViewController!.view.removeFromSuperview()
+                    self.scoreboardViewController = nil
+                }
+                if scoreEntryViewController != nil {
+                    self.scoreEntryViewController!.view.removeFromSuperview()
+                    self.scoreEntryViewController = nil
+                }
+                if drinkCartViewController != nil {
+                    self.drinkCartViewController!.view.removeFromSuperview()
+                    self.drinkCartViewController = nil
+                }
+                if holeMapViewController != nil {
+                    self.holeMapViewController!.view.removeFromSuperview()
+                    self.holeMapViewController = nil
+                }
+                if settingsViewController != nil {
+                    self.settingsViewController!.view.removeFromSuperview()
+                    self.settingsViewController = nil
+                }
+                if commishSettingsViewController != nil {
+                    self.navCommishController.willMove(toParent: nil)
+                    self.navCommishController.view.removeFromSuperview()
+                    self.navCommishController.removeFromParent()
+                }
+                
+                messageBoardViewController.user = self.user
+                messageBoardViewController.tournament = self.model.getTournament()
+                
+                view.addSubview(messageBoardViewController.view)
+                
+                currentView = .messageBoard
+            }
+        }
+
+    }
+}
+
+extension ContainerViewController: MessageBoardViewControllerDelegate {
+    func toggleTopPanelMessageBoard() {
+        let notAlreadyExpanded = (currentState != .topPanelExpanded)
+        
+        if notAlreadyExpanded {
+            addTopPanelViewControllerMessageBoard()
+        }
+        
+        animateTopPanelMessageBoard(notAlreadyExpanded)
+    }
+    
+    func collapseTopPanelMessageBoard() {
+        switch (currentState) {
+        case .topPanelExpanded:
+            toggleTopPanelMessageBoard()
+        default:
+            break
+        }
+    }
+    
+    func changeViewMessageBoard(_ menu: String) {
+        changeViewScoreboard(menu, scorecardMatch: self.currentMatch)
+    }
+    
+    private func addTopPanelViewControllerMessageBoard() {
+        if (topPanelViewController == nil) {
+            topPanelViewController = UIStoryboard.topPanelViewController()
+            addChildTopPanelControllerMessageBoard(topPanelViewController!)
+        }
+    }
+    
+    private func addChildTopPanelControllerMessageBoard(_ topPanelController: TopPanelViewController) {
+        topPanelController.delegate = messageBoardViewController as! any TopPanelViewControllerDelegate
+        topPanelController.user = self.user
+        
+        // Add "Message Board" to menu items in all user role conditions
+        if user.getRole() == "Commissioner" {
+            if model.getTournament().isDrinkCartAvailable() {
+                topPanelController.menuItems = ["Scoreboard", "Message Board", "Score Entry", "Scorecard", "Hole Map", "Drink Cart", "Settings", "Commish Settings"]
+            } else {
+                topPanelController.menuItems = ["Scoreboard", "Message Board", "Score Entry", "Scorecard", "Hole Map", "Settings", "Commish Settings"]
+            }
+        } else if user.getRole() == "Spectator" {
+            if model.getTournament().isDrinkCartAvailable() {
+                topPanelController.menuItems = ["Scoreboard", "Message Board", "Drink Cart", "Settings"]
+            } else {
+                topPanelController.menuItems = ["Scoreboard", "Message Board", "Settings"]
+            }
+        } else if user.getRole() == "Player" {
+            if model.getTournament().isDrinkCartAvailable() {
+                topPanelController.menuItems = ["Scoreboard", "Message Board", "Scorecard", "Hole Map", "Drink Cart", "Settings"]
+            } else {
+                topPanelController.menuItems = ["Scoreboard", "Message Board", "Scorecard", "Hole Map", "Settings"]
+            }
+        }
+        
+        view.insertSubview(topPanelController.view, at: 0)
+        addChild(topPanelController)
+        topPanelController.didMove(toParent: self)
+    }
+    
+    private func animateTopPanelMessageBoard(_ shouldExpand: Bool) {
+        if (shouldExpand) {
+            currentState = .topPanelExpanded
+            animateMessageBoardPanelXPosition(messageBoardPanelExpandedOffset)
+        } else {
+            animateMessageBoardPanelXPosition(0) { _ in
+                self.currentState = .topPanelCollapsed
+                if self.topPanelViewController != nil {
+                    self.topPanelViewController!.view.removeFromSuperview()
+                    self.topPanelViewController = nil
+                }
+            }
+        }
+    }
+    
+    private func animateMessageBoardPanelXPosition(_ targetPosition: CGFloat, completion: ((Bool) -> Void)! = nil) {
+        UIView.animate(withDuration: 0.2, delay: 0, usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+            self.messageBoardViewController.view.frame.origin.x = targetPosition
+        }, completion: completion)
     }
 }
 

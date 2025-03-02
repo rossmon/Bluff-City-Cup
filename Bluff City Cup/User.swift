@@ -99,6 +99,10 @@ class User {
         return role
     }
     
+    func getIdentifier() -> String {
+        return identifier
+    }
+    
     func isScorekeeper() -> Bool {
         return scorekeeper
     }

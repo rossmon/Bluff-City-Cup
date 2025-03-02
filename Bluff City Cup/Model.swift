@@ -9,6 +9,8 @@
 import Foundation
 import CloudKit
 import CoreLocation
+import UIKit
+
 
 // Specify the protocol to be used by view controllers to handle notifications.
 protocol ModelDelegate {
@@ -30,6 +32,8 @@ class Model: NSObject, URLSessionDataDelegate {
     var tournament: Tournament!
     var tournamentRecord: CKRecord!
     
+    var messages: [Message] = []
+    var messageCache: NSCache<NSString, UIImage> = NSCache<NSString, UIImage>()
     
     // Define databases.
     
@@ -2023,5 +2027,329 @@ class Model: NSObject, URLSessionDataDelegate {
         
         return matchProbabilities
     }
+    
+    func fetchMessages(tournamentName: String, _ completion: @escaping (_ messages: [Message]?, _ error: Error?) -> Void) {
+        let tournamentNameURL = tournamentName.replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
+        
+        var session: URLSession!
+        let configuration = URLSessionConfiguration.default
+        session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
+        
+        let urlPath = "http://montyratings.com/bluffcitycup/messages.php?tournament=" + tournamentNameURL
+        let url = NSURL(string: urlPath)!
+        
+        let messagesTask = session.dataTask(with: url as URL) { (data, response, error) in
+            guard error == nil else {
+                completion(nil, error)
+                return
+            }
+            
+            guard let data = data else {
+                completion(nil, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "No data received"]))
+                return
+            }
+            
+            do {
+                var messages: [Message] = []
+                
+                if let jsonDict = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? NSDictionary {
+                    // Handle single message case
+                    if let id = Int((jsonDict["id"] as? String)!),
+                       let userIdentifier = jsonDict["user_identifier"] as? String,
+                       let content = jsonDict["content"] as? String,
+                       let typeString = jsonDict["type"] as? String {
+                        
+                        let type: MessageType = typeString == "image" ? .image :
+                                              typeString == "video" ? .video : .text
+                        
+                        let parentId = Int((jsonDict["parent_id"] as? String) ?? "0")
+                        let mediaUrl = jsonDict["media_url"] as? String
+                        
+                        let message = Message(id: id,
+                                            userIdentifier: userIdentifier,
+                                            content: content,
+                                            type: type,
+                                            parentMessageId: parentId == 0 ? nil : parentId,
+                                            mediaUrl: mediaUrl)
+                        
+                        messages.append(message)
+                    }
+                } else if let jsonArray = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? NSArray {
+                    // Handle array of messages case
+                    for case let jsonElement as NSDictionary in jsonArray {
+                        if let id = Int((jsonElement["id"] as? String)!),
+                           let userIdentifier = jsonElement["user_identifier"] as? String,
+                           let content = jsonElement["content"] as? String,
+                           let typeString = jsonElement["type"] as? String {
+                            
+                            let type: MessageType = typeString == "image" ? .image :
+                                                  typeString == "video" ? .video : .text
+                            
+                            let parentId = Int((jsonElement["parent_id"] as? String) ?? "0")
+                            let mediaUrl = jsonElement["media_url"] as? String
+                            
+                            let message = Message(id: id,
+                                                userIdentifier: userIdentifier,
+                                                content: content,
+                                                type: type,
+                                                parentMessageId: parentId == 0 ? nil : parentId,
+                                                mediaUrl: mediaUrl)
+                            
+                            messages.append(message)
+                        }
+                    }
+                }
+                
+                self.messages = messages
+                completion(messages, nil)
+                
+            } catch let error as NSError {
+                completion(nil, error)
+            }
+        }
+        
+        messagesTask.resume()
+    }
+
+    func postMessage(tournamentName: String, message: Message, imageData: Data? = nil, _ completion: @escaping (_ success: Bool, _ error: Error?) -> Void) {
+        let tournamentNameURL = tournamentName.replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
+        
+        // Create multipart form data request
+        let boundary = "Boundary-\(UUID().uuidString)"
+        var request = URLRequest(url: URL(string: "http://montyratings.com/bluffcitycup/post_message.php")!)
+        request.httpMethod = "POST"
+        request.setValue("multipart/form-data; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
+        
+        var body = Data()
+        
+        // Add tournament parameter
+        body.append("--\(boundary)\r\n".data(using: .utf8)!)
+        body.append("Content-Disposition: form-data; name=\"tournament\"\r\n\r\n".data(using: .utf8)!)
+        body.append("\(tournamentNameURL)\r\n".data(using: .utf8)!)
+        
+        // Add message content
+        body.append("--\(boundary)\r\n".data(using: .utf8)!)
+        body.append("Content-Disposition: form-data; name=\"content\"\r\n\r\n".data(using: .utf8)!)
+        body.append("\(message.getContent())\r\n".data(using: .utf8)!)
+        
+        // Add user identifier
+        body.append("--\(boundary)\r\n".data(using: .utf8)!)
+        body.append("Content-Disposition: form-data; name=\"user_identifier\"\r\n\r\n".data(using: .utf8)!)
+        body.append("\(message.getUserIdentifier())\r\n".data(using: .utf8)!)
+        
+        // Add message type
+        body.append("--\(boundary)\r\n".data(using: .utf8)!)
+        body.append("Content-Disposition: form-data; name=\"type\"\r\n\r\n".data(using: .utf8)!)
+        body.append("\(message.getType())\r\n".data(using: .utf8)!)
+        
+        // Add parent message id if it exists
+        if let parentId = message.getParentMessageId() {
+            body.append("--\(boundary)\r\n".data(using: .utf8)!)
+            body.append("Content-Disposition: form-data; name=\"parent_id\"\r\n\r\n".data(using: .utf8)!)
+            body.append("\(parentId)\r\n".data(using: .utf8)!)
+        }
+        
+        // Add image data if it exists
+        if let imageData = imageData {
+            body.append("--\(boundary)\r\n".data(using: .utf8)!)
+            body.append("Content-Disposition: form-data; name=\"media\"; filename=\"image.jpg\"\r\n".data(using: .utf8)!)
+            body.append("Content-Type: image/jpeg\r\n\r\n".data(using: .utf8)!)
+            body.append(imageData)
+            body.append("\r\n".data(using: .utf8)!)
+        }
+        
+        body.append("--\(boundary)--\r\n".data(using: .utf8)!)
+        request.httpBody = body
+        
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+            if let error = error {
+                completion(false, error)
+                return
+            }
+            
+            completion(true, nil)
+        }
+        
+        task.resume()
+    }
+
+    func postReaction(tournamentName: String, messageId: Int, userIdentifier: String, reactionType: String, _ completion: @escaping (_ success: Bool, _ error: Error?) -> Void) {
+            let tournamentNameURL = tournamentName.replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
+            
+            var session: URLSession!
+            let configuration = URLSessionConfiguration.default
+            session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
+            
+        // Break down URL creation into parts using URLComponents
+            var components = URLComponents(string: "http://montyratings.com/bluffcitycup/post_reaction.php")!
+            components.queryItems = [
+                URLQueryItem(name: "tournament", value: tournamentNameURL),
+                URLQueryItem(name: "message_id", value: String(messageId)),
+                URLQueryItem(name: "user_identifier", value: userIdentifier),
+                URLQueryItem(name: "reaction", value: reactionType)
+            ]
+            
+            guard let url = components.url else {
+                completion(false, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"]))
+                return
+            }
+            
+            let reactionTask = session.dataTask(with: url as URL) { (data, response, error) in
+                if let error = error {
+                    completion(false, error)
+                    return
+                }
+                
+                if let data = data {
+                    do {
+                        if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+                           let success = json["success"] as? Bool {
+                            completion(success, nil)
+                        } else {
+                            completion(false, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid response"]))
+                        }
+                    } catch {
+                        completion(false, error)
+                    }
+                }
+            }
+            
+            reactionTask.resume()
+        }
+    
+    private func parseJSONmessages(data: Data) -> [Message] {
+            var messages = [Message]()
+            
+            do {
+                let jsonResult = try JSONSerialization.jsonObject(with: data) as! [[String: Any]]
+                
+                for messageData in jsonResult {
+                    if let id = messageData["id"] as? Int,
+                       let userIdentifier = messageData["user_identifier"] as? String,
+                       let content = messageData["content"] as? String,
+                       let typeString = messageData["type"] as? String {
+                        
+                        let type: MessageType = typeString == "image" ? .image :
+                                              typeString == "video" ? .video : .text
+                        
+                        let message = Message(id: id,
+                                            userIdentifier: userIdentifier,
+                                            content: content,
+                                            type: type)
+                        
+                        // Parse reactions
+                        if let reactionsData = messageData["reactions"] as? [[String: Any]] {
+                            for reactionData in reactionsData {
+                                if let reactionUser = reactionData["user_identifier"] as? String,
+                                   let reactionType = reactionData["reaction"] as? String,
+                                   let timestamp = reactionData["timestamp"] as? TimeInterval,
+                                   let type = ReactionType(rawValue: reactionType) {
+                                    
+                                    let reaction = Reaction(userIdentifier: reactionUser,
+                                                          reaction: type,
+                                                          timestamp: Date(timeIntervalSince1970: timestamp))
+                                    message.addReaction(reaction)
+                                }
+                            }
+                        }
+                        
+                        messages.append(message)
+                    }
+                }
+            } catch {
+                print("Error parsing messages: \(error)")
+            }
+            
+            return messages
+        }
+    
+    func upsertUser(identifier: String, firstName: String?, lastName: String?, email: String?, completion: @escaping (Bool, Error?) -> Void) {
+        let urlString = "http://montyratings.com/bluffcitycup/upsert_user.php"
+        guard let url = URL(string: urlString) else {
+            completion(false, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"]))
+            return
+        }
+        
+        // Create request with parameters
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+        
+        // Prepare parameters
+        let parameters: [String: Any] = [
+            "identifier": identifier,
+            "first_name": firstName ?? "",
+            "last_name": lastName ?? "",
+            "email": email ?? ""
+        ]
+        
+        // Convert parameters to form data
+        let postString = parameters.map { key, value in
+            let encodedKey = key.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? key
+            let encodedValue = "\(value)".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? "\(value)"
+            return "\(encodedKey)=\(encodedValue)"
+        }.joined(separator: "&")
+        
+        request.httpBody = postString.data(using: .utf8)
+        
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+            if let error = error {
+                completion(false, error)
+                return
+            }
+            
+            // Check for successful response
+            if let httpResponse = response as? HTTPURLResponse,
+               httpResponse.statusCode == 200 {
+                completion(true, nil)
+            } else {
+                completion(false, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Failed to upsert user"]))
+            }
+        }
+        
+        task.resume()
+    }
+
+    func getUserName(forIdentifier identifier: String) -> String? {
+        // Find user in local memory first (you might want to implement caching)
+        // For now, just return the identifier as we'll fetch from server when needed
+        return identifier
+    }
+
+    func fetchUserInfo(identifier: String, completion: @escaping (_ firstName: String?, _ lastName: String?, _ email: String?, _ error: Error?) -> Void) {
+        let urlString = "http://montyratings.com/bluffcitycup/get_user.php?identifier=" + identifier
+        
+        guard let url = URL(string: urlString) else {
+            completion(nil, nil, nil, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid URL"]))
+            return
+        }
+        
+        let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
+            if let error = error {
+                completion(nil, nil, nil, error)
+                return
+            }
+            
+            guard let data = data else {
+                completion(nil, nil, nil, NSError(domain: "", code: -1, userInfo: [NSLocalizedDescriptionKey: "No data received"]))
+                return
+            }
+            
+            do {
+                if let json = try JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
+                    let firstName = json["first_name"] as? String
+                    let lastName = json["last_name"] as? String
+                    let email = json["email"] as? String
+                    completion(firstName, lastName, email, nil)
+                }
+            } catch {
+                completion(nil, nil, nil, error)
+            }
+        }
+        
+        task.resume()
+    }
+    
+   
 }
 

@@ -112,6 +112,18 @@ class LoginViewController: UIViewController {
             self.lastName = profile.familyName
             self.identifier = userId
             
+            // Upsert user to database
+            Model.sharedInstance.upsertUser(
+                identifier: userId,
+                firstName: profile.givenName,
+                lastName: profile.familyName,
+                email: profile.email
+            ) { success, error in
+                if let error = error {
+                    print("Failed to upsert user: \(error)")
+                }
+            }
+            
             // Show name validation
             self.promptForNameValidation(defaultName: fullName)
             
@@ -171,12 +183,37 @@ extension LoginViewController: ASAuthorizationControllerDelegate, ASAuthorizatio
                 // Use hardcoded values for simulator
                 firstName = "Ross"
                 lastName = "Montague"
+                
+                // Upsert user to database
+                Model.sharedInstance.upsertUser(
+                    identifier: identifier!,
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: "ross@montagues.us"
+                ) { success, error in
+                    if let error = error {
+                        print("Failed to upsert user: \(error)")
+                    }
+                }
+                
                 promptForNameValidation(defaultName: "Ross Montague")
                 #else
                 // Get names from Apple credentials
                 firstName = appleIDCredential.fullName?.givenName
                 lastName = appleIDCredential.fullName?.familyName
                 let fullName = [firstName, lastName].compactMap { $0 }.joined(separator: " ")
+                
+                // Upsert user to database
+                Model.sharedInstance.upsertUser(
+                    identifier: identifier!,
+                    firstName: firstName,
+                    lastName: lastName,
+                    email: appleIDCredential.email
+                ) { success, error in
+                    if let error = error {
+                        print("Failed to upsert user: \(error)")
+                    }
+                }
                 
                 // Show name validation prompt
                 promptForNameValidation(defaultName: fullName)
