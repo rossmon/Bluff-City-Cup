@@ -1,0 +1,5 @@
+ extern const unsigned char Pods_Bluff_City_Cup_Bluff_City_CupUITestsVersionString[];
+ extern const double Pods_Bluff_City_Cup_Bluff_City_CupUITestsVersionNumber;
+
+ const unsigned char Pods_Bluff_City_Cup_Bluff_City_CupUITestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_Bluff_City_Cup_Bluff_City_CupUITests  PROJECT:Pods-1" "\n";
+ const double Pods_Bluff_City_Cup_Bluff_City_CupUITestsVersionNumber __attribute__ ((used)) = (double)1.;

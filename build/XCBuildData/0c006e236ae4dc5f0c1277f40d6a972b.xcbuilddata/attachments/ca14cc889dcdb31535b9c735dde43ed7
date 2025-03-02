@@ -1,0 +1,6 @@
+framework module Pods_Bluff_City_Cup_Bluff_City_CupUITests {
+  umbrella header "Pods-Bluff City Cup-Bluff City CupUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

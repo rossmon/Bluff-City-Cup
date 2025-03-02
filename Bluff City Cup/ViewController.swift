@@ -3,11 +3,12 @@
 //  Bluff City Cup
 //
 //  Created by Ross Montague on 2/12/16.
-//  Copyright © 2016 Jumpstop Creations. All rights reserved.
+//  Copyright 2016 Jumpstop Creations. All rights reserved.
 //
 
 import UIKit
 import CloudKit
+import AuthenticationServices
 
 protocol ViewControllerDelegate {
     func loggedIn(tournamentName: String)
@@ -25,9 +26,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     let model: Model = Model.sharedInstance
     let user: User = User.sharedInstance
     var userName: String!
-    
-    @IBOutlet weak var lastNameField: UITextField!
-    @IBOutlet weak var firstNameField: UITextField!
     
     @IBOutlet weak var loadIndicator: UIActivityIndicatorView!
     var pickOption = [(name: String, commish: String)]()
@@ -68,62 +66,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         loginButton.isHidden = true
         pickerView.delegate = self
         
-        firstNameField.isHidden = true
-        firstNameField.delegate = self
-        lastNameField.isHidden = true
-        lastNameField.delegate = self
-        
         let defaults = UserDefaults.standard
         
         userName = defaults.object(forKey: "UserName") as? String
         
         if userName == nil || userName == "" || userName == " " {
-            /*
-             model.getUserInfo() { (result, error) in
-             if error != nil {
-             self.errorAlert(error)
-             }
-             else {
-             if result == nil {
-             
-             defaults.set(self.user.getName(), forKey: "UserName")
-             self.userName = self.user.getName()
-             
-             
-             self.model.getTournamentNames() { tournaments in
-             self.pickOption = tournaments
-             
-             DispatchQueue.main.async {
-             self.tournamentNameTextField.isHidden = false
-             self.loginButton.isHidden = false
-             }
-             
-             
-             }
-             }
-             else if result == "Upgrade" {
-             self.upgradeiOSAlert()
-             }
-             else if result == "iCloud Login" {
-             self.iCloudLoginAlert()
-             }
-             else if result == "No User" {
-             self.noUserError()
-             }
-             else if result == "User ID" {
-             self.noUserIDError()
-             }
-             else {
-             if let error = result {
-             self.catchAllError(error)
-             }
-             else {
-             self.catchAllError("")
-             }
-             }
-             }
-             }
-             */
             model.getTournamentNames() { tournaments in
                 self.pickOption = tournaments
                 print(self.pickOption.count)
@@ -131,11 +78,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 DispatchQueue.main.async {
                     self.tournamentNameTextField.isHidden = false
                     self.loginButton.isHidden = false
-                    self.firstNameField.isHidden = false
-                    self.lastNameField.isHidden = false
                 }
             }
-            
         }
         else {
             model.getTournamentNames() { tournaments in
@@ -159,8 +103,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         return 1
     }
     @IBAction func backgroundTouched(_ sender: Any) {
-       
-            view.endEditing(true)
+        
+        view.endEditing(true)
         view.resignFirstResponder()
         pickerView.isHidden = true
     }
@@ -195,37 +139,20 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBAction func loginButtonPressed(_ sender: Any) {
         
         
-        
-        
         print(userName)
         
         let defaults = UserDefaults.standard
         
-        if (self.firstNameField.text == "" || self.lastNameField.text == "" || self.firstNameField.text == nil || self.lastNameField.text == nil) && (userName == nil || userName == "" || userName == " "){
-            nameInvalidAlert()
-        }
-        else if self.tournamentNameTextField.text == nil || self.tournamentNameTextField.text == "" {
+        if self.tournamentNameTextField.text == nil || self.tournamentNameTextField.text == "" {
             tournamentInvalidAlert()
         }
         else {
-            
-            
             if pickOption.count == 0 {
                 noTournamentAlert()
-            }
-            else if self.userName == nil && (self.firstNameField.text == "" || self.lastNameField.text == "" || self.firstNameField.text == nil || self.lastNameField.text == nil) {
-                nameInvalidAlert()
             }
             else {
                 startActivity()
                 
-                if self.userName == nil || self.userName == "" || self.userName == " " {
-                    self.user.setUserName(self.firstNameField.text! + " " + self.lastNameField.text!)
-                    
-                    self.userName = self.user.getName()
-                }
-                
-    
                 var checkTournamentResults: (found: Bool, commissioner: String, commissionerPassword: String)?
                 model.checkTournament(tournamentName: tournamentNameTextField.text!) { isFound, commishName, commishPassword in
                     checkTournamentResults = (isFound,commishName,commishPassword)
@@ -242,7 +169,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                                 if self.userName == checkTournamentResults!.commissioner {
                                     
                                     self.model.checkScorekeeper(userName: self.userName, tournamentName: self.tournamentNameTextField.text!) { isScorekeeper, isInMatch in
-                    
+                                        
                                         self.checkCommissionerPassword(checkTournamentResults!.commissionerPassword) { correct in
                                             if correct {
                                                 if isScorekeeper {
@@ -270,7 +197,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                                         }
                                     }
                                 }
-                                    
+                                
                                 else {
                                     self.model.checkScorekeeper(userName: self.userName, tournamentName: self.tournamentNameTextField.text!) { isScorekeeper, inMatch in
                                         
@@ -382,20 +309,20 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         }
         
         /*
-        if tournamentPassword.text == "mitchell" {
-            tournamentAddPasswordView.isHidden = true
-           
-            tournamentPassword.text = ""
-            tournamentDetailsView.isHidden = false
-        }
-        else {
-            let alert = UIAlertController(title: "Oops!", message: "The entered password is not valid.", preferredStyle: UIAlertController.Style.alert)
-            
-            alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
-            }))
-            
-            present(alert, animated: true, completion: nil)
-        }
+         if tournamentPassword.text == "mitchell" {
+         tournamentAddPasswordView.isHidden = true
+         
+         tournamentPassword.text = ""
+         tournamentDetailsView.isHidden = false
+         }
+         else {
+         let alert = UIAlertController(title: "Oops!", message: "The entered password is not valid.", preferredStyle: UIAlertController.Style.alert)
+         
+         alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+         }))
+         
+         present(alert, animated: true, completion: nil)
+         }
          */
     }
     
@@ -720,4 +647,3 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         return UIColor(red:red, green:green, blue:blue, alpha:CGFloat(alpha))
     }
 }
-

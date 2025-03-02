@@ -10,6 +10,7 @@ import UIKit
 import QuartzCore
 import CoreLocation
 import CloudKit
+import Security
 
 enum SlideOutState {
     case topPanelExpanded
@@ -17,6 +18,7 @@ enum SlideOutState {
 }
 
 enum CurrentView {
+    case login
     case scoreEntry
     case scoreboard
     case drinkCart
@@ -29,7 +31,20 @@ enum CurrentView {
     case matchScorecard
 }
 
-class ContainerViewController: UIViewController {
+class ContainerViewController: UIViewController, LoginViewControllerDelegate {
+    func didCompleteLogin() {
+        self.userViewController = UIStoryboard.userViewController()
+            self.userViewController.delegate = self
+            
+            if loginViewController != nil {
+                self.loginViewController.view.removeFromSuperview()
+                self.loginViewController = nil
+            }
+            
+            self.view.addSubview(self.userViewController.view)
+            self.currentView = .user
+    }
+    
     
     //For Testing:
     var matches: [Match]!
@@ -58,6 +73,7 @@ class ContainerViewController: UIViewController {
     var topPanelViewController: TopPanelViewController?
     
     var userViewController: ViewController!
+    var loginViewController: LoginViewController!
 
     
     var currentState: SlideOutState = .topPanelCollapsed {
@@ -120,38 +136,55 @@ class ContainerViewController: UIViewController {
         return .lightContent
     }
     
+    // Modify setupApp() to check for existing sign in
     func setupApp() {
         let defaults = UserDefaults.standard
         
-        //set to nil for testing
-        //let userName: String? = nil
-        
         let userName = defaults.object(forKey: "UserName") as? String
+        let userFirstName = defaults.object(forKey: "UserFirstName") as? String
+        let userLastName = defaults.object(forKey: "UserLastName") as? String
+        let userIdentifier = defaults.object(forKey: "UserIdentifier") as? String
+
         let tournamentName = defaults.object(forKey: "TournamentName") as? String
         let userRole = defaults.object(forKey: "UserRole") as? String
         let scorekeeper = defaults.object(forKey: "Scorekeeper") as? Bool
         
-        if userName != nil && tournamentName != nil && userRole != nil  && scorekeeper != nil && userName != "" && userName != " " {
-            
-            model.checkPlayerInCurrentMatch(userName!, tounamentName: tournamentName!)
-            { found in
-                
-                self.user.setUser(name: userName!, role: userRole!, scorekeeper: scorekeeper!, isInMatch: found)
+        // Add this check before showing login
+        if checkForExistingSignIn() && userName != nil && tournamentName != nil && userRole != nil && scorekeeper != nil && userName != "" && userName != " " && userFirstName != nil && userLastName != nil && userIdentifier != nil {
+            model.checkPlayerInCurrentMatch(userName!, tounamentName: tournamentName!) { found in
+                self.user.setUser(name: userName!, firstName: userFirstName!, lastName: userLastName!, identifier: userIdentifier!, role: userRole!, scorekeeper: scorekeeper!, isInMatch: found)
                 self.loadData(tournamentName: tournamentName!) {}
             }
+        } else {
+            self.loginViewController = UIStoryboard.loginViewController()
+            self.loginViewController.delegate = self
             
-        }
-        else {
-            self.userViewController = UIStoryboard.userViewController()
-            self.userViewController.delegate = self
-            
-            self.view.addSubview(self.userViewController.view)
-            //self.userViewController.view.backgroundColor = UIColor.green
-
-            self.currentView = .user
+            self.view.addSubview(self.loginViewController.view)
+            self.currentView = .login
         }
     }
     
+    private func checkForExistingSignIn() -> Bool {
+        let query: [String: Any] = [
+            kSecClass as String: kSecClassGenericPassword,
+            kSecAttrService as String: "com.bluffcitycup.credentials",
+            kSecAttrAccount as String: "appleSignIn",
+            kSecMatchLimit as String: kSecMatchLimitOne,
+            kSecReturnData as String: true
+        ]
+        
+        var result: AnyObject?
+        let status = SecItemCopyMatching(query as CFDictionary, &result)
+        
+        if status == errSecSuccess,
+           let data = result as? Data,
+           let userId = String(data: data, encoding: .utf8) {
+            // User is already signed in
+            return true
+        }
+        return false
+    }
+
     
     func loadData(tournamentName: String, _ completion: @escaping () -> Void)  {
         model.loadData(tournamentName: tournamentName) { errorString in
@@ -306,8 +339,13 @@ private extension UIStoryboard {
         return mainStoryboard().instantiateViewController(withIdentifier: "UserViewController") as?ViewController
     }
     
+    class func loginViewController() -> LoginViewController? {
+        return mainStoryboard().instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController
+    }
     
+    // Rest of extension remains the same
 }
+
 
 // MARK: - ModelDelegate
 extension ContainerViewController: ModelDelegate {

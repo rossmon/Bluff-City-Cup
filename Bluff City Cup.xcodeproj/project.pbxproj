@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E261B3E2CBCADDF0089C24F /* golfgains.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E261B3D2CBCADDF0089C24F /* golfgains.png */; };
+		0E4EB8C02D73BFD9007B641D /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EB8BF2D73BFD9007B641D /* AuthenticationService.swift */; };
+		0E4EB8C22D73C29D007B641D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E4EB8C12D73C29D007B641D /* LoginViewController.swift */; };
 		910572341C7E7FC100D4D80D /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */; };
 		910B14F528776FA300ECD353 /* MatchScorecardCellNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */; };
 		910B14F7287779E000ECD353 /* MatchScorecardViewControllerNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */; };
@@ -132,6 +134,8 @@
 
 /* Begin PBXFileReference section */
 		0E261B3D2CBCADDF0089C24F /* golfgains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golfgains.png; sourceTree = "<group>"; };
+		0E4EB8BF2D73BFD9007B641D /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		0E4EB8C12D73C29D007B641D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		910572331C7E7FC100D4D80D /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		910B14F428776FA300ECD353 /* MatchScorecardCellNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScorecardCellNew.swift; sourceTree = "<group>"; };
 		910B14F6287779E000ECD353 /* MatchScorecardViewControllerNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScorecardViewControllerNew.swift; sourceTree = "<group>"; };
@@ -295,12 +299,14 @@
 		9150BC591C6EA5270009B384 = {
 			isa = PBXGroup;
 			children = (
+				0E4EB8BF2D73BFD9007B641D /* AuthenticationService.swift */,
 				9198A6DD1C72AD8B0035662B /* MapKit.framework */,
 				9150BC641C6EA5270009B384 /* Bluff City Cup */,
 				9150BC7C1C6EA5270009B384 /* Bluff City CupTests */,
 				9150BC871C6EA5270009B384 /* Bluff City CupUITests */,
 				9150BC631C6EA5270009B384 /* Products */,
 				914077591DE549020058F54E /* Frameworks */,
+				0E4EB8C12D73C29D007B641D /* LoginViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -694,11 +700,13 @@
 				9167BA5D28737B8E00117FCC /* MatchTableViewCell18.swift in Sources */,
 				91E5F27D1DF4F330005C532B /* MatchLengthCell.swift in Sources */,
 				914077561DE546CF0058F54E /* Model.swift in Sources */,
+				0E4EB8C22D73C29D007B641D /* LoginViewController.swift in Sources */,
 				91E25C331F37B33000D53982 /* ScorecardCell.swift in Sources */,
 				91EE03531C7EAB8100F344B3 /* Hole.swift in Sources */,
 				9132CB941C755E6A009B56A0 /* Player.swift in Sources */,
 				9150BC661C6EA5270009B384 /* AppDelegate.swift in Sources */,
 				91E5F27A1DF4F1DE005C532B /* DrinkCartNumberCell.swift in Sources */,
+				0E4EB8C02D73BFD9007B641D /* AuthenticationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

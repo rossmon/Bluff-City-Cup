@@ -1,0 +1,104 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "5ca35e884347e4cb11c18e043289ab52184ebc8e5c0615e5aa902245fe937958"
+    },
+    {
+      "guid" : "5ca35e884347e4cb11c18e043289ab52200e7d10781769523bade5ae69bd5b17"
+    },
+    {
+      "guid" : "5ca35e884347e4cb11c18e043289ab52e89b49bc06f00c77ce944e8fbfeb639b"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42758cc842172da540ffb591e63e38dc1e"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42410c96b4e26fc36411e63b84c3491605"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd420be6c76e7b3dde057d7e3e6ad61f30d4"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42dd3a6a519ed4181bf31ea6bc1f18ebc5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4201af34ddea6be97d757786022edb34b1"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd429b0ee9a6d93c0cfa024bbc34a88b2122"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4232c61b747d3949a8e639c0653b6048d5"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd427a7a3963f1aeb9235757469a9f7fb768"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4220c86fbcf23b1f7a64c1291cc4e39736"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42d84c7d589f81bdef84131aaa9f0e9830"
+    }
+  ],
+  "containerPath" : "/Users/rossmon/Developer/Bluff City Cup/Bluff City Cup.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator18.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/rossmon/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/rossmon/Library/Developer/Xcode/DerivedData/Bluff_City_Cup-acrfqolhgfxuoqempylblmamprpx/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/rossmon/Library/Developer/Xcode/DerivedData/Bluff_City_Cup-acrfqolhgfxuoqempylblmamprpx/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone17,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "18.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone17,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/rossmon/Library/Developer/Xcode/DerivedData/Bluff_City_Cup-acrfqolhgfxuoqempylblmamprpx/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "33764B61-5570-4DB8-8151-9AF151F4992C",
+          "TARGET_DEVICE_MODEL" : "iPhone17,1",
+          "TARGET_DEVICE_OS_VERSION" : "18.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

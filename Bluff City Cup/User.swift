@@ -3,10 +3,11 @@
 //  Bluff City Cup
 //
 //  Created by Ross Montague on 2/18/16.
-//  Copyright © 2016 Jumpstop Creations. All rights reserved.
+//  Copyright 2016 Jumpstop Creations. All rights reserved.
 //
 
 import Foundation
+import AuthenticationServices
 
 class User {
     
@@ -18,14 +19,24 @@ class User {
     var inMatch: Bool
     var model: Model = Model.sharedInstance
     
+    var identifier: String
+    var email: String?
+    var firstName: String?
+    var lastName: String?
+    
     init(){
+        self.identifier = String()
         name = String()
         player = Player()
         role = "Spectator"
         scorekeeper = false
         inMatch = false
+        self.email = nil
+        self.firstName = nil
+        self.lastName = nil
     }
     init(name: String, player: Player?, role: String, isInMatch: Bool) {
+        self.identifier = String()
         self.name = name
         self.player = player
         self.role = role
@@ -36,9 +47,13 @@ class User {
             scorekeeper = false
         }
         self.inMatch = isInMatch
+        self.email = nil
+        self.firstName = nil
+        self.lastName = nil
     }
     
     init(name: String, role: String) {
+        self.identifier = String()
         self.name = name
         self.role = role
         if role == "Scorekeeper" {
@@ -49,6 +64,21 @@ class User {
             scorekeeper = false
             inMatch = false
         }
+        self.email = nil
+        self.firstName = nil
+        self.lastName = nil
+    }
+    
+    init(identifier: String, email: String?, firstName: String?, lastName: String?) {
+        self.identifier = identifier
+        self.name = [firstName, lastName].compactMap { $0 }.joined(separator: " ")
+        self.player = Player()
+        self.role = "Spectator"
+        self.scorekeeper = false
+        self.inMatch = false
+        self.email = email
+        self.firstName = firstName
+        self.lastName = lastName
     }
     
     func getPlayer() -> Player? {
@@ -89,6 +119,17 @@ class User {
 
     }
     
+    func setUser(name: String, firstName: String, lastName: String, identifier: String, role: String, scorekeeper: Bool, isInMatch: Bool) {
+        self.name = name
+        self.role = role
+        self.scorekeeper = scorekeeper
+        self.inMatch = isInMatch
+        self.firstName = firstName
+        self.lastName = lastName
+        self.identifier = identifier
+
+    }
+    
     func setUser(name: String, player: Player, role: String, scorekeeper: Bool, isInMatch: Bool) {
         self.name = name
         self.role = role
@@ -123,4 +164,13 @@ class User {
         self.scorekeeper = tournament.checkScorekeeper(self.name)
     }
     
+    func updateWithAppleSignIn(credentials: ASAuthorizationAppleIDCredential) {
+        self.identifier = credentials.user
+        self.email = credentials.email
+        self.firstName = credentials.fullName?.givenName
+        self.lastName = credentials.fullName?.familyName
+        if let firstName = self.firstName, let lastName = self.lastName {
+            self.name = "\(firstName) \(lastName)"
+        }
+    }
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R6g-mB-BEz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="R6g-mB-BEz">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -41,18 +41,6 @@
                                 <connections>
                                     <action selector="tournamentFieldSelected:" destination="BYZ-38-t0r" eventType="touchDown" id="eoq-8J-7UD"/>
                                 </connections>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4e1-ce-8tB" userLabel="First Name">
-                                <rect key="frame" x="114" y="258" width="156" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S9j-x7-9He" userLabel="Last Name">
-                                <rect key="frame" x="114" y="296" width="156" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
                             </textField>
                             <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wxM-EM-NrG">
                                 <rect key="frame" x="0.0" y="703" width="390" height="141"/>
@@ -228,8 +216,6 @@
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="blurView" destination="tWb-Ye-jfQ" id="OaE-g3-1iQ"/>
-                        <outlet property="firstNameField" destination="4e1-ce-8tB" id="e1W-jd-Vye"/>
-                        <outlet property="lastNameField" destination="S9j-x7-9He" id="O65-Qe-Sz3"/>
                         <outlet property="loadIndicator" destination="fwN-io-X0O" id="XjQ-CO-SHB"/>
                         <outlet property="loginButton" destination="KUj-GH-8jC" id="X15-tp-xrw"/>
                         <outlet property="organizerNameField" destination="nL9-rW-ks7" id="naA-jc-jxh"/>
@@ -4367,6 +4353,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vkd-kk-PXT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="490" y="3055.8056872037914"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="LfX-8W-3Kc">
+            <objects>
+                <viewController storyboardIdentifier="LoginViewController" id="Ysg-JS-Mdx" customClass="LoginViewController" customModule="Bluff_City_Cup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Zk-lF-PuX" customClass="UIControl">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="golfgains.png" translatesAutoresizingMaskIntoConstraints="NO" id="f3Q-aW-iSd">
+                                <rect key="frame" x="170" y="740" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TI6-pi-pOK"/>
+                                    <constraint firstAttribute="width" constant="50" id="WSZ-Lr-dZv"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IO4-Wn-iud">
+                                <rect key="frame" x="157.66666666666666" y="703" width="75" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="Presented by">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bluffcitycup_v4.png" translatesAutoresizingMaskIntoConstraints="NO" id="m2v-Cc-pci">
+                                <rect key="frame" x="109" y="55" width="170" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CJw-Ya-2BH"/>
+                        <color key="backgroundColor" red="0.062745098040000002" green="0.2274509804" blue="0.4941176471" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="f3Q-aW-iSd" firstAttribute="top" secondItem="IO4-Wn-iud" secondAttribute="bottom" constant="10" id="WcJ-RC-4Pt"/>
+                            <constraint firstItem="f3Q-aW-iSd" firstAttribute="centerX" secondItem="1Zk-lF-PuX" secondAttribute="centerX" id="pli-ZO-lJJ"/>
+                            <constraint firstItem="CJw-Ya-2BH" firstAttribute="bottom" secondItem="f3Q-aW-iSd" secondAttribute="bottom" constant="20" id="tQo-j8-gVs"/>
+                            <constraint firstItem="IO4-Wn-iud" firstAttribute="centerX" secondItem="1Zk-lF-PuX" secondAttribute="centerX" id="vYW-nu-0BR"/>
+                        </constraints>
+                    </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OLb-Qg-pd8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1118" y="-619"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

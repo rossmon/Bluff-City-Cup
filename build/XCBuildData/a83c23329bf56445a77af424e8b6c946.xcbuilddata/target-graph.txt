@@ -1,0 +1,27 @@
+Target dependency graph (9 targets)
+Target 'Bluff City Cup' in project 'Bluff City Cup'
+➜ Implicit dependency on target 'Pods-Bluff City Cup' in project 'Pods' via file 'Pods_Bluff_City_Cup.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'AppAuth' in project 'Pods' via options '-framework AppAuth' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'GTMAppAuth' in project 'Pods' via options '-framework GTMAppAuth' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'GTMSessionFetcher' in project 'Pods' via options '-framework GTMSessionFetcher' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'GoogleSignIn' in project 'Pods' via options '-framework GoogleSignIn' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-Bluff City Cup' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'GTMAppAuth' in project 'Pods'
+➜ Explicit dependency on target 'GTMSessionFetcher' in project 'Pods'
+➜ Explicit dependency on target 'GoogleSignIn' in project 'Pods'
+Target 'GoogleSignIn' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'GTMAppAuth' in project 'Pods'
+➜ Explicit dependency on target 'GTMSessionFetcher' in project 'Pods'
+➜ Explicit dependency on target 'GoogleSignIn-GoogleSignIn' in project 'Pods'
+Target 'GoogleSignIn-GoogleSignIn' in project 'Pods' (no dependencies)
+Target 'GTMAppAuth' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'GTMSessionFetcher' in project 'Pods'
+Target 'GTMSessionFetcher' in project 'Pods'
+➜ Explicit dependency on target 'GTMSessionFetcher-GTMSessionFetcher_Core_Privacy' in project 'Pods'
+Target 'GTMSessionFetcher-GTMSessionFetcher_Core_Privacy' in project 'Pods' (no dependencies)
+Target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth-AppAuthCore_Privacy' in project 'Pods'
+Target 'AppAuth-AppAuthCore_Privacy' in project 'Pods' (no dependencies)

@@ -1,0 +1,18 @@
+{
+  "" : {
+    "diagnostics" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff City CupTests-master.dia",
+    "emit-module-dependencies" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff City CupTests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff City CupTests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff City CupTests-master.swiftdeps"
+  },
+  "/Users/rossmon/Developer/Bluff City Cup/Bluff City CupTests/Bluff_City_CupTests.swift" : {
+    "const-values" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.swiftconstvalues",
+    "dependencies" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.d",
+    "diagnostics" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.dia",
+    "index-unit-output-path" : "/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.o",
+    "llvm-bc" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.bc",
+    "object" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.o",
+    "swift-dependencies" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests.swiftdeps",
+    "swiftmodule" : "/Users/rossmon/Developer/Bluff City Cup/build/Bluff City Cup.build/Debug-iphonesimulator/Bluff City CupTests.build/Objects-normal/arm64/Bluff_City_CupTests~partial.swiftmodule"
+  }
+}
