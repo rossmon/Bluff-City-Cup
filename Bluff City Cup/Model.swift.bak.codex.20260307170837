@@ -20,12 +20,11 @@ class Model: NSObject, URLSessionDataDelegate {
     
     // MARK: - Properties
     static let sharedInstance = Model()
-    private static let webHost = "https://glizzyattheturn.app"
-    private static let serviceHost = "http://glizzyattheturn.app"
-    private static let bluffCityCupBaseURL = webHost + "/bluffcitycup"
+    private static let lightsailHost = "http://3.149.108.246"
+    private static let bluffCityCupBaseURL = lightsailHost + "/bluffcitycup"
     private static let matchProbabilitiesBaseURL = bluffCityCupBaseURL + "/match_probabilities/match_probabilities.php"
-    private static let notificationServerURL = serviceHost + ":5000/send-notification"
-    private static let broadcastServerURL = serviceHost + ":3000/"
+    private static let notificationServerURL = lightsailHost + ":5000/send-notification"
+    private static let broadcastServerURL = lightsailHost + ":3000/"
     var delegate: ModelDelegate?
     
     //var user: User = User.sharedInstance

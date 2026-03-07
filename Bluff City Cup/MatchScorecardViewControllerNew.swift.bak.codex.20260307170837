@@ -103,14 +103,14 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
                 self.team1Player2Pic.isHidden = false
             }
             else {
-                downloadImage(urlstr: "https://glizzyattheturn.app/bcc/" + t1p2name + ".png", imageView: self.team1Player2Pic, playerName: t1p2name)
+                downloadImage(urlstr: "http://3.149.108.246/bcc/" + t1p2name + ".png", imageView: self.team1Player2Pic, playerName: t1p2name)
             }
             if let retrievedImage = UserDefaults.standard.object(forKey: t2p2name) {
                 self.team2Player2Pic.image = UIImage(data: (retrievedImage as! NSData) as Data)
                 self.team2Player2Pic.isHidden = false
             }
             else {
-                downloadImage(urlstr: "https://glizzyattheturn.app/bcc/" + t2p2name + ".png", imageView: self.team2Player2Pic, playerName: t2p2name)
+                downloadImage(urlstr: "http://3.149.108.246/bcc/" + t2p2name + ".png", imageView: self.team2Player2Pic, playerName: t2p2name)
             }
         }
         
@@ -120,14 +120,14 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
             self.team1Player1Pic.isHidden = false
         }
         else {
-            downloadImage(urlstr: "https://glizzyattheturn.app/bcc/" + t1p1name + ".png", imageView: self.team1Player1Pic, playerName: t1p1name)
+            downloadImage(urlstr: "http://3.149.108.246/bcc/" + t1p1name + ".png", imageView: self.team1Player1Pic, playerName: t1p1name)
         }
         if let retrievedImage = UserDefaults.standard.object(forKey: t2p1name) {
             self.team2Player1Pic.image = UIImage(data: (retrievedImage as! NSData) as Data)
             self.team2Player1Pic.isHidden = false
         }
         else {
-            downloadImage(urlstr: "https://glizzyattheturn.app/bcc/" + t2p1name + ".png", imageView: self.team2Player1Pic, playerName: t2p1name)
+            downloadImage(urlstr: "http://3.149.108.246/bcc/" + t2p1name + ".png", imageView: self.team2Player1Pic, playerName: t2p1name)
         }
         
        

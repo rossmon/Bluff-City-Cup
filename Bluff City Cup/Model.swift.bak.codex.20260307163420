@@ -20,12 +20,6 @@ class Model: NSObject, URLSessionDataDelegate {
     
     // MARK: - Properties
     static let sharedInstance = Model()
-    private static let webHost = "https://glizzyattheturn.app"
-    private static let serviceHost = "http://glizzyattheturn.app"
-    private static let bluffCityCupBaseURL = webHost + "/bluffcitycup"
-    private static let matchProbabilitiesBaseURL = bluffCityCupBaseURL + "/match_probabilities/match_probabilities.php"
-    private static let notificationServerURL = serviceHost + ":5000/send-notification"
-    private static let broadcastServerURL = serviceHost + ":3000/"
     var delegate: ModelDelegate?
     
     //var user: User = User.sharedInstance
@@ -89,7 +83,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Save player data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/update_scores.php?tournament=" + tournamentNameURL + "&player=" + playerName + "&round=\(round)&course=" + courseName + "&hole=\(hole)&actualscore=\(score)"
+        let urlPath: String = "http://montyratings.com/bluffcitycup/update_scores.php?tournament=" + tournamentNameURL + "&player=" + playerName + "&round=\(round)&course=" + courseName + "&hole=\(hole)&actualscore=\(score)"
         
         let url = NSURL(string: urlPath)!
         
@@ -167,7 +161,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/tournament.php?tournament=" + tournamentNameURL
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/tournament.php?tournament=" + tournamentNameURL
         
         let urlMatches = NSURL(string: urlPathMatches)!
         
@@ -251,7 +245,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/players.php?tournament=" + tournamentNameURL + "&player=" + playerName
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/players.php?tournament=" + tournamentNameURL + "&player=" + playerName
         
         let urlMatches = NSURL(string: urlPathMatches)!
         
@@ -334,7 +328,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/player_in_match.php?tournament=" + tournamentNameURL + "&player=" + playerName
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/player_in_match.php?tournament=" + tournamentNameURL + "&player=" + playerName
         
         let urlMatches = NSURL(string: urlPathMatches)!
         
@@ -388,7 +382,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/check_create_password.php?password=" + passwordURL
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/check_create_password.php?password=" + passwordURL
         print(urlPathMatches)
         
         let urlMatches = NSURL(string: urlPathMatches)!
@@ -446,7 +440,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/scorekeeper_matches.php?tournament=" + tournamentNameURL + "&scorekeeper=" + scorekeeper
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/scorekeeper_matches.php?tournament=" + tournamentNameURL + "&scorekeeper=" + scorekeeper
         
         let urlMatches = NSURL(string: urlPathMatches)!
         
@@ -625,7 +619,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/tournament.php"
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/tournament.php"
         
         let urlMatches = NSURL(string: urlPathMatches)!
         
@@ -719,7 +713,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Delete score data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/delete_scores.php?tournament=" + tournamentNameURL
+        let urlPath: String = "http://montyratings.com/bluffcitycup/delete_scores.php?tournament=" + tournamentNameURL
         
         print(urlPath)
         
@@ -739,7 +733,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session2 = URLSession(configuration: configuration2, delegate: self, delegateQueue: nil)
         
         // Delete match data
-        let urlPath2: String = Model.bluffCityCupBaseURL + "/delete_matches.php?tournament=" + tournamentNameURL
+        let urlPath2: String = "http://montyratings.com/bluffcitycup/delete_matches.php?tournament=" + tournamentNameURL
         
         print(urlPath2)
         
@@ -769,7 +763,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Delete player data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/delete_player.php?tournament=" + tournamentNameURL + "&player=" + playerName + "&team=" + team + ""
+        let urlPath: String = "http://montyratings.com/bluffcitycup/delete_player.php?tournament=" + tournamentNameURL + "&player=" + playerName + "&team=" + team + ""
         
         let url = NSURL(string: urlPath)!
         
@@ -792,7 +786,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Delete match data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/delete_match.php?tournament=" + tournamentNameURL + "&round=\(match.getRound())&matchgroup=\(match.getGroup())&match=\(match.getMatchNumber())"
+        let urlPath: String = "http://montyratings.com/bluffcitycup/delete_match.php?tournament=" + tournamentNameURL + "&round=\(match.getRound())&matchgroup=\(match.getGroup())&match=\(match.getMatchNumber())"
         
         
         let url = NSURL(string: urlPath)!
@@ -834,7 +828,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Save player data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/update_tournament.php?tournament=" + tournamentNameURL + "&owner=" + ownerURL + "&commissioner=" + ownerURL + "&numberofmatches=\(tournament.getNumberOfMatches())&drinkcartavailable=\(drinkcart)&drinkcartnumber=" + drinkcartnumber + "&currentround=\(tournament.getCurrentRound())&maxhandicap=\(tournament.getMaxHandicap())&commishpassword=" + tournament.getCommissionerPassword()
+        let urlPath: String = "http://montyratings.com/bluffcitycup/update_tournament.php?tournament=" + tournamentNameURL + "&owner=" + ownerURL + "&commissioner=" + ownerURL + "&numberofmatches=\(tournament.getNumberOfMatches())&drinkcartavailable=\(drinkcart)&drinkcartnumber=" + drinkcartnumber + "&currentround=\(tournament.getCurrentRound())&maxhandicap=\(tournament.getMaxHandicap())&commishpassword=" + tournament.getCommissionerPassword()
         
         print(urlPath)
         
@@ -878,7 +872,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Save player data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/update_players.php?tournament=" + tournamentNameURL + "&name=" + playerName + "&team=" + team + "&handicap=" + handicapString
+        let urlPath: String = "http://montyratings.com/bluffcitycup/update_players.php?tournament=" + tournamentNameURL + "&name=" + playerName + "&team=" + team + "&handicap=" + handicapString
         
         let url = NSURL(string: urlPath)!
         
@@ -937,7 +931,7 @@ class Model: NSObject, URLSessionDataDelegate {
         // Change the point value of matches?
         
         // Save hole data
-        var urlPath = Model.bluffCityCupBaseURL + "/update_matches.php?tournament=" + tournamentNameURL + "&round=\(match.getRound())&matchgroup=\(match.getGroup())&match=\(match.getMatchNumber())&course=" + courseNameURL + "&slope=\(match.getCourseSlope())&format=" + format + "&scorekeeper=" + scorekeeper + "&points=1&numofplayers=\(match.getPlayers().count)&startinghole=\(match.getStartingHole())&currenthole=\(match.getCurrentHole())&currentscore=\(score.score)&scorestring=" + scorestring + "&matchlength=\(matchLength)&points=\(points)&winningteam=" + score.teamUp + "&completed=\(completed)&player1=" + player1 + "&player1team=" + player1team + "&player2=" + player2 + "&player2team=" + player2team + "&tees=" + tees
+        var urlPath = "http://montyratings.com/bluffcitycup/update_matches.php?tournament=" + tournamentNameURL + "&round=\(match.getRound())&matchgroup=\(match.getGroup())&match=\(match.getMatchNumber())&course=" + courseNameURL + "&slope=\(match.getCourseSlope())&format=" + format + "&scorekeeper=" + scorekeeper + "&points=1&numofplayers=\(match.getPlayers().count)&startinghole=\(match.getStartingHole())&currenthole=\(match.getCurrentHole())&currentscore=\(score.score)&scorestring=" + scorestring + "&matchlength=\(matchLength)&points=\(points)&winningteam=" + score.teamUp + "&completed=\(completed)&player1=" + player1 + "&player1team=" + player1team + "&player2=" + player2 + "&player2team=" + player2team + "&tees=" + tees
         
         if match.doubles() {
             let player3 = match.blueTeamPlayerTwo()!.getName().replacingOccurrences(of: " ", with: "!spa")
@@ -994,7 +988,7 @@ class Model: NSObject, URLSessionDataDelegate {
             session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
             
             // Save hole data
-            let urlPath: String = Model.bluffCityCupBaseURL + "/update_holes.php?course=" + courseNameURL + "&holenumber=" + String(eachHole.number) + "&handicap=" + String(eachHole.handicap) + "&par=" + String(eachHole.par) + "&length=" + String(eachHole.length) + "&lat=\(eachHole.location.coordinate.latitude)&long=\(eachHole.location.coordinate.longitude)&tees=" + tees
+            let urlPath: String = "http://montyratings.com/bluffcitycup/update_holes.php?course=" + courseNameURL + "&holenumber=" + String(eachHole.number) + "&handicap=" + String(eachHole.handicap) + "&par=" + String(eachHole.par) + "&length=" + String(eachHole.length) + "&lat=\(eachHole.location.coordinate.latitude)&long=\(eachHole.location.coordinate.longitude)&tees=" + tees
             let url = NSURL(string: urlPath)!
             
             let holeAddTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
@@ -1034,7 +1028,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Save course data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/update_courses.php?course=" + courseNameURL + "&tees=" + teesURL + "&lat=\(slope)"
+        let urlPath: String = "http://montyratings.com/bluffcitycup/update_courses.php?course=" + courseNameURL + "&tees=" + teesURL + "&lat=\(slope)"
         let url = NSURL(string: urlPath)!
         
         let courseAddTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
@@ -1065,7 +1059,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
 
         
-        let urlPath: String = Model.bluffCityCupBaseURL + "/add_token.php?token=" + deviceToken + "&username=" + userName.replacingOccurrences(of: " ", with: "!spa")
+        let urlPath: String = "http://montyratings.com/bluffcitycup/add_token.php?token=" + deviceToken + "&username=" + userName.replacingOccurrences(of: " ", with: "!spa")
         let url = NSURL(string: urlPath)!
         
         print(urlPath)
@@ -1108,7 +1102,7 @@ class Model: NSObject, URLSessionDataDelegate {
         
         
         // Define the URL for the API endpoint
-           guard let url = URL(string: Model.notificationServerURL) else {
+           guard let url = URL(string: "http://montyratings.com:5000/send-notification") else {
                print("Invalid URL")
                return
            }
@@ -1155,7 +1149,7 @@ class Model: NSObject, URLSessionDataDelegate {
            task.resume()
         
         /*
-        let urlPath: String = Model.broadcastServerURL + "?title=" + titleMessage + "&message=" + notificationMessage
+        let urlPath: String = "http://montyratings.com:3000/?title=" + titleMessage + "&message=" + notificationMessage
         let url = NSURL(string: urlPath)!
         
         print(urlPath)
@@ -1235,7 +1229,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Fetch player data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/players.php?tournament=" + tournamentNameURL
+        let urlPath: String = "http://montyratings.com/bluffcitycup/players.php?tournament=" + tournamentNameURL
         let url = NSURL(string: urlPath)!
         
         let playerTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
@@ -1273,7 +1267,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fetch round data
-        let urlPathRounds: String = Model.bluffCityCupBaseURL + "/rounds.php?tournament=" + tournamentNameURL
+        let urlPathRounds: String = "http://montyratings.com/bluffcitycup/rounds.php?tournament=" + tournamentNameURL
         let urlRounds = NSURL(string: urlPathRounds)!
         
         let roundsTask = session.dataTask(with: urlRounds as URL, completionHandler: { (data, response, error) in
@@ -1313,7 +1307,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fetch scores data
-        let urlPathScores: String = Model.bluffCityCupBaseURL + "/scores.php?tournament=" + tournamentNameURL
+        let urlPathScores: String = "http://montyratings.com/bluffcitycup/scores.php?tournament=" + tournamentNameURL
         let urlScores = NSURL(string: urlPathScores)!
         
         let scoresTask = session.dataTask(with: urlScores as URL, completionHandler: { (data, response, error) in
@@ -1352,7 +1346,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathMatches: String = Model.bluffCityCupBaseURL + "/matches.php?tournament=" + tournamentNameURL
+        let urlPathMatches: String = "http://montyratings.com/bluffcitycup/matches.php?tournament=" + tournamentNameURL
         let urlMatches = NSURL(string: urlPathMatches)!
         
         let matchesTask = session.dataTask(with: urlMatches as URL, completionHandler: { (data, response, error) in
@@ -1389,7 +1383,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathHoles: String = Model.bluffCityCupBaseURL + "/holes.php"
+        let urlPathHoles: String = "http://montyratings.com/bluffcitycup/holes.php"
         let urlHoles = NSURL(string: urlPathHoles)!
         
         let holesTask = session.dataTask(with: urlHoles as URL, completionHandler: { (data, response, error) in
@@ -1426,7 +1420,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPathHoles: String = Model.bluffCityCupBaseURL + "/courses.php?"
+        let urlPathHoles: String = "http://montyratings.com/bluffcitycup/courses.php?"
         let urlHoles = NSURL(string: urlPathHoles)!
         
         let coursesTask = session.dataTask(with: urlHoles as URL, completionHandler: { (data, response, error) in
@@ -1465,7 +1459,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Fetch Tournament Data
-        let urlPathTourney: String = Model.bluffCityCupBaseURL + "/tournament.php?tournament=" + tournamentNameURL
+        let urlPathTourney: String = "http://montyratings.com/bluffcitycup/tournament.php?tournament=" + tournamentNameURL
         let urlTourney = NSURL(string: urlPathTourney)!
         
         let tourneyTask = session.dataTask(with: urlTourney as URL, completionHandler: { (data, response, error) in
@@ -1504,7 +1498,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         //Fatch match data
-        let urlPath: String = Model.matchProbabilitiesBaseURL + "?tournament=" + tournamentNameURL + "&round=" + String(round) + "&match=" + String(match)
+        let urlPath: String = "http://montyratings.com/bluffcitycup/match_probabilities.php?tournament=" + tournamentNameURL + "&round=" + String(round) + "&match=" + String(match)
         let url = NSURL(string: urlPath)!
         
         let probTask = session.dataTask(with: url as URL, completionHandler: { (data, response, error) in
