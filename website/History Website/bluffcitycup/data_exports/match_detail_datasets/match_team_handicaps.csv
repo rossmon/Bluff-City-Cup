@@ -1,0 +1,405 @@
+match_uid,year,round,match,matchgroup,format_display,format_app,team,team_handicap_method,team_course_handicap_raw,team_match_strokes_relative,players
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Kevin Rea
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Sam Moody|Louis Amagliani
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Ryan Burgett
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Michael Edwards
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Reid Wesson
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Ross Montague
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,11,0,Mac Plosser|Ryan Quinn
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,20,9,William Harris|Louis Amagliani
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,23,2,Brandon Byrd|Kevin Rea
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,21,0,Ross Montague|Michael Edwards
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,21,0,Ryan Burgett|Reid Wesson
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,21,0,John Irvine|Sam Moody
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Reid Wesson
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Ross Montague
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Kyle Cummins
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Michael Edwards
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Kevin Rea
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Sam Moody|Louis Amagliani
+2015-R3-M4,2015,3,4,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Reid Wesson
+2015-R3-M4,2015,3,4,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Sam Moody
+2015-R3-M5,2015,3,5,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2015-R3-M5,2015,3,5,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2015-R3-M6,2015,3,6,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2015-R3-M6,2015,3,6,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Michael Edwards
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Red,4man_scramble_weighted_slope_only_team_handicap_relative_to_low,,,Ryan Quinn|Brandon Byrd|Jay Edwards|Kevin Rea
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Blue,4man_scramble_weighted_slope_only_team_handicap_relative_to_low,,,Luke Jensen|William Harris|John Irvine|Louis Amagliani
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Red,4man_scramble_weighted_slope_only_team_handicap_relative_to_low,,,Mac Plosser|Kyle Cummins|Reid Wesson|Owen Mercer
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Blue,4man_scramble_weighted_slope_only_team_handicap_relative_to_low,,,Hunter Meriwether|Ross Montague|Drew Hursey|Daniel Wynn
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,,,Ryan Quinn|Jay Edwards
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,,,William Harris|John Irvine
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,,,Mac Plosser|Kevin Rea
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,,,Daniel Wynn|Louis Amagliani
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,,,Kyle Cummins|Owen Mercer
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,,,Luke Jensen|Hunter Meriwether
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,,,Brandon Byrd|Reid Wesson
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,,,Ross Montague|Drew Hursey
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,,,Mac Plosser|Jay Edwards
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,,,Luke Jensen|Ross Montague
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,,,Reid Wesson|Kevin Rea
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,,,Drew Hursey|Daniel Wynn
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,,,Ryan Quinn|Kyle Cummins
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,,,Hunter Meriwether|Louis Amagliani
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,,,Brandon Byrd|Owen Mercer
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,,,William Harris|John Irvine
+2016-R4-M1,2016,4,1,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2016-R4-M1,2016,4,1,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2016-R4-M2,2016,4,2,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Reid Wesson
+2016-R4-M2,2016,4,2,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2016-R4-M3,2016,4,3,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2016-R4-M3,2016,4,3,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2016-R4-M4,2016,4,4,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2016-R4-M4,2016,4,4,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2016-R4-M5,2016,4,5,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2016-R4-M5,2016,4,5,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2016-R4-M6,2016,4,6,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2016-R4-M6,2016,4,6,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2016-R4-M7,2016,4,7,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2016-R4-M7,2016,4,7,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2016-R4-M8,2016,4,8,,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2016-R4-M8,2016,4,8,,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,4,0,Tyler Blocker|Brandon Byrd
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,9,5,John Irvine|Ross Montague
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,7,1,Mac Plosser|Kevin Rea
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,6,0,William Harris|Luke Jensen
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,9,0,Ryan Quinn|Kyle Cummins
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,14,5,Daniel Wynn|Louis Amagliani
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,12,0,Owen Mercer|Jay Edwards
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,12,0,Drew Hursey|Hunter Meriwether
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,17,1,Tyler Blocker|Kevin Rea
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,16,0,Luke Jensen|Ross Montague
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,16,0,Mac Plosser|Kyle Cummins
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,19,3,William Harris|Daniel Wynn
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,21,0,Ryan Quinn|Jay Edwards
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,21,0,John Irvine|Drew Hursey
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,21,0,Brandon Byrd|Owen Mercer
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,28,7,Hunter Meriwether|Louis Amagliani
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Jay Edwards
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Luke Jensen|Daniel Wynn
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Owen Mercer
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Drew Hursey|Hunter Meriwether
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Kyle Cummins
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Louis Amagliani
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Tyler Blocker|Kevin Rea
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Ross Montague
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Tyler Blocker
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,3,0,Tyler Blocker|Owen Mercer
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,4,1,William Harris|John Irvine
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,5,0,Mac Plosser|Kyle Cummins
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,8,3,Luke Jensen|Hunter Meriwether
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,8,0,Brandon Byrd|Jay Edwards
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,10,2,Drew Hursey|Ross Montague
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,12,0,Reid Wesson|Kevin Rea
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,14,2,Daniel Wynn|Louis Amagliani
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,10,0,Tyler Blocker|Jay Edwards
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,10,0,William Harris|Luke Jensen
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,13,0,Mac Plosser|Kyle Cummins
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,15,2,John Irvine|Ross Montague
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,24,0,Owen Mercer|Kevin Rea
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,26,2,Hunter Meriwether|Louis Amagliani
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,18,0,Brandon Byrd|Reid Wesson
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,23,5,Drew Hursey|Daniel Wynn
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Kevin Rea
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Hunter Meriwether
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Jay Edwards
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Daniel Wynn|Louis Amagliani
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Tyler Blocker|Kyle Cummins
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Drew Hursey|Ross Montague
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Owen Mercer|Reid Wesson
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Luke Jensen
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Tyler Blocker
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Reid Wesson
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,3,0,Tyler Blocker|Owen Mercer
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,13,10,Daniel Wynn|Louis Amagliani
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,5,0,Mac Plosser|Jay Edwards
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,William Harris|Ross Montague
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,5,0,Brandon Byrd|Ryan Quinn
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,John Irvine|Luke Jensen
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,11,2,Kyle Cummins|Kevin Rea
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,9,0,Drew Hursey|Hunter Meriwether
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,10,0,Tyler Blocker|Owen Mercer
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,16,6,William Harris|Daniel Wynn
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,13,0,Brandon Byrd|Jay Edwards
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,13,0,John Irvine|Ross Montague
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,21,0,Ryan Quinn|Kevin Rea
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,25,4,Hunter Meriwether|Louis Amagliani
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,13,0,Mac Plosser|Kyle Cummins
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,15,2,Luke Jensen|Drew Hursey
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Brandon Byrd
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Luke Jensen
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Tyler Blocker|Kevin Rea
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Daniel Wynn
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Jay Edwards|Owen Mercer
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Ross Montague|Louis Amagliani
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Kyle Cummins
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Drew Hursey|Hunter Meriwether
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Tyler Blocker
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,7,2,Brandon Byrd|Jay Edwards
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,Luke Jensen|John Irvine
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,9,0,Neely Mallory|Kyle Cummins
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,9,0,Hunter Meriwether|Daniel Wynn
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,4,0,Mac Plosser|Ryan Quinn
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,7,3,Ross Montague|Drew Hursey
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,10,3,Owen Mercer|Kevin Rea
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,7,0,William Harris|Louis Amagliani
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,14,0,Brandon Byrd|Jay Edwards
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,17,3,John Irvine|Daniel Wynn
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,14,0,Mac Plosser|Kyle Cummins
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,22,8,Hunter Meriwether|Louis Amagliani
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,24,10,Neely Mallory|Kevin Rea
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,14,0,Ross Montague|Drew Hursey
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,14,5,Ryan Quinn|Owen Mercer
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,9,0,William Harris|Luke Jensen
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Owen Mercer
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|John Irvine
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Jay Edwards|Kevin Rea
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Drew Hursey|Hunter Meriwether
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Neely Mallory|Kyle Cummins
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Luke Jensen|Ross Montague
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Brandon Byrd
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Daniel Wynn|Louis Amagliani
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Neely Mallory
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,0,Brandon Byrd|Jay Edwards
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,9,3,Drew Hursey|Daniel Wynn
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,9,5,Neely Mallory|Kyle Cummins
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,4,0,William Harris|Luke Jensen
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,5,0,Mac Plosser|Owen Mercer
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,John Irvine|Ross Montague
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,8,0,Ryan Quinn|Kevin Rea
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,12,4,Daniel Wynn|Louis Amagliani
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,16,0,Jay Edwards|Neely Mallory
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,16,0,Luke Jensen|Hunter Meriwether
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,15,0,Mac Plosser|Kyle Cummins
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,15,0,William Harris|Daniel Wynn
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,21,2,Brandon Byrd|Kevin Rea
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,19,0,Ross Montague|Louis Amagliani
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,13,0,Ryan Quinn|Owen Mercer
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,13,0,John Irvine|Drew Hursey
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Neely Mallory|Kyle Cummins
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Hunter Meriwether
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Brandon Byrd
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Luke Jensen
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Jay Edwards|Owen Mercer
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Daniel Wynn|Louis Amagliani
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Kevin Rea
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Ross Montague|Drew Hursey
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Neely Mallory
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Kevin Rea
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Drew Hursey|Daniel Wynn
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Jay Edwards
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Ross Montague|Louis Amagliani
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Tyler Blocker|Owen Mercer
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Luke Jensen|Hunter Meriwether
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Kyle Cummins
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|John Irvine
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,5,0,Brandon Byrd|Jay Edwards
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,12,7,Louis Amagliani|Daniel Wynn
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,7,2,Owen Mercer|Kyle Cummins
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,Luke Jensen|Ross Montague
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,5,0,Tyler Blocker|Kevin Rea
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,9,4,Drew Hursey|Hunter Meriwether
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,3,0,Mac Plosser|Ryan Quinn
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,3,0,William Harris|John Irvine
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Tyler Blocker
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,2,Ryan Quinn|Owen Mercer
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,4,0,Ross Montague|Luke Jensen
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,7,2,Mac Plosser|Kevin Rea
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,William Harris|Louis Amagliani
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,7,2,Allen Bobango|Kyle Cummins
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,5,0,John Irvine|Hunter Meriwether
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,0,Brandon Byrd|Jay Edwards
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,10,4,Daniel Wynn|Drew Hursey
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Owen Mercer
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Luke Jensen
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Kyle Cummins
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Ross Montague|Drew Hursey
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Kevin Rea
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Hunter Meriwether
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Allen Bobango|Jay Edwards
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Daniel Wynn|Louis Amagliani
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Allen Bobango
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Owen Mercer
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,John Irvine|Drew Hursey
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Jay Edwards|Allen Bobango
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Luke Jensen
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Mac Plosser|Kyle Cummins
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Ross Montague|Hunter Meriwether
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Brandon Byrd|Kevin Rea
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Daniel Wynn|Louis Amagliani
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,8,2,Allen Bobango|Owen Mercer
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,6,0,Ross Montague|Luke Jensen
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,4,Brandon Byrd|Jay Edwards
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,2,0,William Harris|John Irvine
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,0,Mac Plosser|Kevin Rea
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,10,4,Drew Hursey|Daniel Wynn
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,0,Ryan Quinn|Kyle Cummins
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,10,4,Hunter Meriwether|Louis Amagliani
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,11,0,Ryan Quinn|Allen Bobango
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,14,3,Luke Jensen|Drew Hursey
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,13,3,Brandon Byrd|Kyle Cummins
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,10,0,William Harris|Daniel Wynn
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,23,12,Owen Mercer|Kevin Rea
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,11,0,John Irvine|Hunter Meriwether
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Red,weighted_team_course_handicap_relative_to_low,9,0,Mac Plosser|Jay Edwards
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Blue,weighted_team_course_handicap_relative_to_low,16,7,Ross Montague|Louis Amagliani
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Allen Bobango
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,7,1,Jay Edwards|Owen Mercer
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,6,0,Ross Montague|Luke Jensen
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,3,0,Mac Plosser|Ryan Quinn
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,6,3,John Irvine|Louis Amagliani
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Red,weighted_team_course_handicap_relative_to_low,6,0,Jay Snyder|Kevin Rea
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Blue,weighted_team_course_handicap_relative_to_low,9,3,Drew Hursey|Daniel Wynn
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Red,shamble_player_course_handicap_relative_to_match_low,,,Jay Snyder|Brandon Byrd
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Blue,shamble_player_course_handicap_relative_to_match_low,,,William Harris|John Irvine
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Red,shamble_player_course_handicap_relative_to_match_low,,,Owen Mercer|Kevin Rea
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Blue,shamble_player_course_handicap_relative_to_match_low,,,Hunter Meriwether|Daniel Wynn
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Red,shamble_player_course_handicap_relative_to_match_low,,,Mac Plosser|Kyle Cummins
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Blue,shamble_player_course_handicap_relative_to_match_low,,,Buck Towner|Drew Hursey
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Ryan Quinn|Brandon Byrd
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Ross Montague|Hunter Meriwether
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Jay Snyder|Kyle Cummins
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,Buck Towner|Louis Amagliani
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Red,best_ball_player_course_handicap_relative_to_match_low,,,Jay Edwards|Allen Bobango
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Blue,best_ball_player_course_handicap_relative_to_match_low,,,William Harris|Luke Jensen
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Ryan Quinn
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,John Irvine
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Brandon Byrd
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Louis Amagliani
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Allen Bobango
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Drew Hursey
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kevin Rea
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Buck Towner
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Owen Mercer
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,William Harris
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Edwards
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Hunter Meriwether
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Jay Snyder
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Ross Montague
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Mac Plosser
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Daniel Wynn
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,Red,player_course_handicap_relative_to_low,,,Kyle Cummins
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,Blue,player_course_handicap_relative_to_low,,,Luke Jensen

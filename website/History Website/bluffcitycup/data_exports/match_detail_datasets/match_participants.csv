@@ -1,0 +1,645 @@
+match_uid,year,round,match,matchgroup,format_display,format_app,team,slot,player_name,first_name,last_name,picture_file,picture_url,handicap_index,course_handicap_full,course_handicap_shamble,course_handicap_slope_only,match_strokes_used,popup_row_displayed
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,8.0,7,5,8,0,1
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,29,23,30,22,1
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Blue,1,Sam Moody,Sam,Moody,,,30.0,29,23,30,22,1
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,30.0,29,23,30,22,1
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,15.0,14,11,15,3,1
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Red,2,Ryan Burgett,Ryan,Burgett,,,17.0,16,13,17,5,1
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,12.0,11,9,12,0,1
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Blue,2,Michael Edwards,Michael,Edwards,,,24.0,23,18,24,12,1
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,17.0,16,13,17,4,1
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Red,2,Reid Wesson,Reid,Wesson,,,27.0,26,21,27,14,1
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,13.0,12,10,13,0,1
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,20.0,19,15,20,7,1
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,8.0,7,5,8,,0
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,15.0,14,11,15,,0
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,12.0,11,9,12,,0
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,30.0,29,23,30,,0
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,17.0,16,13,17,,0
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,29,23,30,,0
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,20.0,19,15,20,,0
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Michael Edwards,Michael,Edwards,,,24.0,23,18,24,,0
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Burgett,Ryan,Burgett,,,17.0,16,13,17,,0
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Reid Wesson,Reid,Wesson,,,27.0,26,21,27,,0
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,13.0,12,10,13,,0
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Sam Moody,Sam,Moody,,,30.0,29,23,30,,0
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,17.0,21,17,21,5,1
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Red,2,Reid Wesson,Reid,Wesson,,,27.0,30,27,30,14,1
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,13.0,16,13,16,0,1
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,20.0,25,20,25,9,1
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,15.0,19,15,18,4,1
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.0,22,18,22,7,1
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,12.0,15,12,15,0,1
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Blue,2,Michael Edwards,Michael,Edwards,,,24.0,30,24,30,15,1
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,8.0,10,8,10,0,1
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,30,30,20,1
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Blue,1,Sam Moody,Sam,Moody,,,30.0,30,30,30,20,1
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,30.0,30,30,30,20,1
+2015-R3-M4,2015,3,4,,Singles,Singles,Red,1,Reid Wesson,Reid,Wesson,,,27.0,,,,,1
+2015-R3-M4,2015,3,4,,Singles,Singles,Blue,1,Sam Moody,Sam,Moody,,,30.0,,,,,1
+2015-R3-M5,2015,3,5,,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,8.0,,,,,1
+2015-R3-M5,2015,3,5,,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,12.0,,,,,1
+2015-R3-M6,2015,3,6,,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,,,,,1
+2015-R3-M6,2015,3,6,,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,30.0,,,,,1
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,17.0,21,17,21,0,1
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,20.0,25,20,25,4,1
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,15.0,19,15,18,3,1
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,13.0,16,13,16,0,1
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.0,22,18,22,0,1
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,Blue,1,Michael Edwards,Michael,Edwards,,,24.0,30,24,30,8,1
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Red,3,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Red,4,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Blue,2,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Blue,3,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,,,,,,0
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Blue,4,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Red,3,Reid Wesson,Reid,Wesson,,,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Red,4,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Blue,3,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,,,,,,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Blue,4,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,,,,,,0
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,,,,,,0
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,,,,,,0
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,,,,,,0
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,,,,,,0
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,,,,,,0
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,,,,,,0
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,,,,,,0
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,,,,,,0
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,,,,,,0
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,,,,,,0
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,,,,,,0
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,,,,,,0
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,,,,,,0
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Red,2,Reid Wesson,Reid,Wesson,,,,,,,,0
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,,,,,0
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,,,,,,0
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,,,,,,0
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,,,,,,0
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,,,,,,0
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,,,,,0
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Red,1,Reid Wesson,Reid,Wesson,,,,,,,,0
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,,,,,,0
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,,,,,,0
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,,,,,,0
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,,,,,,0
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,,,,,,0
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,,,,,,0
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,,,,,,0
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,,,,,,0
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,,,,,,0
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,,,,,,0
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,,,,,,0
+2016-R4-M1,2016,4,1,,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,,,,,,1
+2016-R4-M1,2016,4,1,,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,,,,,,1
+2016-R4-M2,2016,4,2,,Singles,Singles,Red,1,Reid Wesson,Reid,Wesson,,,,,,,,1
+2016-R4-M2,2016,4,2,,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,,,,,1
+2016-R4-M3,2016,4,3,,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,,,,,,1
+2016-R4-M3,2016,4,3,,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,,,,,,1
+2016-R4-M4,2016,4,4,,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,,,,,,1
+2016-R4-M4,2016,4,4,,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,,,,,,1
+2016-R4-M5,2016,4,5,,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,,,,,,1
+2016-R4-M5,2016,4,5,,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,,,,,,1
+2016-R4-M6,2016,4,6,,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,,,,,,1
+2016-R4-M6,2016,4,6,,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,,,,,,1
+2016-R4-M7,2016,4,7,,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,,,,,,1
+2016-R4-M7,2016,4,7,,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,,,,,,1
+2016-R4-M8,2016,4,8,,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,,,,,,1
+2016-R4-M8,2016,4,8,,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,,,,,,1
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Tyler Blocker,Tyler,Blocker,,,3.0,3,2,3,,0
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,16.0,18,14,18,,0
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,16.0,18,14,18,,0
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,18.0,20,16,21,,0
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.0,7,5,7,,0
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,38.0,30,30,30,,0
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,10.0,11,9,12,,0
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.0,12,10,13,,0
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,13.0,15,12,15,,0
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,22.0,25,20,25,,0
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,24.0,27,22,28,,0
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,38.0,30,30,30,,0
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,20.0,23,18,23,,0
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,24.0,27,22,28,,0
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,20.0,23,18,23,,0
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,23.0,26,21,26,,0
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Tyler Blocker,Tyler,Blocker,,,3.0,3,2,3,,0
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,38.0,30,30,30,,0
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.0,12,10,13,,0
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,18.0,20,16,21,,0
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.0,7,5,7,,0
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,22.0,25,20,25,,0
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,10.0,11,9,12,,0
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,24.0,27,22,28,,0
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,13.0,15,12,15,,0
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,24.0,27,22,28,,0
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,16.0,18,14,18,,0
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,20.0,23,18,23,,0
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,16.0,18,14,18,,0
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,20.0,23,18,23,,0
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,23.0,26,21,26,,0
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,38.0,30,30,30,,0
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.0,5,4,6,0,1
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,24.0,23,18,24,18,1
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.0,10,8,11,5,1
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,24.0,23,18,24,18,1
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,16.0,15,12,16,0,1
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,20.0,19,15,20,4,1
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,20.0,19,15,20,4,1
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,23.0,22,18,23,7,1
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,13.0,12,10,13,3,1
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,22.0,21,17,22,12,1
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,10.0,9,7,10,0,1
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,38.0,30,30,30,21,1
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Red,1,Tyler Blocker,Tyler,Blocker,,,3.0,2,1,3,0,1
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,38.0,30,30,30,28,1
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,16.0,15,12,16,13,1
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,18.0,17,14,18,15,1
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.0,5,4,6,0,1
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.0,10,8,11,5,1
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,24.0,23,18,24,0,1
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,24.0,23,18,24,0,1
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,20.0,19,15,20,0,1
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,20.0,19,15,20,0,1
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,22.0,21,17,22,0,1
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,23.0,22,18,23,1,1
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,16.0,15,12,16,0,1
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,18.0,17,14,18,2,1
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,38.0,30,30,30,0,1
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,38.0,30,30,30,0,1
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,Red,1,Tyler Blocker,Tyler,Blocker,,,3.0,2,1,3,0,1
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,10.0,9,7,10,7,1
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,13.0,12,10,13,0,1
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,16.0,15,12,16,3,1
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Tyler Blocker,Tyler,Blocker,,,2.1,2,2,2,,0
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.4,18,15,19,,0
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,5.9,6,5,7,,0
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.7,11,9,11,,0
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,6,5,7,,0
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.6,20,16,20,,0
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,13,11,14,,0
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,19.6,22,18,23,,0
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.2,14,11,14,,0
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,15.6,18,14,18,,0
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.9,19,15,19,,0
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,19,15,20,,0
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Red,1,Reid Wesson,Reid,Wesson,,,18.8,21,17,22,,0
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.0,30,25,30,,0
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,23.4,27,21,27,,0
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.2,30,25,30,,0
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Tyler Blocker,Tyler,Blocker,,,2.1,2,2,2,,0
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,15.6,18,14,18,,0
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,5.9,6,5,7,,0
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,13,11,14,,0
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,6,5,7,,0
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.6,20,16,20,,0
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.7,11,9,11,,0
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,19,15,20,,0
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.4,18,15,19,,0
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.0,30,25,30,,0
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,19.6,22,18,23,,0
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.2,30,25,30,,0
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.2,14,11,14,,0
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2,Reid Wesson,Reid,Wesson,,,18.8,21,17,22,,0
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.9,19,15,19,,0
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,23.4,27,21,27,,0
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.2,11,9,12,2,1
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.0,27,22,28,18,1
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.7,9,7,10,0,1
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,19.6,19,15,20,10,1
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,5,4,6,0,1
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,15.6,15,12,16,10,1
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,23.4,22,18,24,17,1
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.2,26,21,27,21,1
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Red,1,Tyler Blocker,Tyler,Blocker,,,2.1,1,1,2,0,1
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.6,17,13,18,16,1
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.9,16,13,17,15,1
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,16,13,17,15,1
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.4,15,12,17,10,1
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Red,2,Reid Wesson,Reid,Wesson,,,18.8,18,14,19,13,1
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,5.9,5,4,6,0,1
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,11,9,12,6,1
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,15.6,15,12,16,0,1
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.9,16,13,17,1,1
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.4,15,12,17,0,1
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,17.1,16,13,17,1,1
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.6,17,13,18,0,1
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,19.6,19,15,20,2,1
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,Red,1,Tyler Blocker,Tyler,Blocker,,,2.1,1,1,2,0,1
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,5.9,5,4,6,4,1
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.2,11,9,12,0,1
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,11,9,12,0,1
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,5,4,6,0,1
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.7,9,7,10,4,1
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,Red,1,Reid Wesson,Reid,Wesson,,,18.8,18,14,19,0,1
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,23.4,22,18,24,4,1
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.0,27,22,28,1,1
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.2,26,21,27,0,1
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Tyler Blocker,Tyler,Blocker,,,1.0,0,0,1,,0
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.9,19,15,19,,0
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,23,18,23,,0
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.5,30,25,30,,0
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,6,5,7,,0
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,14.2,16,12,16,,0
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,7.4,8,6,8,,0
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,13.6,15,12,16,,0
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.7,10,8,11,,0
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.9,12,9,12,,0
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.6,10,8,11,,0
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,13,10,13,,0
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.4,19,15,20,,0
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,29.0,30,26,30,,0
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,15.0,16,13,17,,0
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.3,20,16,21,,0
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Tyler Blocker,Tyler,Blocker,,,1.0,0,0,1,,0
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.9,19,15,19,,0
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,7.4,8,6,8,,0
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,23,18,23,,0
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.7,10,8,11,,0
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,14.2,16,12,16,,0
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.6,10,8,11,,0
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,13.6,15,12,16,,0
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.9,12,9,12,,0
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,29.0,30,26,30,,0
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.3,20,16,21,,0
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.5,30,25,30,,0
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,6,5,7,,0
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.4,19,15,20,,0
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,13,10,13,,0
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,15.0,16,13,17,,0
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,6,5,7,0,1
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.7,10,8,11,4,1
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,7.4,8,6,8,2,1
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,13,10,13,7,1
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Red,1,Tyler Blocker,Tyler,Blocker,,,1.0,1,0,1,0,1
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,29.0,30,26,30,29,1
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.6,10,8,11,9,1
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,23,18,23,22,1
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,14.2,16,12,16,1,1
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.9,19,15,19,4,1
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,13.6,15,12,16,0,1
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.5,30,25,30,15,1
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.9,12,9,12,0,1
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.4,19,15,20,7,1
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,15.0,17,13,17,5,1
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.3,20,16,21,8,1
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,Red,1,Tyler Blocker,Tyler,Blocker,,,1.0,1,0,1,0,1
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,7.4,8,6,8,7,1
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.7,10,8,11,0,1
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,11.8,13,10,13,3,1
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.7,6,5,7,0,1
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.6,10,8,11,4,1
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,29.0,30,26,30,0,1
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,27.5,30,25,30,0,1
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.9,12,9,12,0,1
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,13.6,15,12,16,3,1
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,17.4,19,15,20,0,1
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,23,18,23,4,1
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,14.2,16,12,16,0,1
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,15.0,17,13,17,1,1
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,16.9,19,15,19,0,1
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.3,20,16,21,1,1
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.0,13,11,14,,0
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.5,15,12,16,,0
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,8.9,10,8,10,,0
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.1,10,8,10,,0
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Neely Mallory,Neely,Mallory,,,15.2,17,14,17,,0
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.5,21,17,21,,0
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,13.6,15,12,16,,0
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,23,19,24,,0
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.7,7,6,8,,0
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.1,11,9,12,,0
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,12.1,14,11,14,,0
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,12.5,14,11,14,,0
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,16,13,16,,0
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,27.0,30,25,30,,0
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.7,7,6,8,,0
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,24.8,28,23,29,,0
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.0,13,11,14,,0
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.5,15,12,16,,0
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.1,10,8,10,,0
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,23,19,24,,0
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.7,7,6,8,,0
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.5,21,17,21,,0
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,13.6,15,12,16,,0
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,24.8,28,23,29,,0
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Neely Mallory,Neely,Mallory,,,15.2,17,14,17,,0
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,27.0,30,25,30,,0
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,12.1,14,11,14,,0
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,12.5,14,11,14,,0
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.1,11,9,12,,0
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,16,13,16,,0
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.7,7,6,8,,0
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,8.9,10,8,10,,0
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.1,13,10,12,5,1
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,17,14,17,9,1
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.7,8,7,8,0,1
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.1,11,9,11,3,1
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.5,17,13,17,2,1
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,27.0,30,27,30,15,1
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,12.5,15,12,15,0,1
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,13.6,17,13,17,2,1
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Red,1,Neely Mallory,Neely,Mallory,,,15.2,19,15,19,8,1
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.5,23,18,23,12,1
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,8.9,11,9,11,0,1
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,12.1,15,12,15,4,1
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.7,8,7,8,0,1
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.0,15,12,15,7,1
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,25,20,25,17,1
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,24.8,30,24,30,22,1
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,10.1,13,10,12,2,1
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,9.1,11,9,11,0,1
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,17,14,17,2,1
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,12.5,15,12,15,0,1
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.5,17,13,17,2,1
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,12.1,15,12,15,0,1
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.5,23,18,23,0,1
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,20.5,25,20,25,2,1
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.7,8,7,8,0,1
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.7,8,7,8,0,1
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,12.0,15,12,15,4,1
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,8.9,11,9,11,0,1
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,Red,1,Neely Mallory,Neely,Mallory,,,15.2,19,15,19,2,1
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,13.6,17,13,17,0,1
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,27.0,30,27,30,0,1
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,24.8,30,24,30,0,1
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.6,12,9,12,,0
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.0,15,12,15,,0
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,14.0,17,14,17,,0
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,18.2,22,18,22,,0
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Neely Mallory,Neely,Mallory,,,12.9,16,13,16,,0
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.4,22,18,23,,0
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.0,7,6,7,,0
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.9,13,11,13,,0
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.8,7,6,7,,0
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,15,12,16,,0
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,7.6,9,7,9,,0
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.5,11,9,12,,0
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.8,11,8,11,,0
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.8,30,28,30,,0
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,18.2,22,18,22,,0
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.9,26,20,26,,0
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.0,15,12,15,,0
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Neely Mallory,Neely,Mallory,,,12.9,16,13,16,,0
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.9,13,11,13,,0
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,14.9,18,15,18,,0
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.8,7,6,7,,0
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.4,22,18,23,,0
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.0,7,6,7,,0
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,18.2,22,18,22,,0
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.6,12,9,12,,0
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.8,30,28,30,,0
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.5,11,9,12,,0
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.9,26,20,26,,0
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.8,11,8,11,,0
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,15,12,16,,0
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,7.6,9,7,9,,0
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,14.0,17,14,17,,0
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Red,1,Neely Mallory,Neely,Mallory,,,12.9,13,11,14,5,1
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.4,20,16,21,12,1
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,7.6,8,6,9,0,1
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,14.9,16,13,17,8,1
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.8,6,4,7,0,1
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.6,10,8,11,4,1
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.0,6,5,7,0,1
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.9,11,9,12,5,1
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.0,12,10,13,0,1
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,13,11,14,1,1
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,18.2,19,16,20,7,1
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.9,22,18,23,10,1
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.8,9,7,10,0,1
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.8,30,25,30,21,1
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.5,10,8,11,1,1
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,14.0,15,12,16,6,1
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,Red,1,Neely Mallory,Neely,Mallory,,,12.9,13,11,14,2,1
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.9,11,9,12,0,1
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.4,20,16,21,4,1
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,14.9,16,13,17,0,1
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.8,6,4,7,0,1
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.9,22,18,23,16,1
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.6,10,8,11,0,1
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,14.0,15,12,16,5,1
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.0,12,10,13,0,1
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,18.2,19,16,20,7,1
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,28.8,30,25,30,22,1
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,7.6,8,6,9,0,1
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,13,11,14,7,1
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.0,6,5,7,0,1
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.8,9,7,10,0,1
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.5,10,8,11,1,1
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.2,11,9,11,0,1
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,29,30,19,1
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,17.1,21,17,21,10,1
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,22.1,27,22,27,16,1
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.7,11,8,11,0,1
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.3,15,12,15,4,1
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,10.5,13,10,13,2,1
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.5,26,21,26,15,1
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Red,1,Tyler Blocker,Tyler,Blocker,,,1.2,1,1,1,0,1
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,15,12,16,14,1
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,9.1,11,9,11,10,1
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.4,22,18,23,21,1
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.1,7,6,8,0,1
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,15.9,19,15,20,12,1
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.6,8,6,8,1,1
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,8.8,11,8,11,4,1
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.2,9,7,10,,0
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.3,13,10,14,,0
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.5,23,19,24,,0
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,22.1,24,19,25,,0
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,13,11,14,,0
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,15.9,17,13,18,,0
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,9.1,9,7,10,,0
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,10.5,11,9,12,,0
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Red,1,Tyler Blocker,Tyler,Blocker,,,1.2,0,0,1,,0
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,26,30,,0
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,17.1,18,15,19,,0
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.4,20,16,21,,0
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.1,6,5,7,,0
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Red,2,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.7,9,7,10,,0
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.6,6,5,7,,0
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,8.8,9,7,10,,0
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,6.1,6,5,7,0,1
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,9.1,9,7,10,3,1
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.2,9,7,10,0,1
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,8.8,9,7,10,0,1
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.7,9,7,10,0,1
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,17.1,18,15,19,9,1
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,12.7,13,11,14,0,1
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,22.1,24,19,25,11,1
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,Red,1,Tyler Blocker,Tyler,Blocker,,,1.2,0,0,1,0,1
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,10.5,11,9,12,11,1
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.3,13,10,14,7,1
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,6.6,6,5,7,0,1
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,15.9,17,13,18,0,1
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.5,23,19,24,6,1
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,26,30,10,1
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.4,20,16,21,0,1
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,9.3,10,8,11,,0
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,13.5,15,12,15,,0
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,6.4,7,5,7,,0
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.7,12,9,12,,0
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.6,6,5,6,,0
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,27,30,,0
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,4.6,5,4,5,,0
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.1,23,19,24,,0
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,11.5,13,10,13,,0
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,14.7,16,13,17,,0
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.1,6,5,7,,0
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.2,20,16,21,,0
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,10.1,11,9,12,,0
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.8,14,11,15,,0
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.4,19,15,20,,0
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,18.4,20,16,21,,0
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,9.3,10,8,11,5,1
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,13.5,15,12,15,10,1
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,4.6,5,4,5,0,1
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.7,12,9,12,7,1
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.6,6,5,6,0,1
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,14.7,16,13,17,10,1
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,6.4,7,5,7,1,1
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,18.4,20,16,21,14,1
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,10.1,11,9,12,5,1
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,27,30,24,1
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.1,6,5,7,0,1
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.2,20,16,21,14,1
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Red,1,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,11.5,12,10,13,0,1
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.8,14,11,15,2,1
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.4,19,15,20,7,1
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.1,23,19,24,11,1
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,27,30,7,1
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.1,23,19,24,0,1
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.6,6,5,6,0,1
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.1,6,5,7,0,1
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,13.5,15,12,15,8,1
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,6.4,7,5,7,0,1
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.8,14,11,15,9,1
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,4.6,5,4,5,0,1
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,Red,1,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,11.5,13,10,13,1,1
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.7,12,9,12,0,1
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,10.1,11,9,12,0,1
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,18.4,20,16,21,9,1
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,9.3,10,8,11,0,1
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.4,19,15,20,9,1
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,14.7,16,13,17,0,1
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,18.2,20,16,21,4,1
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.5,10,8,10,3,1
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,15.1,17,14,18,10,1
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.0,7,5,7,0,1
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.1,19,15,19,12,1
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.3,15,12,16,11,1
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Red,2,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,14.0,16,13,16,12,1
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,3.6,4,3,4,0,1
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,12.3,14,11,14,10,1
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.1,6,5,6,0,1
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,15.8,18,15,18,12,1
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.0,10,8,11,4,1
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,16.1,19,15,19,13,1
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.4,11,9,11,0,1
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,28,30,19,1
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.7,20,16,21,9,1
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.7,25,20,25,14,1
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Red,1,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,14.0,16,13,17,,0
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,15.1,17,14,18,,0
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.0,10,8,11,,0
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,12.3,14,11,15,,0
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.4,11,8,11,,0
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.3,15,12,16,,0
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,3.6,4,3,4,,0
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.0,6,5,7,,0
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.1,5,4,6,,0
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,28,30,,0
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.1,19,15,19,,0
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.7,21,16,21,,0
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.5,9,8,10,,0
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,15.8,18,15,19,,0
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,16.1,19,15,19,,0
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.7,25,20,26,,0
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.5,8,6,10,,0
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Red,2,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,14.0,14,11,16,,0
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,12.3,12,10,14,,0
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.1,16,13,18,,0
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.4,9,7,11,,0
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,15.8,16,13,18,,0
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,3.6,2,2,4,,0
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.7,18,14,20,,0
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,15.1,15,12,17,,0
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,26,30,,0
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.0,5,4,7,,0
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,16.1,16,13,18,,0
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.1,4,3,6,,0
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Red,2,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.3,13,10,15,,0
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.0,8,7,10,,0
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.7,23,18,25,,0
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,9.4,10,8,11,4,1
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,6.0,6,5,7,0,1
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,8.5,9,7,10,5,1
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,3.6,4,3,4,0,1
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,Red,1,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,14.0,15,12,16,0,1
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,16.1,18,14,18,3,1
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,5.1,5,4,6,0,1
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,12.3,14,11,14,9,1
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,15.1,17,13,17,0,1
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,21.7,24,19,25,7,1
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,13.3,15,12,15,0,1
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.7,20,16,20,5,1
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,27,30,12,1
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,16.1,18,14,18,0,1
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.2,14,12,15,,0
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Red,2,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,17,13,17,,0
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.4,11,9,11,,0
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.1,12,10,12,,0
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,4.8,6,4,6,,0
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Red,2,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,7.8,9,7,9,,0
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,5.4,6,5,7,,0
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.4,24,20,25,,0
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Red,1,Jay Snyder,Jay,Snyder,red_jay_snyder.png,./assets/Pics/red_jay_snyder.png,2.6,3,2,3,,0
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,29,30,,0
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,13.2,16,13,16,,0
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.6,21,17,21,,0
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Red,1,Jay Snyder,Jay,Snyder,red_jay_snyder.png,./assets/Pics/red_jay_snyder.png,2.6,3,3,3,0,0
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,8.3,10,8,10,5,0
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,4.3,5,4,5,1,0
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Blue,2,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,5.4,7,5,6,2,0
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,17,14,17,0,0
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Red,2,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,29,30,15,0
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,14.2,17,14,17,0,0
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Blue,2,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.6,21,17,21,3,0
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,4.8,6,5,6,0,0
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.0,22,17,22,12,0
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Blue,1,Buck Towner,Buck,Towner,blue_buck_towner.png,./assets/Pics/blue_buck_towner.png,9.2,11,9,11,4,0
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Blue,2,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,13.2,16,13,16,8,0
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,7.8,9,7,9,0,1
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Red,2,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,8.3,10,8,10,1,1
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.4,11,9,11,2,1
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Blue,2,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,14.2,17,13,17,8,1
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Red,1,Jay Snyder,Jay,Snyder,red_jay_snyder.png,./assets/Pics/red_jay_snyder.png,2.6,3,3,3,0,1
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Red,2,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.0,21,17,21,18,1
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Blue,1,Buck Towner,Buck,Towner,blue_buck_towner.png,./assets/Pics/blue_buck_towner.png,9.2,11,9,11,8,1
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Blue,2,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.4,24,19,24,21,1
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.2,14,12,14,9,1
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Red,2,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,12.5,15,12,15,10,1
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,4.3,5,4,5,0,1
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Blue,2,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.1,12,10,12,7,1
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,Red,1,Ryan Quinn,Ryan,Quinn,red_ryan_quinn.png,./assets/Pics/red_ryan_quinn.png,7.8,10,8,9,3,1
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,Blue,1,John Irvine,John,Irvine,blue_john_irvine.png,./assets/Pics/blue_john_irvine.png,5.4,7,6,6,0,1
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,Red,1,Brandon Byrd,Brandon,Byrd,red_brandon_byrd.png,./assets/Pics/red_brandon_byrd.png,8.3,11,9,10,0,1
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,Blue,1,Louis Amagliani,Louis,Amagliani,blue_louis_amagliani.png,./assets/Pics/blue_louis_amagliani.png,20.4,25,20,25,14,1
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,Red,1,Allen Bobango,Allen,Bobango,red_allen_bobango.png,./assets/Pics/red_allen_bobango.png,12.5,16,13,15,0,1
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,Blue,1,Drew Hursey,Drew,Hursey,blue_drew_hursey.png,./assets/Pics/blue_drew_hursey.png,13.2,17,13,16,1,1
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,Red,1,Kevin Rea,Kevin,Rea,red_kevin_rea.png,./assets/Pics/red_kevin_rea.png,30.0,30,30,30,18,1
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,Blue,1,Buck Towner,Buck,Towner,blue_buck_towner.png,./assets/Pics/blue_buck_towner.png,9.2,12,10,11,0,1
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,Red,1,Owen Mercer,Owen,Mercer,red_owen_mercer.png,./assets/Pics/red_owen_mercer.png,14.1,18,14,17,12,1
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,Blue,1,William Harris,William,Harris,blue_william_harris.png,./assets/Pics/blue_william_harris.png,4.3,6,5,5,0,1
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,Red,1,Jay Edwards,Jay,Edwards,red_jay_edwards.png,./assets/Pics/red_jay_edwards.png,12.2,16,12,15,0,1
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,Blue,1,Hunter Meriwether,Hunter,Meriwether,blue_hunter_meriwether.png,./assets/Pics/blue_hunter_meriwether.png,14.2,18,14,17,2,1
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,Red,1,Jay Snyder,Jay,Snyder,red_jay_snyder.png,./assets/Pics/red_jay_snyder.png,2.6,4,3,3,0,1
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,Blue,1,Ross Montague,Ross,Montague,blue_ross_montague.png,./assets/Pics/blue_ross_montague.png,9.4,12,10,11,8,1
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,Red,1,Mac Plosser,Mac,Plosser,red_mac_plosser.png,./assets/Pics/red_mac_plosser.png,4.8,7,5,6,0,1
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,Blue,1,Daniel Wynn,Daniel,Wynn,blue_daniel_wynn.png,./assets/Pics/blue_daniel_wynn.png,17.6,22,18,21,15,1
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,Red,1,Kyle Cummins,Kyle,Cummins,red_kyle_cummins.png,./assets/Pics/red_kyle_cummins.png,18.0,23,18,22,10,1
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,Blue,1,Luke Jensen,Luke,Jensen,blue_luke_jensen.png,./assets/Pics/blue_luke_jensen.png,10.1,13,10,12,0,1

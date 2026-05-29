@@ -1,0 +1,415 @@
+course,holenumber,handicap,par,length,green_cen_lat,green_cen_long,tees
+Galloway                                          ,4,7,4,342,35.127108,-89.9325,Black
+Galloway                                          ,17,12,4,364,35.131527,-89.940157,Black
+Galloway                                          ,3,9,4,416,35.128518,-89.936107,Black
+Galloway                                          ,7,13,3,163,35.130102,-89.935019,Black
+Galloway                                          ,9,1,5,473,35.130502,-89.935324,Black
+Galloway                                          ,12,4,4,342,35.126731,-89.930797,Black
+Galloway                                          ,14,8,4,390,35.128679,-89.935494,Black
+Galloway                                          ,8,3,4,415,35.129725,-89.939792,Black
+Galloway                                          ,16,18,3,163,35.129029,-89.941507,Black
+Galloway                                          ,6,11,4,393,35.1281,-89.935284,Black
+Galloway                                          ,15,6,5,477,35.128752,-89.939674,Black
+Galloway                                          ,2,15,3,166,35.129367,-89.940742,Black
+Galloway                                          ,11,10,4,374,35.12968,-89.930557,Black
+Galloway                                          ,10,14,3,148,35.129752,-89.93465,Black
+Quail Ridge                                       ,15,13,5,477,35.236064,-89.857566,Blue
+Quail Ridge                                       ,6,8,3,207,35.237719,-89.856854,Blue
+Quail Ridge                                       ,4,6,4,384,35.241787,-89.858098,Blue
+Quail Ridge                                       ,16,9,3,176,35.237086,-89.855462,Blue
+Quail Ridge                                       ,11,5,4,370,35.236242,-89.855338,Blue
+Quail Ridge                                       ,8,2,4,479,35.239383,-89.847923,Blue
+Quail Ridge                                       ,2,18,5,488,35.239397,-89.852757,Blue
+Quail Ridge                                       ,14,7,4,371,35.236264,-89.86153,Blue
+Quail Ridge                                       ,13,17,3,156,35.237551,-89.855946,Blue
+Quail Ridge                                       ,7,4,4,380,35.240481,-89.854877,Blue
+Quail Ridge                                       ,9,10,4,376,35.236457,-89.846886,Blue
+Quail Ridge                                       ,12,15,4,355,35.238946,-89.855229,Blue
+Quail Ridge                                       ,3,16,3,160,35.241044,-89.854632,Blue
+Quail Ridge                                       ,5,14,4,333,35.239579,-89.860441,Blue
+Quail Ridge                                       ,18,3,4,430,35.234802,-89.847853,Blue
+Quail Ridge                                       ,1,12,4,415,35.239387,-89.846106,Blue
+Quail Ridge                                       ,10,1,4,440,35.2341,-89.851988,Blue
+Tunica National                                   ,5,17,4,336,34.83118,-90.304389,Gold
+Tunica National                                   ,18,2,4,405,34.827635,-90.300168,Gold
+Tunica National                                   ,14,14,5,504,34.827019,-90.297069,Gold
+Tunica National                                   ,17,6,4,428,34.824754,-90.302955,Gold
+Tunica National                                   ,8,7,3,179,34.832866,-90.297082,Gold
+Tunica National                                   ,3,11,5,484,34.826775,-90.302825,Gold
+Tunica National                                   ,13,10,3,156,34.824091,-90.29378,Gold
+Tunica National                                   ,6,3,4,430,34.834685,-90.302362,Gold
+Tunica National                                   ,12,4,4,415,34.825374,-90.2938,Gold
+Tunica National                                   ,11,12,3,172,34.828385,-90.297265,Gold
+Tunica National                                   ,7,15,5,520,34.834082,-90.297202,Gold
+Tunica National                                   ,16,8,5,554,34.822231,-90.305646,Gold
+Tunica National                                   ,1,13,4,370,34.82546,-90.3031,Gold
+Tunica National                                   ,2,5,4,404,34.823277,-90.307109,Gold
+Tunica National                                   ,9,1,4,398,34.82973,-90.299287,Gold
+Tunica National                                   ,15,16,4,398,34.825115,-90.300627,Gold
+Galloway                                          ,1,5,5,494,35.130858,-89.940005,Black
+Galloway                                          ,13,16,4,314,35.129257,-89.931232,Black
+Galloway                                          ,18,2,4,400,35.131248,-89.935708,Black
+Galloway                                          ,5,17,3,179,35.1283,-89.932008,Black
+Quail Ridge                                       ,17,11,4,352,35.234262,-89.852823,Blue
+Tunica National                                   ,4,9,3,194,34.828352,-90.300994,Gold
+Tunica National                                   ,10,18,4,352,34.829512,-90.297883,Gold
+Kiva Dunes                                        ,11,18,4,342,30.2346450455757,-87.8952244074258,Blue
+Kiva Dunes                                        ,12,2,4,383,30.2338225133277,-87.8995816780129,Blue
+Kiva Dunes                                        ,1,17,4,379,30.2372625712578,-87.8923870596287,Blue
+Kiva Dunes                                        ,10,16,4,334,30.2352608109837,-87.898422801131,Blue
+Kiva Dunes                                        ,13,12,3,157,30.2333498552494,-87.8983536288782,Blue
+Kiva Dunes                                        ,6,5,4,370,30.236116953615,-87.8951976726384,Blue
+Kiva Dunes                                        ,4,15,4,280,30.2370186337896,-87.8972869875711,Blue
+Kiva Dunes                                        ,5,7,5,513,30.2359339446779,-87.8916005832996,Blue
+Kiva Dunes                                        ,7,1,4,424,30.2366666026647,-87.8998945748433,Blue
+Kiva Dunes                                        ,3,9,3,193,30.2378849093502,-87.899814886198,Blue
+Kiva Dunes                                        ,18,4,4,405,30.2348539861966,-87.8904677495203,Blue
+Kiva Dunes                                        ,9,3,4,412,30.2353563147313,-87.8945448808196,Blue
+Kiva Dunes                                        ,14,6,5,510,30.2325438683065,-87.8928136215739,Blue
+Kiva Dunes                                        ,16,10,4,381,30.2336265979019,-87.89269583517,Blue
+Kiva Dunes                                        ,17,8,3,196,30.2342589993252,-87.8947164125685,Blue
+Kiva Dunes                                        ,2,11,5,521,30.237767371616,-87.8966749707022,Blue
+Kiva Dunes                                        ,15,14,5,509,30.233421864324,-87.8976231555686,Blue
+Kiva Dunes                                        ,8,13,3,155,30.2358712468811,-87.8987897372034,Blue
+Two Rivers Golf Course                            ,11,8,3,164,36.1940868021155,-86.6817855752983,Blue
+Two Rivers Golf Course                            ,17,18,5,510,36.1928957239507,-86.6862070407913,Blue
+Two Rivers Golf Course                            ,10,6,4,396,36.1928889747819,-86.680598081663,Blue
+Two Rivers Golf Course                            ,6,7,3,166,36.1868953939604,-86.6849819037888,Blue
+Two Rivers Golf Course                            ,8,15,3,158,36.1921142895253,-86.6865644212257,Blue
+Two Rivers Golf Course                            ,2,3,4,416,36.1890927687202,-86.6840285130883,Blue
+Two Rivers Golf Course                            ,16,16,4,398,36.1968620172812,-86.6852769105018,Blue
+Two Rivers Golf Course                            ,13,12,5,525,36.1949255207556,-86.6833969512079,Blue
+Two Rivers Golf Course                            ,1,5,4,370,36.1879240310803,-86.6809368061166,Blue
+Two Rivers Golf Course                            ,12,2,4,384,36.1906155574633,-86.683177528036,Blue
+Two Rivers Golf Course                            ,3,13,5,520,36.1852368569988,-86.6846965011118,Blue
+Two Rivers Golf Course                            ,9,17,4,359,36.189555903191,-86.6845660008771,Blue
+Two Rivers Golf Course                            ,15,4,4,388,36.1936582101259,-86.6849852968109,Blue
+Two Rivers Golf Course                            ,4,9,4,394,36.186991724054,-86.6814275945605,Blue
+Two Rivers Golf Course                            ,14,10,3,185,36.196561307023,-86.6834637680461,Blue
+Two Rivers Golf Course                            ,5,1,4,404,36.1847575103029,-86.6841106688957,Blue
+Two Rivers Golf Course                            ,18,14,4,380,36.1907106799824,-86.6844424696403,Blue
+Two Rivers Golf Course                            ,7,11,5,505,36.1904004671197,-86.6861275642266,Blue
+Glen Eagle                                        ,8,7,3,180,35.3429389254466,-89.8627564157354,Blue
+Glen Eagle                                        ,16,10,4,355,35.3441237129297,-89.8623508788345,Blue
+Glen Eagle                                        ,6,1,4,395,35.3412773482156,-89.8602645440312,Blue
+Glen Eagle                                        ,1,9,4,410,35.3389739008093,-89.8528641758263,Blue
+Glen Eagle                                        ,7,3,5,552,35.3417549868263,-89.8644668916522,Blue
+Glen Eagle                                        ,14,12,3,155,35.3443949395142,-89.8559075080467,Blue
+Glen Eagle                                        ,18,6,4,367,35.3409494025042,-89.8567894632307,Blue
+Glen Eagle                                        ,17,4,5,558,35.3434159927473,-89.8561454356668,Blue
+Glen Eagle                                        ,15,2,4,420,35.3460700038636,-89.8601212572341,Blue
+Glen Eagle                                        ,5,11,4,332,35.3404226588287,-89.8632179104433,Blue
+Glen Eagle                                        ,2,15,4,341,35.3411256630032,-89.8535335787248,Blue
+Glen Eagle                                        ,9,5,5,534,35.34191329583,-89.8573407110948,Blue
+Glen Eagle                                        ,13,16,4,350,35.3448940784494,-89.8577447876467,Blue
+Glen Eagle                                        ,3,13,4,362,35.3403470298993,-89.8561472392227,Blue
+Glen Eagle                                        ,4,17,3,175,35.3401992203441,-89.8593843996594,Blue
+Glen Eagle                                        ,11,18,3,130,35.3439602643706,-89.8551768403418,Blue
+Glen Eagle                                        ,12,8,5,493,35.3442917670149,-89.8607676586629,Blue
+Glen Eagle                                        ,10,14,4,356,35.3433501085073,-89.8544149194958,Blue
+Mirimichi                                         ,15,5,4,358,35.287355920047,-89.9868468380917,Gold
+Mirimichi                                         ,13,15,3,152,35.2913750722601,-89.9887381369969,Gold
+Mirimichi                                         ,9,2,4,387,35.2905966637934,-89.9967461238688,Gold
+Mirimichi                                         ,10,9,4,369,35.2875292570864,-89.9958264774158,Gold
+Mirimichi                                         ,7,6,4,362,35.2866350548282,-89.998878081664,Gold
+Mirimichi                                         ,16,1,4,417,35.2883242626548,-89.9918272750842,Gold
+Mirimichi                                         ,12,7,5,500,35.2925169685482,-89.9881260075345,Gold
+Mirimichi                                         ,11,17,3,146,35.2886153585059,-89.9930895919089,Gold
+Mirimichi                                         ,4,8,4,391,35.2894135556115,-90.0001540283118,Gold
+Mirimichi                                         ,8,14,3,170,35.2860436169031,-89.9980985772396,Gold
+Mirimichi                                         ,3,16,3,162,35.2862524805099,-90.0022542122078,Gold
+Mirimichi                                         ,1,18,4,360,35.2902577115878,-89.9998284963757,Gold
+Mirimichi                                         ,2,12,5,508,35.2866963272887,-90.0036415046652,Gold
+Mirimichi                                         ,17,3,4,409,35.2862922072459,-89.9957613138,Gold
+Mirimichi                                         ,14,13,4,304,35.2887747883142,-89.9915380974747,Gold
+Mirimichi                                         ,18,11,5,562,35.2905572320254,-89.9958903071084,Gold
+Mirimichi                                         ,5,4,4,391,35.2864135013266,-90.0013325215197,Gold
+Mirimichi                                         ,6,10,5,510,35.2897909324933,-89.9986216857919,Gold
+Dancing Rabbit - Azaleas                          ,14,14,4,350,32.7733054189607,-89.2258207752299,Blue
+Dancing Rabbit - Azaleas                          ,17,6,5,517,32.7734031337479,-89.2183733539787,Blue
+Dancing Rabbit - Azaleas                          ,11,16,4,347,32.7715541124807,-89.2241231784282,Blue
+Dancing Rabbit - Azaleas                          ,7,11,3,158,32.7687245384183,-89.2173949936095,Blue
+Dancing Rabbit - Azaleas                          ,18,2,4,442,32.7722440946129,-89.214252237066,Blue
+Dancing Rabbit - Azaleas                          ,3,3,4,412,32.7702585049591,-89.220223521839,Blue
+Dancing Rabbit - Azaleas                          ,9,5,4,403,32.771297315397,-89.2137785830343,Blue
+Dancing Rabbit - Azaleas                          ,16,12,3,149,32.7743996406606,-89.2229341110751,Blue
+Dancing Rabbit - Azaleas                          ,5,7,5,545,32.7691373605751,-89.2140195176037,Blue
+Dancing Rabbit - Azaleas                          ,12,4,4,405,32.769252463231,-89.2260567348339,Blue
+Dancing Rabbit - Azaleas                          ,13,10,3,176,32.7696647209459,-89.2269422903252,Blue
+Dancing Rabbit - Azaleas                          ,4,13,3,155,32.7706081184091,-89.2191375332748,Blue
+Dancing Rabbit - Azaleas                          ,10,8,5,486,32.773298009818,-89.2207037812339,Blue
+Dancing Rabbit - Azaleas                          ,1,17,4,385,32.7715179454911,-89.2185102352433,Blue
+Dancing Rabbit - Azaleas                          ,15,18,4,310,32.7731102794063,-89.2219206714662,Blue
+Dancing Rabbit - Azaleas                          ,6,15,4,340,32.7696833661169,-89.2181102011197,Blue
+Dancing Rabbit - Azaleas                          ,2,9,5,517,32.7706279660157,-89.22416678915,Blue
+Dancing Rabbit - Azaleas                          ,8,1,4,440,32.7684165987135,-89.2131257412077,Blue
+Dancing Rabbit - Oaks                             ,2,4,4,442,32.7640445134925,-89.206947533693,Blue
+Dancing Rabbit - Oaks                             ,10,17,4,304,32.7587003625244,-89.1986217997165,Blue
+Dancing Rabbit - Oaks                             ,16,3,5,511,32.7624505285421,-89.2126491751027,Blue
+Dancing Rabbit - Oaks                             ,8,18,4,304,32.7662035764522,-89.2014773663723,Blue
+Dancing Rabbit - Oaks                             ,17,15,3,155,32.7648286477078,-89.2121979395293,Blue
+Dancing Rabbit - Oaks                             ,4,10,5,516,32.7679983525427,-89.2040201746678,Blue
+Dancing Rabbit - Oaks                             ,9,6,5,548,32.7617134357031,-89.199021481099,Blue
+Dancing Rabbit - Oaks                             ,6,8,4,408,32.7676701487006,-89.2007964095833,Blue
+Dancing Rabbit - Oaks                             ,5,15,3,172,32.7691483788692,-89.2032420393263,Blue
+Dancing Rabbit - Oaks                             ,3,16,3,188,32.7634082333115,-89.2052148882868,Blue
+Dancing Rabbit - Oaks                             ,7,2,4,446,32.7645129271403,-89.2037210989305,Blue
+Dancing Rabbit - Oaks                             ,13,9,4,365,32.7621432523919,-89.2039435308462,Blue
+Dancing Rabbit - Oaks                             ,15,7,4,397,32.7659063274932,-89.2085177045885,Blue
+Dancing Rabbit - Oaks                             ,14,13,5,535,32.7627694871257,-89.2091591703483,Blue
+Dancing Rabbit - Oaks                             ,12,1,4,415,32.763772974626,-89.2012203433717,Blue
+Dancing Rabbit - Oaks                             ,11,11,3,188,32.7598807270989,-89.2003502820051,Blue
+Dancing Rabbit - Oaks                             ,18,5,4,425,32.7668338941315,-89.2088046286121,Blue
+Dancing Rabbit - Oaks                             ,1,14,4,341,32.7690907867279,-89.2089211459778,Blue
+Mossy Oak                                         ,1,7,4,398,33.584981,-88.615154,Blue
+Mossy Oak                                         ,2,13,4,453,33.584958,-88.619982,Blue
+Mossy Oak                                         ,3,3,4,268,33.584842,-88.622514,Blue
+Mossy Oak                                         ,4,9,3,173,33.58393,-88.623651,Blue
+Mossy Oak                                         ,5,5,5,509,33.584506,-88.617868,Blue
+Mossy Oak                                         ,6,11,4,32,33.582767,-88.621013,Blue
+Mossy Oak                                         ,7,1,5,556,33.584848,-88.615957,Blue
+Mossy Oak                                         ,8,15,4,340,33.582068,-88.617116,Blue
+Mossy Oak                                         ,9,17,3,128,33.581036,-88.617105,Blue
+Mossy Oak                                         ,10,12,4,282,33.579132,-88.6196,Blue
+Mossy Oak                                         ,11,14,3,224,33.578484,-88.622078,Blue
+Mossy Oak                                         ,12,2,5,565,33.583069,-88.623516,Blue
+Mossy Oak                                         ,13,6,4,341,33.584213,-88.620415,Blue
+Mossy Oak                                         ,14,16,4,406,33.581218,-88.622461,Blue
+Mossy Oak                                         ,15,18,3,200,33.582009,-88.621307,Blue
+Mossy Oak                                         ,16,8,4,365,33.581813,-88.617456,Blue
+Mossy Oak                                         ,17,4,5,465,33.580517,-88.622158,Blue
+Mossy Oak                                         ,18,10,4,432,33.580566,-88.617416,Blue
+Old Waverly                                       ,1,16,4,339,33.570612,-88.608333,Blue
+Old Waverly                                       ,2,12,5,474,33.566642,-88.608044,Blue
+Old Waverly                                       ,3,18,3,160,33.567535,-88.608636,Blue
+Old Waverly                                       ,4,4,4,386,33.564182,-88.608642,Blue
+Old Waverly                                       ,5,8,4,366,33.56399,-88.605353,Blue
+Old Waverly                                       ,6,14,4,331,33.566964,-88.605115,Blue
+Old Waverly                                       ,7,6,3,180,33.566,-88.606463,Blue
+Old Waverly                                       ,8,2,4,429,33.56948,-88.605966,Blue
+Old Waverly                                       ,9,10,5,516,33.573445,-88.60668,Blue
+Old Waverly                                       ,10,9,5,517,33.576831,-88.612509,Blue
+Old Waverly                                       ,11,5,4,408,33.572907,-88.613425,Blue
+Old Waverly                                       ,12,17,3,155,33.571642,-88.613828,Blue
+Old Waverly                                       ,13,3,4,428,33.567181,-88.614223,Blue
+Old Waverly                                       ,14,15,4,354,33.564221,-88.613094,Blue
+Old Waverly                                       ,15,11,5,499,33.567904,-88.61064,Blue
+Old Waverly                                       ,16,7,4,388,33.570669,-88.61255,Blue
+Old Waverly                                       ,17,13,3,181,33.572906,-88.612274,Blue
+Old Waverly                                       ,18,1,4,385,33.573724,-88.607663,Blue
+Memphis Country Club                              ,1,7,4,383,35.11768,-89.957212,Member
+Memphis Country Club                              ,2,9,4,371,35.116818,-89.95508,Member
+Memphis Country Club                              ,3,1,5,529,35.121285,-89.954815,Member
+Memphis Country Club                              ,4,17,3,140,35.120063,-89.955507,Member
+Memphis Country Club                              ,5,5,4,388,35.123033,-89.95477,Member
+Memphis Country Club                              ,6,3,4,413,35.123263,-89.958887,Member
+Memphis Country Club                              ,7,13,3,166,35.121857,-89.959686,Member
+Memphis Country Club                              ,8,11,4,368,35.11895,-89.961132,Member
+Memphis Country Club                              ,9,15,4,302,35.11702,-89.962201,Member
+Memphis Country Club                              ,10,12,3,200,35.118522,-89.95993,Member
+Memphis Country Club                              ,11,6,5,475,35.122718,-89.959055,Member
+Memphis Country Club                              ,12,10,4,364,35.122344,-89.955667,Member
+Memphis Country Club                              ,13,8,4,380,35.118958,-89.955611,Member
+Memphis Country Club                              ,14,16,4,361,35.118733,-89.959038,Member
+Memphis Country Club                              ,15,2,4,428,35.122326,-89.958227,Member
+Memphis Country Club                              ,16,18,3,154,35.121902,-89.956365,Member
+Memphis Country Club                              ,17,4,4,412,35.119054,-89.959002,Member
+Memphis Country Club                              ,18,14,4,352,35.116994,-89.961793,Member
+Lakeland Golf Club                                ,1,16,4,406,35.215866897938355,-89.74794957147257,Gold
+Lakeland Golf Club                                ,3,14,5,508,35.217952399288095,-89.74437170552594,Gold
+Lakeland Golf Club                                ,2,12,3,185,35.214218441441126,-89.74657450691656,Gold
+Lakeland Golf Club                                ,11,7,5,591,35.20996009276247,-89.75955677587783,Gold
+Lakeland Golf Club                                ,17,17,3,175,35.20970829815284,-89.75314382501318,Gold
+Lakeland Golf Club                                ,9,10,4,391,35.21214330387739,-89.74665029206855,Gold
+Lakeland Golf Club                                ,10,5,3,175,35.213349240583625,-89.75309792186624,Gold
+Lakeland Golf Club                                ,7,2,4,433,35.20671401420681,-89.74511481220607,Gold
+Lakeland Golf Club                                ,14,1,4,436,35.20700882569365,-89.76143534734183,Gold
+Lakeland Golf Club                                ,13,11,3,199,35.20671581389161,-89.76540814292076,Gold
+Lakeland Golf Club                                ,16,15,5,502,35.2105681133322,-89.75490322090977,Gold
+Lakeland Golf Club                                ,18,13,4,383,35.21164990465856,-89.7489347466131,Gold
+Lakeland Golf Club                                ,15,3,4,402,35.20684734579993,-89.75646360835864,Gold
+Lakeland Golf Club                                ,4,8,4,406,35.21510792046661,-89.74349797681072,Gold
+Lakeland Golf Club                                ,8,6,3,219,35.20908130016676,-89.74518409140273,Gold
+Lakeland Golf Club                                ,12,9,4,404,35.20795101355666,-89.76359312507427,Gold
+Lakeland Golf Club                                ,6,4,5,578,35.207067909182705,-89.74057127230063,Gold
+Lakeland Golf Club                                ,5,18,4,350,35.21180346040328,-89.7425670377187,Gold
+Fox Meadows                                       ,3,17,4,328,35.067609002974166,-89.87126109104695,Gold
+Fox Meadows                                       ,12,14,4,371,35.0710749095291,-89.86776051676345,Gold
+Fox Meadows                                       ,2,1,4,459,35.06554178990567,-89.87252509888248,Gold
+Fox Meadows                                       ,14,16,4,356,35.068297656018295,-89.87078786379483,Gold
+Fox Meadows                                       ,9,15,4,386,35.06411842186873,-89.87419434919666,Gold
+Fox Meadows                                       ,11,18,4,376,35.070049460004256,-89.87123965353635,Gold
+Fox Meadows                                       ,7,5,4,384,35.06148335451533,-89.87029929033716,Gold
+Fox Meadows                                       ,1,11,5,533,35.069415232596164,-89.87298833304084,Gold
+Fox Meadows                                       ,15,4,3,197,35.068557835274575,-89.86758030400388,Gold
+Fox Meadows                                       ,18,10,5,519,35.065606928223524,-89.87435793971942,Gold
+Fox Meadows                                       ,17,2,3,220,35.07035258839587,-89.87442989884596,Gold
+Fox Meadows                                       ,10,12,5,532,35.06939308289255,-89.87376850888289,Gold
+Fox Meadows                                       ,8,7,3,168,35.062288244917795,-89.87187817943514,Gold
+Fox Meadows                                       ,16,8,4,387,35.07050670785267,-89.8711664634699,Gold
+Fox Meadows                                       ,4,3,3,207,35.06611515892742,-89.87089477188849,Gold
+Fox Meadows                                       ,5,9,5,543,35.06254907634711,-89.87037291848358,Gold
+Fox Meadows                                       ,13,6,3,209,35.06959065232458,-89.86752269379157,Gold
+Fox Meadows                                       ,6,13,4,370,35.06327965342129,-89.87446148873137,Gold
+PGA West Mountain Course                          ,1,7,4,370,33.6813474833109,-116.309738932926,Black/White
+PGA West Mountain Course                          ,2,3,3,204,33.6803995318102,-116.311635573583,Black/White
+PGA West Mountain Course                          ,3,13,4,332,33.6786979998568,-116.314035287237,Black/White
+PGA West Mountain Course                          ,4,17,5,510,33.6799099653837,-116.318221877189,Black/White
+PGA West Mountain Course                          ,5,11,3,162,33.6811214770329,-116.318365603177,Black/White
+PGA West Mountain Course                          ,6,5,4,348,33.6842413570497,-116.319009610825,Black/White
+PGA West Mountain Course                          ,7,15,5,493,33.6811138717459,-116.317501123395,Black/White
+PGA West Mountain Course                          ,8,9,4,401,33.679994274899,-116.314399720378,Black/White
+PGA West Mountain Course                          ,9,1,4,400,33.6822546035637,-116.312552902172,Black/White
+PGA West Mountain Course                          ,10,10,4,374,33.6854541763199,-116.316516038581,Black/White
+PGA West Mountain Course                          ,11,4,4,377,33.6890035399623,-116.317600021342,Black/White
+PGA West Mountain Course                          ,12,12,4,372,33.6913357535408,-116.314893808247,Black/White
+PGA West Mountain Course                          ,13,14,3,184,33.6925485834703,-116.31730973552,Black/White
+PGA West Mountain Course                          ,14,2,4,368,33.6951967748223,-116.320343250624,Black/White
+PGA West Mountain Course                          ,15,8,5,515,33.6909256024847,-116.320439920547,Black/White
+PGA West Mountain Course                          ,16,18,3,168,33.6889666273812,-116.320064195887,Black/White
+PGA West Mountain Course                          ,17,6,4,412,33.6856113566425,-116.31935465365,Black/White
+PGA West Mountain Course                          ,18,16,5,485,33.68238637162,-116.314073931987,Black/White
+PGA West Dunes Course                             ,1,2,4,364,33.6820230377978,-116.308986057615,White
+PGA West Dunes Course                             ,2,12,5,467,33.681672943906,-116.302622663547,White
+PGA West Dunes Course                             ,3,14,4,312,33.6835656220258,-116.299844157085,White
+PGA West Dunes Course                             ,4,16,4,313,33.6828727389302,-116.296145324629,White
+PGA West Dunes Course                             ,5,10,4,347,33.6846778701154,-116.291596286763,White
+PGA West Dunes Course                             ,6,4,3,173,33.6843350804463,-116.288633714818,White
+PGA West Dunes Course                             ,7,6,5,540,33.679864285931,-116.287224646948,White
+PGA West Dunes Course                             ,8,8,3,159,33.6813120912765,-116.289052150557,White
+PGA West Dunes Course                             ,9,18,5,466,33.6822639097312,-116.293517920897,White
+PGA West Dunes Course                             ,10,13,4,388,33.6848320774148,-116.298968509702,White
+PGA West Dunes Course                             ,11,1,4,398,33.6831728198125,-116.303193242359,White
+PGA West Dunes Course                             ,12,5,4,349,33.683563021723,-116.306883309819,White
+PGA West Dunes Course                             ,13,15,3,122,33.6823304152338,-116.307510007649,White
+PGA West Dunes Course                             ,14,7,4,349,33.6784829646655,-116.308544278435,White
+PGA West Dunes Course                             ,15,17,5,485,33.6780598007772,-116.313610132755,White
+PGA West Dunes Course                             ,16,11,3,187,33.6792251746938,-116.312195984287,White
+PGA West Dunes Course                             ,17,3,4,414,33.6810036724289,-116.309138860578,White
+PGA West Dunes Course                             ,18,9,4,363,33.6831477225212,-116.311921392312,White
+PGA West Greg Norman                              ,1,9,4,352,33.6471487011965,-116.249439897399,Blue/White
+PGA West Greg Norman                              ,2,13,5,499,33.6489465438926,-116.245348934432,Blue/White
+PGA West Greg Norman                              ,3,3,4,419,33.6489838568843,-116.239919410831,Blue/White
+PGA West Greg Norman                              ,4,17,3,137,33.6480088614888,-116.239487903968,Blue/White
+PGA West Greg Norman                              ,5,11,4,349,33.6467271721417,-116.236819589744,Blue/White
+PGA West Greg Norman                              ,6,1,4,420,33.6433878489146,-116.234857823794,Blue/White
+PGA West Greg Norman                              ,7,15,3,144,33.6428170194217,-116.236186405047,Blue/White
+PGA West Greg Norman                              ,8,5,5,561,33.6428991566781,-116.242953983401,Blue/White
+PGA West Greg Norman                              ,9,7,4,339,33.6472116996676,-116.243359178662,Blue/White
+PGA West Greg Norman                              ,10,8,4,384,33.6447510279914,-116.248359935797,Blue/White
+PGA West Greg Norman                              ,11,18,4,302,33.6430851586164,-116.250031324499,Blue/White
+PGA West Greg Norman                              ,12,16,5,521,33.6435691898383,-116.244125744502,Blue/White
+PGA West Greg Norman                              ,13,2,3,171,33.6434490096969,-116.241018058461,Blue/White
+PGA West Greg Norman                              ,14,10,4,386,33.6434671508588,-116.236566625709,Blue/White
+PGA West Greg Norman                              ,15,12,4,383,33.6465998770521,-116.235554903843,Blue/White
+PGA West Greg Norman                              ,16,6,5,513,33.6456826125209,-116.240983922956,Blue/White
+PGA West Greg Norman                              ,17,14,3,142,33.6478170391001,-116.240235828561,Blue/White
+PGA West Greg Norman                              ,18,4,4,405,33.6485231147781,-116.244665746525,Blue/White
+Nicklaus Tournament                               ,1,5,4,349,33.6444851230324,-116.255601930188,White
+Nicklaus Tournament                               ,2,11,4,387,33.6411968894966,-116.254259599936,White
+Nicklaus Tournament                               ,3,15,3,155,33.6399079819342,-116.252655665514,White
+Nicklaus Tournament                               ,4,13,5,482,33.6443990043375,-116.252318313079,White
+Nicklaus Tournament                               ,5,1,4,299,33.648069113864,-116.252386930595,White
+Nicklaus Tournament                               ,6,7,4,386,33.6522418550894,-116.252451053238,White
+Nicklaus Tournament                               ,7,17,5,450,33.6481297113162,-116.254839609316,White
+Nicklaus Tournament                               ,8,9,3,132,33.646471922823,-116.25497382753,White
+Nicklaus Tournament                               ,9,3,4,383,33.6415515223257,-116.25749778367,White
+Nicklaus Tournament                               ,10,14,4,318,33.6377833038251,-116.257270058684,White
+Nicklaus Tournament                               ,11,18,5,480,33.636366356602,-116.25181949318,White
+Nicklaus Tournament                               ,12,10,3,155,33.6355501859014,-116.248065958243,White
+Nicklaus Tournament                               ,13,8,4,338,33.6387735726795,-116.247209495519,White
+Nicklaus Tournament                               ,14,16,4,339,33.6392133075263,-116.243077942629,White
+Nicklaus Tournament                               ,15,2,5,472,33.6406624621645,-116.248758458711,White
+Nicklaus Tournament                               ,16,6,4,368,33.6373391474085,-116.249221556016,White
+Nicklaus Tournament                               ,17,12,3,165,33.6382279195902,-116.25370331183,White
+Nicklaus Tournament                               ,18,4,4,403,33.6411325144599,-116.257727341409,White
+PGA West Stadium Course                           ,1,9,4,358,33.647339,-116.257744,Blue/White
+PGA West Stadium Course                           ,2,15,4,348,33.651072,-116.256568,Blue/White
+PGA West Stadium Course                           ,3,1,4,383,33.651719,-116.260825,Blue/White
+PGA West Stadium Course                           ,4,17,3,170,33.652751,-116.261006,Blue/White
+PGA West Stadium Course                           ,5,5,5,514,33.65311,-116.255483,Blue/White
+PGA West Stadium Course                           ,6,7,3,187,33.655334,-116.253606,Blue/White
+PGA West Stadium Course                           ,7,11,4,309,33.653164,-116.254707,Blue/White
+PGA West Stadium Course                           ,8,13,5,526,33.648282,-116.256947,Blue/White
+PGA West Stadium Course                           ,9,3,4,382,33.644775,-116.260725,Blue/White
+PGA West Stadium Course                           ,10,6,4,351,33.6472,-116.263477,Blue/White
+PGA West Stadium Course                           ,11,8,5,530,33.652662,-116.264614,Blue/White
+PGA West Stadium Course                           ,12,18,4,347,33.655372,-116.262773,Blue/White
+PGA West Stadium Course                           ,13,10,3,167,33.655436,-116.260125,Blue/White
+PGA West Stadium Course                           ,14,12,4,372,33.655222,-116.256453,Blue/White
+PGA West Stadium Course                           ,15,2,4,404,33.654459,-116.260984,Blue/White
+PGA West Stadium Course                           ,16,16,5,517,33.65044,-116.26364,Blue/White
+PGA West Stadium Course                           ,17,14,3,131,33.648718,-116.263581,Blue/White
+PGA West Stadium Course                           ,18,4,4,387,33.644034,-116.262467,Blue/White
+Cortez                                            ,1,9,4,383,34.697753,-92.980767,Blue
+Cortez                                            ,2,1,5,514,34.69317,-92.980637,Blue
+Cortez                                            ,3,11,4,373,34.69053,-92.981956,Blue
+Cortez                                            ,4,15,4,364,34.691106,-92.978483,Blue
+Cortez                                            ,5,7,4,372,34.692846,-92.974704,Blue
+Cortez                                            ,6,17,3,146,34.692852,-92.976125,Blue
+Cortez                                            ,7,5,5,480,34.697274,-92.976157,Blue
+Cortez                                            ,8,13,3,161,34.699262,-92.97998,Blue
+Cortez                                            ,9,3,4,366,34.698354,-92.98414,Blue
+Cortez                                            ,10,2,4,408,34.695291,-92.988186,Blue
+Cortez                                            ,11,8,5,479,34.695974,-92.983756,Blue
+Cortez                                            ,12,16,3,150,34.695302,-92.982493,Blue
+Cortez                                            ,13,6,4,396,34.692552,-92.984108,Blue
+Cortez                                            ,14,12,4,379,34.689852,-92.985794,Blue
+Cortez                                            ,15,10,4,360,34.690827,-92.989699,Blue
+Cortez                                            ,16,14,4,362,34.693943,-92.991507,Blue
+Cortez                                            ,17,18,3,169,34.695085,-92.990292,Blue
+Cortez                                            ,18,4,5,492,34.697705,-92.985816,Blue
+Granada                                           ,1,3,5,535,34.645815,-92.858958,Blue
+Granada                                           ,2,13,4,312,34.641428,-92.857789,Blue
+Granada                                           ,3,1,4,423,34.64048,-92.851362,Blue
+Granada                                           ,4,5,4,401,34.642198,-92.844971,Blue
+Granada                                           ,5,7,5,484,34.642795,-92.8482,Blue
+Granada                                           ,6,17,3,180,34.642323,-92.851548,Blue
+Granada                                           ,7,9,4,398,34.643101,-92.856828,Blue
+Granada                                           ,8,15,3,182,34.647324,-92.857924,Blue
+Granada                                           ,9,11,4,373,34.648889,-92.861783,Blue
+Granada                                           ,10,14,4,319,34.650727,-92.866353,Blue
+Granada                                           ,11,16,3,169,34.652727,-92.8692,Blue
+Granada                                           ,12,8,5,467,34.658001,-92.868559,Blue
+Granada                                           ,13,18,3,113,34.658203,-92.866579,Blue
+Granada                                           ,14,10,4,407,34.65646,-92.862351,Blue
+Granada                                           ,15,2,5,557,34.653705,-92.856244,Blue
+Granada                                           ,16,12,4,382,34.651118,-92.851241,Blue
+Granada                                           ,17,4,4,434,34.65205,-92.857678,Blue
+Granada                                           ,18,6,4,399,34.650225,-92.861889,Blue
+Ponce de Leon                                     ,1,3,4,424,34.64769,-92.890278,Blue
+Ponce de Leon                                     ,2,11,4,359,34.649073,-92.885558,Blue
+Ponce de Leon                                     ,3,5,5,501,34.647246,-92.88051,Blue
+Ponce de Leon                                     ,4,17,3,135,34.646169,-92.88199,Blue
+Ponce de Leon                                     ,5,1,4,404,34.644838,-92.886552,Blue
+Ponce de Leon                                     ,6,15,4,299,34.643218,-92.889714,Blue
+Ponce de Leon                                     ,7,13,3,188,34.643163,-92.89186,Blue
+Ponce de Leon                                     ,8,9,5,494,34.64557,-92.896384,Blue
+Ponce de Leon                                     ,9,7,4,392,34.649178,-92.895226,Blue
+Ponce de Leon                                     ,10,16,4,332,34.654795,-92.894783,Blue
+Ponce de Leon                                     ,11,8,5,490,34.659518,-92.89526,Blue
+Ponce de Leon                                     ,12,4,4,437,34.660962,-92.900399,Blue
+Ponce de Leon                                     ,13,18,3,152,34.661301,-92.902523,Blue
+Ponce de Leon                                     ,14,14,4,371,34.660881,-92.906209,Blue
+Ponce de Leon                                     ,15,10,4,402,34.656814,-92.908292,Blue
+Ponce de Leon                                     ,16,12,3,191,34.65462,-92.906384,Blue
+Ponce de Leon                                     ,17,2,5,519,34.6508,-92.901502,Blue
+Ponce de Leon                                     ,18,6,4,421,34.650312,-92.896071,Blue
+Isabella - Nina/Pinta                             ,1,7,5,526,34.631836,-92.857316,Blue
+Isabella - Nina/Pinta                             ,2,13,4,306,34.629988,-92.862246,Blue
+Isabella - Nina/Pinta                             ,3,9,4,386,34.63334,-92.866322,Blue
+Isabella - Nina/Pinta                             ,4,17,3,152,34.630998,-92.866683,Blue
+Isabella - Nina/Pinta                             ,5,1,5,490,34.628097,-92.862783,Blue
+Isabella - Nina/Pinta                             ,6,11,4,377,34.625009,-92.864873,Blue
+Isabella - Nina/Pinta                             ,7,5,4,402,34.627743,-92.869501,Blue
+Isabella - Nina/Pinta                             ,8,15,3,162,34.62712,-92.871972,Blue
+Isabella - Nina/Pinta                             ,9,3,4,415,34.629952,-92.867865,Blue
+Isabella - Nina/Pinta                             ,10,8,5,510,34.63069,-92.873227,Blue
+Isabella - Nina/Pinta                             ,11,6,4,417,34.62746,-92.876964,Blue
+Isabella - Nina/Pinta                             ,12,16,3,178,34.626376,-92.878761,Blue
+Isabella - Nina/Pinta                             ,13,10,4,379,34.629149,-92.882464,Blue
+Isabella - Nina/Pinta                             ,14,12,4,396,34.630445,-92.879107,Blue
+Isabella - Nina/Pinta                             ,15,14,4,310,34.633708,-92.877447,Blue
+Isabella - Nina/Pinta                             ,16,2,5,559,34.634622,-92.8715,Blue
+Isabella - Nina/Pinta                             ,17,18,3,135,34.633534,-92.869094,Blue
+Isabella - Nina/Pinta                             ,18,4,4,438,34.634113,-92.862982,Blue

@@ -1,0 +1,2031 @@
+match_uid,year,round,match,matchgroup,format_display,format_app,point_order,hole,relative_hole,score_diff_before_hole,blue_win_prob_pct,tie_prob_pct,red_win_prob_pct,source
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,3,3,3,-2,11.0,12.3,76.8,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,4,4,4,-3,2.9,6.3,90.8,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,5,5,5,-2,7.2,12.2,80.6,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,6,6,6,-2,5.0,11.8,83.2,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,7,7,7,-2,2.6,10.7,86.7,app_static_table
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,8,8,8,-2,0.0,8.7,91.3,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,3,3,3,2,76.8,12.3,11.0,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,4,4,4,3,90.8,6.3,2.9,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,5,5,5,2,80.6,12.2,7.2,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,6,6,6,1,62.5,20.8,16.8,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,7,7,7,2,86.7,10.7,2.6,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,8,8,8,1,67.1,24.2,8.7,app_static_table
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,9,9,9,0,29.5,41.0,29.5,app_static_table
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,3,3,3,2,76.8,12.3,11.0,app_static_table
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,4,4,4,1,60.3,18.2,21.5,app_static_table
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,5,5,5,2,80.6,12.2,7.2,app_static_table
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,6,6,6,3,95.0,4.2,0.8,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,2,11,2,0,41.1,17.8,41.1,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,4,13,4,0,39.8,20.4,39.8,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,6,15,6,0,37.6,24.7,37.6,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,7,16,7,0,36.0,28.0,36.0,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,8,17,8,0,33.0,34.0,33.0,app_static_table
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,9,18,9,0,30.0,40.0,30.0,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,3,12,3,-2,11.2,12.3,76.5,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,4,13,4,-3,3.0,6.4,90.6,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,5,14,5,-3,1.9,5.5,92.6,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,6,15,6,-3,0.8,4.3,94.9,app_static_table
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,7,16,7,-3,0.0,2.7,97.3,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,3,12,3,2,76.5,12.3,11.2,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,4,13,4,3,90.6,6.4,3.0,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,5,14,5,4,98.1,1.6,0.2,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,6,15,6,3,94.9,4.3,0.8,app_static_table
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,7,16,7,3,97.3,2.7,0.0,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,3,3,3,-2,11.0,12.3,76.8,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,4,4,4,-3,2.9,6.3,90.8,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,5,5,5,-3,1.8,5.4,92.8,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,6,6,6,-3,0.8,4.2,95.0,app_static_table
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,7,7,7,-3,0.0,2.6,97.4,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,3,3,3,-2,11.0,12.3,76.8,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,4,4,4,-2,9.2,12.3,78.5,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,5,5,5,-2,7.2,12.2,80.6,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,6,6,6,-2,5.0,11.8,83.2,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,7,7,7,-2,2.6,10.7,86.7,app_static_table
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,8,8,8,-2,0.0,8.7,91.3,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,3,3,3,-2,11.0,12.3,76.8,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,4,4,4,-3,2.9,6.3,90.8,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,5,5,5,-4,0.2,1.6,98.2,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,6,6,6,-4,0.0,0.8,99.2,app_static_table
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,7,7,7,-3,0.0,2.6,97.4,app_static_table
+2015-R3-M4,2015,3,4,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2015-R3-M5,2015,3,5,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2015-R3-M6,2015,3,6,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,5,14,5,2,78.8,12.3,8.9,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,8,17,8,2,88.4,11.6,0.0,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,4,13,4,-3,4.0,6.9,89.1,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,5,14,5,-3,2.6,6.3,91.1,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,6,15,6,-3,1.3,5.0,93.6,app_static_table
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,7,16,7,-3,0.0,3.9,96.1,app_static_table
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,4,13,4,-3,4.0,6.9,89.1,app_static_table
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,5,14,5,-4,0.5,2.1,97.4,app_static_table
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,1,1,1,0,41.6,16.9,41.6,app_static_table
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,1,1,1,0,41.6,16.9,41.6,app_static_table
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,1,1,1,0,41.6,16.9,41.6,app_static_table
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,1,1,1,0,41.6,16.9,41.6,app_static_table
+2016-R4-M1,2016,4,1,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M2,2016,4,2,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M3,2016,4,3,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M4,2016,4,4,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M5,2016,4,5,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M6,2016,4,6,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M7,2016,4,7,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2016-R4-M8,2016,4,8,,Singles,Singles,1,1,1,0,42.1,15.8,42.1,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,-1,21.1,18.4,60.5,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,-2,6.8,12.1,81.0,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,-1,16.3,21.0,62.7,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,8,8,8,-1,8.1,24.5,67.4,app_static_table
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,9,9,9,-1,0.0,28.5,71.5,app_static_table
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,1,59.8,17.4,22.8,app_static_table
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,2,78.9,12.3,8.8,app_static_table
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,3,93.2,5.2,1.6,app_static_table
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,3,95.4,4.0,0.7,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,-1,22.8,17.4,59.8,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,-2,8.8,12.3,78.9,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,-2,6.8,12.1,81.0,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,-2,4.6,11.7,83.7,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,-1,12.8,22.8,64.5,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,-2,0.0,8.1,91.9,app_static_table
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,9,9,9,-1,0.0,28.5,71.5,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,4,4,4,1,60.5,18.4,21.1,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,5,5,5,2,81.0,12.1,6.8,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,6,6,6,2,83.7,11.7,4.6,app_static_table
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,7,7,7,3,97.7,2.3,0.0,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,4,13,4,1,60.2,18.0,21.7,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,6,15,6,0,37.6,24.7,37.6,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,7,16,7,0,36.0,28.0,36.0,app_static_table
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,8,17,8,1,67.0,24.0,9.0,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,3,12,3,-1,23.5,17.0,59.5,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,4,13,4,-2,9.4,12.3,78.3,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,5,14,5,-1,19.6,19.2,61.1,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,6,15,6,-2,5.1,11.9,83.0,app_static_table
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,7,16,7,-2,2.7,10.8,86.5,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,2,11,2,0,41.1,17.8,41.1,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,3,12,3,1,59.5,17.0,23.5,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,4,13,4,1,60.2,18.0,21.7,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,6,15,6,1,62.3,20.6,17.0,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,7,16,7,0,36.0,28.0,36.0,app_static_table
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,8,17,8,1,67.0,24.0,9.0,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,2,11,2,0,41.1,17.8,41.1,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,3,12,3,1,59.5,17.0,23.5,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,4,13,4,2,78.3,12.3,9.4,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,5,14,5,1,61.1,19.2,19.6,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,6,15,6,0,37.6,24.7,37.6,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,7,16,7,-1,13.5,22.5,64.0,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,8,17,8,-2,0.0,9.0,91.0,app_static_table
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,9,18,9,-1,0.0,30.0,70.0,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,4,4,4,-1,21.5,18.2,60.3,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,5,5,5,-2,7.2,12.2,80.6,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,6,6,6,-2,5.0,11.8,83.2,app_static_table
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,7,7,7,-3,0.0,2.6,97.4,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,3,3,3,-1,23.2,17.2,59.6,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,5,5,5,0,38.8,22.5,38.8,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,6,6,6,0,37.5,24.9,37.5,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,7,7,7,-1,13.3,22.6,64.2,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,8,8,8,0,32.9,34.2,32.9,app_static_table
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,9,9,9,1,70.5,29.5,0.0,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,3,3,3,-1,23.2,17.2,59.6,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,4,4,4,-2,9.2,12.3,78.5,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,5,5,5,-3,1.8,5.4,92.8,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,6,6,6,-2,5.0,11.8,83.2,app_static_table
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,7,7,7,-3,0.0,2.6,97.4,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,4,4,4,1,60.3,18.2,21.5,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,5,5,5,2,80.6,12.2,7.2,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,6,6,6,2,83.2,11.8,5.0,app_static_table
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,7,7,7,3,97.4,2.6,0.0,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,4,13,4,-1,23.3,17.1,59.6,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,7,16,7,-2,3.9,11.1,85.0,app_static_table
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,8,17,8,-2,0.0,11.6,88.4,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,7,16,7,-2,3.9,11.1,85.0,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,4,13,4,-1,23.3,17.1,59.6,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,5,14,5,0,39.6,20.7,39.6,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,9,18,9,1,66.0,34.0,0.0,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,7,16,7,-3,0.0,3.9,96.1,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,7,16,7,1,62.7,22.2,15.0,app_static_table
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,7,16,7,1,62.7,22.2,15.0,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,9,18,9,1,66.0,34.0,0.0,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,9,18,9,0,34.0,32.0,34.0,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,0,39.5,21.0,39.5,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,-1,19.0,19.6,61.4,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,-1,16.3,21.0,62.7,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,-1,12.8,22.8,64.5,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,8,8,8,-1,8.1,24.5,67.4,app_static_table
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,9,9,9,0,28.5,43.0,28.5,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,-1,21.1,18.4,60.5,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,0,38.6,22.9,38.6,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,8,8,8,0,32.6,34.7,32.6,app_static_table
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,9,9,9,0,28.5,43.0,28.5,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,1,59.2,16.5,24.3,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,2,77.2,12.3,10.6,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,1,60.5,18.4,21.1,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,0,38.6,22.9,38.6,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,-1,12.8,22.8,64.5,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,-1,8.1,24.5,67.4,app_static_table
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,9,9,9,0,28.5,43.0,28.5,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,4,4,4,1,60.5,18.4,21.1,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,5,5,5,1,61.4,19.6,19.0,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,6,6,6,1,62.7,21.0,16.3,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,8,8,8,1,67.4,24.5,8.1,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,3,12,3,-1,23.5,17.0,59.5,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,4,13,4,0,39.8,20.4,39.8,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,6,15,6,0,37.6,24.7,37.6,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,7,16,7,-1,13.5,22.5,64.0,app_static_table
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,8,17,8,-2,0.0,9.0,91.0,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,3,12,3,-1,23.5,17.0,59.5,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,4,13,4,-2,9.4,12.3,78.3,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,5,14,5,-2,7.4,12.2,80.4,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,6,15,6,-2,5.1,11.9,83.0,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,7,16,7,-2,2.7,10.8,86.5,app_static_table
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,8,17,8,-2,0.0,9.0,91.0,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,4,13,4,1,60.2,18.0,21.7,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,5,14,5,2,80.4,12.2,7.4,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,6,15,6,3,94.9,4.3,0.8,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,7,16,7,2,86.5,10.8,2.7,app_static_table
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,8,17,8,2,91.0,9.0,0.0,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,4,13,4,1,60.2,18.0,21.7,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,5,14,5,2,80.4,12.2,7.4,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,6,15,6,1,62.3,20.6,17.0,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,7,16,7,0,36.0,28.0,36.0,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,8,17,8,1,67.0,24.0,9.0,app_static_table
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,9,18,9,0,30.0,40.0,30.0,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,4,4,4,1,60.3,18.2,21.5,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,5,5,5,1,61.2,19.3,19.4,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,6,6,6,2,83.2,11.8,5.0,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,7,7,7,3,97.4,2.6,0.0,app_static_table
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,8,8,8,2,91.3,8.7,0.0,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,3,3,3,-1,23.2,17.2,59.6,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,5,5,5,1,61.2,19.3,19.4,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,6,6,6,2,83.2,11.8,5.0,app_static_table
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,7,7,7,2,86.7,10.7,2.6,app_static_table
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,3,3,3,2,76.8,12.3,11.0,app_static_table
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,4,4,4,3,90.8,6.3,2.9,app_static_table
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,5,5,5,4,98.2,1.6,0.2,app_static_table
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,6,6,6,3,95.0,4.2,0.8,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,5,5,5,-1,19.4,19.3,61.2,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,6,6,6,0,37.5,24.9,37.5,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,7,7,7,1,64.2,22.6,13.3,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,8,8,8,1,67.1,24.2,8.7,app_static_table
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,9,9,9,1,70.5,29.5,0.0,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,5,14,5,2,78.8,12.3,8.9,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,6,15,6,3,93.6,5.0,1.3,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,9,18,9,0,34.0,32.0,34.0,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,7,16,7,1,62.7,22.2,15.0,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,8,17,8,0,33.3,33.4,33.3,app_static_table
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,9,18,9,1,66.0,34.0,0.0,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,5,14,5,0,39.6,20.7,39.6,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,9,18,9,0,34.0,32.0,34.0,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,8,17,8,2,88.4,11.6,0.0,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,5,14,5,3,91.1,6.3,2.6,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,7,16,7,3,96.1,3.9,0.0,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,5,14,5,2,78.8,12.3,8.9,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,8,17,8,2,88.4,11.6,0.0,app_static_table
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,9,18,9,1,66.0,34.0,0.0,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,7,16,7,3,96.1,3.9,0.0,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,5,14,5,0,39.6,20.7,39.6,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,6,15,6,1,61.6,19.5,18.8,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,9,18,9,0,34.0,32.0,34.0,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,-1,22.8,17.4,59.8,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,0,39.5,21.0,39.5,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,-1,19.0,19.6,61.4,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,-2,4.6,11.7,83.7,app_static_table
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,-3,0.0,2.3,97.7,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,-1,22.8,17.4,59.8,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,-1,21.1,18.4,60.5,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,0,38.6,22.9,38.6,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,8,8,8,0,32.6,34.7,32.6,app_static_table
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,9,9,9,0,28.5,43.0,28.5,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,1,59.8,17.4,22.8,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,2,78.9,12.3,8.8,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,2,81.0,12.1,6.8,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,1,62.7,21.0,16.3,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,1,64.5,22.8,12.8,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,1,67.4,24.5,8.1,app_static_table
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,9,9,9,1,71.5,28.5,0.0,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,2,2,2,1,59.2,16.5,24.3,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,3,3,3,1,59.8,17.4,22.8,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,4,4,4,2,78.9,12.3,8.8,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,5,5,5,1,61.4,19.6,19.0,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,6,6,6,2,83.7,11.7,4.6,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,7,7,7,1,64.5,22.8,12.8,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,8,8,8,2,91.9,8.1,0.0,app_static_table
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,9,9,9,1,71.5,28.5,0.0,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,3,12,3,-2,11.2,12.3,76.5,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,4,13,4,-1,21.7,18.0,60.2,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,6,15,6,-1,17.0,20.6,62.3,app_static_table
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,7,16,7,-2,2.7,10.8,86.5,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,2,11,2,0,41.1,17.8,41.1,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,4,13,4,-1,21.7,18.0,60.2,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,5,14,5,-2,7.4,12.2,80.4,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,6,15,6,-3,0.8,4.3,94.9,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,7,16,7,-2,2.7,10.8,86.5,app_static_table
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,8,17,8,-2,0.0,9.0,91.0,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,3,12,3,2,76.5,12.3,11.2,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,4,13,4,3,90.6,6.4,3.0,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,5,14,5,2,80.4,12.2,7.4,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,6,15,6,2,83.0,11.9,5.1,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,7,16,7,3,97.3,2.7,0.0,app_static_table
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,8,17,8,2,91.0,9.0,0.0,app_static_table
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,3,12,3,-2,11.2,12.3,76.5,app_static_table
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,4,13,4,-2,9.4,12.3,78.3,app_static_table
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,5,14,5,-3,1.9,5.5,92.6,app_static_table
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,6,15,6,-4,0.0,0.8,99.2,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,5,5,5,0,38.8,22.5,38.8,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,6,6,6,1,62.5,20.8,16.8,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,7,7,7,0,35.8,28.3,35.8,app_static_table
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,8,8,8,1,67.1,24.2,8.7,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,4,4,4,1,60.3,18.2,21.5,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,5,5,5,0,38.8,22.5,38.8,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,6,6,6,1,62.5,20.8,16.8,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,7,7,7,1,64.2,22.6,13.3,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,8,8,8,2,91.3,8.7,0.0,app_static_table
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,9,9,9,1,70.5,29.5,0.0,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,4,4,4,1,60.3,18.2,21.5,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,5,5,5,0,38.8,22.5,38.8,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,6,6,6,-1,16.8,20.8,62.5,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,7,7,7,-2,2.6,10.7,86.7,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,8,8,8,-1,8.7,24.2,67.1,app_static_table
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,9,9,9,-1,0.0,29.5,70.5,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,3,3,3,1,59.6,17.2,23.2,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,4,4,4,2,78.5,12.3,9.2,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,5,5,5,1,61.2,19.3,19.4,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,6,6,6,1,62.5,20.8,16.8,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,7,7,7,1,64.2,22.6,13.3,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,8,8,8,0,32.9,34.2,32.9,app_static_table
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,9,9,9,-1,0.0,29.5,70.5,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,4,13,4,-1,23.3,17.1,59.6,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,7,16,7,-2,3.9,11.1,85.0,app_static_table
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,7,16,7,-3,0.0,3.9,96.1,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,8,17,8,0,33.3,33.4,33.3,app_static_table
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,9,18,9,-1,0.0,34.0,66.0,app_static_table
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,4,13,4,3,89.1,6.9,4.0,app_static_table
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,5,14,5,4,97.4,2.1,0.5,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,6,15,6,0,38.4,23.3,38.4,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,7,16,7,-1,15.0,22.2,62.7,app_static_table
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,8,17,8,-2,0.0,11.6,88.4,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,4,13,4,-1,23.3,17.1,59.6,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,6,15,6,2,81.2,12.4,6.4,app_static_table
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,7,16,7,3,96.1,3.9,0.0,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,5,14,5,-3,2.6,6.3,91.1,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,7,16,7,-1,15.0,22.2,62.7,app_static_table
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,8,17,8,-2,0.0,11.6,88.4,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,0,39.5,21.0,39.5,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,0,38.6,22.9,38.6,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,8,8,8,-1,8.1,24.5,67.4,app_static_table
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,9,9,9,-1,0.0,28.5,71.5,app_static_table
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,-1,22.8,17.4,59.8,app_static_table
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,-1,21.1,18.4,60.5,app_static_table
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,-2,6.8,12.1,81.0,app_static_table
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,-3,0.7,4.0,95.4,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,-1,21.1,18.4,60.5,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,-2,6.8,12.1,81.0,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,-1,16.3,21.0,62.7,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,-1,12.8,22.8,64.5,app_static_table
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,-2,0.0,8.1,91.9,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,2,2,2,1,59.2,16.5,24.3,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,3,3,3,2,77.2,12.3,10.6,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,4,4,4,3,91.2,6.1,2.7,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,5,5,5,2,81.0,12.1,6.8,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,6,6,6,2,83.7,11.7,4.6,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,7,7,7,1,64.5,22.8,12.8,app_static_table
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,8,8,8,2,91.9,8.1,0.0,app_static_table
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,4,13,4,1,60.2,18.0,21.7,app_static_table
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,5,14,5,2,80.4,12.2,7.4,app_static_table
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,6,15,6,3,94.9,4.3,0.8,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,3,12,3,0,40.5,19.0,40.5,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,4,13,4,1,60.2,18.0,21.7,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,6,15,6,-1,17.0,20.6,62.3,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,7,16,7,-1,13.5,22.5,64.0,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,8,17,8,-1,9.0,24.0,67.0,app_static_table
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,9,18,9,-1,0.0,30.0,70.0,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,3,12,3,1,59.5,17.0,23.5,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,4,13,4,0,39.8,20.4,39.8,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,5,14,5,0,38.9,22.3,38.9,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,6,15,6,1,62.3,20.6,17.0,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,7,16,7,2,86.5,10.8,2.7,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,8,17,8,2,91.0,9.0,0.0,app_static_table
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,9,18,9,1,70.0,30.0,0.0,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,2,11,2,1,58.9,16.2,24.9,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,3,12,3,1,59.5,17.0,23.5,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,4,13,4,0,39.8,20.4,39.8,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,5,14,5,1,61.1,19.2,19.6,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,6,15,6,2,83.0,11.9,5.1,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,7,16,7,2,86.5,10.8,2.7,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,8,17,8,1,67.0,24.0,9.0,app_static_table
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,9,18,9,0,30.0,40.0,30.0,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,3,3,3,-2,11.0,12.3,76.8,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,4,4,4,-2,9.2,12.3,78.5,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,5,5,5,-2,7.2,12.2,80.6,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,6,6,6,-2,5.0,11.8,83.2,app_static_table
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,7,7,7,-2,2.6,10.7,86.7,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,3,3,3,-1,23.2,17.2,59.6,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,5,5,5,0,38.8,22.5,38.8,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,6,6,6,1,62.5,20.8,16.8,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,7,7,7,0,35.8,28.3,35.8,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,8,8,8,-1,8.7,24.2,67.1,app_static_table
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,9,9,9,0,29.5,41.0,29.5,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,3,3,3,-1,23.2,17.2,59.6,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,5,5,5,-1,19.4,19.3,61.2,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,6,6,6,-2,5.0,11.8,83.2,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,7,7,7,-1,13.3,22.6,64.2,app_static_table
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,8,8,8,-2,0.0,8.7,91.3,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,3,3,3,1,59.6,17.2,23.2,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,4,4,4,1,60.3,18.2,21.5,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,5,5,5,1,61.2,19.3,19.4,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,6,6,6,2,83.2,11.8,5.0,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,7,7,7,3,97.4,2.6,0.0,app_static_table
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,8,8,8,2,91.3,8.7,0.0,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,6,15,6,1,61.6,19.5,18.8,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,7,16,7,1,62.7,22.2,15.0,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,9,18,9,1,66.0,34.0,0.0,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,9,18,9,0,34.0,32.0,34.0,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,4,13,4,3,89.1,6.9,4.0,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,5,14,5,4,97.4,2.1,0.5,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,6,15,6,4,98.7,1.3,0.0,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,7,16,7,3,96.1,3.9,0.0,app_static_table
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,8,17,8,2,88.4,11.6,0.0,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,5,14,5,2,78.8,12.3,8.9,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,6,15,6,1,61.6,19.5,18.8,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,5,14,5,1,60.4,18.4,21.2,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,6,15,6,0,38.4,23.3,38.4,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,7,16,7,-1,15.0,22.2,62.7,app_static_table
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,8,17,8,-2,0.0,11.6,88.4,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,7,16,7,-2,3.9,11.1,85.0,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,6,15,6,-1,18.8,19.5,61.6,app_static_table
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,7,16,7,-2,3.9,11.1,85.0,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,4,13,4,0,40.4,19.1,40.4,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,7,16,7,-1,15.0,22.2,62.7,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,8,17,8,0,33.3,33.4,33.3,app_static_table
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,9,18,9,-1,0.0,34.0,66.0,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,0,39.5,21.0,39.5,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,1,61.4,19.6,19.0,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,8,8,8,-1,8.1,24.5,67.4,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,1,60.5,18.4,21.1,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,0,38.6,22.9,38.6,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,1,62.7,21.0,16.3,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,7,7,7,0,35.5,28.9,35.5,app_static_table
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,8,8,8,-1,8.1,24.5,67.4,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,0,40.8,18.3,40.8,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,1,59.8,17.4,22.8,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,1,60.5,18.4,21.1,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,0,38.6,22.9,38.6,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,1,64.5,22.8,12.8,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,1,67.4,24.5,8.1,app_static_table
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,9,9,9,1,71.5,28.5,0.0,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,41.3,17.3,41.3,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,2,2,2,-1,24.3,16.5,59.2,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,3,3,3,0,40.2,19.5,40.2,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,4,4,4,0,39.5,21.0,39.5,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,5,5,5,1,61.4,19.6,19.0,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,6,6,6,0,37.3,25.4,37.3,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,7,7,7,1,64.5,22.8,12.8,app_static_table
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,8,8,8,2,91.9,8.1,0.0,app_static_table
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,3,12,3,-2,11.2,12.3,76.5,app_static_table
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,4,13,4,-2,9.4,12.3,78.3,app_static_table
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,5,14,5,-3,1.9,5.5,92.6,app_static_table
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,6,15,6,-4,0.0,0.8,99.2,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,2,11,2,0,41.1,17.8,41.1,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,3,12,3,-1,23.5,17.0,59.5,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,4,13,4,-1,21.7,18.0,60.2,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,5,14,5,-1,19.6,19.2,61.1,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,6,15,6,-2,5.1,11.9,83.0,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,7,16,7,-2,2.7,10.8,86.5,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,8,17,8,-2,0.0,9.0,91.0,app_static_table
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,9,18,9,-1,0.0,30.0,70.0,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,3,12,3,-2,11.2,12.3,76.5,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,4,13,4,-2,9.4,12.3,78.3,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,5,14,5,-1,19.6,19.2,61.1,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,6,15,6,0,37.6,24.7,37.6,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,7,16,7,1,64.0,22.5,13.5,app_static_table
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,8,17,8,2,91.0,9.0,0.0,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,1,10,1,0,41.6,16.9,41.6,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,2,11,2,-1,24.9,16.2,58.9,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,3,12,3,-1,23.5,17.0,59.5,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,4,13,4,-1,21.7,18.0,60.2,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,5,14,5,-1,19.6,19.2,61.1,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,6,15,6,-2,5.1,11.9,83.0,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,7,16,7,-3,0.0,2.7,97.3,app_static_table
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,8,17,8,-2,0.0,9.0,91.0,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,3,3,3,2,76.8,12.3,11.0,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,4,4,4,2,78.5,12.3,9.2,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,5,5,5,2,80.6,12.2,7.2,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,6,6,6,1,62.5,20.8,16.8,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,7,7,7,1,64.2,22.6,13.3,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,8,8,8,0,32.9,34.2,32.9,app_static_table
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,9,9,9,-1,0.0,29.5,70.5,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,2,2,2,0,41.0,18.0,41.0,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,3,3,3,0,40.4,19.2,40.4,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,5,5,5,-1,19.4,19.3,61.2,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,6,6,6,-1,16.8,20.8,62.5,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,7,7,7,-2,2.6,10.7,86.7,app_static_table
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,8,8,8,-2,0.0,8.7,91.3,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,2,2,2,1,59.0,16.3,24.7,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,3,3,3,1,59.6,17.2,23.2,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,4,4,4,0,39.7,20.6,39.7,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,5,5,5,0,38.8,22.5,38.8,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,6,6,6,0,37.5,24.9,37.5,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,7,7,7,-1,13.3,22.6,64.2,app_static_table
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,8,8,8,-1,8.7,24.2,67.1,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,1,1,1,0,41.5,17.0,41.5,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,2,2,2,-1,24.7,16.3,59.0,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,3,3,3,-1,23.2,17.2,59.6,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,4,4,4,-2,9.2,12.3,78.5,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,5,5,5,-2,7.2,12.2,80.6,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,6,6,6,-1,16.8,20.8,62.5,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,7,7,7,0,35.8,28.3,35.8,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,8,8,8,1,67.1,24.2,8.7,app_static_table
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,9,9,9,1,70.5,29.5,0.0,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,4,13,4,-3,4.0,6.9,89.1,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,5,14,5,-4,0.5,2.1,97.4,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,6,15,6,-3,1.3,5.0,93.6,app_static_table
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,7,16,7,-3,0.0,3.9,96.1,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,4,13,4,1,59.6,17.1,23.3,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,5,14,5,0,39.6,20.7,39.6,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,6,15,6,1,61.6,19.5,18.8,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,7,16,7,1,62.7,22.2,15.0,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,8,17,8,2,88.4,11.6,0.0,app_static_table
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,9,18,9,1,66.0,34.0,0.0,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,5,14,5,2,78.8,12.3,8.9,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,6,15,6,1,61.6,19.5,18.8,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,7,16,7,0,37.3,25.5,37.3,app_static_table
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,3,12,3,-2,12.8,12.1,75.1,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,4,13,4,-3,4.0,6.9,89.1,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,7,16,7,-3,0.0,3.9,96.1,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,3,12,3,1,58.9,16.2,24.9,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,5,14,5,2,78.8,12.3,8.9,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,6,15,6,3,93.6,5.0,1.3,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,7,16,7,2,85.0,11.1,3.9,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,8,17,8,1,66.7,21.8,11.6,app_static_table
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,9,18,9,0,34.0,32.0,34.0,app_static_table
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,2,11,2,1,58.3,15.4,26.3,app_static_table
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,3,12,3,2,75.1,12.1,12.8,app_static_table
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,4,13,4,2,76.7,12.3,10.9,app_static_table
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,5,14,5,3,91.1,6.3,2.6,app_static_table
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,6,15,6,4,98.7,1.3,0.0,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,2,11,2,-1,26.3,15.4,58.3,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,3,12,3,0,41.1,17.8,41.1,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,4,13,4,-1,23.3,17.1,59.6,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,5,14,5,-2,8.9,12.3,78.8,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,7,16,7,-2,3.9,11.1,85.0,app_static_table
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,1,10,1,0,42.1,15.8,42.1,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,2,11,2,0,41.7,16.7,41.7,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,3,12,3,-1,24.9,16.2,58.9,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,4,13,4,-2,10.9,12.3,76.7,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,5,14,5,-1,21.2,18.4,60.4,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,6,15,6,-2,6.4,12.4,81.2,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,7,16,7,-1,15.0,22.2,62.7,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,8,17,8,-1,11.6,21.8,66.7,app_static_table
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,9,18,9,-1,0.0,34.0,66.0,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,3,3,3,0,43.6,12.9,43.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,5,5,5,-2,19.3,10.9,69.8,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,6,6,6,-3,10.3,8.1,81.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,7,7,7,-4,4.5,5.0,90.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,8,8,8,-3,8.5,8.0,83.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,9,9,9,-4,3.1,4.4,92.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,10,10,10,-5,0.7,1.7,97.6,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,11,11,11,-5,0.4,1.3,98.3,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,12,12,12,-4,1.1,3.0,95.9,app_static_table
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,13,13,13,-5,0.1,0.5,99.4,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,3,3,3,0,43.6,12.9,43.6,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,4,4,4,1,56.6,12.6,30.8,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,5,5,5,1,56.9,12.9,30.2,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,6,6,6,1,57.1,13.4,29.5,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,7,7,7,0,42.6,14.8,42.6,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,8,8,8,-1,27.9,14.3,57.7,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,9,9,9,-2,15.3,11.7,73.0,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,10,10,10,-3,6.4,7.6,86.0,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,11,11,11,-2,12.6,12.1,75.3,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,12,12,12,-2,11.0,12.3,76.8,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,13,13,13,-2,9.2,12.3,78.5,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,14,14,14,-3,1.8,5.4,92.8,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,15,15,15,-2,5.0,11.8,83.2,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,16,16,16,-1,13.3,22.6,64.2,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,17,17,17,0,32.9,34.2,32.9,app_static_table
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,18,18,18,0,29.5,41.0,29.5,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,2,2,2,-1,31.9,11.9,56.2,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,6,6,6,0,42.9,14.2,42.9,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,7,7,7,-1,28.8,13.8,57.4,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,8,8,8,-1,27.9,14.3,57.7,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,9,9,9,-1,27.0,14.9,58.1,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,10,10,10,0,41.5,17.0,41.5,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,11,11,11,0,41.0,18.0,41.0,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,12,12,12,0,40.4,19.2,40.4,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,13,13,13,-1,21.5,18.2,60.3,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,14,14,14,0,38.8,22.5,38.8,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,15,15,15,1,62.5,20.8,16.8,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,16,16,16,1,64.2,22.6,13.3,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,17,17,17,1,67.1,24.2,8.7,app_static_table
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,18,18,18,0,29.5,41.0,29.5,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,6,6,6,-2,18.4,11.1,70.5,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,7,7,7,-1,28.8,13.8,57.4,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,8,8,8,-2,16.4,11.5,72.1,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,9,9,9,-1,27.0,14.9,58.1,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,10,10,10,-2,14.0,11.9,74.1,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,11,11,11,-3,5.3,7.3,87.4,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,12,12,12,-4,1.1,3.0,95.9,app_static_table
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,13,13,13,-5,0.1,0.5,99.4,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,3,3,3,0,43.5,13.1,43.5,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,4,4,4,1,56.8,12.8,30.5,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,5,5,5,1,57.0,13.2,29.9,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,6,6,6,1,57.2,13.6,29.2,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,7,7,7,1,57.5,14.0,28.4,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,8,8,8,0,42.1,15.7,42.1,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,9,9,9,0,41.8,16.4,41.8,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,10,10,10,1,58.7,15.8,25.5,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,11,11,11,0,40.8,18.3,40.8,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,12,12,12,-1,22.8,17.4,59.8,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,13,13,13,-1,21.1,18.4,60.5,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,14,14,14,0,38.6,22.9,38.6,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,15,15,15,0,37.3,25.4,37.3,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,16,16,16,-1,12.8,22.8,64.5,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,17,17,17,-2,0.0,8.1,91.9,app_static_table
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,18,18,18,-1,0.0,28.5,71.5,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,2,2,2,-1,31.6,12.1,56.3,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,3,3,3,0,43.5,13.1,43.5,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,4,4,4,0,43.2,13.5,43.2,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,5,5,5,1,57.0,13.2,29.9,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,6,6,6,2,70.8,11.2,18.0,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,7,7,7,3,83.0,8.0,9.0,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,8,8,8,3,84.0,7.9,8.1,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,9,9,9,3,85.2,7.7,7.1,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,10,10,10,2,74.5,12.0,13.5,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,11,11,11,3,87.9,7.2,4.9,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,12,12,12,4,96.2,2.8,1.0,app_static_table
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,13,13,13,5,99.5,0.5,0.1,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,2,2,2,-1,31.6,12.1,56.3,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,3,3,3,-2,20.5,10.6,69.0,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,4,4,4,-1,30.5,12.8,56.8,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,5,5,5,-2,18.9,11.0,70.1,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,6,6,6,-3,9.9,8.1,82.0,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,7,7,7,-3,9.0,8.0,83.0,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,8,8,8,-4,3.5,4.6,91.9,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,9,9,9,-4,2.8,4.2,92.9,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,10,10,10,-5,0.6,1.6,97.8,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,11,11,11,-6,0.1,0.3,99.6,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,12,12,12,-6,0.0,0.2,99.8,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,13,13,13,-5,0.1,0.5,99.5,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,14,14,14,-4,0.2,1.4,98.4,app_static_table
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,15,15,15,-4,0.0,0.7,99.3,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,2,2,2,1,56.3,12.1,31.6,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,3,3,3,1,56.5,12.4,31.0,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,4,4,4,0,43.2,13.5,43.2,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,5,5,5,-1,29.9,13.2,57.0,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,6,6,6,0,42.8,14.5,42.8,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,7,7,7,0,42.5,15.1,42.5,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,8,8,8,-1,27.6,14.6,57.9,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,9,9,9,0,41.8,16.4,41.8,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,10,10,10,0,41.3,17.3,41.3,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,11,11,11,-1,24.3,16.5,59.2,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,12,12,12,0,40.2,19.5,40.2,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,13,13,13,0,39.5,21.0,39.5,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,14,14,14,1,61.4,19.6,19.0,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,15,15,15,1,62.7,21.0,16.3,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,16,16,16,2,87.2,10.5,2.3,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,17,17,17,2,91.9,8.1,0.0,app_static_table
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,18,18,18,1,71.5,28.5,0.0,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,3,3,3,-2,22.6,10.0,67.4,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,4,4,4,-3,13.7,8.1,78.2,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,5,5,5,-3,12.9,8.1,79.0,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,6,6,6,-4,6.5,5.6,88.0,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,7,7,7,-5,2.6,3.1,94.3,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,8,8,8,-4,4.9,5.2,89.9,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,9,9,9,-4,4.1,4.9,91.0,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,10,10,10,-4,3.3,4.6,92.1,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,11,11,11,-4,2.5,4.1,93.3,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,12,12,12,-5,0.4,1.3,98.3,app_static_table
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,13,13,13,-5,0.2,0.9,99.0,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,4,4,4,1,56.2,11.8,32.1,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,5,5,5,2,68.5,10.4,21.0,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,6,6,6,1,56.6,12.5,30.9,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,8,8,8,0,42.8,14.3,42.8,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,10,10,10,0,42.1,15.8,42.1,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,13,13,13,0,40.4,19.1,40.4,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,14,14,14,1,60.4,18.4,21.2,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,15,15,15,2,81.2,12.4,6.4,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,16,16,16,2,85.0,11.1,3.9,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,17,17,17,1,66.7,21.8,11.6,app_static_table
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,18,18,18,1,66.0,34.0,0.0,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,4,4,4,2,67.9,10.2,21.8,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,5,5,5,3,79.0,8.1,12.9,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,6,6,6,4,88.0,5.6,6.5,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,7,7,7,3,80.8,8.1,11.1,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,8,8,8,4,89.9,5.2,4.9,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,9,9,9,3,82.9,8.1,9.0,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,10,10,10,3,84.2,7.9,7.9,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,11,11,11,2,73.7,11.9,14.4,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,13,13,13,0,40.4,19.1,40.4,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,14,14,14,0,39.6,20.7,39.6,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,15,15,15,-1,18.8,19.5,61.6,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,16,16,16,-1,15.0,22.2,62.7,app_static_table
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,4,4,4,1,56.2,11.8,32.1,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,5,5,5,2,68.5,10.4,21.0,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,6,6,6,2,69.1,10.7,20.2,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,12,12,12,-1,24.9,16.2,58.9,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,13,13,13,-2,10.9,12.3,76.7,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,14,14,14,-3,2.6,6.3,91.1,app_static_table
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,15,15,15,-4,0.0,1.3,98.7,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,5,5,5,0,43.6,12.8,43.6,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,6,6,6,1,56.6,12.5,30.9,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,9,9,9,0,42.5,15.0,42.5,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,10,10,10,-1,27.5,14.6,57.9,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,11,11,11,-2,14.4,11.9,73.7,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,12,12,12,-2,12.8,12.1,75.1,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,13,13,13,-2,10.9,12.3,76.7,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,14,14,14,-3,2.6,6.3,91.1,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,15,15,15,-2,6.4,12.4,81.2,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,5,5,5,-1,31.5,12.1,56.4,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,6,6,6,-1,30.9,12.5,56.6,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,8,8,8,0,42.8,14.3,42.8,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,9,9,9,0,42.5,15.0,42.5,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,13,13,13,2,76.7,12.3,10.9,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,14,14,14,1,60.4,18.4,21.2,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,15,15,15,0,38.4,23.3,38.4,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,16,16,16,0,37.3,25.5,37.3,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,18,18,18,-1,0.0,34.0,66.0,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,3,3,3,2,67.4,10.0,22.6,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,4,4,4,1,56.2,11.8,32.1,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,5,5,5,2,68.5,10.4,21.0,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,6,6,6,3,79.8,8.1,12.0,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,7,7,7,3,80.8,8.1,11.1,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,8,8,8,4,89.9,5.2,4.9,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,9,9,9,3,82.9,8.1,9.0,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,10,10,10,4,92.1,4.6,3.3,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,11,11,11,4,93.3,4.1,2.5,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,12,12,12,3,87.2,7.4,5.4,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,13,13,13,2,76.7,12.3,10.9,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,14,14,14,3,91.1,6.3,2.6,app_static_table
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,15,15,15,4,98.7,1.3,0.0,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,3,3,3,2,67.4,10.0,22.6,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,4,4,4,3,78.2,8.1,13.7,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,5,5,5,2,68.5,10.4,21.0,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,6,6,6,3,79.8,8.1,12.0,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,7,7,7,4,88.9,5.4,5.7,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,8,8,8,3,81.8,8.1,10.1,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,9,9,9,4,91.0,4.9,4.1,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,10,10,10,5,96.7,2.2,1.1,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,11,11,11,6,99.3,0.6,0.2,app_static_table
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,12,12,12,7,99.9,0.1,0.0,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,0,43.5,13.1,43.5,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,0,43.2,13.5,43.2,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,0,43.0,14.0,43.0,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,0,42.8,14.5,42.8,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,0,42.5,15.1,42.5,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,8,8,8,-1,27.6,14.6,57.9,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,9,9,9,-2,14.8,11.8,73.4,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,10,10,10,-2,13.5,12.0,74.5,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,11,11,11,-2,12.1,12.2,75.7,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,12,12,12,-2,10.6,12.3,77.2,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,13,13,13,-1,21.1,18.4,60.5,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,14,14,14,0,38.6,22.9,38.6,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,15,15,15,1,62.7,21.0,16.3,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,16,16,16,2,87.2,10.5,2.3,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,17,17,17,1,67.4,24.5,8.1,app_static_table
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,18,18,18,1,71.5,28.5,0.0,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,-1,31.0,12.4,56.5,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,-1,30.5,12.8,56.8,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,-1,29.9,13.2,57.0,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,-1,29.2,13.6,57.2,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,7,7,7,0,42.5,15.1,42.5,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,8,8,8,-1,27.6,14.6,57.9,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,9,9,9,-2,14.8,11.8,73.4,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,10,10,10,-2,13.5,12.0,74.5,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,11,11,11,-3,4.9,7.2,87.9,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,12,12,12,-3,3.8,6.7,89.4,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,13,13,13,-2,8.8,12.3,78.9,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,14,14,14,-1,19.0,19.6,61.4,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,15,15,15,-2,4.6,11.7,83.7,app_static_table
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,16,16,16,-3,0.0,2.3,97.7,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,0,43.5,13.1,43.5,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,1,56.8,12.8,30.5,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,2,70.1,11.0,18.9,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,2,70.8,11.2,18.0,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,2,71.6,11.4,17.0,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,3,84.0,7.9,8.1,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,9,9,9,4,92.9,4.2,2.8,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,10,10,10,4,94.0,3.8,2.2,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,11,11,11,5,98.4,1.2,0.4,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,12,12,12,5,99.0,0.8,0.2,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,13,13,13,4,97.3,2.2,0.5,app_static_table
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,14,14,14,4,98.4,1.4,0.2,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,3,3,3,1,56.5,12.4,31.0,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,4,4,4,2,69.5,10.8,19.7,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,5,5,5,1,57.0,13.2,29.9,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,6,6,6,1,57.2,13.6,29.2,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,7,7,7,1,57.5,14.0,28.4,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,8,8,8,1,57.9,14.6,27.6,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,9,9,9,1,58.2,15.1,26.6,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,10,10,10,0,41.3,17.3,41.3,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,11,11,11,-1,24.3,16.5,59.2,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,12,12,12,-1,22.8,17.4,59.8,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,13,13,13,-2,8.8,12.3,78.9,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,14,14,14,-3,1.6,5.2,93.2,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,15,15,15,-3,0.7,4.0,95.4,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,16,16,16,-2,2.3,10.5,87.2,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,17,17,17,-1,8.1,24.5,67.4,app_static_table
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,18,18,18,-1,0.0,28.5,71.5,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,2,2,2,1,56.2,11.9,31.9,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,3,3,3,1,56.4,12.2,31.4,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,4,4,4,1,56.6,12.6,30.8,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,5,5,5,2,69.8,10.9,19.3,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,6,6,6,3,81.6,8.1,10.3,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,7,7,7,2,71.2,11.3,17.5,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,8,8,8,1,57.7,14.3,27.9,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,9,9,9,1,58.1,14.9,27.0,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,10,10,10,1,58.5,15.6,25.9,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,11,11,11,2,75.3,12.1,12.6,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,12,12,12,2,76.8,12.3,11.0,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,13,13,13,3,90.8,6.3,2.9,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,14,14,14,2,80.6,12.2,7.2,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,15,15,15,3,95.0,4.2,0.8,app_static_table
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,16,16,16,3,97.4,2.6,0.0,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,2,2,2,-1,31.9,11.9,56.2,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,3,3,3,0,43.6,12.9,43.6,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,6,6,6,-1,29.5,13.4,57.1,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,7,7,7,-1,28.8,13.8,57.4,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,8,8,8,0,42.3,15.4,42.3,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,9,9,9,1,58.1,14.9,27.0,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,10,10,10,2,74.1,11.9,14.0,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,11,11,11,2,75.3,12.1,12.6,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,12,12,12,1,59.6,17.2,23.2,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,13,13,13,0,39.7,20.6,39.7,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,14,14,14,-1,19.4,19.3,61.2,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,15,15,15,-1,16.8,20.8,62.5,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,16,16,16,-2,2.6,10.7,86.7,app_static_table
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,17,17,17,-2,0.0,8.7,91.3,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,2,2,2,-1,31.9,11.9,56.2,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,4,4,4,-2,20.1,10.7,69.2,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,5,5,5,-3,11.2,8.1,80.7,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,6,6,6,-2,18.4,11.1,70.5,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,7,7,7,-2,17.5,11.3,71.2,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,8,8,8,-1,27.9,14.3,57.7,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,9,9,9,-1,27.0,14.9,58.1,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,10,10,10,-1,25.9,15.6,58.5,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,11,11,11,0,41.0,18.0,41.0,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,12,12,12,0,40.4,19.2,40.4,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,13,13,13,0,39.7,20.6,39.7,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,14,14,14,-1,19.4,19.3,61.2,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,15,15,15,-1,16.8,20.8,62.5,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,16,16,16,-2,2.6,10.7,86.7,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,17,17,17,-1,8.7,24.2,67.1,app_static_table
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,18,18,18,-1,0.0,29.5,70.5,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,4,4,4,-2,20.1,10.7,69.2,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,5,5,5,-2,19.3,10.9,69.8,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,6,6,6,-3,10.3,8.1,81.6,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,7,7,7,-4,4.5,5.0,90.6,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,8,8,8,-4,3.8,4.7,91.5,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,9,9,9,-5,1.0,2.0,96.9,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,10,10,10,-5,0.7,1.7,97.6,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,11,11,11,-4,1.7,3.5,94.7,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,12,12,12,-5,0.2,0.9,98.9,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,13,13,13,-4,0.6,2.3,97.1,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,14,14,14,-3,1.8,5.4,92.8,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,15,15,15,-3,0.8,4.2,95.0,app_static_table
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,16,16,16,-3,0.0,2.6,97.4,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,5,5,5,-2,21.0,10.4,68.5,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,6,6,6,-3,12.0,8.1,79.8,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,7,7,7,-2,19.2,10.9,69.8,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,8,8,8,-1,29.4,13.5,57.2,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,9,9,9,-2,17.1,11.4,71.5,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,10,10,10,-2,15.8,11.7,72.5,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,11,11,11,-3,6.7,7.7,85.6,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,12,12,12,-2,12.8,12.1,75.1,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,13,13,13,-2,10.9,12.3,76.7,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,14,14,14,-1,21.2,18.4,60.4,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,15,15,15,-2,6.4,12.4,81.2,app_static_table
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,16,16,16,-3,0.0,3.9,96.1,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,3,3,3,-2,22.6,10.0,67.4,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,5,5,5,0,43.6,12.8,43.6,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,6,6,6,1,56.6,12.5,30.9,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,7,7,7,1,56.9,13.0,30.2,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,8,8,8,0,42.8,14.3,42.8,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,12,12,12,0,41.1,17.8,41.1,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,13,13,13,0,40.4,19.1,40.4,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,14,14,14,1,60.4,18.4,21.2,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,15,15,15,0,38.4,23.3,38.4,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,16,16,16,1,62.7,22.2,15.0,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,17,17,17,0,33.3,33.4,33.3,app_static_table
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,18,18,18,0,34.0,32.0,34.0,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,5,5,5,-2,21.0,10.4,68.5,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,6,6,6,-2,20.2,10.7,69.1,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,7,7,7,-1,30.2,13.0,56.9,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,8,8,8,-2,18.2,11.2,70.6,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,9,9,9,-3,9.0,8.1,82.9,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,10,10,10,-3,7.9,7.9,84.2,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,11,11,11,-3,6.7,7.7,85.6,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,12,12,12,-2,12.8,12.1,75.1,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,13,13,13,-3,4.0,6.9,89.1,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,14,14,14,-4,0.5,2.1,97.4,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,15,15,15,-3,1.3,5.0,93.6,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,18,18,18,0,34.0,32.0,34.0,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,3,3,3,-1,32.6,11.4,56.0,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,5,5,5,1,56.4,12.1,31.5,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,6,6,6,2,69.1,10.7,20.2,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,9,9,9,0,42.5,15.0,42.5,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,11,11,11,1,58.3,15.4,26.3,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,13,13,13,1,59.6,17.1,23.3,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,14,14,14,2,78.8,12.3,8.9,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,15,15,15,2,81.2,12.4,6.4,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,16,16,16,1,62.7,22.2,15.0,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,17,17,17,1,66.7,21.8,11.6,app_static_table
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,18,18,18,1,66.0,34.0,0.0,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,5,5,5,0,43.6,12.8,43.6,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,6,6,6,0,43.4,13.2,43.4,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,7,7,7,1,56.9,13.0,30.2,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,8,8,8,0,42.8,14.3,42.8,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,9,9,9,-1,28.5,14.0,57.5,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,10,10,10,-2,15.8,11.7,72.5,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,11,11,11,-1,26.3,15.4,58.3,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,12,12,12,0,41.1,17.8,41.1,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,13,13,13,-1,23.3,17.1,59.6,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,14,14,14,-2,8.9,12.3,78.8,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,15,15,15,-3,1.3,5.0,93.6,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,18,18,18,-1,0.0,34.0,66.0,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,5,5,5,1,56.4,12.1,31.5,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,6,6,6,1,56.6,12.5,30.9,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,8,8,8,-1,29.4,13.5,57.2,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,9,9,9,-1,28.5,14.0,57.5,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,10,10,10,0,42.1,15.8,42.1,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,11,11,11,-1,26.3,15.4,58.3,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,12,12,12,-2,12.8,12.1,75.1,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,13,13,13,-3,4.0,6.9,89.1,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,14,14,14,-2,8.9,12.3,78.8,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,15,15,15,-3,1.3,5.0,93.6,app_static_table
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,16,16,16,-3,0.0,3.9,96.1,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,5,5,5,-1,31.5,12.1,56.4,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,6,6,6,-2,20.2,10.7,69.1,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,7,7,7,-2,19.2,10.9,69.8,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,8,8,8,-2,18.2,11.2,70.6,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,9,9,9,-3,9.0,8.1,82.9,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,10,10,10,-4,3.3,4.6,92.1,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,11,11,11,-3,6.7,7.7,85.6,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,12,12,12,-3,5.4,7.4,87.2,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,13,13,13,-4,1.0,3.0,96.0,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,14,14,14,-3,2.6,6.3,91.1,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,15,15,15,-4,0.0,1.3,98.7,app_static_table
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,16,16,16,-3,0.0,3.9,96.1,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,3,3,3,2,67.4,10.0,22.6,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,4,4,4,3,78.2,8.1,13.7,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,5,5,5,4,87.1,5.7,7.2,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,6,6,6,5,93.5,3.4,3.1,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,7,7,7,6,97.4,1.6,1.0,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,8,8,8,7,99.3,0.5,0.2,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,9,9,9,8,99.9,0.1,0.0,app_static_table
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,10,10,10,9,100.0,0.0,0.0,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,3,3,3,1,56.4,12.2,31.4,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,4,4,4,1,56.6,12.6,30.8,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,5,5,5,1,56.9,12.9,30.2,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,6,6,6,2,70.5,11.1,18.4,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,7,7,7,2,71.2,11.3,17.5,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,8,8,8,2,72.1,11.5,16.4,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,9,9,9,2,73.0,11.7,15.3,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,10,10,10,1,58.5,15.6,25.9,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,11,11,11,0,41.0,18.0,41.0,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,12,12,12,0,40.4,19.2,40.4,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,13,13,13,0,39.7,20.6,39.7,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,14,14,14,0,38.8,22.5,38.8,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,15,15,15,-1,16.8,20.8,62.5,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,16,16,16,-2,2.6,10.7,86.7,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,17,17,17,-2,0.0,8.7,91.3,app_static_table
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,18,18,18,-1,0.0,29.5,70.5,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,6,6,6,-1,29.5,13.4,57.1,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,7,7,7,-1,28.8,13.8,57.4,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,8,8,8,-1,27.9,14.3,57.7,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,9,9,9,0,41.9,16.2,41.9,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,10,10,10,1,58.5,15.6,25.9,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,11,11,11,1,59.0,16.3,24.7,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,12,12,12,1,59.6,17.2,23.2,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,13,13,13,1,60.3,18.2,21.5,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,14,14,14,1,61.2,19.3,19.4,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,15,15,15,0,37.5,24.9,37.5,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,16,16,16,1,64.2,22.6,13.3,app_static_table
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,17,17,17,2,91.3,8.7,0.0,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,3,3,3,1,56.4,12.2,31.4,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,4,4,4,2,69.2,10.7,20.1,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,5,5,5,1,56.9,12.9,30.2,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,6,6,6,0,42.9,14.2,42.9,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,7,7,7,1,57.4,13.8,28.8,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,8,8,8,1,57.7,14.3,27.9,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,9,9,9,0,41.9,16.2,41.9,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,10,10,10,0,41.5,17.0,41.5,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,11,11,11,0,41.0,18.0,41.0,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,12,12,12,1,59.6,17.2,23.2,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,13,13,13,1,60.3,18.2,21.5,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,14,14,14,2,80.6,12.2,7.2,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,15,15,15,2,83.2,11.8,5.0,app_static_table
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,16,16,16,2,86.7,10.7,2.6,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,2,2,2,-1,31.9,11.9,56.2,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,4,4,4,0,43.4,13.3,43.4,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,6,6,6,0,42.9,14.2,42.9,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,7,7,7,0,42.6,14.8,42.6,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,8,8,8,0,42.3,15.4,42.3,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,9,9,9,-1,27.0,14.9,58.1,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,10,10,10,-2,14.0,11.9,74.1,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,11,11,11,-2,12.6,12.1,75.3,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,12,12,12,-1,23.2,17.2,59.6,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,13,13,13,0,39.7,20.6,39.7,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,14,14,14,1,61.2,19.3,19.4,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,15,15,15,0,37.5,24.9,37.5,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,16,16,16,0,35.8,28.3,35.8,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,17,17,17,0,32.9,34.2,32.9,app_static_table
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,18,18,18,0,29.5,41.0,29.5,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,3,3,3,1,56.5,12.4,31.0,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,4,4,4,0,43.2,13.5,43.2,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,5,5,5,0,43.0,14.0,43.0,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,6,6,6,1,57.2,13.6,29.2,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,7,7,7,0,42.5,15.1,42.5,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,8,8,8,1,57.9,14.6,27.6,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,9,9,9,0,41.8,16.4,41.8,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,10,10,10,1,58.7,15.8,25.5,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,11,11,11,1,59.2,16.5,24.3,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,12,12,12,0,40.2,19.5,40.2,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,13,13,13,1,60.5,18.4,21.1,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,14,14,14,1,61.4,19.6,19.0,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,15,15,15,1,62.7,21.0,16.3,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,16,16,16,0,35.5,28.9,35.5,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,17,17,17,1,67.4,24.5,8.1,app_static_table
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,18,18,18,1,71.5,28.5,0.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,3,3,3,1,56.5,12.4,31.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,4,4,4,0,43.2,13.5,43.2,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,5,5,5,0,43.0,14.0,43.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,6,6,6,1,57.2,13.6,29.2,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,7,7,7,2,71.6,11.4,17.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,8,8,8,3,84.0,7.9,8.1,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,9,9,9,3,85.2,7.7,7.1,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,10,10,10,4,94.0,3.8,2.2,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,11,11,11,5,98.4,1.2,0.4,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,12,12,12,4,96.2,2.8,1.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,13,13,13,4,97.3,2.2,0.5,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,14,14,14,5,99.8,0.2,0.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,15,15,15,4,99.3,0.7,0.0,app_static_table
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,16,16,16,3,97.7,2.3,0.0,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,2,2,2,-1,31.6,12.1,56.3,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,3,3,3,0,43.5,13.1,43.5,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,4,4,4,1,56.8,12.8,30.5,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,5,5,5,1,57.0,13.2,29.9,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,6,6,6,1,57.2,13.6,29.2,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,7,7,7,1,57.5,14.0,28.4,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,8,8,8,1,57.9,14.6,27.6,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,9,9,9,1,58.2,15.1,26.6,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,10,10,10,2,74.5,12.0,13.5,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,11,11,11,2,75.7,12.2,12.1,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,12,12,12,3,89.4,6.7,3.8,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,13,13,13,3,91.2,6.1,2.7,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,14,14,14,3,93.2,5.2,1.6,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,15,15,15,2,83.7,11.7,4.6,app_static_table
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,16,16,16,2,87.2,10.5,2.3,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,3,3,3,-1,31.0,12.4,56.5,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,4,4,4,0,43.2,13.5,43.2,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,5,5,5,-1,29.9,13.2,57.0,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,6,6,6,-2,18.0,11.2,70.8,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,7,7,7,-1,28.4,14.0,57.5,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,8,8,8,0,42.1,15.7,42.1,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,9,9,9,0,41.8,16.4,41.8,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,10,10,10,0,41.3,17.3,41.3,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,11,11,11,0,40.8,18.3,40.8,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,12,12,12,0,40.2,19.5,40.2,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,13,13,13,0,39.5,21.0,39.5,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,14,14,14,0,38.6,22.9,38.6,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,15,15,15,0,37.3,25.4,37.3,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,16,16,16,1,64.5,22.8,12.8,app_static_table
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,17,17,17,2,91.9,8.1,0.0,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,1,1,1,0,44.0,12.0,44.0,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,2,2,2,-1,32.0,11.8,56.2,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,3,3,3,-2,21.1,10.4,68.5,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,4,4,4,-1,31.0,12.5,56.6,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,5,5,5,-2,19.5,10.8,69.7,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,6,6,6,-2,18.6,11.0,70.3,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,7,7,7,-1,28.9,13.7,57.3,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,8,8,8,-1,28.1,14.2,57.6,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,9,9,9,-2,15.5,11.7,72.8,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,10,10,10,-1,26.1,15.5,58.4,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,11,11,11,-1,24.9,16.2,58.9,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,12,12,12,-2,11.2,12.3,76.5,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,13,13,13,-2,9.4,12.3,78.3,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,14,14,14,-2,7.4,12.2,80.4,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,15,15,15,-1,17.0,20.6,62.3,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,16,16,16,0,36.0,28.0,36.0,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,17,17,17,0,33.0,34.0,33.0,app_static_table
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,18,18,18,-1,0.0,30.0,70.0,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,1,1,1,0,44.0,12.0,44.0,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,2,2,2,-1,32.0,11.8,56.2,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,3,3,3,-2,21.1,10.4,68.5,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,4,4,4,-2,20.3,10.6,69.0,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,5,5,5,-3,11.4,8.1,80.5,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,6,6,6,-3,10.5,8.1,81.4,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,7,7,7,-3,9.6,8.1,82.3,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,8,8,8,-3,8.6,8.0,83.4,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,9,9,9,-2,15.5,11.7,72.8,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,10,10,10,-3,6.5,7.7,85.8,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,11,11,11,-4,1.8,3.6,94.6,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,12,12,12,-3,4.2,7.0,88.8,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,13,13,13,-2,9.4,12.3,78.3,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,14,14,14,-2,7.4,12.2,80.4,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,15,15,15,-2,5.1,11.9,83.0,app_static_table
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,16,16,16,-3,0.0,2.7,97.3,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,1,1,1,0,44.0,12.0,44.0,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,2,2,2,-1,32.0,11.8,56.2,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,3,3,3,-2,21.1,10.4,68.5,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,4,4,4,-3,12.2,8.1,79.7,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,5,5,5,-3,11.4,8.1,80.5,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,6,6,6,-2,18.6,11.0,70.3,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,7,7,7,-3,9.6,8.1,82.3,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,8,8,8,-2,16.6,11.5,71.9,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,9,9,9,-2,15.5,11.7,72.8,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,10,10,10,-3,6.5,7.7,85.8,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,11,11,11,-4,1.8,3.6,94.6,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,12,12,12,-3,4.2,7.0,88.8,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,13,13,13,-3,3.0,6.4,90.6,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,14,14,14,-3,1.9,5.5,92.6,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,15,15,15,-3,0.8,4.3,94.9,app_static_table
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,16,16,16,-3,0.0,2.7,97.3,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,1,1,1,0,44.0,12.0,44.0,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,2,2,2,1,56.2,11.8,32.0,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,3,3,3,0,43.6,12.7,43.6,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,4,4,4,0,43.4,13.2,43.4,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,5,5,5,-1,30.3,12.8,56.8,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,6,6,6,-1,29.7,13.3,57.1,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,7,7,7,0,42.7,14.7,42.7,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,8,8,8,0,42.4,15.3,42.4,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,9,9,9,1,58.0,14.8,27.2,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,10,10,10,1,58.4,15.5,26.1,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,11,11,11,0,41.1,17.8,41.1,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,12,12,12,1,59.5,17.0,23.5,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,13,13,13,1,60.2,18.0,21.7,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,14,14,14,2,80.4,12.2,7.4,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,15,15,15,1,62.3,20.6,17.0,app_static_table
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,16,16,16,2,86.5,10.8,2.7,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,5,5,5,-1,31.5,12.1,56.4,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,6,6,6,0,43.4,13.2,43.4,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,7,7,7,-1,30.2,13.0,56.9,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,8,8,8,-2,18.2,11.2,70.6,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,9,9,9,-2,17.1,11.4,71.5,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,10,10,10,-1,27.5,14.6,57.9,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,13,13,13,1,59.6,17.1,23.3,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,14,14,14,2,78.8,12.3,8.9,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,15,15,15,3,93.6,5.0,1.3,app_static_table
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,16,16,16,3,96.1,3.9,0.0,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,3,3,3,-1,32.6,11.4,56.0,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,4,4,4,-2,21.8,10.2,67.9,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,5,5,5,-2,21.0,10.4,68.5,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,6,6,6,-3,12.0,8.1,79.8,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,7,7,7,-4,5.7,5.4,88.9,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,8,8,8,-5,2.1,2.8,95.1,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,9,9,9,-6,0.5,1.1,98.4,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,10,10,10,-6,0.3,0.8,98.9,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,11,11,11,-7,0.0,0.1,99.8,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,12,12,12,-6,0.1,0.3,99.6,app_static_table
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,13,13,13,-6,0.0,0.2,99.8,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,4,4,4,2,67.9,10.2,21.8,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,5,5,5,2,68.5,10.4,21.0,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,6,6,6,1,56.6,12.5,30.9,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,10,10,10,2,72.5,11.7,15.8,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,11,11,11,3,85.6,7.7,6.7,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,12,12,12,3,87.2,7.4,5.4,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,13,13,13,4,96.0,3.0,1.0,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,14,14,14,5,99.5,0.5,0.0,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,15,15,15,4,98.7,1.3,0.0,app_static_table
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,16,16,16,3,96.1,3.9,0.0,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,3,3,3,-2,22.6,10.0,67.4,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,5,5,5,-2,21.0,10.4,68.5,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,6,6,6,-2,20.2,10.7,69.1,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,7,7,7,-2,19.2,10.9,69.8,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,8,8,8,-3,10.1,8.1,81.8,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,9,9,9,-4,4.1,4.9,91.0,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,10,10,10,-3,7.9,7.9,84.2,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,11,11,11,-4,2.5,4.1,93.3,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,12,12,12,-4,1.7,3.6,94.6,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,13,13,13,-5,0.2,0.9,99.0,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,14,14,14,-4,0.5,2.1,97.4,app_static_table
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,15,15,15,-4,0.0,1.3,98.7,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,4,4,4,1,56.2,11.8,32.1,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,5,5,5,0,43.6,12.8,43.6,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,6,6,6,-1,30.9,12.5,56.6,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,9,9,9,0,42.5,15.0,42.5,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,10,10,10,0,42.1,15.8,42.1,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,11,11,11,-1,26.3,15.4,58.3,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,12,12,12,-2,12.8,12.1,75.1,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,13,13,13,-1,23.3,17.1,59.6,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,14,14,14,-1,21.2,18.4,60.4,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,15,15,15,-1,18.8,19.5,61.6,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,18,18,18,0,34.0,32.0,34.0,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,5,5,5,-1,31.5,12.1,56.4,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,6,6,6,0,43.4,13.2,43.4,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,8,8,8,-1,29.4,13.5,57.2,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,9,9,9,0,42.5,15.0,42.5,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,10,10,10,-1,27.5,14.6,57.9,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,11,11,11,-2,14.4,11.9,73.7,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,12,12,12,-3,5.4,7.4,87.2,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,13,13,13,-2,10.9,12.3,76.7,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,14,14,14,-1,21.2,18.4,60.4,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,15,15,15,-1,18.8,19.5,61.6,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,18,18,18,0,34.0,32.0,34.0,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,5,5,5,1,56.4,12.1,31.5,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,6,6,6,1,56.6,12.5,30.9,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,13,13,13,2,76.7,12.3,10.9,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,14,14,14,3,91.1,6.3,2.6,app_static_table
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,15,15,15,4,98.7,1.3,0.0,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,3,3,3,-1,31.0,12.4,56.5,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,4,4,4,-2,19.7,10.8,69.5,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,5,5,5,-1,29.9,13.2,57.0,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,6,6,6,-1,29.2,13.6,57.2,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,7,7,7,-1,28.4,14.0,57.5,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,8,8,8,-1,27.6,14.6,57.9,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,9,9,9,-1,26.6,15.1,58.2,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,10,10,10,0,41.3,17.3,41.3,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,11,11,11,1,59.2,16.5,24.3,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,12,12,12,1,59.8,17.4,22.8,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,13,13,13,2,78.9,12.3,8.8,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,14,14,14,1,61.4,19.6,19.0,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,15,15,15,1,62.7,21.0,16.3,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,16,16,16,1,64.5,22.8,12.8,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,17,17,17,1,67.4,24.5,8.1,app_static_table
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,18,18,18,1,71.5,28.5,0.0,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,2,2,2,0,43.7,12.7,43.7,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,3,3,3,-1,31.0,12.4,56.5,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,4,4,4,-1,30.5,12.8,56.8,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,5,5,5,-1,29.9,13.2,57.0,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,6,6,6,-2,18.0,11.2,70.8,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,7,7,7,-2,17.0,11.4,71.6,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,8,8,8,-3,8.1,7.9,84.0,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,9,9,9,-4,2.8,4.2,92.9,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,10,10,10,-4,2.2,3.8,94.0,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,11,11,11,-3,4.9,7.2,87.9,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,12,12,12,-3,3.8,6.7,89.4,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,13,13,13,-3,2.7,6.1,91.2,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,14,14,14,-2,6.8,12.1,81.0,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,15,15,15,-3,0.7,4.0,95.4,app_static_table
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,16,16,16,-3,0.0,2.3,97.7,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,1,1,1,0,43.8,12.3,43.8,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,2,2,2,1,56.3,12.1,31.6,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,3,3,3,2,69.0,10.6,20.5,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,4,4,4,3,80.3,8.1,11.6,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,5,5,5,4,89.2,5.3,5.5,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,6,6,6,5,95.2,2.8,2.1,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,7,7,7,5,95.8,2.5,1.7,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,8,8,8,6,98.7,0.9,0.4,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,9,9,9,5,97.2,1.9,0.9,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,10,10,10,6,99.4,0.5,0.1,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,11,11,11,5,98.4,1.2,0.4,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,12,12,12,6,99.8,0.2,0.0,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,13,13,13,5,99.5,0.5,0.1,app_static_table
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,14,14,14,5,99.8,0.2,0.0,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,1,1,1,0,43.9,12.1,43.9,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,2,2,2,0,43.8,12.5,43.8,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,3,3,3,0,43.6,12.9,43.6,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,6,6,6,0,42.9,14.2,42.9,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,7,7,7,0,42.6,14.8,42.6,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,8,8,8,0,42.3,15.4,42.3,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,9,9,9,1,58.1,14.9,27.0,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,10,10,10,0,41.5,17.0,41.5,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,11,11,11,0,41.0,18.0,41.0,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,12,12,12,-1,23.2,17.2,59.6,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,13,13,13,-2,9.2,12.3,78.5,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,14,14,14,-1,19.4,19.3,61.2,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,15,15,15,-2,5.0,11.8,83.2,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,16,16,16,-1,13.3,22.6,64.2,app_static_table
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,17,17,17,-2,0.0,8.7,91.3,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,1,1,1,0,43.9,12.1,43.9,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,2,2,2,0,43.8,12.5,43.8,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,3,3,3,1,56.4,12.2,31.4,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,4,4,4,2,69.2,10.7,20.1,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,5,5,5,1,56.9,12.9,30.2,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,6,6,6,0,42.9,14.2,42.9,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,7,7,7,-1,28.8,13.8,57.4,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,8,8,8,-2,16.4,11.5,72.1,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,9,9,9,-2,15.3,11.7,73.0,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,10,10,10,-3,6.4,7.6,86.0,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,11,11,11,-2,12.6,12.1,75.3,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,12,12,12,-3,4.1,6.9,89.0,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,13,13,13,-2,9.2,12.3,78.5,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,14,14,14,-1,19.4,19.3,61.2,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,15,15,15,0,37.5,24.9,37.5,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,16,16,16,0,35.8,28.3,35.8,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,17,17,17,-1,8.7,24.2,67.1,app_static_table
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,18,18,18,0,29.5,41.0,29.5,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,1,1,1,0,43.9,12.1,43.9,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,2,2,2,1,56.2,11.9,31.9,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,3,3,3,0,43.6,12.9,43.6,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,4,4,4,-1,30.8,12.6,56.6,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,5,5,5,-1,30.2,12.9,56.9,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,6,6,6,0,42.9,14.2,42.9,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,7,7,7,0,42.6,14.8,42.6,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,8,8,8,-1,27.9,14.3,57.7,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,9,9,9,-2,15.3,11.7,73.0,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,10,10,10,-3,6.4,7.6,86.0,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,11,11,11,-4,1.7,3.5,94.7,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,12,12,12,-5,0.2,0.9,98.9,app_static_table
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,13,13,13,-6,0.0,0.1,99.9,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,2,2,2,1,56.2,11.9,31.9,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,3,3,3,2,68.6,10.5,20.9,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,4,4,4,3,79.9,8.1,12.0,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,5,5,5,3,80.7,8.1,11.2,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,6,6,6,4,89.7,5.2,5.1,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,7,7,7,3,82.5,8.0,9.4,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,8,8,8,3,83.6,8.0,8.5,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,9,9,9,3,84.7,7.8,7.4,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,10,10,10,2,74.1,11.9,14.0,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,11,11,11,2,75.3,12.1,12.6,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,12,12,12,2,76.8,12.3,11.0,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,13,13,13,3,90.8,6.3,2.9,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,14,14,14,2,80.6,12.2,7.2,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,15,15,15,2,83.2,11.8,5.0,app_static_table
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,16,16,16,3,97.4,2.6,0.0,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,2,2,2,0,43.8,12.5,43.8,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,3,3,3,1,56.4,12.2,31.4,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,4,4,4,2,69.2,10.7,20.1,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,5,5,5,1,56.9,12.9,30.2,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,6,6,6,0,42.9,14.2,42.9,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,7,7,7,-1,28.8,13.8,57.4,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,8,8,8,-1,27.9,14.3,57.7,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,9,9,9,0,41.9,16.2,41.9,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,10,10,10,0,41.5,17.0,41.5,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,11,11,11,0,41.0,18.0,41.0,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,12,12,12,0,40.4,19.2,40.4,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,13,13,13,1,60.3,18.2,21.5,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,14,14,14,2,80.6,12.2,7.2,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,15,15,15,1,62.5,20.8,16.8,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,16,16,16,1,64.2,22.6,13.3,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,17,17,17,0,32.9,34.2,32.9,app_static_table
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,18,18,18,1,70.5,29.5,0.0,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,1,1,1,0,43.9,12.1,43.9,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,2,2,2,-1,31.9,11.9,56.2,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,3,3,3,-1,31.4,12.2,56.4,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,4,4,4,0,43.4,13.3,43.4,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,5,5,5,1,56.9,12.9,30.2,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,6,6,6,1,57.1,13.4,29.5,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,7,7,7,1,57.4,13.8,28.8,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,8,8,8,2,72.1,11.5,16.4,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,9,9,9,1,58.1,14.9,27.0,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,10,10,10,0,41.5,17.0,41.5,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,11,11,11,1,59.0,16.3,24.7,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,12,12,12,1,59.6,17.2,23.2,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,13,13,13,0,39.7,20.6,39.7,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,14,14,14,-1,19.4,19.3,61.2,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,15,15,15,0,37.5,24.9,37.5,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,16,16,16,-1,13.3,22.6,64.2,app_static_table
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,17,17,17,-2,0.0,8.7,91.3,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,3,3,3,0,44.0,12.0,44.0,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,5,5,5,1,56.4,12.1,31.5,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,6,6,6,2,69.1,10.7,20.2,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,8,8,8,3,81.8,8.1,10.1,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,9,9,9,3,82.9,8.1,9.0,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,10,10,10,2,72.5,11.7,15.8,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,11,11,11,2,73.7,11.9,14.4,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,13,13,13,2,76.7,12.3,10.9,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,14,14,14,2,78.8,12.3,8.9,app_static_table
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,15,15,15,3,93.6,5.0,1.3,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,3,3,3,-1,32.6,11.4,56.0,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,4,4,4,-2,21.8,10.2,67.9,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,5,5,5,-2,21.0,10.4,68.5,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,6,6,6,-1,30.9,12.5,56.6,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,7,7,7,-2,19.2,10.9,69.8,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,8,8,8,-1,29.4,13.5,57.2,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,9,9,9,-1,28.5,14.0,57.5,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,10,10,10,-2,15.8,11.7,72.5,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,11,11,11,-3,6.7,7.7,85.6,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,12,12,12,-4,1.7,3.6,94.6,app_static_table
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,13,13,13,-5,0.2,0.9,99.0,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,3,3,3,2,67.4,10.0,22.6,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,4,4,4,3,78.2,8.1,13.7,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,5,5,5,4,87.1,5.7,7.2,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,6,6,6,3,79.8,8.1,12.0,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,7,7,7,2,69.8,10.9,19.2,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,8,8,8,3,81.8,8.1,10.1,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,9,9,9,4,91.0,4.9,4.1,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,10,10,10,5,96.7,2.2,1.1,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,11,11,11,6,99.3,0.6,0.2,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,12,12,12,6,99.6,0.3,0.1,app_static_table
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,13,13,13,5,99.0,0.9,0.2,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,3,3,3,-2,22.6,10.0,67.4,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,5,5,5,-2,21.0,10.4,68.5,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,6,6,6,-1,30.9,12.5,56.6,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,8,8,8,-1,29.4,13.5,57.2,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,9,9,9,-2,17.1,11.4,71.5,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,10,10,10,-1,27.5,14.6,57.9,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,11,11,11,-2,14.4,11.9,73.7,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,12,12,12,-2,12.8,12.1,75.1,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,13,13,13,-1,23.3,17.1,59.6,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,14,14,14,-1,21.2,18.4,60.4,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,15,15,15,-2,6.4,12.4,81.2,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,16,16,16,-1,15.0,22.2,62.7,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,18,18,18,-1,0.0,34.0,66.0,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,2,2,2,0,44.2,11.6,44.2,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,3,3,3,-1,32.6,11.4,56.0,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,5,5,5,0,43.6,12.8,43.6,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,6,6,6,-1,30.9,12.5,56.6,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,8,8,8,0,42.8,14.3,42.8,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,10,10,10,0,42.1,15.8,42.1,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,11,11,11,1,58.3,15.4,26.3,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,12,12,12,2,75.1,12.1,12.8,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,13,13,13,1,59.6,17.1,23.3,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,14,14,14,0,39.6,20.7,39.6,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,15,15,15,1,61.6,19.5,18.8,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,16,16,16,0,37.3,25.5,37.3,app_static_table
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,3,3,3,-2,22.6,10.0,67.4,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,4,4,4,-2,21.8,10.2,67.9,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,5,5,5,-1,31.5,12.1,56.4,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,6,6,6,0,43.4,13.2,43.4,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,7,7,7,0,43.1,13.7,43.1,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,8,8,8,1,57.2,13.5,29.4,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,10,10,10,2,72.5,11.7,15.8,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,11,11,11,2,73.7,11.9,14.4,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,12,12,12,2,75.1,12.1,12.8,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,13,13,13,1,59.6,17.1,23.3,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,14,14,14,2,78.8,12.3,8.9,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,15,15,15,1,61.6,19.5,18.8,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,16,16,16,0,37.3,25.5,37.3,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,18,18,18,-1,0.0,34.0,66.0,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,2,2,2,-1,33.1,11.1,55.8,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,3,3,3,-2,22.6,10.0,67.4,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,4,4,4,-1,32.1,11.8,56.2,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,5,5,5,-1,31.5,12.1,56.4,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,6,6,6,0,43.4,13.2,43.4,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,7,7,7,-1,30.2,13.0,56.9,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,8,8,8,-1,29.4,13.5,57.2,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,9,9,9,-2,17.1,11.4,71.5,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,10,10,10,-1,27.5,14.6,57.9,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,11,11,11,-2,14.4,11.9,73.7,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,12,12,12,-1,24.9,16.2,58.9,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,13,13,13,-1,23.3,17.1,59.6,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,14,14,14,-2,8.9,12.3,78.8,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,15,15,15,-1,18.8,19.5,61.6,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,17,17,17,-1,11.6,21.8,66.7,app_static_table
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,18,18,18,0,34.0,32.0,34.0,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,3,3,3,1,56.0,11.4,32.6,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,4,4,4,0,43.8,12.3,43.8,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,5,5,5,1,56.4,12.1,31.5,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,6,6,6,0,43.4,13.2,43.4,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,7,7,7,1,56.9,13.0,30.2,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,8,8,8,0,42.8,14.3,42.8,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,9,9,9,1,57.5,14.0,28.5,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,11,11,11,0,41.7,16.7,41.7,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,13,13,13,0,40.4,19.1,40.4,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,14,14,14,0,39.6,20.7,39.6,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,15,15,15,-1,18.8,19.5,61.6,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,16,16,16,0,37.3,25.5,37.3,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,17,17,17,1,66.7,21.8,11.6,app_static_table
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,18,18,18,0,34.0,32.0,34.0,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,1,1,1,0,44.4,11.3,44.4,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,2,2,2,1,55.8,11.1,33.1,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,3,3,3,2,67.4,10.0,22.6,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,4,4,4,3,78.2,8.1,13.7,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,5,5,5,4,87.1,5.7,7.2,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,6,6,6,3,79.8,8.1,12.0,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,7,7,7,4,88.9,5.4,5.7,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,8,8,8,3,81.8,8.1,10.1,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,9,9,9,2,71.5,11.4,17.1,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,10,10,10,1,57.9,14.6,27.5,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,11,11,11,2,73.7,11.9,14.4,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,12,12,12,1,58.9,16.2,24.9,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,13,13,13,0,40.4,19.1,40.4,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,14,14,14,0,39.6,20.7,39.6,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,15,15,15,-1,18.8,19.5,61.6,app_static_table
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,16,16,16,-2,3.9,11.1,85.0,app_static_table

@@ -1,0 +1,221 @@
+{
+  "ios_core": [
+    {
+      "path": "iOS/Bluff City Cup/AppDelegate.swift",
+      "purpose": "App entry point; registers for push notifications, sets ContainerViewController as root",
+      "when_to_open": "Push notification setup, app launch flow, orientation handling"
+    },
+    {
+      "path": "iOS/Bluff City Cup/ContainerViewController.swift",
+      "purpose": "Root navigation host; manages slide-out panel and transitions between all views",
+      "when_to_open": "Navigation flow, adding new screens, understanding view lifecycle"
+    },
+    {
+      "path": "iOS/Bluff City Cup/Model.swift",
+      "purpose": "Singleton data layer; ALL network calls, JSON parsing, URL building, data load sequence",
+      "when_to_open": "Any API call, data fetch, URL encoding, adding new endpoint calls"
+    }
+  ],
+  "ios_domain_models": [
+    {
+      "path": "iOS/Bluff City Cup/Tournament.swift",
+      "purpose": "Tournament entity; holds matches/players/courses/rounds; contains static win-probability lookup tables",
+      "when_to_open": "Tournament settings, probability calculations, scoring rules"
+    },
+    {
+      "path": "iOS/Bluff City Cup/Match.swift",
+      "purpose": "Match entity; tracks format, players, hole winners, score string, match-play result logic",
+      "when_to_open": "Match scoring logic, hole winner calculation, score string format"
+    },
+    {
+      "path": "iOS/Bluff City Cup/Player.swift",
+      "purpose": "Player entity; name, handicap, team, per-round hole scores",
+      "when_to_open": "Player data structure, handicap logic, hole results"
+    },
+    {
+      "path": "iOS/Bluff City Cup/Course.swift",
+      "purpose": "Course entity; name, tees, slope/rating/par, array of Hole objects",
+      "when_to_open": "Course setup, hole data, GPS coordinates"
+    }
+  ],
+  "ios_views": [
+    {
+      "path": "iOS/Bluff City Cup/ViewController.swift",
+      "purpose": "Login screen; tournament selection and user/scorekeeper identification",
+      "when_to_open": "Login flow, tournament picker, user authentication"
+    },
+    {
+      "path": "iOS/Bluff City Cup/ScoreEntryViewController.swift",
+      "purpose": "Primary scorekeeper view; enter hole-by-hole scores, advances hole, triggers score save",
+      "when_to_open": "Score entry UI, hole navigation, handicap stroke display"
+    },
+    {
+      "path": "iOS/Bluff City Cup/ScoreboardViewController.swift",
+      "purpose": "Live standings board; shows all matches with current scores by round",
+      "when_to_open": "Scoreboard layout, standings calculation, live refresh"
+    },
+    {
+      "path": "iOS/Bluff City Cup/MatchScorecardViewControllerNew.swift",
+      "purpose": "Landscape scorecard for a single match; hole-by-hole grid, win probabilities chart",
+      "when_to_open": "Match detail view, probability chart, landscape layout"
+    },
+    {
+      "path": "iOS/Bluff City Cup/CommishSettingsViewController.swift",
+      "purpose": "Commissioner-only settings; manage players, matches, tournament config, delete options",
+      "when_to_open": "Admin features, tournament setup, player/match management"
+    },
+    {
+      "path": "iOS/Bluff City Cup/HoleMapViewController.swift",
+      "purpose": "GPS map showing current hole location",
+      "when_to_open": "Map/location features, CoreLocation usage"
+    }
+  ],
+  "backend_read_endpoints": [
+    {
+      "path": "/var/www/html/bluffcitycup/tournament.php",
+      "purpose": "GET tournaments; ?tournament=NAME for one, no param for all",
+      "when_to_open": "Tournament data fetching, commissioner/password fields"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/matches.php",
+      "purpose": "GET matches for a tournament; ?tournament=NAME",
+      "when_to_open": "Match list fetching, match data structure"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/players.php",
+      "purpose": "GET players; ?tournament=NAME or +?player=NAME for one player",
+      "when_to_open": "Player list, player lookup"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/scores.php",
+      "purpose": "GET hole scores for a tournament; ?tournament=NAME",
+      "when_to_open": "Score data, hole results"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/rounds.php",
+      "purpose": "GET rounds with course assignments; ?tournament=NAME",
+      "when_to_open": "Round-course mapping"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/holes.php",
+      "purpose": "GET all holes (all courses); no params",
+      "when_to_open": "Hole data, par/handicap/GPS"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/courses.php",
+      "purpose": "GET all courses with slope/rating/par; no params",
+      "when_to_open": "Course metadata"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/scorekeeper_matches.php",
+      "purpose": "GET matches for a scorekeeper; ?tournament=NAME&scorekeeper=NAME",
+      "when_to_open": "Scorekeeper login validation"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/player_in_match.php",
+      "purpose": "Check if player is in current (incomplete) match; ?tournament=NAME&player=NAME",
+      "when_to_open": "Player login validation"
+    }
+  ],
+  "backend_write_endpoints": [
+    {
+      "path": "/var/www/html/bluffcitycup/update_tournament.php",
+      "purpose": "UPSERT tournament record; all tournament settings as GET params",
+      "when_to_open": "Tournament creation/update logic"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/update_matches.php",
+      "purpose": "UPSERT match; includes player assignments, score, completion status",
+      "when_to_open": "Match create/update, score save, completion flow"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/update_scores.php",
+      "purpose": "UPSERT per-hole score; ?tournament&player&round&course&hole&actualscore",
+      "when_to_open": "Individual hole score save"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/update_players.php",
+      "purpose": "UPSERT player; ?tournament&name&team&handicap",
+      "when_to_open": "Add/edit player"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/update_rounds.php",
+      "purpose": "UPSERT round-course assignment",
+      "when_to_open": "Round setup, course assignment"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/update_holes.php",
+      "purpose": "UPSERT hole data (par, handicap, length, GPS)",
+      "when_to_open": "Course creation, hole editing"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/update_courses.php",
+      "purpose": "UPSERT course master record (slope stored in 'lat' param — quirk)",
+      "when_to_open": "Course creation"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/add_token.php",
+      "purpose": "Store APNs device token; ?token=TOKEN&username=NAME",
+      "when_to_open": "Push notification registration"
+    }
+  ],
+  "backend_delete_endpoints": [
+    {
+      "path": "/var/www/html/bluffcitycup/delete_matches.php",
+      "purpose": "Delete all matches for a tournament",
+      "when_to_open": "Bulk match deletion (commissioner reset)"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/delete_match.php",
+      "purpose": "Delete single match by tournament/round/group/match",
+      "when_to_open": "Individual match deletion"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/delete_scores.php",
+      "purpose": "Delete all scores for a tournament",
+      "when_to_open": "Score reset"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/delete_score.php",
+      "purpose": "Delete single hole score",
+      "when_to_open": "Score correction"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/delete_player.php",
+      "purpose": "Delete a player from tournament",
+      "when_to_open": "Player removal"
+    }
+  ],
+  "backend_special": [
+    {
+      "path": "/var/www/html/bluffcitycup/api.php",
+      "purpose": "Single mega-endpoint for history website; returns bcc_match_results, yearOutcomes, matchCourses, holes, scores, playerHandicaps, coursesMeta, tournamentSettings, matchSummaries, playerBios, playerPictures",
+      "when_to_open": "History website data, AI-generated content, all reporting tables"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/powerrankings/api.php",
+      "purpose": "Returns bcc_power_rankings + user data for power rankings website",
+      "when_to_open": "Power rankings feature"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/match_probabilities/match_probabilities.php",
+      "purpose": "GET win probabilities per hole; ?tournament&round&match",
+      "when_to_open": "Match prediction chart in iOS scorecard view"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/server.py",
+      "purpose": "Python Flask APNs push notification broadcaster; POST /send-notification {title, message}",
+      "when_to_open": "Push notification system, APNs auth, token management"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/check_create_password.php",
+      "purpose": "Validates tournament creation password against passwords table",
+      "when_to_open": "Tournament creation gate"
+    },
+    {
+      "path": "/var/www/html/bluffcitycup/upsert_user.php",
+      "purpose": "Create/update user profile (identifier, first/last name, email)",
+      "when_to_open": "User registration/profile"
+    }
+  ]
+}

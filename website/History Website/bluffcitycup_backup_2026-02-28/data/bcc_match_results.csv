@@ -1,0 +1,405 @@
+id,player1,player2,player3,player4,team,round,match,year,format,win_or_loss,points,score
+1,Mac Plosser,Kevin Rea,,,Red,1,1,2015,Best Ball,Win,1.0,3&1
+2,Sam Moody,Louis Amagliani,,,Blue,1,1,2015,Best Ball,Loss,0.0,3&1
+3,Ryan Quinn,Ryan Burgett,,,Red,1,2,2015,Best Ball,Win,1.0,1 UP
+4,William Harris,Michael Edwards,,,Blue,1,2,2015,Best Ball,Loss,0.0,1 UP
+5,Brandon Byrd,Reid Wesson,,,Red,1,3,2015,Best Ball,Loss,0.0,4&3
+6,John Irvine,Ross Montague,,,Blue,1,3,2015,Best Ball,Win,1.0,4&3
+7,Mac Plosser,Ryan Quinn,,,Red,2,1,2015,Mod. Alt. Shot,Tie,0.5,AS
+8,William Harris,Louis Amagliani,,,Blue,2,1,2015,Mod. Alt. Shot,Tie,0.5,AS
+9,Brandon Byrd,Kevin Rea,,,Red,2,2,2015,Mod. Alt. Shot,Win,1.0,3&2
+10,Ross Montague,Michael Edwards,,,Blue,2,2,2015,Mod. Alt. Shot,Loss,0.0,3&2
+11,John Irvine,Sam Moody,,,Blue,2,3,2015,Mod. Alt. Shot,Win,1.0,3&2
+12,Ryan Burgett,Reid Wesson,,,Red,2,3,2015,Mod. Alt. Shot,Loss,0.0,3&2
+13,Brandon Byrd,Reid Wesson,,,Red,3,1,2015,Best Ball,Win,1.0,3&2
+14,John Irvine,Ross Montague,,,Blue,3,1,2015,Best Ball,Loss,0.0,3&2
+15,Ryan Quinn,Kyle Cummins,,,Red,3,2,2015,Best Ball,Win,1.0,2&1
+16,William Harris,Michael Edwards,,,Blue,3,2,2015,Best Ball,Loss,0.0,2&1
+17,Mac Plosser,Kevin Rea,,,Red,3,3,2015,Best Ball,Win,1.0,4&2
+18,Sam Moody,Louis Amagliani,,,Blue,3,3,2015,Best Ball,Loss,0.0,4&2
+19,Brandon Byrd,,,,Red,4,1,2015,Match,Loss,0.0,2&1
+20,Ross Montague,,,,Blue,4,1,2015,Match,Win,1.0,2&1
+21,Ryan Quinn,,,,Red,4,2,2015,Match,Win,1.0,3&2
+22,John Irvine,,,,Blue,4,2,2015,Match,Loss,0.0,3&2
+23,Kyle Cummins,,,,Red,4,3,2015,Match,Win,1.0,5&4
+24,Michael Edwards,,,,Blue,4,3,2015,Match,Loss,0.0,5&4
+25,Reid Wesson,,,,Red,3,4,2015,Match,Win,1.0,4&3
+26,Sam Moody,,,,Blue,3,4,2015,Match,Loss,0.0,4&3
+27,Mac Plosser,,,,Red,3,5,2015,Match,Win,1.0,5&4
+28,William Harris,,,,Blue,3,5,2015,Match,Loss,0.0,5&4
+29,Kevin Rea,,,,Red,3,6,2015,Match,Tie,0.5,AS
+30,Louis Amagliani,,,,Blue,3,6,2015,Match,Tie,0.5,AS
+31,Ryan Quinn,Brandon Byrd,Jay Edwards,Kevin Rea,Red,1,1,2016,4-Man Scramble,Loss,0.0,2&1
+32,Luke Jensen,William Harris,John Irvine,Louis Amagliani,Blue,1,1,2016,4-Man Scramble,Win,2.0,2&1
+33,Hunter Meriwether,Ross Montague,Drew Hursey,Daniel Wynn,Blue,1,2,2016,4-Man Scramble,Loss,0.0,2 UP
+34,Mac Plosser,Kyle Cummins,Reid Wesson,Owen Mercer,Red,1,2,2016,4-Man Scramble,Win,,2 UP
+35,Ryan Quinn,Jay Edwards,,,Red,2,1,2016,2-Man Scramble,Loss,0.0,5&3
+36,William Harris,John Irvine,,,Blue,2,1,2016,2-Man Scramble,Win,1.0,5&3
+37,Mac Plosser,Kevin Rea,,,Red,2,2,2016,2-Man Scramble,Win,1.0,4&3
+38,Daniel Wynn,Louis Amagliani,,,Blue,2,2,2016,2-Man Scramble,Loss,0.0,4&3
+39,Kyle Cummins,Owen Mercer,,,Red,2,3,2016,2-Man Scramble,Loss,0.0,3&2
+40,Luke Jensen,Hunter Meriwether,,,Blue,2,3,2016,2-Man Scramble,Win,1.0,3&2
+41,Brandon Byrd,Reid Wesson,,,Red,2,4,2016,2-Man Scramble,Loss,0.0,1 UP
+42,Ross Montague,Drew Hursey,,,Blue,2,4,2016,2-Man Scramble,Win,1.0,1 UP
+43,Mac Plosser,Jay Edwards,,,Red,3,1,2016,Mod. Alt. Shot,Win,1.0,3&2
+44,Luke Jensen,Ross Montague,,,Blue,3,1,2016,Mod. Alt. Shot,Loss,0.0,3&2
+45,Reid Wesson,Kevin Rea,,,Red,3,2,2016,Mod. Alt. Shot,Loss,0.0,3&2
+46,Drew Hursey,Daniel Wynn,,,Blue,3,2,2016,Mod. Alt. Shot,Win,1.0,3&2
+47,Ryan Quinn,Kyle Cummins,,,Red,3,3,2016,Mod. Alt. Shot,Loss,0.0,2 UP
+48,Hunter Meriwether,Louis Amagliani,,,Blue,3,3,2016,Mod. Alt. Shot,Win,1.0,2 UP
+49,Brandon Byrd,Owen Mercer,,,Red,3,4,2016,Mod. Alt. Shot,Tie,0.5,AS
+50,William Harris,John Irvine,,,Blue,3,4,2016,Mod. Alt. Shot,Tie,0.5,AS
+51,Mac Plosser,,,,Red,4,1,2016,Match,Win,1.0,2&1
+52,Luke Jensen,,,,Blue,4,1,2016,Match,Loss,0.0,2&1
+53,Reid Wesson,,,,Red,4,2,2016,Match,Loss,0.0,4&2
+54,Ross Montague,,,,Blue,4,2,2016,Match,Win,1.0,4&2
+55,Jay Edwards,,,,Red,4,3,2016,Match,Win,1.0,5&4
+56,Daniel Wynn,,,,Blue,4,3,2016,Match,Loss,0.0,5&4
+57,Kevin Rea,,,,Red,4,4,2016,Match,Loss,0.0,3&2
+58,Louis Amagliani,,,,Blue,4,4,2016,Match,Win,1.0,3&2
+59,Kyle Cummins,,,,Red,4,5,2016,Match,Loss,0.0,3&2
+60,John Irvine,,,,Blue,4,5,2016,Match,Win,1.0,3&2
+61,Owen Mercer,,,,Red,4,6,2016,Match,Loss,0.0,3&2
+62,Drew Hursey,,,,Blue,4,6,2016,Match,Win,1.0,3&2
+63,Ryan Quinn,,,,Red,4,7,2016,Match,Win,1.0,2 UP
+64,William Harris,,,,Blue,4,7,2016,Match,Loss,0.0,2 UP
+65,Brandon Byrd,,,,Red,4,8,2016,Match,Win,1.0,2&1
+66,Hunter Meriwether,,,,Blue,4,8,2016,Match,Loss,0.0,2&1
+67,Tyler Blocker,Brandon Byrd,,,Red,1,1,2017,2-Man Scramble,Tie,0.5,AS
+68,John Irvine,Ross Montague,,,Blue,1,1,2017,2-Man Scramble,Tie,0.5,AS
+69,Mac Plosser,Kevin Rea,,,Red,1,2,2017,2-Man Scramble,Loss,0.0,4&3
+70,William Harris,Luke Jensen,,,Blue,1,2,2017,2-Man Scramble,Win,1.0,4&3
+71,Ryan Quinn,Kyle Cummins,,,Red,1,3,2017,2-Man Scramble,Tie,0.5,AS
+72,Daniel Wynn,Louis Amagliani,,,Blue,1,3,2017,2-Man Scramble,Tie,0.5,AS
+73,Owen Mercer,Jay Edwards,,,Red,1,4,2017,2-Man Scramble,Loss,0.0,4&2
+223,Hunter Meriwether,,,,Blue,4,7,2020,Match,Loss,0.0,3&2
+74,Drew Hursey,Hunter Meriwether,,,Blue,1,4,2017,2-Man Scramble,Win,1.0,4&2
+75,Tyler Blocker,Kevin Rea,,,Red,2,1,2017,Mod. Alt. Shot,Loss,0.0,2&1
+76,Luke Jensen,Ross Montague,,,Blue,2,1,2017,Mod. Alt. Shot,Win,1.0,2&1
+77,Mac Plosser,Kyle Cummins,,,Red,2,2,2017,Mod. Alt. Shot,Win,1.0,3&2
+78,William Harris,Daniel Wynn,,,Blue,2,2,2017,Mod. Alt. Shot,Loss,0.0,3&2
+79,Ryan Quinn,Jay Edwards,,,Red,2,3,2017,Mod. Alt. Shot,Loss,0.0,2&1
+80,John Irvine,Drew Hursey,,,Blue,2,3,2017,Mod. Alt. Shot,Win,1.0,2&1
+81,Brandon Byrd,Owen Mercer,,,Red,2,4,2017,Mod. Alt. Shot,Win,1.0,2 UP
+82,Hunter Meriwether,Louis Amagliani,,,Blue,2,4,2017,Mod. Alt. Shot,Loss,0.0,2 UP
+83,Mac Plosser,Jay Edwards,,,Red,3,1,2017,Best Ball,Win,1.0,4&2
+84,Luke Jensen,Daniel Wynn,,,Blue,3,1,2017,Best Ball,Loss,0.0,4&2
+85,Brandon Byrd,Owen Mercer,,,Red,3,2,2017,Best Ball,Loss,0.0,1 UP
+86,Drew Hursey,Hunter Meriwether,,,Blue,3,2,2017,Best Ball,Win,1.0,1 UP
+87,Ryan Quinn,Kyle Cummins,,,Red,3,3,2017,Best Ball,Win,1.0,4&2
+88,William Harris,Louis Amagliani,,,Blue,3,3,2017,Best Ball,Loss,0.0,4&2
+89,Tyler Blocker,Kevin Rea,,,Red,3,4,2017,Best Ball,Loss,0.0,4&2
+90,John Irvine,Ross Montague,,,Blue,3,4,2017,Best Ball,Win,1.0,4&2
+91,Mac Plosser,,,,Red,4,1,2017,Match,Win,1.0,2&1
+92,Luke Jensen,,,,Blue,4,1,2017,Match,Loss,0.0,2&1
+93,Jay Edwards,,,,Red,4,2,2017,Match,Win,1.0,3&2
+94,Daniel Wynn,,,,Blue,4,2,2017,Match,Loss,0.0,3&2
+95,Owen Mercer,,,,Red,4,3,2017,Match,Loss,0.0,2&1
+96,Drew Hursey,,,,Blue,4,3,2017,Match,Win,1.0,2&1
+97,Kyle Cummins,,,,Red,4,4,2017,Match,Tie,0.5,Tie
+98,Hunter Meriwether,,,,Blue,4,4,2017,Match,Tie,0.5,Tie
+99,Brandon Byrd,,,,Red,4,5,2017,Match,Win,1.0,3&2
+100,Ross Montague,,,,Blue,4,5,2017,Match,Loss,0.0,3&2
+101,Kevin Rea,,,,Red,4,6,2017,Match,Loss,0.0,2&1
+102,Louis Amagliani,,,,Blue,4,6,2017,Match,Win,1.0,2&1
+103,Tyler Blocker,,,,Red,4,7,2017,Match,Loss,0.0,2 UP
+104,William Harris,,,,Blue,4,7,2017,Match,Win,1.0,2 UP
+105,Ryan Quinn,,,,Red,4,8,2017,Match,Loss,0.0,1 UP
+106,John Irvine,,,,Blue,4,8,2017,Match,Win,1.0,1 UP
+107,William Harris,John Irvine,,,Blue,1,1,2018,2-Man Scramble,Tie,0.5,Tie
+108,Tyler Blocker,Owen Mercer,,,Red,1,1,2018,2-Man Scramble,Tie,0.5,Tie
+109,Luke Jensen,Hunter Meriwether,,,Blue,1,2,2018,2-Man Scramble,Win,1.0,1 UP
+110,Mac Plosser,Kyle Cummins,,,Red,1,2,2018,2-Man Scramble,Loss,0.0,1 UP
+111,Drew Hursey,Ross Montague,,,Blue,1,3,2018,2-Man Scramble,Win,1.0,1 UP
+112,Brandon Byrd,Jay Edwards,,,Red,1,3,2018,2-Man Scramble,Loss,0.0,1 UP
+113,Daniel Wynn,Louis Amagliani,,,Blue,1,4,2018,2-Man Scramble,Win,1.0,2&1
+114,Reid Wesson,Kevin Rea,,,Red,1,4,2018,2-Man Scramble,Loss,0.0,2&1
+115,William Harris,Luke Jensen,,,Blue,2,1,2018,Mod. Alt. Shot,Loss,0.0,2&1
+116,Tyler Blocker,Jay Edwards,,,Red,2,1,2018,Mod. Alt. Shot,Win,1.0,2&1
+117,John Irvine,Ross Montague,,,Blue,2,2,2018,Mod. Alt. Shot,Loss,0.0,2&1
+118,Mac Plosser,Kyle Cummins,,,Red,2,2,2018,Mod. Alt. Shot,Win,1.0,2&1
+119,Hunter Meriwether,Louis Amagliani,,,Blue,2,3,2018,Mod. Alt. Shot,Win,1.0,2&1
+120,Owen Mercer,Kevin Rea,,,Red,2,3,2018,Mod. Alt. Shot,Loss,0.0,2&1
+121,Drew Hursey,Daniel Wynn,,,Blue,2,4,2018,Mod. Alt. Shot,Tie,0.5,Tie
+122,Brandon Byrd,Reid Wesson,,,Red,2,4,2018,Mod. Alt. Shot,Tie,0.5,Tie
+123,John Irvine,Hunter Meriwether,,,Blue,3,1,2018,Best Ball,Win,1.0,2&1
+124,Brandon Byrd,Kevin Rea,,,Red,3,1,2018,Best Ball,Loss,0.0,2&1
+125,Daniel Wynn,Louis Amagliani,,,Blue,3,2,2018,Best Ball,Win,1.0,3&2
+126,Mac Plosser,Jay Edwards,,,Red,3,2,2018,Best Ball,Loss,0.0,3&2
+127,Drew Hursey,Ross Montague,,,Blue,3,3,2018,Best Ball,Win,1.0,4&3
+128,Tyler Blocker,Kyle Cummins,,,Red,3,3,2018,Best Ball,Loss,0.0,4&3
+129,William Harris,Luke Jensen,,,Blue,3,4,2018,Best Ball,Win,1.0,2 UP
+130,Owen Mercer,Reid Wesson,,,Red,3,4,2018,Best Ball,Loss,0.0,2 UP
+131,Jay Edwards,,,,Red,4,1,2018,Match,Win,1.0,1 UP
+132,Drew Hursey,,,,Blue,4,1,2018,Match,Loss,0.0,1 UP
+133,Ross Montague,,,,Blue,4,2,2018,Match,Win,1.0,1 UP
+134,Owen Mercer,,,,Red,4,2,2018,Match,Loss,0.0,1 UP
+135,Hunter Meriwether,,,,Blue,4,3,2018,Match,Win,1.0,1 UP
+136,Kyle Cummins,,,,Red,4,3,2018,Match,Loss,0.0,1 UP
+137,William Harris,,,,Blue,4,4,2018,Match,Win,1.0,2&1
+138,Tyler Blocker,,,,Red,4,4,2018,Match,Loss,0.0,2&1
+139,Luke Jensen,,,,Blue,4,5,2018,Match,Win,1.0,3&2
+140,Brandon Byrd,,,,Red,4,5,2018,Match,Loss,0.0,3&2
+141,John Irvine,,,,Blue,4,6,2018,Match,Win,1.0,1 UP
+142,Mac Plosser,,,,Red,4,6,2018,Match,Loss,0.0,1 UP
+143,Daniel Wynn,,,,Blue,4,7,2018,Match,Win,1.0,4&2
+144,Reid Wesson,,,,Red,4,7,2018,Match,Loss,0.0,4&2
+145,Louis Amagliani,,,,Blue,4,8,2018,Match,Win,1.0,1 UP
+146,Kevin Rea,,,,Red,4,8,2018,Match,Loss,0.0,1 UP
+147,Daniel Wynn,Louis Amagliani,,,Blue,1,1,2019,2-Man Scramble,Loss,0.0,3 & 2
+148,Tyler Blocker,Owen Mercer,,,Red,1,1,2019,2-Man Scramble,Win,1.0,3 & 2
+149,William Harris,Ross Montague,,,Blue,1,2,2019,2-Man Scramble,Tie,0.5,Tie
+150,Mac Plosser,Jay Edwards,,,Red,1,2,2019,2-Man Scramble,Tie,0.5,Tie
+151,John Irvine,Luke Jensen,,,Blue,1,3,2019,2-Man Scramble,Win,1.0,1 UP
+152,Brandon Byrd,Ryan Quinn,,,Red,1,3,2019,2-Man Scramble,Loss,0.0,1 UP
+153,Drew Hursey,Hunter Meriwether,,,Blue,1,4,2019,2-Man Scramble,Tie,0.5,Tie
+154,Kyle Cummins,Kevin Rea,,,Red,1,4,2019,2-Man Scramble,Tie,0.5,Tie
+155,William Harris,Daniel Wynn,,,Blue,2,1,2019,Mod. Alt. Shot,Loss,0.0,3&2
+156,Tyler Blocker,Owen Mercer,,,Red,2,1,2019,Mod. Alt. Shot,Win,1.0,3&2
+157,John Irvine,Ross Montague,,,Blue,2,2,2019,Mod. Alt. Shot,Loss,0.0,3&1
+158,Brandon Byrd,Jay Edwards,,,Red,2,2,2019,Mod. Alt. Shot,Win,1.0,3&1
+159,Hunter Meriwether,Louis Amagliani,,,Blue,2,3,2019,Mod. Alt. Shot,Win,1.0,3&1
+160,Ryan Quinn,Kevin Rea,,,Red,2,3,2019,Mod. Alt. Shot,Loss,0.0,3&1
+161,Luke Jensen,Drew Hursey,,,Blue,2,4,2019,Mod. Alt. Shot,Loss,0.0,5&3
+162,Mac Plosser,Kyle Cummins,,,Red,2,4,2019,Mod. Alt. Shot,Win,1.0,5&3
+163,William Harris,Luke Jensen,,,Blue,3,1,2019,Best Ball,Win,1.0,2&1
+164,Mac Plosser,Brandon Byrd,,,Red,3,1,2019,Best Ball,Loss,0.0,2&1
+165,John Irvine,Daniel Wynn,,,Blue,3,2,2019,Best Ball,Win,1.0,2 UP
+166,Tyler Blocker,Kevin Rea,,,Red,3,2,2019,Best Ball,Loss,0.0,2 UP
+167,Ross Montague,Louis Amagliani,,,Blue,3,3,2019,Best Ball,Tie,0.5,Tie
+168,Jay Edwards,Owen Mercer,,,Red,3,3,2019,Best Ball,Tie,0.5,Tie
+169,Drew Hursey,Hunter Meriwether,,,Blue,3,4,2019,Best Ball,Loss,0.0,2&1
+170,Ryan Quinn,Kyle Cummins,,,Red,3,4,2019,Best Ball,Win,1.0,2&1
+171,William Harris,,,,Blue,4,1,2019,Match,Loss,0.0,2&1
+172,Tyler Blocker,,,,Red,4,1,2019,Match,Win,1.0,2&1
+173,Luke Jensen,,,,Blue,4,2,2019,Match,Loss,0.0,2&1
+174,Brandon Byrd,,,,Red,4,2,2019,Match,Win,1.0,2&1
+175,John Irvine,,,,Blue,4,3,2019,Match,Loss,0.0,1 UP
+176,Mac Plosser,,,,Red,4,3,2019,Match,Win,1.0,1 UP
+177,Louis Amagliani,,,,Blue,4,4,2019,Match,Win,1.0,5&4
+178,Kevin Rea,,,,Red,4,4,2019,Match,Loss,0.0,5&4
+179,Ross Montague,,,,Blue,4,5,2019,Match,Loss,0.0,3&1
+180,Ryan Quinn,,,,Red,4,5,2019,Match,Win,1.0,3&1
+181,Daniel Wynn,,,,Blue,4,6,2019,Match,Loss,0.0,2&1
+182,Kyle Cummins,,,,Red,4,6,2019,Match,Win,1.0,2&1
+183,Drew Hursey,,,,Blue,4,7,2019,Match,Win,1.0,4&2
+184,Jay Edwards,,,,Red,4,7,2019,Match,Loss,0.0,4&2
+185,Hunter Meriwether,,,,Blue,4,8,2019,Match,Loss,0.0,3&1
+186,Owen Mercer,,,,Red,4,8,2019,Match,Win,1.0,3&1
+187,Luke Jensen,John Irvine,,,Blue,1,1,2020,2-Man Scramble,Loss,0.0,2 UP
+188,Brandon Byrd,Jay Edwards,,,Red,1,1,2020,2-Man Scramble,Win,1.0,2 UP
+189,Hunter Meriwether,Daniel Wynn,,,Blue,1,2,2020,2-Man Scramble,Loss,0.0,4&3
+190,Neely Mallory,Kyle Cummins,,,Red,1,2,2020,2-Man Scramble,Win,1.0,4&3
+191,Ross Montague,Drew Hursey,,,Blue,1,3,2020,2-Man Scramble,Loss,0.0,3&2
+192,Mac Plosser,Ryan Quinn,,,Red,1,3,2020,2-Man Scramble,Win,1.0,3&2
+193,William Harris,Louis Amagliani,,,Blue,1,4,2020,2-Man Scramble,Win,1.0,2&1
+194,Owen Mercer,Kevin Rea,,,Red,1,4,2020,2-Man Scramble,Loss,0.0,2&1
+195,John Irvine,Daniel Wynn,,,Blue,2,1,2020,Mod. Alt. Shot,Win,1.0,4&3
+196,Brandon Byrd,Jay Edwards,,,Red,2,1,2020,Mod. Alt. Shot,Loss,0.0,4&3
+197,Hunter Meriwether,Louis Amagliani,,,Blue,2,2,2020,Mod. Alt. Shot,Loss,0.0,1 UP
+198,Mac Plosser,Kyle Cummins,,,Red,2,2,2020,Mod. Alt. Shot,Win,1.0,1 UP
+199,Ross Montague,Drew Hursey,,,Blue,2,3,2020,Mod. Alt. Shot,Tie,0.5,Tie
+200,Neely Mallory,Kevin Rea,,,Red,2,3,2020,Mod. Alt. Shot,Tie,0.5,Tie
+201,William Harris,Luke Jensen,,,Blue,2,4,2020,Mod. Alt. Shot,Tie,0.5,Tie
+202,Ryan Quinn,Owen Mercer,,,Red,2,4,2020,Mod. Alt. Shot,Tie,0.5,Tie
+203,William Harris,John Irvine,,,Blue,3,1,2020,Best Ball,Loss,0.0,3&2
+204,Ryan Quinn,Owen Mercer,,,Red,3,1,2020,Best Ball,Win,1.0,3&2
+205,Drew Hursey,Hunter Meriwether,,,Blue,3,2,2020,Best Ball,Loss,0.0,1 UP
+206,Jay Edwards,Kevin Rea,,,Red,3,2,2020,Best Ball,Win,1.0,1 UP
+207,Luke Jensen,Ross Montague,,,Blue,3,3,2020,Best Ball,Loss,0.0,2&1
+208,Neely Mallory,Kyle Cummins,,,Red,3,3,2020,Best Ball,Win,1.0,2&1
+209,Daniel Wynn,Louis Amagliani,,,Blue,3,4,2020,Best Ball,Win,1.0,2&1
+210,Mac Plosser,Brandon Byrd,,,Red,3,4,2020,Best Ball,Loss,0.0,2&1
+211,John Irvine,,,,Blue,4,1,2020,Match,Win,1.0,2 UP
+212,Ryan Quinn,,,,Red,4,1,2020,Match,Loss,0.0,2 UP
+213,Drew Hursey,,,,Blue,4,2,2020,Match,Tie,0.5,Tie
+214,Owen Mercer,,,,Red,4,2,2020,Match,Tie,0.5,Tie
+215,Ross Montague,,,,Blue,4,3,2020,Match,Win,1.0,2&1
+216,Jay Edwards,,,,Red,4,3,2020,Match,Loss,0.0,2&1
+217,Daniel Wynn,,,,Blue,4,4,2020,Match,Loss,0.0,2&1
+218,Kyle Cummins,,,,Red,4,4,2020,Match,Win,1.0,2&1
+219,William Harris,,,,Blue,4,5,2020,Match,Loss,0.0,3&1
+220,Mac Plosser,,,,Red,4,5,2020,Match,Win,1.0,3&1
+221,Luke Jensen,,,,Blue,4,6,2020,Match,Loss,0.0,3&2
+222,Brandon Byrd,,,,Red,4,6,2020,Match,Win,1.0,3&2
+224,Neely Mallory,,,,Red,4,7,2020,Match,Win,1.0,3&2
+225,Louis Amagliani,,,,Blue,4,8,2020,Match,Tie,0.5,Tie
+226,Kevin Rea,,,,Red,4,8,2020,Match,Tie,0.5,Tie
+227,Drew Hursey,Daniel Wynn,,,Blue,1,1,2021,2-Man Scramble,Loss,0.0,2&1
+228,Brandon Byrd,Jay Edwards,,,Red,1,1,2021,2-Man Scramble,Win,1.0,2&1
+229,William Harris,Luke Jensen,,,Blue,1,2,2021,2-Man Scramble,Loss,0.0,2&1
+230,Neely Mallory,Kyle Cummins,,,Red,1,2,2021,2-Man Scramble,Win,1.0,2&1
+231,John Irvine,Ross Montague,,,Blue,1,3,2021,2-Man Scramble,Tie,0.5,Tie
+232,Mac Plosser,Owen Mercer,,,Red,1,3,2021,2-Man Scramble,Tie,0.5,Tie
+233,Daniel Wynn,Louis Amagliani,,,Blue,1,4,2021,2-Man Scramble,Win,1.0,3&1
+234,Ryan Quinn,Kevin Rea,,,Red,1,4,2021,2-Man Scramble,Loss,0.0,3&1
+235,Luke Jensen,Hunter Meriwether,,,Blue,2,1,2021,Mod. Alt. Shot,Loss,0.0,5&3
+236,Jay Edwards,Neely Mallory,,,Red,2,1,2021,Mod. Alt. Shot,Win,1.0,5&3
+237,William Harris,Daniel Wynn,,,Blue,2,2,2021,Mod. Alt. Shot,Tie,0.5,Tie
+238,Mac Plosser,Kyle Cummins,,,Red,2,2,2021,Mod. Alt. Shot,Tie,0.5,Tie
+239,Ross Montague,Louis Amagliani,,,Blue,2,3,2021,Mod. Alt. Shot,Win,1.0,2&1
+240,Brandon Byrd,Kevin Rea,,,Red,2,3,2021,Mod. Alt. Shot,Loss,0.0,2&1
+241,John Irvine,Drew Hursey,,,Blue,2,4,2021,Mod. Alt. Shot,Loss,0.0,2&1
+242,Ryan Quinn,Owen Mercer,,,Red,2,4,2021,Mod. Alt. Shot,Win,1.0,2&1
+243,John Irvine,Hunter Meriwether,,,Blue,3,1,2021,Best Ball,Loss,0.0,1 UP
+244,Neely Mallory,Kyle Cummins,,,Red,3,1,2021,Best Ball,Win,1.0,1 UP
+245,William Harris,Luke Jensen,,,Blue,3,2,2021,Best Ball,Loss,0.0,2&1
+246,Mac Plosser,Brandon Byrd,,,Red,3,2,2021,Best Ball,Win,1.0,2&1
+247,Daniel Wynn,Louis Amagliani,,,Blue,3,3,2021,Best Ball,Loss,0.0,3&1
+248,Jay Edwards,Owen Mercer,,,Red,3,3,2021,Best Ball,Win,1.0,3&1
+249,Ross Montague,Drew Hursey,,,Blue,3,4,2021,Best Ball,Win,1.0,1 UP
+250,Ryan Quinn,Kevin Rea,,,Red,3,4,2021,Best Ball,Loss,0.0,1 UP
+251,Luke Jensen,,,,Blue,4,1,2021,Match,Loss,0.0,3&2
+252,Neely Mallory,,,,Red,4,1,2021,Match,Win,1.0,3&2
+253,Hunter Meriwether,,,,Blue,4,2,2021,Match,Win,1.0,1 UP
+254,Kyle Cummins,,,,Red,4,2,2021,Match,Loss,0.0,1 UP
+255,Louis Amagliani,,,,Blue,4,3,2021,Match,Loss,0.0,2&1
+256,Mac Plosser,,,,Red,4,3,2021,Match,Win,1.0,2&1
+257,Drew Hursey,,,,Blue,4,4,2021,Match,Loss,0.0,3&2
+258,Brandon Byrd,,,,Red,4,4,2021,Match,Win,1.0,3&2
+259,Daniel Wynn,,,,Blue,4,5,2021,Match,Win,1.0,1 UP
+260,Jay Edwards,,,,Red,4,5,2021,Match,Loss,0.0,1 UP
+261,John Irvine,,,,Blue,4,6,2021,Match,Win,1.0,5&3
+262,Kevin Rea,,,,Red,4,6,2021,Match,Loss,0.0,5&3
+263,William Harris,,,,Blue,4,7,2021,Match,Loss,0.0,2&1
+264,Owen Mercer,,,,Red,4,7,2021,Match,Win,1.0,2&1
+265,Ross Montague,,,,Blue,4,8,2021,Match,Tie,0.5,Tie
+266,Ryan Quinn,,,,Red,4,8,2021,Match,Tie,0.5,Tie
+267,Drew Hursey,Daniel Wynn,,,Blue,1,1,2022,Best Ball,Loss,0.0,6&5
+268,Brandon Byrd,Kevin Rea,,,Red,1,1,2022,Best Ball,Win,1.0,6&5
+269,Ross Montague,Louis Amagliani,,,Blue,1,2,2022,Best Ball,Loss,0.0,1 UP
+270,Ryan Quinn,Jay Edwards,,,Red,1,2,2022,Best Ball,Win,1.0,1 UP
+271,Luke Jensen,Hunter Meriwether,,,Blue,1,3,2022,Best Ball,Win,1.0,1 UP
+272,Tyler Blocker,Owen Mercer,,,Red,1,3,2022,Best Ball,Loss,0.0,1 UP
+273,William Harris,John Irvine,,,Blue,1,4,2022,Best Ball,Loss,0.0,6&5
+274,Mac Plosser,Kyle Cummins,,,Red,1,4,2022,Best Ball,Win,1.0,6&5
+275,Louis Amagliani,Daniel Wynn,,,Blue,2,1,2022,2-Man Scramble,Loss,0.0,1 UP
+276,Brandon Byrd,Jay Edwards,,,Red,2,1,2022,2-Man Scramble,Win,1.0,1 UP
+277,Luke Jensen,Ross Montague,,,Blue,2,2,2022,2-Man Scramble,Win,1.0,6&5
+278,Owen Mercer,Kyle Cummins,,,Red,2,2,2022,2-Man Scramble,Loss,0.0,6&5
+279,Drew Hursey,Hunter Meriwether,,,Blue,2,3,2022,2-Man Scramble,Loss,0.0,5&3
+280,Tyler Blocker,Kevin Rea,,,Red,2,3,2022,2-Man Scramble,Win,1.0,5&3
+281,William Harris,John Irvine,,,Blue,2,4,2022,2-Man Scramble,Tie,0.5,Tie
+282,Mac Plosser,Ryan Quinn,,,Red,2,4,2022,2-Man Scramble,Tie,0.5,Tie
+283,Luke Jensen,,,,Blue,3,1,2022,Match,Loss,0.0,6&5
+284,Mac Plosser,,,,Red,3,1,2022,Match,Win,1.0,6&5
+285,John Irvine,,,,Blue,3,2,2022,Match,Win,1.0,1 UP
+286,Brandon Byrd,,,,Red,3,2,2022,Match,Loss,0.0,1 UP
+287,Drew Hursey,,,,Blue,3,3,2022,Match,Loss,0.0,2&1
+288,Ryan Quinn,,,,Red,3,3,2022,Match,Win,1.0,2&1
+289,Daniel Wynn,,,,Blue,3,4,2022,Match,Loss,0.0,5&3
+290,Owen Mercer,,,,Red,3,4,2022,Match,Win,1.0,5&3
+291,Ross Montague,,,,Blue,3,5,2022,Match,Loss,0.0,2&1
+292,Tyler Blocker,,,,Red,3,5,2022,Match,Win,1.0,2&1
+293,William Harris,,,,Blue,3,6,2022,Match,Tie,0.5,Tie
+294,Jay Edwards,,,,Red,3,6,2022,Match,Tie,0.5,Tie
+295,Louis Amagliani,,,,Blue,3,7,2022,Match,Win,1.0,4&3
+296,Kyle Cummins,,,,Red,3,7,2022,Match,Loss,0.0,4&3
+297,Hunter Meriwether,,,,Blue,3,8,2022,Match,Win,1.0,8&6
+298,Kevin Rea,,,,Red,3,8,2022,Match,Loss,0.0,8&6
+299,Ross Montague,Luke Jensen,,,Blue,1,1,2023,2-Man Scramble,Win,1.0,1 UP
+300,Ryan Quinn,Owen Mercer,,,Red,1,1,2023,2-Man Scramble,Loss,0.0,1 UP
+301,William Harris,Louis Amagliani,,,Blue,1,2,2023,2-Man Scramble,Loss,0.0,4&2
+302,Mac Plosser,Kevin Rea,,,Red,1,2,2023,2-Man Scramble,Win,1.0,4&2
+303,John Irvine,Hunter Meriwether,,,Blue,1,3,2023,2-Man Scramble,Win,1.0,5&4
+304,Allen Bobango,Kyle Cummins,,,Red,1,3,2023,2-Man Scramble,Loss,0.0,5&4
+305,Daniel Wynn,Drew Hursey,,,Blue,1,4,2023,2-Man Scramble,Loss,0.0,1 UP
+306,Brandon Byrd,Jay Edwards,,,Red,1,4,2023,2-Man Scramble,Win,1.0,1 UP
+307,William Harris,Luke Jensen,,,Blue,2,1,2023,Best Ball,Win,1.0,3&2
+308,Ryan Quinn,Owen Mercer,,,Red,2,1,2023,Best Ball,Loss,0.0,3&2
+309,Ross Montague,Drew Hursey,,,Blue,2,2,2023,Best Ball,Loss,0.0,3&1
+310,Mac Plosser,Kyle Cummins,,,Red,2,2,2023,Best Ball,Win,1.0,3&1
+311,John Irvine,Hunter Meriwether,,,Blue,2,3,2023,Best Ball,Loss,0.0,2 UP
+312,Brandon Byrd,Kevin Rea,,,Red,2,3,2023,Best Ball,Win,1.0,2 UP
+313,Daniel Wynn,Louis Amagliani,,,Blue,2,4,2023,Best Ball,Loss,0.0,4&2
+314,Allen Bobango,Jay Edwards,,,Red,2,4,2023,Best Ball,Win,1.0,4&2
+315,Louis Amagliani,,,,Blue,3,1,2023,Match,Loss,0.0,4&2
+316,Kevin Rea,,,,Red,3,1,2023,Match,Win,1.0,4&2
+317,John Irvine,,,,Blue,3,2,2023,Match,Loss,0.0,1 UP
+318,Mac Plosser,,,,Red,3,2,2023,Match,Win,1.0,1 UP
+319,Ross Montague,,,,Blue,3,3,2023,Match,Loss,0.0,1 UP
+320,Owen Mercer,,,,Red,3,3,2023,Match,Win,1.0,1 UP
+321,William Harris,,,,Blue,3,4,2023,Match,Win,1.0,1 UP
+322,Jay Edwards,,,,Red,3,4,2023,Match,Loss,0.0,1 UP
+323,Luke Jensen,,,,Blue,3,5,2023,Match,Loss,0.0,1 UP
+324,Allen Bobango,,,,Red,3,5,2023,Match,Win,1.0,1 UP
+325,Drew Hursey,,,,Blue,3,6,2023,Match,Loss,0.0,3&2
+326,Brandon Byrd,,,,Red,3,6,2023,Match,Win,1.0,3&2
+327,Daniel Wynn,,,,Blue,3,7,2023,Match,Loss,0.0,3&2
+328,Ryan Quinn,,,,Red,3,7,2023,Match,Win,1.0,3&2
+329,Hunter Meriwether,,,,Blue,3,8,2023,Match,Win,1.0,9&8
+330,Kyle Cummins,,,,Red,3,8,2023,Match,Loss,0.0,9&8
+331,John Irvine,Drew Hursey,,,Blue,1,1,2024,Best Ball,Loss,0.0,2 UP
+332,Ryan Quinn,Owen Mercer,,,Red,1,1,2024,Best Ball,Win,1.0,2 UP
+333,William Harris,Luke Jensen,,,Blue,1,2,2024,Best Ball,Win,1.0,2&1
+334,Jay Edwards,Allen Bobango,,,Red,1,2,2024,Best Ball,Loss,0.0,2&1
+335,Ross Montague,Hunter Meriwether,,,Blue,1,3,2024,Best Ball,Win,1.0,3&2
+336,Mac Plosser,Kyle Cummins,,,Red,1,3,2024,Best Ball,Loss,0.0,3&2
+337,Daniel Wynn,Louis Amagliani,,,Blue,1,4,2024,Best Ball,Tie,0.5,Tie
+338,Brandon Byrd,Kevin Rea,,,Red,1,4,2024,Best Ball,Tie,0.5,Tie
+339,Ross Montague,Luke Jensen,,,Blue,2,1,2024,2-Man Scramble,Win,1.0,2 UP
+340,Allen Bobango,Owen Mercer,,,Red,2,1,2024,2-Man Scramble,Loss,0.0,2 UP
+341,William Harris,John Irvine,,,Blue,2,2,2024,2-Man Scramble,Win,1.0,3&2
+342,Brandon Byrd,Jay Edwards,,,Red,2,2,2024,2-Man Scramble,Loss,0.0,3&2
+343,Drew Hursey,Daniel Wynn,,,Blue,2,3,2024,2-Man Scramble,Win,1.0,3&2
+344,Mac Plosser,Kevin Rea,,,Red,2,3,2024,2-Man Scramble,Loss,0.0,3&2
+345,Hunter Meriwether,Louis Amagliani,,,Blue,2,4,2024,2-Man Scramble,Win,1.0,2&1
+346,Ryan Quinn,Kyle Cummins,,,Red,2,4,2024,2-Man Scramble,Loss,0.0,2&1
+347,Luke Jensen,Drew Hursey,,,Blue,3,1,2024,Mod. Alt. Shot,Tie,0.5,Tie
+348,Ryan Quinn,Allen Bobango,,,Red,3,1,2024,Mod. Alt. Shot,Tie,0.5,Tie
+349,William Harris,Daniel Wynn,,,Blue,3,2,2024,Mod. Alt. Shot,Loss,0.0,3&2
+350,Brandon Byrd,Kyle Cummins,,,Red,3,2,2024,Mod. Alt. Shot,Win,1.0,3&2
+351,John Irvine,Hunter Meriwether,,,Blue,3,3,2024,Mod. Alt. Shot,Loss,0.0,3&2
+352,Owen Mercer,Kevin Rea,,,Red,3,3,2024,Mod. Alt. Shot,Win,1.0,3&2
+353,Ross Montague,Louis Amagliani,,,Blue,3,4,2024,Mod. Alt. Shot,Win,1.0,3&2
+354,Mac Plosser,Jay Edwards,,,Red,3,4,2024,Mod. Alt. Shot,Loss,0.0,3&2
+355,John Irvine,,,,Blue,4,1,2024,Match,Win,1.0,4&2
+356,Brandon Byrd,,,,Red,4,1,2024,Match,Loss,0.0,4&2
+357,William Harris,,,,Blue,4,2,2024,Match,Loss,0.0,7&5
+358,Ryan Quinn,,,,Red,4,2,2024,Match,Win,1.0,7&5
+359,Hunter Meriwether,,,,Blue,4,3,2024,Match,Win,1.0,3&2
+360,Allen Bobango,,,,Red,4,3,2024,Match,Loss,0.0,3&2
+361,Luke Jensen,,,,Blue,4,4,2024,Match,Loss,0.0,4&3
+362,Mac Plosser,,,,Red,4,4,2024,Match,Win,1.0,4&3
+363,Louis Amagliani,,,,Blue,4,5,2024,Match,Win,1.0,1 UP
+364,Owen Mercer,,,,Red,4,5,2024,Match,Loss,0.0,1 UP
+365,Daniel Wynn,,,,Blue,4,6,2024,Match,Win,1.0,1 UP
+366,Jay Edwards,,,,Red,4,6,2024,Match,Loss,0.0,1 UP
+367,Drew Hursey,,,,Blue,4,7,2024,Match,Win,1.0,4&3
+368,Kevin Rea,,,,Red,4,7,2024,Match,Loss,0.0,4&3
+369,Ross Montague,Luke Jensen,,,Blue,1,1,2025,2-Man Scramble,Win,1.0,2 UP
+370,Jay Edwards,Owen Mercer,,,Red,1,1,2025,2-Man Scramble,Loss,0.0,2 UP
+371,John Irvine,Louis Amagliani,,,Blue,1,2,2025,2-Man Scramble,Loss,0.0,3&2
+372,Mac Plosser,Ryan Quinn,,,Red,1,2,2025,2-Man Scramble,Win,1.0,3&2
+373,Drew Hursey,Daniel Wynn,,,Blue,1,3,2025,2-Man Scramble,Win,1.0,5&4
+374,Jay Snyder,Kevin Rea,,,Red,1,3,2025,2-Man Scramble,Loss,0.0,5&4
+375,William Harris,John Irvine,,,Blue,2,1,2025,Shamble,Loss,0.0,3&1
+376,Jay Snyder,Brandon Byrd,,,Red,2,1,2025,Shamble,Win,1.0,3&1
+377,Hunter Meriwether,Daniel Wynn,,,Blue,2,2,2025,Shamble,Win,1.0,1 UP
+378,Owen Mercer,Kevin Rea,,,Red,2,2,2025,Shamble,Loss,0.0,1 UP
+379,Buck Towner,Drew Hursey,,,Blue,2,3,2025,Shamble,Loss,0.0,7&5
+380,Mac Plosser,Kyle Cummins,,,Red,2,3,2025,Shamble,Win,1.0,7&5
+381,Ross Montague,Hunter Meriwether,,,Blue,3,1,2025,Best Ball,Win,1.0,4&2
+382,Ryan Quinn,Brandon Byrd,,,Red,3,1,2025,Best Ball,Loss,0.0,4&2
+383,Buck Towner,Louis Amagliani,,,Blue,3,2,2025,Best Ball,Tie,0.5,Tie
+384,Jay Snyder,Kyle Cummins,,,Red,3,2,2025,Best Ball,Tie,0.5,Tie
+385,William Harris,Luke Jensen,,,Blue,3,3,2025,Best Ball,Loss,0.0,2&1
+386,Jay Edwards,Allen Bobango,,,Red,3,3,2025,Best Ball,Win,1.0,2&1
+387,John Irvine,,,,Blue,4,1,2025,Match,Win,1.0,4&3
+388,Ryan Quinn,,,,Red,4,1,2025,Match,Loss,0.0,4&3
+389,Louis Amagliani,,,,Blue,4,2,2025,Match,Loss,0.0,6&5
+390,Brandon Byrd,,,,Red,4,2,2025,Match,Win,1.0,6&5
+391,Drew Hursey,,,,Blue,4,3,2025,Match,Win,1.0,6&5
+392,Allen Bobango,,,,Red,4,3,2025,Match,Loss,0.0,6&5
+393,Buck Towner,,,,Blue,4,4,2025,Match,Tie,0.5,Tie
+394,Kevin Rea,,,,Red,4,4,2025,Match,Tie,0.5,Tie
+395,William Harris,,,,Blue,4,5,2025,Match,Loss,0.0,2&1
+396,Owen Mercer,,,,Red,4,5,2025,Match,Win,1.0,2&1
+397,Hunter Meriwether,,,,Blue,4,6,2025,Match,Tie,0.5,Tie
+398,Jay Edwards,,,,Red,4,6,2025,Match,Tie,0.5,Tie
+399,Ross Montague,,,,Blue,4,7,2025,Match,Loss,0.0,1 UP
+400,Jay Snyder,,,,Red,4,7,2025,Match,Win,1.0,1 UP
+401,Daniel Wynn,,,,Blue,4,8,2025,Match,Loss,0.0,1 UP
+402,Mac Plosser,,,,Red,4,8,2025,Match,Win,1.0,1 UP
+403,Luke Jensen,,,,Blue,4,9,2025,Match,Loss,0.0,3&2
+404,Kyle Cummins,,,,Red,4,9,2025,Match,Win,1.0,3&2

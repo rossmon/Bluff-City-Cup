@@ -1,0 +1,31 @@
+{
+  "source": "live_api_plus_app_static_probability_tables",
+  "generated_files": {
+    "matches.csv": 202,
+    "match_participants.csv": 644,
+    "match_team_handicaps.csv": 404,
+    "match_holes.csv": 2439,
+    "match_hole_player_scores.csv": 7704,
+    "match_hole_popup_rows.csv": 5886,
+    "match_probabilities_chart.csv": 2030,
+    "match_probabilities_summary.csv": 202,
+    "data_quality_issues.csv": 210
+  },
+  "keys": {
+    "primary_match_key": "match_uid",
+    "recommended_join_columns": [
+      "year",
+      "round",
+      "match",
+      "matchgroup",
+      "match_uid"
+    ]
+  },
+  "notes": [
+    "matchgroup is included because year+round+match may not be globally unique in all source schemas",
+    "popup chart probabilities use app static tables from Tournament.swift (not DB matchprobabilities table)",
+    "match_probabilities_summary.csv uses deterministic final 100/0/0 or tie override for completed matches",
+    "match_hole_popup_rows.csv contains the rows actually shown in the popup scorecard",
+    "match_hole_player_scores.csv always includes player-level actual and net scores, even for team-display formats"
+  ]
+}

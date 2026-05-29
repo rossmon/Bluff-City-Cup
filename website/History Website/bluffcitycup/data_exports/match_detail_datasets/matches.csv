@@ -1,0 +1,203 @@
+match_uid,year,round,match,matchgroup,format_display,format_app,winner,score,points,location,course,tees,matchlength,startinghole,endinghole,course_slope,course_rating,course_par,tournament_maxhandicap,red_players,blue_players,match_meta_candidate_count
+2015-R1-M1-G1,2015,1,1,1,Best Ball,Best Ball,Red,3&1,1.0,Memphis - Galloway & Mirimichi,Galloway,Black,9,1,9,114,68.8,70.0,30,Mac Plosser|Kevin Rea,Sam Moody|Louis Amagliani,1
+2015-R1-M2-G2,2015,1,2,2,Best Ball,Best Ball,Red,1 UP,1.0,Memphis - Galloway & Mirimichi,Galloway,Black,9,1,9,114,68.8,70.0,30,Ryan Quinn|Ryan Burgett,William Harris|Michael Edwards,1
+2015-R1-M3-G3,2015,1,3,3,Best Ball,Best Ball,Blue,4&3,0.0,Memphis - Galloway & Mirimichi,Galloway,Black,9,1,9,114,68.8,70.0,30,Brandon Byrd|Reid Wesson,John Irvine|Ross Montague,1
+2015-R2-M1-G1,2015,2,1,1,Mod. Alt. Shot,Alternate Shot,Tie,AS,0.5,Memphis - Galloway & Mirimichi,Galloway,Black,9,10,18,114,68.8,70.0,30,Mac Plosser|Ryan Quinn,William Harris|Louis Amagliani,1
+2015-R2-M2-G2,2015,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,3&2,1.0,Memphis - Galloway & Mirimichi,Galloway,Black,9,10,18,114,68.8,70.0,30,Brandon Byrd|Kevin Rea,Ross Montague|Michael Edwards,1
+2015-R2-M3-G3,2015,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,3&2,0.0,Memphis - Galloway & Mirimichi,Galloway,Black,9,10,18,114,68.8,70.0,30,Ryan Burgett|Reid Wesson,John Irvine|Sam Moody,1
+2015-R3-M1-G1,2015,3,1,1,Best Ball,Best Ball,Red,3&2,1.0,Memphis - Galloway & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Brandon Byrd|Reid Wesson,John Irvine|Ross Montague,1
+2015-R3-M2-G2,2015,3,2,2,Best Ball,Best Ball,Red,2&1,1.0,Memphis - Galloway & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Ryan Quinn|Kyle Cummins,William Harris|Michael Edwards,1
+2015-R3-M3-G3,2015,3,3,3,Best Ball,Best Ball,Red,4&2,1.0,Memphis - Galloway & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Mac Plosser|Kevin Rea,Sam Moody|Louis Amagliani,1
+2015-R3-M4,2015,3,4,,Singles,Singles,Red,4&3,1.0,Memphis - Galloway & Mirimichi,,,9,1,9,,,,30,Reid Wesson,Sam Moody,0
+2015-R3-M5,2015,3,5,,Singles,Singles,Red,5&4,1.0,Memphis - Galloway & Mirimichi,,,9,1,9,,,,30,Mac Plosser,William Harris,0
+2015-R3-M6,2015,3,6,,Singles,Singles,Tie,AS,0.5,Memphis - Galloway & Mirimichi,,,9,1,9,,,,30,Kevin Rea,Louis Amagliani,0
+2015-R4-M1-G1,2015,4,1,1,Singles,Singles,Blue,2&1,0.0,Memphis - Galloway & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Brandon Byrd,Ross Montague,1
+2015-R4-M2-G1,2015,4,2,1,Singles,Singles,Red,3&2,1.0,Memphis - Galloway & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Ryan Quinn,John Irvine,1
+2015-R4-M3-G2,2015,4,3,2,Singles,Singles,Red,5&4,1.0,Memphis - Galloway & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Kyle Cummins,Michael Edwards,1
+2016-R1-M1,2016,1,1,,4-Man Scramble,Four Man Scramble,Blue,2&1,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Ryan Quinn|Brandon Byrd|Jay Edwards|Kevin Rea,Luke Jensen|William Harris|John Irvine|Louis Amagliani,0
+2016-R1-M2,2016,1,2,,4-Man Scramble,Four Man Scramble,Red,2 UP,0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Mac Plosser|Kyle Cummins|Reid Wesson|Owen Mercer,Hunter Meriwether|Ross Montague|Drew Hursey|Daniel Wynn,0
+2016-R2-M1,2016,2,1,,2-Man Scramble,Two Man Scramble,Blue,5&3,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Ryan Quinn|Jay Edwards,William Harris|John Irvine,0
+2016-R2-M2,2016,2,2,,2-Man Scramble,Two Man Scramble,Red,4&3,1.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Mac Plosser|Kevin Rea,Daniel Wynn|Louis Amagliani,0
+2016-R2-M3,2016,2,3,,2-Man Scramble,Two Man Scramble,Blue,3&2,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Kyle Cummins|Owen Mercer,Luke Jensen|Hunter Meriwether,0
+2016-R2-M4,2016,2,4,,2-Man Scramble,Two Man Scramble,Blue,1 UP,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Brandon Byrd|Reid Wesson,Ross Montague|Drew Hursey,0
+2016-R3-M1,2016,3,1,,Mod. Alt. Shot,Alternate Shot,Red,3&2,1.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Mac Plosser|Jay Edwards,Luke Jensen|Ross Montague,0
+2016-R3-M2,2016,3,2,,Mod. Alt. Shot,Alternate Shot,Blue,3&2,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Reid Wesson|Kevin Rea,Drew Hursey|Daniel Wynn,0
+2016-R3-M3,2016,3,3,,Mod. Alt. Shot,Alternate Shot,Blue,2 UP,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Ryan Quinn|Kyle Cummins,Hunter Meriwether|Louis Amagliani,0
+2016-R3-M4,2016,3,4,,Mod. Alt. Shot,Alternate Shot,Tie,AS,0.5,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Brandon Byrd|Owen Mercer,William Harris|John Irvine,0
+2016-R4-M1,2016,4,1,,Singles,Singles,Red,2&1,1.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Mac Plosser,Luke Jensen,0
+2016-R4-M2,2016,4,2,,Singles,Singles,Blue,4&2,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Reid Wesson,Ross Montague,0
+2016-R4-M3,2016,4,3,,Singles,Singles,Red,5&4,1.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Jay Edwards,Daniel Wynn,0
+2016-R4-M4,2016,4,4,,Singles,Singles,Blue,3&2,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Kevin Rea,Louis Amagliani,0
+2016-R4-M5,2016,4,5,,Singles,Singles,Blue,3&2,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Kyle Cummins,John Irvine,0
+2016-R4-M6,2016,4,6,,Singles,Singles,Blue,3&2,0.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Owen Mercer,Drew Hursey,0
+2016-R4-M7,2016,4,7,,Singles,Singles,Red,2 UP,1.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Ryan Quinn,William Harris,0
+2016-R4-M8,2016,4,8,,Singles,Singles,Red,2&1,1.0,Memphis - Tunica National & Quail Ridge,,,9,1,9,,,,30,Brandon Byrd,Hunter Meriwether,0
+2017-R1-M1-G1,2017,1,1,1,2-Man Scramble,Two Man Scramble,Tie,AS,0.5,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Tyler Blocker|Brandon Byrd,John Irvine|Ross Montague,1
+2017-R1-M2-G2,2017,1,2,2,2-Man Scramble,Two Man Scramble,Blue,4&3,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Mac Plosser|Kevin Rea,William Harris|Luke Jensen,1
+2017-R1-M3-G3,2017,1,3,3,2-Man Scramble,Two Man Scramble,Tie,AS,0.5,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Ryan Quinn|Kyle Cummins,Daniel Wynn|Louis Amagliani,1
+2017-R1-M4-G4,2017,1,4,4,2-Man Scramble,Two Man Scramble,Blue,4&2,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Owen Mercer|Jay Edwards,Drew Hursey|Hunter Meriwether,1
+2017-R2-M1-G1,2017,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Tyler Blocker|Kevin Rea,Luke Jensen|Ross Montague,1
+2017-R2-M2-G2,2017,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,3&2,1.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Mac Plosser|Kyle Cummins,William Harris|Daniel Wynn,1
+2017-R2-M3-G3,2017,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Ryan Quinn|Jay Edwards,John Irvine|Drew Hursey,1
+2017-R2-M4-G4,2017,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2 UP,1.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Brandon Byrd|Owen Mercer,Hunter Meriwether|Louis Amagliani,1
+2017-R3-M1-G1,2017,3,1,1,Best Ball,Best Ball,Red,4&2,1.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Mac Plosser|Jay Edwards,Luke Jensen|Daniel Wynn,1
+2017-R3-M2-G2,2017,3,2,2,Best Ball,Best Ball,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Brandon Byrd|Owen Mercer,Drew Hursey|Hunter Meriwether,1
+2017-R3-M3-G3,2017,3,3,3,Best Ball,Best Ball,Red,4&2,1.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Ryan Quinn|Kyle Cummins,William Harris|Louis Amagliani,1
+2017-R3-M4-G4,2017,3,4,4,Best Ball,Best Ball,Blue,4&2,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Tyler Blocker|Kevin Rea,John Irvine|Ross Montague,1
+2017-R4-M1-G1,2017,4,1,1,Singles,Singles,Red,2&1,1.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Mac Plosser,Luke Jensen,1
+2017-R4-M2-G1,2017,4,2,1,Singles,Singles,Red,3&2,1.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Jay Edwards,Daniel Wynn,1
+2017-R4-M3-G2,2017,4,3,2,Singles,Singles,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Owen Mercer,Drew Hursey,1
+2017-R4-M4-G2,2017,4,4,2,Singles,Singles,Tie,Tie,0.5,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Kyle Cummins,Hunter Meriwether,1
+2017-R4-M5-G3,2017,4,5,3,Singles,Singles,Red,3&2,1.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Brandon Byrd,Ross Montague,1
+2017-R4-M6-G3,2017,4,6,3,Singles,Singles,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Kevin Rea,Louis Amagliani,1
+2017-R4-M7-G4,2017,4,7,4,Singles,Singles,Blue,2 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Tyler Blocker,William Harris,1
+2017-R4-M8-G4,2017,4,8,4,Singles,Singles,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Ryan Quinn,John Irvine,1
+2018-R1-M1-G1,2018,1,1,1,2-Man Scramble,Two Man Scramble,Tie,Tie,0.5,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Tyler Blocker|Owen Mercer,William Harris|John Irvine,1
+2018-R1-M2-G2,2018,1,2,2,2-Man Scramble,Two Man Scramble,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Mac Plosser|Kyle Cummins,Luke Jensen|Hunter Meriwether,1
+2018-R1-M3-G3,2018,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Brandon Byrd|Jay Edwards,Drew Hursey|Ross Montague,1
+2018-R1-M4-G4,2018,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Reid Wesson|Kevin Rea,Daniel Wynn|Louis Amagliani,1
+2018-R2-M1-G1,2018,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,2&1,1.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Tyler Blocker|Jay Edwards,William Harris|Luke Jensen,1
+2018-R2-M2-G2,2018,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,2&1,1.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Mac Plosser|Kyle Cummins,John Irvine|Ross Montague,1
+2018-R2-M3-G3,2018,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Owen Mercer|Kevin Rea,Hunter Meriwether|Louis Amagliani,1
+2018-R2-M4-G4,2018,2,4,4,Mod. Alt. Shot,Alternate Shot,Tie,Tie,0.5,Memphis - Tunica National & Galloway,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Brandon Byrd|Reid Wesson,Drew Hursey|Daniel Wynn,1
+2018-R3-M1-G1,2018,3,1,1,Best Ball,Best Ball,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Brandon Byrd|Kevin Rea,John Irvine|Hunter Meriwether,1
+2018-R3-M2-G2,2018,3,2,2,Best Ball,Best Ball,Blue,3&2,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Mac Plosser|Jay Edwards,Daniel Wynn|Louis Amagliani,1
+2018-R3-M3-G3,2018,3,3,3,Best Ball,Best Ball,Blue,4&3,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Tyler Blocker|Kyle Cummins,Drew Hursey|Ross Montague,1
+2018-R3-M4-G4,2018,3,4,4,Best Ball,Best Ball,Blue,2 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,1,9,114,68.8,70.0,30,Owen Mercer|Reid Wesson,William Harris|Luke Jensen,1
+2018-R4-M1-G1,2018,4,1,1,Singles,Singles,Red,1 UP,1.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Jay Edwards,Drew Hursey,1
+2018-R4-M2-G1,2018,4,2,1,Singles,Singles,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Owen Mercer,Ross Montague,1
+2018-R4-M3-G2,2018,4,3,2,Singles,Singles,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Kyle Cummins,Hunter Meriwether,1
+2018-R4-M4-G2,2018,4,4,2,Singles,Singles,Blue,2&1,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Tyler Blocker,William Harris,1
+2018-R4-M5-G3,2018,4,5,3,Singles,Singles,Blue,3&2,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Brandon Byrd,Luke Jensen,1
+2018-R4-M6-G3,2018,4,6,3,Singles,Singles,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Mac Plosser,John Irvine,1
+2018-R4-M7-G4,2018,4,7,4,Singles,Singles,Blue,4&2,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Reid Wesson,Daniel Wynn,1
+2018-R4-M8-G4,2018,4,8,4,Singles,Singles,Blue,1 UP,0.0,Memphis - Tunica National & Galloway,Galloway,Black,9,10,18,114,68.8,70.0,30,Kevin Rea,Louis Amagliani,1
+2019-R1-M1-G1,2019,1,1,1,2-Man Scramble,Two Man Scramble,Red,3 & 2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,1,9,129,71.3,72.0,30,Tyler Blocker|Owen Mercer,Daniel Wynn|Louis Amagliani,1
+2019-R1-M2-G2,2019,1,2,2,2-Man Scramble,Two Man Scramble,Tie,Tie,0.5,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,1,9,129,71.3,72.0,30,Mac Plosser|Jay Edwards,William Harris|Ross Montague,1
+2019-R1-M3-G3,2019,1,3,3,2-Man Scramble,Two Man Scramble,Blue,1 UP,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,1,9,129,71.3,72.0,30,Brandon Byrd|Ryan Quinn,John Irvine|Luke Jensen,1
+2019-R1-M4-G4,2019,1,4,4,2-Man Scramble,Two Man Scramble,Tie,Tie,0.5,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,1,9,129,71.3,72.0,30,Kyle Cummins|Kevin Rea,Drew Hursey|Hunter Meriwether,1
+2019-R2-M1-G1,2019,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,3&2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,10,18,129,71.3,72.0,30,Tyler Blocker|Owen Mercer,William Harris|Daniel Wynn,1
+2019-R2-M2-G2,2019,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,3&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,10,18,129,71.3,72.0,30,Brandon Byrd|Jay Edwards,John Irvine|Ross Montague,1
+2019-R2-M3-G3,2019,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,3&1,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,10,18,129,71.3,72.0,30,Ryan Quinn|Kevin Rea,Hunter Meriwether|Louis Amagliani,1
+2019-R2-M4-G4,2019,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,5&3,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,9,10,18,129,71.3,72.0,30,Mac Plosser|Kyle Cummins,Luke Jensen|Drew Hursey,1
+2019-R3-M1-G1,2019,3,1,1,Best Ball,Best Ball,Blue,2&1,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,1,9,129,71.4,72.0,30,Mac Plosser|Brandon Byrd,William Harris|Luke Jensen,1
+2019-R3-M2-G2,2019,3,2,2,Best Ball,Best Ball,Blue,2 UP,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,1,9,129,71.4,72.0,30,Tyler Blocker|Kevin Rea,John Irvine|Daniel Wynn,1
+2019-R3-M3-G3,2019,3,3,3,Best Ball,Best Ball,Tie,Tie,0.5,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,1,9,129,71.4,72.0,30,Jay Edwards|Owen Mercer,Ross Montague|Louis Amagliani,1
+2019-R3-M4-G4,2019,3,4,4,Best Ball,Best Ball,Red,2&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,1,9,129,71.4,72.0,30,Ryan Quinn|Kyle Cummins,Drew Hursey|Hunter Meriwether,1
+2019-R4-M1-G1,2019,4,1,1,Singles,Singles,Red,2&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Tyler Blocker,William Harris,1
+2019-R4-M2-G1,2019,4,2,1,Singles,Singles,Red,2&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Brandon Byrd,Luke Jensen,1
+2019-R4-M3-G2,2019,4,3,2,Singles,Singles,Red,1 UP,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Mac Plosser,John Irvine,1
+2019-R4-M4-G2,2019,4,4,2,Singles,Singles,Blue,5&4,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Kevin Rea,Louis Amagliani,1
+2019-R4-M5-G3,2019,4,5,3,Singles,Singles,Red,3&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Ryan Quinn,Ross Montague,1
+2019-R4-M6-G3,2019,4,6,3,Singles,Singles,Red,2&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Kyle Cummins,Daniel Wynn,1
+2019-R4-M7-G4,2019,4,7,4,Singles,Singles,Blue,4&2,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Jay Edwards,Drew Hursey,1
+2019-R4-M8-G4,2019,4,8,4,Singles,Singles,Red,3&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,9,10,18,129,71.4,72.0,30,Owen Mercer,Hunter Meriwether,1
+2020-R1-M1-G1,2020,1,1,1,2-Man Scramble,Two Man Scramble,Red,2 UP,1.0,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Brandon Byrd|Jay Edwards,Luke Jensen|John Irvine,1
+2020-R1-M2-G2,2020,1,2,2,2-Man Scramble,Two Man Scramble,Red,4&3,1.0,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Neely Mallory|Kyle Cummins,Hunter Meriwether|Daniel Wynn,1
+2020-R1-M3-G3,2020,1,3,3,2-Man Scramble,Two Man Scramble,Red,3&2,1.0,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Mac Plosser|Ryan Quinn,Ross Montague|Drew Hursey,1
+2020-R1-M4-G4,2020,1,4,4,2-Man Scramble,Two Man Scramble,Blue,2&1,0.0,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,1,9,130,71.6,72.0,30,Owen Mercer|Kevin Rea,William Harris|Louis Amagliani,1
+2020-R2-M1-G1,2020,2,1,1,Mod. Alt. Shot,Alternate Shot,Blue,4&3,0.0,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Brandon Byrd|Jay Edwards,John Irvine|Daniel Wynn,1
+2020-R2-M2-G2,2020,2,2,2,Mod. Alt. Shot,Alternate Shot,Red,1 UP,1.0,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Mac Plosser|Kyle Cummins,Hunter Meriwether|Louis Amagliani,1
+2020-R2-M3-G3,2020,2,3,3,Mod. Alt. Shot,Alternate Shot,Tie,Tie,0.5,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Neely Mallory|Kevin Rea,Ross Montague|Drew Hursey,1
+2020-R2-M4-G4,2020,2,4,4,Mod. Alt. Shot,Alternate Shot,Tie,Tie,0.5,Memphis - Tunica National & Mirimichi,Tunica National,Gold,9,10,18,130,71.6,72.0,30,Ryan Quinn|Owen Mercer,William Harris|Luke Jensen,1
+2020-R3-M1-G1,2020,3,1,1,Best Ball,Best Ball,Red,3&2,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Ryan Quinn|Owen Mercer,William Harris|John Irvine,1
+2020-R3-M2-G2,2020,3,2,2,Best Ball,Best Ball,Red,1 UP,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Jay Edwards|Kevin Rea,Drew Hursey|Hunter Meriwether,1
+2020-R3-M3-G3,2020,3,3,3,Best Ball,Best Ball,Red,2&1,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Neely Mallory|Kyle Cummins,Luke Jensen|Ross Montague,1
+2020-R3-M4-G4,2020,3,4,4,Best Ball,Best Ball,Blue,2&1,0.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,1,9,139,72.1,72.0,30,Mac Plosser|Brandon Byrd,Daniel Wynn|Louis Amagliani,1
+2020-R4-M1-G1,2020,4,1,1,Singles,Singles,Blue,2 UP,0.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Ryan Quinn,John Irvine,1
+2020-R4-M2-G1,2020,4,2,1,Singles,Singles,Tie,Tie,0.5,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Owen Mercer,Drew Hursey,1
+2020-R4-M3-G2,2020,4,3,2,Singles,Singles,Blue,2&1,0.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Jay Edwards,Ross Montague,1
+2020-R4-M4-G2,2020,4,4,2,Singles,Singles,Red,2&1,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Kyle Cummins,Daniel Wynn,1
+2020-R4-M5-G3,2020,4,5,3,Singles,Singles,Red,3&1,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Mac Plosser,William Harris,1
+2020-R4-M6-G3,2020,4,6,3,Singles,Singles,Red,3&2,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Brandon Byrd,Luke Jensen,1
+2020-R4-M7-G4,2020,4,7,4,Singles,Singles,Red,3&2,1.0,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Neely Mallory,Hunter Meriwether,1
+2020-R4-M8-G4,2020,4,8,4,Singles,Singles,Tie,Tie,0.5,Memphis - Tunica National & Mirimichi,Mirimichi,Gold,9,10,18,139,72.1,72.0,30,Kevin Rea,Louis Amagliani,1
+2021-R1-M1-G1,2021,1,1,1,2-Man Scramble,Two Man Scramble,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,1,9,139,71.8,72.0,30,Brandon Byrd|Jay Edwards,Drew Hursey|Daniel Wynn,1
+2021-R1-M2-G2,2021,1,2,2,2-Man Scramble,Two Man Scramble,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,1,9,139,71.8,72.0,30,Neely Mallory|Kyle Cummins,William Harris|Luke Jensen,1
+2021-R1-M3-G3,2021,1,3,3,2-Man Scramble,Two Man Scramble,Tie,Tie,0.5,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,1,9,139,71.8,72.0,30,Mac Plosser|Owen Mercer,John Irvine|Ross Montague,1
+2021-R1-M4-G4,2021,1,4,4,2-Man Scramble,Two Man Scramble,Blue,3&1,0.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,1,9,139,71.8,72.0,30,Ryan Quinn|Kevin Rea,Daniel Wynn|Louis Amagliani,1
+2021-R2-M1-G1,2021,2,1,1,Mod. Alt. Shot,Alternate Shot,Red,5&3,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,10,18,139,71.8,72.0,30,Jay Edwards|Neely Mallory,Luke Jensen|Hunter Meriwether,1
+2021-R2-M2-G2,2021,2,2,2,Mod. Alt. Shot,Alternate Shot,Tie,Tie,0.5,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,10,18,139,71.8,72.0,30,Mac Plosser|Kyle Cummins,William Harris|Daniel Wynn,1
+2021-R2-M3-G3,2021,2,3,3,Mod. Alt. Shot,Alternate Shot,Blue,2&1,0.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,10,18,139,71.8,72.0,30,Brandon Byrd|Kevin Rea,Ross Montague|Louis Amagliani,1
+2021-R2-M4-G4,2021,2,4,4,Mod. Alt. Shot,Alternate Shot,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,9,10,18,139,71.8,72.0,30,Ryan Quinn|Owen Mercer,John Irvine|Drew Hursey,1
+2021-R3-M1-G1,2021,3,1,1,Best Ball,Best Ball,Red,1 UP,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,1,9,127,71.0,72.0,30,Neely Mallory|Kyle Cummins,John Irvine|Hunter Meriwether,1
+2021-R3-M2-G2,2021,3,2,2,Best Ball,Best Ball,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,1,9,127,71.0,72.0,30,Mac Plosser|Brandon Byrd,William Harris|Luke Jensen,1
+2021-R3-M3-G3,2021,3,3,3,Best Ball,Best Ball,Red,3&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,1,9,127,71.0,72.0,30,Jay Edwards|Owen Mercer,Daniel Wynn|Louis Amagliani,1
+2021-R3-M4-G4,2021,3,4,4,Best Ball,Best Ball,Blue,1 UP,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,1,9,127,71.0,72.0,30,Ryan Quinn|Kevin Rea,Ross Montague|Drew Hursey,1
+2021-R4-M1-G1,2021,4,1,1,Singles,Singles,Red,3&2,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Neely Mallory,Luke Jensen,1
+2021-R4-M2-G1,2021,4,2,1,Singles,Singles,Blue,1 UP,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Kyle Cummins,Hunter Meriwether,1
+2021-R4-M3-G2,2021,4,3,2,Singles,Singles,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Mac Plosser,Louis Amagliani,1
+2021-R4-M4-G2,2021,4,4,2,Singles,Singles,Red,3&2,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Brandon Byrd,Drew Hursey,1
+2021-R4-M5-G3,2021,4,5,3,Singles,Singles,Blue,1 UP,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Jay Edwards,Daniel Wynn,1
+2021-R4-M6-G3,2021,4,6,3,Singles,Singles,Blue,5&3,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Kevin Rea,John Irvine,1
+2021-R4-M7-G4,2021,4,7,4,Singles,Singles,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Owen Mercer,William Harris,1
+2021-R4-M8-G4,2021,4,8,4,Singles,Singles,Tie,Tie,0.5,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,9,10,18,127,71.0,72.0,30,Ryan Quinn,Ross Montague,1
+2022-R1-M1-G1,2022,1,1,1,Best Ball,Best Ball,Red,6&5,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,18,1,18,139,71.8,72.0,30,Brandon Byrd|Kevin Rea,Drew Hursey|Daniel Wynn,1
+2022-R1-M2-G2,2022,1,2,2,Best Ball,Best Ball,Red,1 UP,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,18,1,18,139,71.8,72.0,30,Ryan Quinn|Jay Edwards,Ross Montague|Louis Amagliani,1
+2022-R1-M3-G3,2022,1,3,3,Best Ball,Best Ball,Blue,1 UP,0.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,18,1,18,139,71.8,72.0,30,Tyler Blocker|Owen Mercer,Luke Jensen|Hunter Meriwether,1
+2022-R1-M4-G4,2022,1,4,4,Best Ball,Best Ball,Red,6&5,1.0,"West Point, MS - Old Wavery & Mossy Oak",Old Waverly,Blue,18,1,18,139,71.8,72.0,30,Mac Plosser|Kyle Cummins,William Harris|John Irvine,1
+2022-R2-M1-G1,2022,2,1,1,2-Man Scramble,Two Man Scramble,Red,1 UP,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Brandon Byrd|Jay Edwards,Louis Amagliani|Daniel Wynn,1
+2022-R2-M2-G2,2022,2,2,2,2-Man Scramble,Two Man Scramble,Blue,6&5,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Owen Mercer|Kyle Cummins,Luke Jensen|Ross Montague,1
+2022-R2-M3-G3,2022,2,3,3,2-Man Scramble,Two Man Scramble,Red,5&3,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Tyler Blocker|Kevin Rea,Drew Hursey|Hunter Meriwether,1
+2022-R2-M4-G4,2022,2,4,4,2-Man Scramble,Two Man Scramble,Tie,Tie,0.5,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Mac Plosser|Ryan Quinn,William Harris|John Irvine,1
+2022-R3-M1-G1,2022,3,1,1,Singles,Singles,Red,6&5,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Mac Plosser,Luke Jensen,1
+2022-R3-M2-G1,2022,3,2,1,Singles,Singles,Blue,1 UP,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Brandon Byrd,John Irvine,1
+2022-R3-M3-G2,2022,3,3,2,Singles,Singles,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Ryan Quinn,Drew Hursey,1
+2022-R3-M4-G2,2022,3,4,2,Singles,Singles,Red,5&3,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Owen Mercer,Daniel Wynn,1
+2022-R3-M5-G3,2022,3,5,3,Singles,Singles,Red,2&1,1.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Tyler Blocker,Ross Montague,1
+2022-R3-M6-G3,2022,3,6,3,Singles,Singles,Tie,Tie,0.5,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Jay Edwards,William Harris,1
+2022-R3-M7-G4,2022,3,7,4,Singles,Singles,Blue,4&3,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Kyle Cummins,Louis Amagliani,1
+2022-R3-M8-G4,2022,3,8,4,Singles,Singles,Blue,8&6,0.0,"West Point, MS - Old Wavery & Mossy Oak",Mossy Oak,Blue,18,1,18,127,71.0,72.0,30,Kevin Rea,Hunter Meriwether,1
+2023-R1-M1-G1,2023,1,1,1,2-Man Scramble,Two Man Scramble,Blue,1 UP,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Ryan Quinn|Owen Mercer,Ross Montague|Luke Jensen,1
+2023-R1-M2-G2,2023,1,2,2,2-Man Scramble,Two Man Scramble,Red,4&2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Mac Plosser|Kevin Rea,William Harris|Louis Amagliani,1
+2023-R1-M3-G3,2023,1,3,3,2-Man Scramble,Two Man Scramble,Blue,5&4,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Allen Bobango|Kyle Cummins,John Irvine|Hunter Meriwether,1
+2023-R1-M4-G4,2023,1,4,4,2-Man Scramble,Two Man Scramble,Red,1 UP,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Brandon Byrd|Jay Edwards,Daniel Wynn|Drew Hursey,1
+2023-R2-M1-G1,2023,2,1,1,Best Ball,Best Ball,Blue,3&2,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,18,1,18,129,71.3,72.0,30,Ryan Quinn|Owen Mercer,William Harris|Luke Jensen,1
+2023-R2-M2-G2,2023,2,2,2,Best Ball,Best Ball,Red,3&1,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,18,1,18,129,71.3,72.0,30,Mac Plosser|Kyle Cummins,Ross Montague|Drew Hursey,1
+2023-R2-M3-G3,2023,2,3,3,Best Ball,Best Ball,Red,2 UP,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,18,1,18,129,71.3,72.0,30,Brandon Byrd|Kevin Rea,John Irvine|Hunter Meriwether,1
+2023-R2-M4-G4,2023,2,4,4,Best Ball,Best Ball,Red,4&2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Azaleas,Blue,18,1,18,129,71.3,72.0,30,Allen Bobango|Jay Edwards,Daniel Wynn|Louis Amagliani,1
+2023-R3-M1-G1,2023,3,1,1,Singles,Singles,Red,4&2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Kevin Rea,Louis Amagliani,1
+2023-R3-M2-G1,2023,3,2,1,Singles,Singles,Red,1 UP,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Mac Plosser,John Irvine,1
+2023-R3-M3-G2,2023,3,3,2,Singles,Singles,Red,1 UP,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Owen Mercer,Ross Montague,1
+2023-R3-M4-G2,2023,3,4,2,Singles,Singles,Blue,1 UP,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Jay Edwards,William Harris,1
+2023-R3-M5-G3,2023,3,5,3,Singles,Singles,Red,1 UP,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Allen Bobango,Luke Jensen,1
+2023-R3-M6-G3,2023,3,6,3,Singles,Singles,Red,3&2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Brandon Byrd,Drew Hursey,1
+2023-R3-M7-G4,2023,3,7,4,Singles,Singles,Red,3&2,1.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Ryan Quinn,Daniel Wynn,1
+2023-R3-M8-G4,2023,3,8,4,Singles,Singles,Blue,9&8,0.0,"Dancing Rabbit, MS",Dancing Rabbit - Oaks,Blue,18,1,18,129,71.4,72.0,30,Kyle Cummins,Hunter Meriwether,1
+2024-R1-M1-G1,2024,1,1,1,Best Ball,Best Ball,Red,2 UP,1.0,"Palm Springs, CA - PGA West",PGA West Mountain Course,Black/White,18,1,18,132,71.8,72.0,30,Ryan Quinn|Owen Mercer,John Irvine|Drew Hursey,1
+2024-R1-M2-G2,2024,1,2,2,Best Ball,Best Ball,Blue,2&1,0.0,"Palm Springs, CA - PGA West",PGA West Mountain Course,Black/White,18,1,18,132,71.8,72.0,30,Jay Edwards|Allen Bobango,William Harris|Luke Jensen,1
+2024-R1-M3-G3,2024,1,3,3,Best Ball,Best Ball,Blue,3&2,0.0,"Palm Springs, CA - PGA West",PGA West Mountain Course,Black/White,18,1,18,132,71.8,72.0,30,Mac Plosser|Kyle Cummins,Ross Montague|Hunter Meriwether,1
+2024-R1-M4-G4,2024,1,4,4,Best Ball,Best Ball,Tie,Tie,0.5,"Palm Springs, CA - PGA West",PGA West Mountain Course,Black/White,18,1,18,132,71.8,72.0,30,Brandon Byrd|Kevin Rea,Daniel Wynn|Louis Amagliani,1
+2024-R2-M1-G1,2024,2,1,1,2-Man Scramble,Two Man Scramble,Blue,2 UP,0.0,"Palm Springs, CA - PGA West",PGA West Stadium Course,Blue/White,18,1,18,136,71.2,72.0,30,Allen Bobango|Owen Mercer,Ross Montague|Luke Jensen,1
+2024-R2-M2-G2,2024,2,2,2,2-Man Scramble,Two Man Scramble,Blue,3&2,0.0,"Palm Springs, CA - PGA West",PGA West Stadium Course,Blue/White,18,1,18,136,71.2,72.0,30,Brandon Byrd|Jay Edwards,William Harris|John Irvine,1
+2024-R2-M3-G3,2024,2,3,3,2-Man Scramble,Two Man Scramble,Blue,3&2,0.0,"Palm Springs, CA - PGA West",PGA West Stadium Course,Blue/White,18,1,18,136,71.2,72.0,30,Mac Plosser|Kevin Rea,Drew Hursey|Daniel Wynn,1
+2024-R2-M4-G4,2024,2,4,4,2-Man Scramble,Two Man Scramble,Blue,2&1,0.0,"Palm Springs, CA - PGA West",PGA West Stadium Course,Blue/White,18,1,18,136,71.2,72.0,30,Ryan Quinn|Kyle Cummins,Hunter Meriwether|Louis Amagliani,1
+2024-R3-M1-G1,2024,3,1,1,Mod. Alt. Shot,Alternate Shot,Tie,Tie,0.5,"Palm Springs, CA - PGA West",Nicklaus Tournament,White,18,1,18,128,70.0,72.0,30,Ryan Quinn|Allen Bobango,Luke Jensen|Drew Hursey,1
+2024-R3-M2-G2,2024,3,2,2,Mod. Alt. Shot,Alternate Shot,Red,3&2,1.0,"Palm Springs, CA - PGA West",Nicklaus Tournament,White,18,1,18,128,70.0,72.0,30,Brandon Byrd|Kyle Cummins,William Harris|Daniel Wynn,1
+2024-R3-M3-G3,2024,3,3,3,Mod. Alt. Shot,Alternate Shot,Red,3&2,1.0,"Palm Springs, CA - PGA West",Nicklaus Tournament,White,18,1,18,128,70.0,72.0,30,Owen Mercer|Kevin Rea,John Irvine|Hunter Meriwether,1
+2024-R3-M4-G4,2024,3,4,4,Mod. Alt. Shot,Alternate Shot,Blue,3&2,0.0,"Palm Springs, CA - PGA West",Nicklaus Tournament,White,18,1,18,128,70.0,72.0,30,Mac Plosser|Jay Edwards,Ross Montague|Louis Amagliani,1
+2024-R4-M1-G1,2024,4,1,1,Singles,Singles,Blue,4&2,0.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Brandon Byrd,John Irvine,1
+2024-R4-M2-G1,2024,4,2,1,Singles,Singles,Red,7&5,1.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Ryan Quinn,William Harris,1
+2024-R4-M3-G2,2024,4,3,2,Singles,Singles,Blue,3&2,0.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Allen Bobango,Hunter Meriwether,1
+2024-R4-M4-G2,2024,4,4,2,Singles,Singles,Red,4&3,1.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Mac Plosser,Luke Jensen,1
+2024-R4-M5-G3,2024,4,5,3,Singles,Singles,Blue,1 UP,0.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Owen Mercer,Louis Amagliani,1
+2024-R4-M6-G3,2024,4,6,3,Singles,Singles,Blue,1 UP,0.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Jay Edwards,Daniel Wynn,1
+2024-R4-M7-G4,2024,4,7,4,Singles,Singles,Blue,4&3,0.0,"Palm Springs, CA - PGA West",PGA West Greg Norman,Blue/White,18,1,18,128,71.6,72.0,30,Kevin Rea,Drew Hursey,1
+2025-R1-M1-G1,2025,1,1,1,2-Man Scramble,Two Man Scramble,Blue,2 UP,0.0,"Hot Springs Village, AR",Cortez,Blue,18,1,18,137,71.7,72.0,30,Jay Edwards|Owen Mercer,Ross Montague|Luke Jensen,1
+2025-R1-M2-G2,2025,1,2,2,2-Man Scramble,Two Man Scramble,Red,3&2,1.0,"Hot Springs Village, AR",Cortez,Blue,18,1,18,137,71.7,72.0,30,Mac Plosser|Ryan Quinn,John Irvine|Louis Amagliani,1
+2025-R1-M3-G3,2025,1,3,3,2-Man Scramble,Two Man Scramble,Blue,5&4,0.0,"Hot Springs Village, AR",Cortez,Blue,18,1,18,137,71.7,72.0,30,Jay Snyder|Kevin Rea,Drew Hursey|Daniel Wynn,1
+2025-R2-M1-G1,2025,2,1,1,Shamble,Shamble,Red,3&1,1.0,"Hot Springs Village, AR",Isabella - Nina/Pinta,Blue,18,1,18,135,72.1,72.0,30,Jay Snyder|Brandon Byrd,William Harris|John Irvine,1
+2025-R2-M2-G2,2025,2,2,2,Shamble,Shamble,Blue,1 UP,0.0,"Hot Springs Village, AR",Isabella - Nina/Pinta,Blue,18,1,18,135,72.1,72.0,30,Owen Mercer|Kevin Rea,Hunter Meriwether|Daniel Wynn,1
+2025-R2-M3-G3,2025,2,3,3,Shamble,Shamble,Red,7&5,1.0,"Hot Springs Village, AR",Isabella - Nina/Pinta,Blue,18,1,18,135,72.1,72.0,30,Mac Plosser|Kyle Cummins,Buck Towner|Drew Hursey,1
+2025-R3-M1-G1,2025,3,1,1,Best Ball,Best Ball,Blue,4&2,0.0,"Hot Springs Village, AR",Granada,Blue,18,1,18,132,72.2,72.0,30,Ryan Quinn|Brandon Byrd,Ross Montague|Hunter Meriwether,1
+2025-R3-M2-G2,2025,3,2,2,Best Ball,Best Ball,Tie,Tie,0.5,"Hot Springs Village, AR",Granada,Blue,18,1,18,132,72.2,72.0,30,Jay Snyder|Kyle Cummins,Buck Towner|Louis Amagliani,1
+2025-R3-M3-G3,2025,3,3,3,Best Ball,Best Ball,Red,2&1,1.0,"Hot Springs Village, AR",Granada,Blue,18,1,18,132,72.2,72.0,30,Jay Edwards|Allen Bobango,William Harris|Luke Jensen,1
+2025-R4-M1-G1,2025,4,1,1,Singles,Singles,Blue,4&3,0.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Ryan Quinn,John Irvine,1
+2025-R4-M2-G2,2025,4,2,2,Singles,Singles,Red,6&5,1.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Brandon Byrd,Louis Amagliani,1
+2025-R4-M3-G2,2025,4,3,2,Singles,Singles,Blue,6&5,0.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Allen Bobango,Drew Hursey,1
+2025-R4-M4-G3,2025,4,4,3,Singles,Singles,Tie,Tie,0.5,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Kevin Rea,Buck Towner,1
+2025-R4-M5-G3,2025,4,5,3,Singles,Singles,Red,2&1,1.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Owen Mercer,William Harris,1
+2025-R4-M6-G4,2025,4,6,4,Singles,Singles,Tie,Tie,0.5,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Jay Edwards,Hunter Meriwether,1
+2025-R4-M7-G4,2025,4,7,4,Singles,Singles,Red,1 UP,1.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Jay Snyder,Ross Montague,1
+2025-R4-M8-G5,2025,4,8,5,Singles,Singles,Red,1 UP,1.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Mac Plosser,Daniel Wynn,1
+2025-R4-M9-G5,2025,4,9,5,Singles,Singles,Red,3&2,1.0,"Hot Springs Village, AR",Ponce de Leon,Blue,18,1,18,136,72.9,72.0,30,Kyle Cummins,Luke Jensen,1

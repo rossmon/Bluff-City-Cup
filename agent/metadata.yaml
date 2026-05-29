@@ -1,0 +1,65 @@
+project:
+  name: Bluff City Cup
+  purpose: >
+    Golf tournament management app for an annual Ryder Cup-style event.
+    Two teams (Red vs Blue) compete across multiple rounds. Tracks live
+    match-play scoring, hole-by-hole scores, standings, and historical results.
+
+tech_stack:
+  frontend_ios:
+    language: Swift 5
+    framework: UIKit (no SwiftUI)
+    pattern: MVC with singleton Model
+    min_os: iOS 13+
+    bundle_id: com.jumpstop.Bluff-City-Cup
+    team_id: 4Y9BVM7DRL
+  frontend_tvos:
+    location: iOS/tvOS/  (separate target, scoreboard display)
+  website:
+    location: website/History Website/bluffcitycup/
+    purpose: Static history/stats site served from the backend server
+  backend:
+    language: PHP 8
+    server: Apache (Bitnami on AWS Lightsail)
+    pattern: Flat PHP files, each endpoint is one file
+    db_driver: pg_connect (legacy files) / proc_open+psql CLI (newer api.php)
+  database:
+    engine: PostgreSQL
+    name: bluffcitycup
+    user: bcc_admin
+  notification_server:
+    language: Python 3 (Flask)
+    port: 5000
+    purpose: Push notifications via APNs to all registered devices on match completion
+
+environments:
+  production:
+    server: bitnami@3.149.108.246 (AWS Lightsail us-east-2)
+    ssh_key: ~/Downloads/LightsailDefaultKey-us-east-2.pem
+    web_root: /var/www/html/bluffcitycup/
+    base_url: https://glizzyattheturn.app/bluffcitycup
+    notification_url: http://glizzyattheturn.app:5000/send-notification
+    broadcast_url: http://glizzyattheturn.app:3000/
+  local:
+    ios_project: iOS/Bluff City Cup.xcodeproj
+
+key_services:
+  - APNs push notifications (Python Flask server.py on port 5000)
+  - Match win-probability predictions (matchprobabilities table + match_probabilities.php)
+  - Power rankings (bcc_power_rankings table + powerrankings/api.php)
+  - Captain's corner / chat (captain/captainscorner.php, captain/chat.php)
+  - AI-generated match summaries (bcc_match_summaries table)
+  - AI-generated player bios (bcc_player_bios table)
+
+entry_points:
+  ios_app: iOS/Bluff City Cup/AppDelegate.swift → ContainerViewController
+  backend_api: /var/www/html/bluffcitycup/*.php
+  history_website_api: /var/www/html/bluffcitycup/api.php (single endpoint, returns all data)
+  power_rankings_api: /var/www/html/bluffcitycup/powerrankings/api.php
+
+critical_risks:
+  - SQL injection: legacy PHP files build queries via string concatenation (no prepared statements)
+  - Credentials hardcoded in PHP files (DB password "memphis", APNs key on disk)
+  - URL encoding is custom (!spa for space, !amp for &, !dot for .) — must be applied in Swift before any GET call
+  - Tournament name is the primary key for most tables — must exactly match "Bluff City Cup YYYY"
+  - All DB writes from iOS use GET requests (no POST body), parameters in query string
