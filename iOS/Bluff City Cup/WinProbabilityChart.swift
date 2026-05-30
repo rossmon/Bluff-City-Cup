@@ -22,6 +22,15 @@ struct PredictionPerHole {
 
 struct ProbabilityChartView: View {
     var data: [MatchPredictionData]
+    var maxHole: Int = 18
+    
+    private var resolvedMaxHole: Int {
+        max(maxHole, 1)
+    }
+    
+    private var xScaleDomain: ClosedRange<Double> {
+        0.75...(Double(resolvedMaxHole) + 0.35)
+    }
 
     private let blueUIColor = UIColor(red: CGFloat((0x0F296B & 0xFF0000) >> 16) / 255,
                                       green: CGFloat((0x0F296B & 0x00FF00) >> 8)  / 255,
@@ -72,10 +81,14 @@ struct ProbabilityChartView: View {
             }
         }
         .chartLegend(.hidden)
-        .chartXScale(domain: 1...19)
+        .chartXScale(domain: xScaleDomain)
         .chartXAxis {
-            AxisMarks(values: Array(1...19)) { value in
-                AxisValueLabel { Text("\(value.index + 1)") }
+            AxisMarks(values: Array(1...resolvedMaxHole)) { value in
+                AxisValueLabel {
+                    if let intValue = value.as(Int.self) {
+                        Text("\(intValue)")
+                    }
+                }
             }
         }
         .chartYAxis {
@@ -99,9 +112,10 @@ struct ProbabilityChartView: View {
 
 struct ProbabilityChartRepresentable: UIViewControllerRepresentable {
     var data: [MatchPredictionData]
+    var maxHole: Int = 18
 
     func makeUIViewController(context: Context) -> UIViewController {
-        UIHostingController(rootView: ProbabilityChartView(data: data))
+        UIHostingController(rootView: ProbabilityChartView(data: data, maxHole: maxHole))
     }
 
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {}

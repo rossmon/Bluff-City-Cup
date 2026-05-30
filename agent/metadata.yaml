@@ -42,6 +42,7 @@ environments:
     broadcast_url: http://glizzyattheturn.app:3000/
   local:
     ios_project: iOS/Bluff City Cup.xcodeproj
+    inactive_ios_redesign_archive: archive/iOS Redesign
 
 key_services:
   - APNs push notifications (Python Flask server.py on port 5000)
@@ -56,6 +57,12 @@ entry_points:
   backend_api: /var/www/html/bluffcitycup/*.php
   history_website_api: /var/www/html/bluffcitycup/api.php (single endpoint, returns all data)
   power_rankings_api: /var/www/html/bluffcitycup/powerrankings/api.php
+
+archived_projects:
+  ios_redesign:
+    location: archive/iOS Redesign
+    status: archived_reference_only
+    note: Do not use for active iOS development; update the UIKit app under iOS/Bluff City Cup/.
 
 critical_risks:
   - SQL injection: legacy PHP files build queries via string concatenation (no prepared statements)

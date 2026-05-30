@@ -424,7 +424,18 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBAction func newTournamentEnter(_ sender: Any) {
         
         if tournamentNameField.text != "" && tournamentPasswordField.text != "" && organizerNameField.text != "" {
-            Model.sharedInstance.updateTournament(Tournament(name:tournamentNameField.text! ,password: tournamentPasswordField.text! ,owner: organizerNameField.text!), {
+            Model.sharedInstance.updateTournamentWithStatus(Tournament(name:tournamentNameField.text! ,password: tournamentPasswordField.text! ,owner: organizerNameField.text!)) { saved in
+                guard saved else {
+                    DispatchQueue.main.async {
+                        let alert = UIAlertController(title: "Oops!", message: "The tournament did not save. Please try again.", preferredStyle: UIAlertController.Style.alert)
+                        
+                        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { (action: UIAlertAction!) in
+                        }))
+                        
+                        self.present(alert, animated: true, completion: nil)
+                    }
+                    return
+                }
                 
                 self.model.getTournamentNames() { tournaments in
                     self.pickOption = tournaments
@@ -438,8 +449,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                         self.applyLoginLayout()
                     }
                 }
-                
-            })
+            }
         }
         else {
             let alert = UIAlertController(title: "Oops!", message: "Please enter all fields.", preferredStyle: UIAlertController.Style.alert)

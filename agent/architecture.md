@@ -15,6 +15,10 @@ iOS App ──POST──▶  server.py :5000  ──APNs──▶  Registered iO
 
 ## Frontend (iOS)
 
+**Active project:** `iOS/Bluff City Cup.xcodeproj` with source under `iOS/Bluff City Cup/`.
+
+**Archived project:** `archive/iOS Redesign/` is preserved for reference only. Do not use it for active development.
+
 **Root:** `ContainerViewController` — slide-out navigation host
 
 **Main views (each is a UIViewController):**

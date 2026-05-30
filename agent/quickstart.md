@@ -21,6 +21,7 @@ Then open only the files that match your task (see `file_index.json`).
 | Web root | `/var/www/html/bluffcitycup/` |
 | Database | PostgreSQL `bluffcitycup` (connect: `sudo -u postgres psql bluffcitycup`) |
 | iOS entry | `AppDelegate.swift` → `ContainerViewController` |
+| Active iOS project | `iOS/Bluff City Cup.xcodeproj` |
 | Data layer | `Model.sharedInstance` (all API calls live here) |
 | Tournament key | `"Bluff City Cup YYYY"` exact string |
 | URL encoding | spaces=`!spa`, `&`=`!amp`, `.`=`!dot` |
@@ -50,6 +51,7 @@ Unless your task specifically requires it, skip:
 
 - `tvOS/` — separate scoreboard-only app, rarely modified
 - `website/History Website/` — static HTML/CSS/JS files, rarely modified  
+- `archive/iOS Redesign/` — archived SwiftUI/redesign experiment, preserved for reference only and **not active**
 - `iOS/Bluff City Cup/Bluff City Cup/` (nested directories) — these are **duplicates from old git state**, not active code
 - `*.psd` files — Photoshop design assets
 - `BCC icons/` — app icon assets

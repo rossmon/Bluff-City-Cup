@@ -7,6 +7,7 @@
 - Files: match class name exactly
 - Cell variants named with hole count suffix: `MatchTableViewCell9.swift`, `MatchTableViewCell18.swift`
 - "New" suffix on refactored VCs kept for historical reasons (`MatchScorecardViewControllerNew`)
+- Active iOS work belongs in `iOS/Bluff City Cup/`; `archive/iOS Redesign/` is inactive reference material only
 
 ### Backend
 - PHP files: `{verb}_{noun}.php` for writes (`update_scores.php`, `delete_player.php`)

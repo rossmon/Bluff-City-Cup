@@ -6,7 +6,11 @@
 
 ---
 
-## Operational Tables (written by iOS app during tournaments)
+## Operational Tables (written by active iOS app during tournaments)
+
+The active iOS app lives under `iOS/Bluff City Cup/`. The archived
+`archive/iOS Redesign/` project is preserved for reference only and is not a
+schema consumer to update during normal development.
 
 ### tournaments
 Primary key: `(tournament, owner, commissioner)`  

@@ -98,7 +98,7 @@ struct ScorecardView: View {
     private var controlsBar: some View {
         HStack(alignment: .center, spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
-                Text("Round \(vm.match.round), Match \(vm.match.matchNumber)")
+                Text(String(format: "Round %d, Match %d (%.1f pts)", vm.match.round, vm.match.matchNumber, vm.match.points))
                     .font(.system(size: 13, weight: .regular))
                     .foregroundStyle(Color(UIColor.darkGray))
                 Text("\(vm.match.courseName) - \(vm.match.format.rawValue)")

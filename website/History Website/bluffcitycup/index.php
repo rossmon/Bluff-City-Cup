@@ -2155,6 +2155,7 @@
   <script>
     const TWO_MAN_FORMATS = new Set(['Best Ball', 'Mod. Alt. Shot', '2-Man Scramble', 'Shamble']);
     const SINGLES_FORMAT = 'Singles';
+    const EXCLUDED_PLAYERS = new Set(['Michael Edwards', 'Sam Moody', 'Reid Wesson', 'Tyler Blocker', 'Ryan Burgett']);
     const MATCH_PROJECTION_TABLES = (window.BCC_MATCH_PROB_TABLES && typeof window.BCC_MATCH_PROB_TABLES === 'object')
       ? window.BCC_MATCH_PROB_TABLES
       : {};
@@ -2343,10 +2344,18 @@
       return `${(((wins + ties) / matches) * 100).toFixed(1)}%`;
     }
 
-    function playersInRow(row) {
+    function isExcludedPlayer(player) {
+      return EXCLUDED_PLAYERS.has(normalize(player));
+    }
+
+    function rawPlayersInRow(row) {
       return [row.player1, row.player2, row.player3, row.player4]
         .map(normalize)
         .filter(Boolean);
+    }
+
+    function playersInRow(row) {
+      return rawPlayersInRow(row).filter(player => !isExcludedPlayer(player));
     }
 
     function playerLastName(fullName) {
@@ -3752,9 +3761,13 @@
         rows
           .filter(row => {
             const format = normalize(row.format);
-            return format === 'Singles' || format === 'Best Ball';
+            const meta = matchMetaForMatch(row.year, row.round, row.match);
+            return (format === 'Singles' || format === 'Best Ball') && intOrNull(meta?.matchlength) === 18;
           })
-          .map(row => [normalize(row.year), normalize(row.round)].join('|'))
+          .map(row => {
+            const meta = matchMetaForMatch(row.year, row.round, row.match);
+            return [normalize(row.year), normalize(row.round), normalize(meta?.course)].join('|');
+          })
       );
 
       const roundScoreRows = (() => {
@@ -3769,11 +3782,11 @@
           }
           const year = normalize(item.year);
           const round = normalize(item.round);
-          const roundKey = [year, round].join('|');
+          const course = normalize(item.course);
+          const roundKey = [year, round, course].join('|');
           if (!eligibleIndividualRoundKeys.has(roundKey)) {
             return;
           }
-          const course = normalize(item.course);
           const key = [year, round, course].join('|');
           if (!map.has(key)) {
             map.set(key, { year, round, course, total: 0, holes: 0 });
@@ -5000,6 +5013,10 @@
         const p1 = normalize(row.player1);
         const p2 = normalize(row.player2);
         if (!p1 || !p2) {
+          return false;
+        }
+
+        if (isExcludedPlayer(p1) || isExcludedPlayer(p2)) {
           return false;
         }
 

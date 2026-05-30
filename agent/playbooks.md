@@ -8,6 +8,10 @@
 3. Wire navigation in `ContainerViewController.swift`
 4. If it needs data: add fetch method to `Model.swift`, call from view
 
+Use only the active UIKit project at `iOS/Bluff City Cup.xcodeproj`. The old
+`archive/iOS Redesign/` project is archived reference material and should not be
+edited for active iOS work.
+
 ### Add a new API call (iOS → backend)
 1. Add PHP file in `/var/www/html/bluffcitycup/` following existing pattern
 2. In `Model.swift`: add a `fetchXxxJSON()` method following the `URLSession.dataTask` pattern
@@ -96,6 +100,9 @@ These are NOT written by the iOS app. They are populated manually or by external
 ---
 
 ## UI Updates
+
+All active iOS UI work belongs in `iOS/Bluff City Cup/`. Do not route UI tasks to
+`archive/iOS Redesign/`; that project is intentionally inactive.
 
 ### Change scoreboard layout
 - `ScoreboardViewController.swift` — main standings view

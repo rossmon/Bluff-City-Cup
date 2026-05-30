@@ -6,6 +6,10 @@
 - **Web root:** `/var/www/html/bluffcitycup/`
 - **Base URL:** `https://glizzyattheturn.app/bluffcitycup`
 
+Active iOS clients are built from `iOS/Bluff City Cup.xcodeproj`. The old
+`archive/iOS Redesign/` project is archived reference material and should not be
+used when changing endpoint consumers.
+
 ---
 
 ## Endpoint Reference

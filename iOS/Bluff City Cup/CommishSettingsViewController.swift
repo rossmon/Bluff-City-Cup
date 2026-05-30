@@ -72,7 +72,7 @@ class CommishSettingsViewController: UITableViewController {
             return 2
         }
         else if section == 2 {
-            return 2
+            return 3
         }
         else if section == 3 {
             return 1
@@ -205,9 +205,9 @@ class CommishSettingsViewController: UITableViewController {
             }
             else if (indexPath as NSIndexPath).row == 2 {
                 let cell = tableView.dequeueReusableCell(withIdentifier: "commishSettingsCell", for: indexPath) as! CommishSettingsCell
-                cell.settingLabel.text = "Courses for Rounds"
-                cell.settingStatus.text = ""
-                styleSettingsCell(cell, label: cell.settingLabel, iconName: "map.fill", tint: CommishSettingsViewController.bccBlue)
+                cell.settingLabel.text = "Schedule"
+                cell.settingStatus.text = "Edit"
+                styleSettingsCell(cell, label: cell.settingLabel, iconName: "calendar", tint: CommishSettingsViewController.bccBlue)
                 styleStatusLabel(cell.settingStatus)
             }
         }
@@ -264,7 +264,7 @@ class CommishSettingsViewController: UITableViewController {
                 self.selectedCell = "Edit Matches"
             }
             else if (path! as NSIndexPath).row == 2 {
-                self.selectedCell = "Edit Rounds"
+                self.selectedCell = "Edit Schedule"
             }
         }
         
@@ -281,6 +281,10 @@ class CommishSettingsViewController: UITableViewController {
         if indexPath.section == 3 {
             print("Selected Add Course")
             self.performSegue(withIdentifier: "addCourseSegue", sender: self)
+        }
+        else if indexPath.section == 2 && indexPath.row == 2 {
+            let scheduleController = ScheduleAdminViewController(tournamentName: tournament.getName())
+            navigationController?.pushViewController(scheduleController, animated: true)
         }
         else if indexPath.section == 4 {
             print("Selected Delete All Matches")

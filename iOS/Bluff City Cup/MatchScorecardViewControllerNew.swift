@@ -37,7 +37,7 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
     private weak var winProbRedPct: UILabel?
     private weak var winProbTiePct: UILabel?
     private weak var winProbFooterWrapper: UIView?
-    private let winProbFooterBaseHeight: CGFloat = 276
+    private let winProbFooterBaseHeight: CGFloat = 271
     
     @IBOutlet weak var roundMatchLabel: UILabel!
     @IBOutlet weak var formatCourseLabel: UILabel!
@@ -158,7 +158,12 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
         scorecardTable.contentInsetAdjustmentBehavior = .never
         
         
-        roundMatchLabel.text = "Round " + String(match.getRound()) + ", Match " + String(match.getMatchNumber())
+        roundMatchLabel.text = String(
+            format: "Round %d, Match %d (%.1f pts)",
+            match.getRound(),
+            match.getMatchNumber(),
+            match.getPoints()
+        )
         
         formatCourseLabel.text = match.getCourseName() + " - \(match.getFormat())"
         team1Player1Name.text = match.blueTeamPlayerOne().getLastName().uppercased() + " (\(match.blueTeamPlayerOne().getHandicap()))"
@@ -613,10 +618,11 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
             poweredLabel.topAnchor.constraint(equalTo: redRowView.bottomAnchor, constant: 5),
             poweredLabel.leadingAnchor.constraint(equalTo: cardView.leadingAnchor),
             poweredLabel.trailingAnchor.constraint(equalTo: cardView.trailingAnchor),
+            poweredLabel.bottomAnchor.constraint(equalTo: cardView.bottomAnchor, constant: -10),
         ])
 
         // Embed the SwiftUI chart
-        let chartHost = UIHostingController(rootView: ProbabilityChartView(data: []))
+        let chartHost = UIHostingController(rootView: ProbabilityChartView(data: [], maxHole: match?.getMatchLength() ?? 18))
         addChild(chartHost)
         chartHost.view.translatesAutoresizingMaskIntoConstraints = false
         chartHost.view.backgroundColor = .clear
@@ -640,14 +646,7 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
               let currentFooter = scorecardTable.tableFooterView,
               currentFooter === footerWrapper else { return }
 
-        scorecardTable.layoutIfNeeded()
-
-        let tableHeight = scorecardTable.bounds.height -
-            scorecardTable.adjustedContentInset.top -
-            scorecardTable.adjustedContentInset.bottom
-        let rowsHeight = scorecardTable.rect(forSection: 0).height
-        let heightToFillVisibleBottom = max(winProbFooterBaseHeight, tableHeight - rowsHeight)
-        let desiredHeight = max(winProbFooterBaseHeight, heightToFillVisibleBottom)
+        let desiredHeight = winProbFooterBaseHeight
 
         guard abs(footerWrapper.frame.height - desiredHeight) > 1 else { return }
 
@@ -732,14 +731,15 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
                 }
             }
 
-            blueHoleProbabilities.append(PredictionPerHole(hole: each.hole, probability: round(10 * 100 * each.blueWinProbability) / 10.0))
-            redHoleProbabilities.append( PredictionPerHole(hole: each.hole, probability: round(10 * 100 * each.redWinProbability)  / 10.0))
-            tieHoleProbabilities.append( PredictionPerHole(hole: each.hole, probability: round(10 * 100 * each.tieProbability)     / 10.0))
+            let displayHole = each.hole - match.getStartingHole() + 1
+            blueHoleProbabilities.append(PredictionPerHole(hole: displayHole, probability: round(10 * 100 * each.blueWinProbability) / 10.0))
+            redHoleProbabilities.append( PredictionPerHole(hole: displayHole, probability: round(10 * 100 * each.redWinProbability)  / 10.0))
+            tieHoleProbabilities.append( PredictionPerHole(hole: displayHole, probability: round(10 * 100 * each.tieProbability)     / 10.0))
         }
 
         // Extend chart to 100% when match finishes before last hole
         if status.matchFinished && status.lastHoleCompleted < match.getMatchLength() {
-            let nextHole = status.lastHoleCompleted + 1
+            let nextHole = status.lastHoleCompleted - match.getStartingHole() + 2
             let blueWins = status.matchWinner == "Blue"
             let redWins  = status.matchWinner == "Red"
             blueHoleProbabilities.append(PredictionPerHole(hole: nextHole, probability: blueWins ? 100.0 : 0.0))
@@ -752,7 +752,7 @@ class MatchScorecardViewControllerNew: UIViewController, UITableViewDelegate, UI
             MatchPredictionData(team: "Red",  probabilities: redHoleProbabilities),
             MatchPredictionData(team: "Tie",  probabilities: tieHoleProbabilities),
         ]
-        winProbChartHost?.rootView = ProbabilityChartView(data: chartData)
+        winProbChartHost?.rootView = ProbabilityChartView(data: chartData, maxHole: match.getMatchLength())
     }
 
     func UIColorFromRGB(_ rgbValue: UInt) -> UIColor {

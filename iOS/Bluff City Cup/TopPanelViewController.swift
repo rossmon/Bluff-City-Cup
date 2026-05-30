@@ -14,8 +14,8 @@ protocol TopPanelViewControllerDelegate {
 }
 
 class TopPanelViewController: UITableViewController {
-    static let historicalRecordsMenuTitle = "Historical Records"
-    private static let historicalRecordsURLString = "https://glizzyattheturn.app/bluffcitycup/"
+    static let recordsMenuTitle = "Records"
+    static let scheduleMenuTitle = "Schedule"
     
     var user: User!
     var menuItems: [String]!
@@ -61,7 +61,7 @@ class TopPanelViewController: UITableViewController {
         let title = menuItems[(indexPath as NSIndexPath).row]
         cell.configure(title: title,
                        isCurrent: title == currentMenuItem,
-                       isExternal: title == TopPanelViewController.historicalRecordsMenuTitle)
+                       isExternal: false)
         
         return cell
     }
@@ -104,11 +104,6 @@ class TopPanelViewController: UITableViewController {
         
         let currentCell = tableView.cellForRow(at: indexPath!) as! MenuTableViewCell
 
-        if currentCell.menuTitle.text == TopPanelViewController.historicalRecordsMenuTitle,
-           let url = URL(string: TopPanelViewController.historicalRecordsURLString) {
-            UIApplication.shared.open(url)
-        }
-        
         delegate?.settingSelected(currentCell.menuTitle.text!, scorecardMatch: nil)
     }
 }

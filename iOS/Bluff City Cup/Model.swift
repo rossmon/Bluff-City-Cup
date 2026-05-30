@@ -809,6 +809,12 @@ class Model: NSObject, URLSessionDataDelegate {
     
     
     func updateTournament(_ tournament: Tournament, _ completion: @escaping () -> Void) {
+        updateTournamentWithStatus(tournament) { _ in
+            completion()
+        }
+    }
+    
+    func updateTournamentWithStatus(_ tournament: Tournament, _ completion: @escaping (_ saved: Bool) -> Void) {
         
         let tournamentNameURL = tournament.getName().replacingOccurrences(of: " ", with: "!spa").replacingOccurrences(of: "&", with: "!amp")
         
@@ -834,7 +840,7 @@ class Model: NSObject, URLSessionDataDelegate {
         session = URLSession(configuration: configuration, delegate: self, delegateQueue: nil)
         
         // Save player data
-        let urlPath: String = Model.bluffCityCupBaseURL + "/update_tournament.php?tournament=" + tournamentNameURL + "&owner=" + ownerURL + "&commissioner=" + ownerURL + "&numberofmatches=\(tournament.getNumberOfMatches())&drinkcartavailable=\(drinkcart)&drinkcartnumber=" + drinkcartnumber + "&currentround=\(tournament.getCurrentRound())&maxhandicap=\(tournament.getMaxHandicap())&commishpassword=" + tournament.getCommissionerPassword()
+        let urlPath: String = Model.bluffCityCupBaseURL + "/update_tournament.php?tournament=" + tournamentNameURL + "&owner=" + ownerURL + "&commissioner=" + ownerURL + "&matchlength=18&numberofmatches=\(tournament.getNumberOfMatches())&drinkcartavailable=\(drinkcart)&drinkcartnumber=" + drinkcartnumber + "&currentround=\(tournament.getCurrentRound())&maxhandicap=\(tournament.getMaxHandicap())&commishpassword=" + tournament.getCommissionerPassword()
         
         print(urlPath)
         
@@ -845,18 +851,20 @@ class Model: NSObject, URLSessionDataDelegate {
             
             guard error == nil else {
                 print("error calling tournament")
-                completion()
+                completion(false)
                 return
             }
             // make sure we got data
-            if data != nil  {
+            if let data = data,
+               let responseText = String(data: data, encoding: .utf8),
+               responseText.trimmingCharacters(in: .whitespacesAndNewlines) == "OK" {
                 print("Success saving tournament")
+                completion(true)
             }
             else {
                 print("Error: did not save tournament data")
-                
+                completion(false)
             }
-            completion()
             return
         })
         
@@ -2030,4 +2038,3 @@ class Model: NSObject, URLSessionDataDelegate {
         return matchProbabilities
     }
 }
-

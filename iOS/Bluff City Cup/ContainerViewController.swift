@@ -22,6 +22,8 @@ enum CurrentView {
     case drinkCart
     case holeMap
     case settings
+    case schedule
+    case records
     case commishSettings
     case user
     case scorecard
@@ -53,6 +55,10 @@ class ContainerViewController: UIViewController {
     var drinkCartViewController: DrinkCartViewController!
     var holeMapViewController: HoleMapViewController!
     var settingsViewController: SettingsViewController!
+    var scheduleNavigationController: UINavigationController!
+    var scheduleViewController: ScheduleViewController!
+    var recordsNavigationController: UINavigationController!
+    var recordsViewController: RecordsViewController!
     var commishSettingsViewController: CommishSettingsViewController!
     var navCommishController: UINavigationController!
     var topPanelViewController: TopPanelViewController?
@@ -78,6 +84,12 @@ class ContainerViewController: UIViewController {
             else if currentView == .settings {
                 showShadowForSettingsViewController(shouldShowShadow)
             }
+            else if currentView == .schedule {
+                showShadowForScheduleViewController(shouldShowShadow)
+            }
+            else if currentView == .records {
+                showShadowForRecordsViewController(shouldShowShadow)
+            }
             else if currentView == .commishSettings {
                 showShadowForCommishSettingsViewController(shouldShowShadow)
             }
@@ -92,8 +104,12 @@ class ContainerViewController: UIViewController {
     var drinkCartPanelExpandedOffset: CGFloat =  200
     var holeMapPanelExpandedOffset: CGFloat =  200
     var settingsPanelExpandedOffset: CGFloat =  200
+    var schedulePanelExpandedOffset: CGFloat = 200
+    var recordsPanelExpandedOffset: CGFloat = 200
     var commishSettingsPanelExpandedOffset: CGFloat = 200
     var topPanelBackdropView: UIView?
+    var scheduleAvailable = false
+    var scheduleTournamentName: String?
 
     var topPanelOverlayWidth: CGFloat {
         return min(320, max(260, view.bounds.width * 0.78))
@@ -118,7 +134,12 @@ class ContainerViewController: UIViewController {
         actInd.startAnimating()
         
         setupApp()
+        NotificationCenter.default.addObserver(self, selector: #selector(scheduleEventsDidChange(_:)), name: .bccScheduleEventsDidChange, object: nil)
         
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -166,6 +187,10 @@ class ContainerViewController: UIViewController {
             collapseTopPanelHoleMap()
         case .settings:
             collapseTopPanelSettings()
+        case .schedule:
+            collapseTopPanelSchedule()
+        case .records:
+            collapseTopPanelRecords()
         case .commishSettings:
             collapseTopPanelCommishSettings()
         default:
@@ -195,6 +220,10 @@ class ContainerViewController: UIViewController {
             return "Hole Map"
         case .settings:
             return "Settings"
+        case .schedule:
+            return TopPanelViewController.scheduleMenuTitle
+        case .records:
+            return TopPanelViewController.recordsMenuTitle
         case .commishSettings:
             return "Commish Settings"
         case .matchScorecard:
@@ -204,21 +233,83 @@ class ContainerViewController: UIViewController {
         }
     }
     
-    private func appendHistoricalRecordsMenuItemIfNeeded(to topPanelController: TopPanelViewController) {
+    private func appendOptionalMenuItemsIfNeeded(to topPanelController: TopPanelViewController) {
+        appendScheduleMenuItemIfNeeded(to: topPanelController)
+        appendRecordsMenuItemIfNeeded(to: topPanelController)
+    }
+
+    private func appendScheduleMenuItemIfNeeded(to topPanelController: TopPanelViewController) {
+        guard tournamentSupportsSchedule() else { return }
+        guard topPanelController.menuItems != nil else { return }
+        guard !topPanelController.menuItems.contains(TopPanelViewController.scheduleMenuTitle) else { return }
+
+        if let recordsIndex = topPanelController.menuItems.firstIndex(of: TopPanelViewController.recordsMenuTitle) {
+            topPanelController.menuItems.insert(TopPanelViewController.scheduleMenuTitle, at: recordsIndex)
+        } else if let settingsIndex = topPanelController.menuItems.firstIndex(of: "Settings") {
+            topPanelController.menuItems.insert(TopPanelViewController.scheduleMenuTitle, at: settingsIndex)
+        } else {
+            topPanelController.menuItems.append(TopPanelViewController.scheduleMenuTitle)
+        }
+    }
+
+    private func appendRecordsMenuItemIfNeeded(to topPanelController: TopPanelViewController) {
         guard tournamentSupportsHistoricalRecords() else { return }
         guard topPanelController.menuItems != nil else { return }
-        guard !topPanelController.menuItems.contains(TopPanelViewController.historicalRecordsMenuTitle) else { return }
+        guard !topPanelController.menuItems.contains(TopPanelViewController.recordsMenuTitle) else { return }
         
         if let settingsIndex = topPanelController.menuItems.firstIndex(of: "Settings") {
-            topPanelController.menuItems.insert(TopPanelViewController.historicalRecordsMenuTitle, at: settingsIndex)
+            topPanelController.menuItems.insert(TopPanelViewController.recordsMenuTitle, at: settingsIndex)
         } else {
-            topPanelController.menuItems.append(TopPanelViewController.historicalRecordsMenuTitle)
+            topPanelController.menuItems.append(TopPanelViewController.recordsMenuTitle)
         }
     }
     
     private func tournamentSupportsHistoricalRecords() -> Bool {
         guard let currentTournament = model.tournament else { return false }
         return currentTournament.getName().hasPrefix("Bluff City Cup")
+    }
+
+    private func tournamentSupportsSchedule() -> Bool {
+        guard let currentTournament = model.tournament else { return false }
+        let name = currentTournament.getName()
+        return scheduleAvailable && scheduleTournamentName == name
+    }
+
+    private func refreshScheduleAvailability(tournamentName: String? = nil, completion: (() -> Void)? = nil) {
+        let name = tournamentName ?? model.tournament?.getName()
+        guard let currentName = name, !currentName.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+            scheduleAvailable = false
+            scheduleTournamentName = nil
+            completion?()
+            return
+        }
+
+        ScheduleAPIService.shared.fetchSchedule(tournamentName: currentName) { [weak self] payload, _ in
+            guard let self = self else { return }
+            guard self.model.tournament == nil || self.model.tournament.getName() == currentName else {
+                completion?()
+                return
+            }
+
+            self.scheduleTournamentName = currentName
+            self.scheduleAvailable = payload?.events.isEmpty == false
+            self.refreshOpenTopPanelMenuItems()
+            completion?()
+        }
+    }
+
+    private func refreshOpenTopPanelMenuItems() {
+        guard let topPanelController = topPanelViewController else { return }
+        topPanelController.menuItems = menuItemsForCurrentUser()
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
+        topPanelController.currentMenuItem = currentMenuItemName()
+        topPanelController.tableView.reloadData()
+    }
+
+    @objc private func scheduleEventsDidChange(_ notification: Notification) {
+        let changedTournamentName = notification.userInfo?["tournamentName"] as? String
+        guard changedTournamentName == nil || changedTournamentName == model.tournament?.getName() else { return }
+        refreshScheduleAvailability(tournamentName: changedTournamentName ?? model.tournament?.getName())
     }
     
     func setupApp() {
@@ -255,6 +346,8 @@ class ContainerViewController: UIViewController {
     
     
     func loadData(tournamentName: String, _ completion: @escaping () -> Void)  {
+        scheduleAvailable = false
+        scheduleTournamentName = nil
         model.loadData(tournamentName: tournamentName) { errorString in
             
             if errorString == "No Error" {
@@ -283,6 +376,7 @@ class ContainerViewController: UIViewController {
                 }
                 
                 self.currentView = .scoreboard
+                self.refreshScheduleAvailability(tournamentName: tournamentName)
             }
             else {
                 self.dataPullAlert(errorString)
@@ -332,6 +426,96 @@ class ContainerViewController: UIViewController {
     
         tournament = model.getTournament()
         print("Done Preparing")
+    }
+
+    private func removeRecordsViewControllerIfNeeded() {
+        if recordsNavigationController != nil {
+            recordsNavigationController.willMove(toParent: nil)
+            recordsNavigationController.view.removeFromSuperview()
+            recordsNavigationController.removeFromParent()
+            recordsNavigationController = nil
+            recordsViewController = nil
+        }
+    }
+
+    private func removeScheduleViewControllerIfNeeded() {
+        if scheduleNavigationController != nil {
+            scheduleNavigationController.willMove(toParent: nil)
+            scheduleNavigationController.view.removeFromSuperview()
+            scheduleNavigationController.removeFromParent()
+            scheduleNavigationController = nil
+            scheduleViewController = nil
+        }
+    }
+
+    private func removeActiveViewControllersForRecords() {
+        if scoreboardViewController != nil {
+            scoreboardViewController.view.removeFromSuperview()
+            scoreboardViewController = nil
+        }
+        if scoreEntryViewController != nil {
+            scoreEntryViewController.view.removeFromSuperview()
+            scoreEntryViewController = nil
+        }
+        if matchScorecardViewController != nil {
+            matchScorecardViewController.view.removeFromSuperview()
+            matchScorecardViewController = nil
+        }
+        if drinkCartViewController != nil {
+            drinkCartViewController.view.removeFromSuperview()
+            drinkCartViewController = nil
+        }
+        if holeMapViewController != nil {
+            holeMapViewController.view.removeFromSuperview()
+            holeMapViewController = nil
+        }
+        if settingsViewController != nil {
+            settingsViewController.view.removeFromSuperview()
+            settingsViewController = nil
+        }
+        removeScheduleViewControllerIfNeeded()
+        if navCommishController != nil {
+            navCommishController.willMove(toParent: nil)
+            navCommishController.view.removeFromSuperview()
+            navCommishController.removeFromParent()
+            navCommishController = nil
+            commishSettingsViewController = nil
+        }
+    }
+
+    private func showRecordsView() {
+        guard tournamentSupportsHistoricalRecords() else { return }
+        guard currentView != .records else { return }
+
+        removeActiveViewControllersForRecords()
+        removeScheduleViewControllerIfNeeded()
+        recordsViewController = RecordsViewController()
+        recordsViewController.delegate = self
+        recordsNavigationController = UINavigationController(rootViewController: recordsViewController)
+        addChild(recordsNavigationController)
+        recordsNavigationController.view.frame = view.bounds
+        recordsNavigationController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(recordsNavigationController.view)
+        recordsNavigationController.didMove(toParent: self)
+        currentView = .records
+    }
+
+    private func showScheduleView() {
+        guard tournamentSupportsSchedule() else { return }
+        guard currentView != .schedule else { return }
+        guard let tournamentName = model.tournament?.getName() else { return }
+
+        removeActiveViewControllersForRecords()
+        removeRecordsViewControllerIfNeeded()
+        scheduleViewController = ScheduleViewController(tournamentName: tournamentName)
+        scheduleViewController.delegate = self
+        scheduleNavigationController = UINavigationController(rootViewController: scheduleViewController)
+        addChild(scheduleNavigationController)
+        scheduleNavigationController.view.frame = view.bounds
+        scheduleNavigationController.view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        view.addSubview(scheduleNavigationController.view)
+        scheduleNavigationController.didMove(toParent: self)
+        currentView = .schedule
     }
     
     func UIColorFromRGB(_ rgbValue: UInt) -> UIColor {
@@ -597,7 +781,7 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
             }
         }
         
-        appendHistoricalRecordsMenuItemIfNeeded(to: topPanelController)
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
         
         installTopPanelOverlay(topPanelController)
         
@@ -659,6 +843,15 @@ extension ContainerViewController: ScoreboardViewControllerDelegate {
     }
     
     func changeViewScoreboard(_ menu: String, scorecardMatch: Match?) {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            showScheduleView()
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            showRecordsView()
+            return
+        }
         
         if menu == "Score Entry" {
             if currentView != .scoreEntry {
@@ -1097,7 +1290,7 @@ extension ContainerViewController: ScoreEntryViewControllerDelegate {
             }
         }
         
-        appendHistoricalRecordsMenuItemIfNeeded(to: topPanelController)
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
         
         installTopPanelOverlay(topPanelController)
         
@@ -1164,6 +1357,15 @@ extension ContainerViewController: ScoreEntryViewControllerDelegate {
     
     func changeViewScoreEntry(_ menu: String)
     {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            showScheduleView()
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            showRecordsView()
+            return
+        }
         
         if menu == "Score Entry" {
             if currentView != .scoreEntry {
@@ -1696,7 +1898,7 @@ extension ContainerViewController: DrinkCartViewControllerDelegate {
             }
         }
         
-        appendHistoricalRecordsMenuItemIfNeeded(to: topPanelController)
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
         
         installTopPanelOverlay(topPanelController)
         
@@ -1756,6 +1958,15 @@ extension ContainerViewController: DrinkCartViewControllerDelegate {
     }
     
     func changeViewDrinkCart(_ menu: String) {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            showScheduleView()
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            showRecordsView()
+            return
+        }
         
         if menu == "Score Entry" {
             if currentView != .scoreEntry {
@@ -2175,7 +2386,7 @@ extension ContainerViewController: HoleMapViewControllerDelegate {
             }
         }
         
-        appendHistoricalRecordsMenuItemIfNeeded(to: topPanelController)
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
         
         installTopPanelOverlay(topPanelController)
         
@@ -2236,6 +2447,15 @@ extension ContainerViewController: HoleMapViewControllerDelegate {
     }
     
     func changeViewHoleMap(_ menu: String) {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            showScheduleView()
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            showRecordsView()
+            return
+        }
         
         if menu == "Score Entry" {
             if currentView != .scoreEntry {
@@ -2668,7 +2888,7 @@ extension ContainerViewController: SettingsViewControllerDelegate {
         }
         
         
-        appendHistoricalRecordsMenuItemIfNeeded(to: topPanelController)
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
         
         installTopPanelOverlay(topPanelController)
         
@@ -2728,6 +2948,15 @@ extension ContainerViewController: SettingsViewControllerDelegate {
     }
     
     func changeViewSettings(_ menu: String) {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            showScheduleView()
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            showRecordsView()
+            return
+        }
         
         if menu == "Score Entry" {
             if currentView != .scoreEntry {
@@ -3148,7 +3377,7 @@ extension ContainerViewController: CommishSettingsViewControllerDelegate {
             }
         }
         
-        appendHistoricalRecordsMenuItemIfNeeded(to: topPanelController)
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
         
         installTopPanelOverlay(topPanelController)
         
@@ -3208,6 +3437,15 @@ extension ContainerViewController: CommishSettingsViewControllerDelegate {
     }
     
     func changeViewCommishSettings(_ menu: String) {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            showScheduleView()
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            showRecordsView()
+            return
+        }
         
         if menu == "Score Entry" {
             if currentView != .scoreEntry {
@@ -3485,5 +3723,188 @@ extension ContainerViewController: CommishSettingsViewControllerDelegate {
                 currentView = .commishSettings
             }
         }
+    }
+}
+
+extension ContainerViewController: RecordsViewControllerDelegate {
+    func toggleTopPanelRecords() {
+        let notAlreadyExpanded = (currentState != .topPanelExpanded)
+        if notAlreadyExpanded {
+            addTopPanelViewControllerRecords()
+        }
+        animateTopPanelRecords(notAlreadyExpanded)
+    }
+
+    func addTopPanelViewControllerRecords() {
+        if topPanelViewController == nil {
+            topPanelViewController = UIStoryboard.topPanelViewController()
+            addChildTopPanelControllerRecords(topPanelViewController!)
+        }
+    }
+
+    func addChildTopPanelControllerRecords(_ topPanelController: TopPanelViewController) {
+        topPanelController.delegate = recordsViewController
+        topPanelController.user = self.user
+        topPanelController.menuItems = menuItemsForCurrentUser()
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
+        installTopPanelOverlay(topPanelController)
+        addChild(topPanelController)
+        topPanelController.didMove(toParent: self)
+    }
+
+    fileprivate func menuItemsForCurrentUser() -> [String] {
+        var items: [String]
+        let drinkCartAvailable = model.getTournament().isDrinkCartAvailable()
+        let currentPlayer = user.getPlayer()
+        let hasCurrentMatch = currentPlayer != nil ? model.getTournament().getCurrentMatch(currentPlayer!) != nil : false
+
+        if user.getRole() == "Commissioner" {
+            items = drinkCartAvailable
+                ? ["Scoreboard", "Score Entry", "Scorecard", "Hole Map", "Drink Cart", "Settings", "Commish Settings"]
+                : ["Scoreboard", "Score Entry", "Scorecard", "Hole Map", "Settings", "Commish Settings"]
+
+            if !user.isScorekeeper() {
+                items.removeAll { $0 == "Score Entry" }
+            }
+        } else if user.getRole() == "Spectator" {
+            items = drinkCartAvailable ? ["Scoreboard", "Drink Cart", "Settings"] : ["Scoreboard", "Settings"]
+        } else if user.getRole() == "Player" {
+            items = drinkCartAvailable ? ["Scoreboard", "Scorecard", "Hole Map", "Drink Cart", "Settings"] : ["Scoreboard", "Scorecard", "Hole Map", "Settings"]
+        } else if user.getRole() == "Scorekeeper" {
+            items = drinkCartAvailable ? ["Scoreboard", "Score Entry", "Scorecard", "Hole Map", "Drink Cart", "Settings"] : ["Scoreboard", "Score Entry", "Scorecard", "Hole Map", "Settings"]
+        } else {
+            items = []
+        }
+
+        if !hasCurrentMatch {
+            items.removeAll { $0 == "Scorecard" || $0 == "Hole Map" }
+        }
+
+        if model.getTournament().getMatches().count == 0 {
+            items.removeAll { $0 == "Score Entry" || $0 == "Scorecard" || $0 == "Hole Map" || $0 == "Drink Cart" }
+        }
+
+        return items
+    }
+
+    func animateTopPanelRecords(_ shouldExpand: Bool) {
+        if shouldExpand {
+            currentState = .topPanelExpanded
+            animateRecordsPanelXPosition(recordsPanelExpandedOffset)
+        } else {
+            animateRecordsPanelXPosition(0) { _ in
+                self.currentState = .topPanelCollapsed
+                self.removeTopPanelOverlayViews()
+            }
+        }
+    }
+
+    func animateRecordsPanelXPosition(_ targetPosition: CGFloat, completion: ((Bool) -> Void)! = nil) {
+        animateTopPanelOverlay(targetPosition, completion: completion)
+    }
+
+    func showShadowForRecordsViewController(_ shouldShowShadow: Bool) {
+        guard recordsNavigationController != nil else { return }
+        recordsNavigationController.view.layer.shadowOpacity = shouldShowShadow ? 1.0 : 0.0
+    }
+
+    func collapseTopPanelRecords() {
+        switch currentState {
+        case .topPanelExpanded:
+            toggleTopPanelRecords()
+        default:
+            break
+        }
+    }
+
+    func changeViewRecords(_ menu: String, scorecardMatch: Match?) {
+        if menu == TopPanelViewController.recordsMenuTitle {
+            return
+        }
+
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            removeRecordsViewControllerIfNeeded()
+            currentView = .container
+            showScheduleView()
+            return
+        }
+
+        removeRecordsViewControllerIfNeeded()
+        currentView = .container
+        changeViewScoreboard(menu, scorecardMatch: scorecardMatch)
+    }
+}
+
+extension ContainerViewController: ScheduleViewControllerDelegate {
+    func toggleTopPanelSchedule() {
+        let notAlreadyExpanded = (currentState != .topPanelExpanded)
+        if notAlreadyExpanded {
+            addTopPanelViewControllerSchedule()
+        }
+        animateTopPanelSchedule(notAlreadyExpanded)
+    }
+
+    func addTopPanelViewControllerSchedule() {
+        if topPanelViewController == nil {
+            topPanelViewController = UIStoryboard.topPanelViewController()
+            addChildTopPanelControllerSchedule(topPanelViewController!)
+        }
+    }
+
+    func addChildTopPanelControllerSchedule(_ topPanelController: TopPanelViewController) {
+        topPanelController.delegate = scheduleViewController
+        topPanelController.user = self.user
+        topPanelController.menuItems = menuItemsForCurrentUser()
+        appendOptionalMenuItemsIfNeeded(to: topPanelController)
+        installTopPanelOverlay(topPanelController)
+        addChild(topPanelController)
+        topPanelController.didMove(toParent: self)
+    }
+
+    func animateTopPanelSchedule(_ shouldExpand: Bool) {
+        if shouldExpand {
+            currentState = .topPanelExpanded
+            animateSchedulePanelXPosition(schedulePanelExpandedOffset)
+        } else {
+            animateSchedulePanelXPosition(0) { _ in
+                self.currentState = .topPanelCollapsed
+                self.removeTopPanelOverlayViews()
+            }
+        }
+    }
+
+    func animateSchedulePanelXPosition(_ targetPosition: CGFloat, completion: ((Bool) -> Void)! = nil) {
+        animateTopPanelOverlay(targetPosition, completion: completion)
+    }
+
+    func showShadowForScheduleViewController(_ shouldShowShadow: Bool) {
+        guard scheduleNavigationController != nil else { return }
+        scheduleNavigationController.view.layer.shadowOpacity = shouldShowShadow ? 1.0 : 0.0
+    }
+
+    func collapseTopPanelSchedule() {
+        switch currentState {
+        case .topPanelExpanded:
+            toggleTopPanelSchedule()
+        default:
+            break
+        }
+    }
+
+    func changeViewSchedule(_ menu: String, scorecardMatch: Match?) {
+        if menu == TopPanelViewController.scheduleMenuTitle {
+            return
+        }
+
+        if menu == TopPanelViewController.recordsMenuTitle {
+            removeScheduleViewControllerIfNeeded()
+            currentView = .container
+            showRecordsView()
+            return
+        }
+
+        removeScheduleViewControllerIfNeeded()
+        currentView = .container
+        changeViewScoreboard(menu, scorecardMatch: scorecardMatch)
     }
 }

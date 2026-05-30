@@ -1,4 +1,11 @@
 {
+  "archived_projects": [
+    {
+      "path": "archive/iOS Redesign",
+      "purpose": "Archived former iOS redesign project; preserved for reference only",
+      "when_to_open": "Only when explicitly researching old redesign work; do not use for active iOS development"
+    }
+  ],
   "ios_core": [
     {
       "path": "iOS/Bluff City Cup/AppDelegate.swift",
